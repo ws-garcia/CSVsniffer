@@ -1,4 +1,5 @@
 # CSVsniffer
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10668894.svg)](https://doi.org/10.5281/zenodo.10668894)
 
 This repository has been conceived to reproduce the experiments described in the paper: 
 
