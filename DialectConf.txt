@@ -1,0 +1,150 @@
+#This file contains the dialects of each of the test files. Do not add more files to the list without first saving the corresponding CSV file in the "CSV" folder
+file_name|encoding|fields_delimiter|quotechar|escapechar|records_delimiter
+file_double_trailing_newline.csv|ascii|comma|doublequote|doublequote|lf
+file_escape_char_0x00.csv|ascii|comma|doublequote||lf
+file_escape_char_0x5C.csv|ascii|comma|doublequote|backslash|lf
+file_field_delimiter_0x2C_0x20.csv|ascii|comma|doublequote|doublequote|lf
+file_field_delimiter_0x3B.csv|ascii|semicolon|doublequote|doublequote|lf
+file_field_delimiter_0x9.csv|ascii|tab|doublequote|doublequote|lf
+file_field_delimiter_0x20.csv|ascii|space|doublequote|doublequote|lf
+file_header_multirow_2.csv|ascii|comma|doublequote|doublequote|lf
+file_header_multirow_3.csv|ascii|comma|doublequote|doublequote|lf
+file_header_only.csv|ascii|comma|doublequote||lf
+file_multitable_less.csv|ascii|semicolon|doublequote|doublequote|lf
+file_multitable_more.csv|ascii|semicolon|doublequote|doublequote|lf
+file_multitable_same.csv|ascii|semicolon|doublequote|doublequote|lf
+file_no_header.csv|ascii|semicolon|doublequote|doublequote|lf
+file_no_trailing_newline.csv|ascii|comma|doublequote|doublequote|lf
+file_one_data_row.csv|ascii|comma|doublequote||lf
+file_preamble.csv|ascii|comma|doublequote|doublequote|lf
+file_quotation_char_0x27.csv|ascii|comma|singlequote|singlequote|lf
+file_record_delimiter_0xA.csv|ascii|comma|doublequote|doublequote|lf
+file_record_delimiter_0xD.csv|ascii|comma|doublequote|doublequote|cr
+row_extra_quote0_col0.csv|ascii|comma|doublequote|doublequote|lf
+row_extra_quote5_col3.csv|ascii|comma|doublequote|doublequote|lf
+row_field_delimiter_0_0x20.csv|ascii|comma|doublequote|doublequote|lf
+row_field_delimiter_5_0x20.csv|ascii|comma|doublequote|doublequote|lf
+row_less_sep_row0_col1.csv|ascii|comma|doublequote|doublequote|lf
+row_less_sep_row5_col6.csv|ascii|comma|doublequote|doublequote|lf
+row_more_sep_row0_col0.csv|ascii|comma|doublequote|doublequote|lf
+row_more_sep_row5_col6.csv|ascii|comma|doublequote|doublequote|lf
+18-12-06.CSV|utf8|comma|doublequote|doublequote|lf
+1% nano+20% micro.csv|utf8|comma|doublequote|doublequote|lf
+10.January_2019.csv|utf8|comma|doublequote|doublequote|lf
+2004-2016.csv|utf8|comma|doublequote|doublequote|lf
+air_quality_station3_2006.csv|utf8|comma|doublequote|doublequote|lf
+all.csv|utf8|comma|doublequote|doublequote|lf
+April-2011-for-publication.csv|utf8|comma|doublequote|doublequote|lf
+business_expenses_apr_jun_14_peter_lewis.csv|utf8|comma|doublequote|doublequote|lf
+Camp Palacios - Humidity.csv|utf8|comma|doublequote|doublequote|lf
+Consular_cases_April_2016.csv|utf8|comma|doublequote|doublequote|lf
+download (6).csv|utf8|comma|doublequote|doublequote|lf
+june_2015(1).csv|utf8|comma|doublequote|doublequote|lf
+senior-staff-march-2020.csv|utf8|comma|doublequote|doublequote|lf
+W44out.csv|utf8|comma|doublequote|doublequote|lf
+workforce-management-information-dft_201706.csv|utf8|comma|doublequote|doublequote|lf
+20170320-ePC_Data-Travel-Stationery.csv|utf8|comma|doublequote|doublequote|lf
+dd_Wickenburg_nobmp_623.csv|utf8|semicolon|doublequote|doublequote|lf
+0Al-Sn.CSV|utf8|comma|doublequote||lf
+1% SiO2_003.csv|utf8|comma|doublequote||lf
+100mAOne.CSV|utf8|comma|doublequote||lf
+300mAThree.CSV|utf8|comma|doublequote||lf
+AL5083-emissivity.csv|utf8|comma|doublequote||lf
+Auto_Tone_sub205_over.csv|utf8|comma|doublequote||lf
+Auto_Tone_sub242_nov.csv|utf8|comma|doublequote||lf
+Auto_Tone_sub315_day1.csv|utf8|comma|singlequote||lf
+Batch_3250493_batch_results.csv|utf8|comma|doublequote|doublequote|lf
+Businesses with a rateable value of less than $12,000 - March 2016.csv|utf8|comma|doublequote|doublequote|lf
+Camp Palacios - Wind Direction.csv|utf8|comma|doublequote||lf
+Copy_of_2016-17_Q3_Final_V2.csv|utf8|comma|doublequote||lf
+download (10).csv|utf8|comma|doublequote|doublequote|lf
+dwp-cmg-spend-1214.csv|utf8|comma|doublequote||lf
+epcs-dwp-cmg-spend-july-2017.csv|utf8|comma|doublequote|doublequote|lf
+erionite.csv|utf8|semicolon|doublequote||lf
+extended.csv|utf8|comma|doublequote||lf
+Feb-2016.csv|utf8|comma|doublequote||lf
+fire_archive_V1_50574.csv|utf8|comma|doublequote||lf
+fr_hypo1.csv|utf8|comma|doublequote||lf
+fr_RG65_pageid.csv|utf8|comma|doublequote||lf
+GPC_DCLG_December_2015_for_Publication.csv|utf8|comma|doublequote|doublequote|lf
+hist_2000_15O.csv|utf8|comma|doublequote||lf
+HMRC_spending_over_25000_for_September_2018.csv|utf8|comma|doublequote|doublequote|lf
+hypo5.csv|utf8|comma|doublequote||lf
+Kokad pollen.csv|utf8|semicolon|doublequote||lf
+LOS_1050CFit.csv|utf8|comma|doublequote|doublequote|lf
+ministers-overseas-travel-jan-mar-2013.csv|utf8|comma|doublequote|doublequote|lf
+ministry-of-defence__30-09-2012__mod_300912-Air-Govt-data-template-u-senior.csv|utf8|comma|doublequote|doublequote|lf
+moj-aramis-data-march-11.csv|utf8|comma|doublequote|doublequote|lf
+mordenite-dh-2.csv|utf8|semicolon|doublequote||lf
+mos-oct-dec-2014.csv|utf8|comma|doublequote|doublequote|lf
+narrow.csv|utf8|comma|doublequote||lf
+nati-clin-audi-bowe-canc-2017-tran-main-fiel-list.csv|utf8|comma|doublequote|doublequote|lf
+NBA_scores_out.csv|utf8|comma|doublequote|doublequote|lf
+Note_4_Staff_costs_-_Average_number_of_persons_employed_13-14.csv|utf8|comma|doublequote|doublequote|lf
+O18_air.csv|utf8|comma|doublequote||lf
+OccurrenceData351.csv|utf8|comma|doublequote||lf
+Oct_2013.csv|utf8|comma|doublequote|doublequote|lf
+over25k-transparency.csv|utf8|comma|doublequote|doublequote|lf
+permanent_secretary_and_director_general_expenses_and_hospitality_april_to_june_2012.csv|utf8|comma|doublequote|doublequote|lf
+PLA_6%Talc-1hz.csv|utf8|comma|doublequote||lf
+planning-application-aug-17.csv|utf8|comma|doublequote|doublequote|lf
+prison-and-probation-ombudsman__30-09-2014__justice_PPO-September-Return-senior.csv|utf8|comma|doublequote|doublequote|lf
+pssave_traindata_m=10_n=10_timelow=15_timehight=30_numofloop=2000.csv|utf8|comma|doublequote|doublequote|lf
+public-toilet-borough-grid.csv|utf8|comma|doublequote||lf
+rape_table_3_prosecution_outcomes_0708_1314.csv|utf8|comma|doublequote|doublequote|lf
+Resultsgk06.datInfos.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x100-0.25_5.dat__m28.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x100-0.25_10.dat__m21Infos.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x100-0.50_1.dat__m21.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x100-0.50_3.dat.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x100-0.50_5.dat__m23.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x100-0.50_10.dat__m28Infos.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x100-0.75_1.dat__m21Infos.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x100-0.75_5.dat__m29Infos.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x100-0.75_10.dat__m13.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x250-0.25_7.dat.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x250-0.50_1.datInfos.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x250-0.50_4.dat.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x250-0.75_2.dat.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x250-0.75_3.dat.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x250-0.75_4.datInfos.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x250-0.75_9.datInfos.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x500-0.50_6.datInfos.csv|utf8|semicolon|doublequote||lf
+ResultsOR30x500-0.75_3.dat.csv|utf8|semicolon|doublequote||lf
+S30out.csv|utf8|comma|doublequote||lf
+S39.csv|utf8|comma|doublequote||lf
+scottish_law_commission-2011-03-31-organogram-junior.csv|utf8|comma|doublequote|doublequote|lf
+SouthTrent_Demand_zone-based.csv|utf8|comma|doublequote||lf
+spending_2020_01.csv|utf8|comma|doublequote||lf
+student_loans_company_limited-2011-09-30-organogram-senior.csv|utf8|comma|doublequote|doublequote|lf
+Sun2014-Rs.csv|utf8|comma|doublequote||lf
+Sustainability_-_Water_consumption_P_56.csv|utf8|comma|doublequote|doublequote|lf
+Takakai2008-ch4.csv|utf8|comma|doublequote||lf
+tetranatrolite.csv|utf8|semicolon|doublequote||lf
+trinity-house__31-03-2015__dft_310315-Trinity-House-Organogram-ver-1-junior.csv|utf8|comma|doublequote|doublequote|lf
+vissim_data_conf2473_i7_v1987.csv|utf8|semicolon|doublequote||lf
+vissim_data_conf2473_i12_v2026.csv|utf8|semicolon|doublequote||lf
+W32.csv|utf8|comma|doublequote||lf
+wairakite-dh.csv|utf8|semicolon|doublequote||lf
+Wakefield Council Procurement Card Transactions 2018-19 Q2.csv|utf8|comma|doublequote||lf
+Wine_Cellar_Consumption_dataset_14-15.csv|utf8|comma|doublequote|doublequote|lf
+picasso.csv|utf8|tab|doublequote|doublequote|lf
+FEC data - [clevercsv issue #15].csv|utf8|vslash|doublequote||lf
+File with multi-line field.csv|utf8|semicolon|doublequote|doublequote|lf
+Json data type - [clevercsv issue #37].csv|utf8|comma|doublequote|doublequote|lf
+Line feed character is more frequent than the car return-line feed combination.csv|utf8|semicolon|doublequote|doublequote|cr
+Mixed comma and colon - [clevercsv issue #35].csv|utf8|comma|doublequote||lf
+Mixed comma and semicolon.csv|ascii|semicolon|singlequote|singlequote|lf
+Mixed comma and semicolon-B.csv|utf8|semicolon|doublequote||lf
+Multiple commas in fields.csv|utf8|semicolon|doublequote|doublequote|lf
+Optional quoted fields.csv|utf8|comma|doublequote|doublequote|crlf
+Pipe character is more frequent than the comma.csv|utf8|comma|doublequote||crlf
+Pipe character is more frequent than the semicolon.csv|utf8|semicolon|doublequote||crlf
+Rainbow CSV [issue #92].csv|utf8|comma|doublequote||lf
+Short pipe separated table embedded.csv|utf8|comma|doublequote||lf
+Table embedded in the last record.csv|utf8|comma|doublequote|doublequote|lf
+Table embedded in the second record.csv|utf8|comma|doublequote|doublequote|lf
+testGeometries.txt|utf8|semicolon|doublequote|doublequote|crlf
+Undefined field delimiter.csv|utf8|comma|doublequote|doublequote|lf
+movies-condensed.csv|utf8|tab|doublequote||lf
+csv_good_dialect_star.csv|utf8|comma|doublequote|doublequote|crlf
