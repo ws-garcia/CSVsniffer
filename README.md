@@ -3,8 +3,8 @@
 
 This repository has been conceived to reproduce the experiments described in the paper: 
 
-[**Detecting CSV File Dialects by Table Uniformity Measurement and Data Type Inference**](https://www.preprints.org/manuscript/202402.0858/v2) 
-[(PDF)](https://www.preprints.org/manuscript/202402.0858/v2/download)
+[**Detecting CSV File Dialects by Table Uniformity Measurement and Data Type Inference**](https://www.preprints.org/manuscript/202402.0858) 
+[(PDF)](https://www.preprints.org/manuscript/202402.0858/download)
 
 by [W. García](https://sciprofiles.com/profile/3400377).
 
@@ -12,7 +12,7 @@ An application of the methodology described in the paper can be found in the [CS
 
 ## Introduction
 
-The results from the research can be reproduced by running the `RunTests` method from the macro-enabled Excel workbook `CSVsniffer.xlsm`. To review the results for CleverCSV it is necessary to run the scripts contained in the `clevercsv_test.py` file.
+The results from the research can be reproduced by running the `RunTests` method from the macro-enabled Excel workbook `CSVsniffer.xlsm`. To review the results for CleverCSV it is necessary to run the scripts from the `clevercsv_test.py` file.
 
 
 ## Data
