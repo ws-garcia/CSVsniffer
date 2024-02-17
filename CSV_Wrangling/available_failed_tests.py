@@ -40,20 +40,23 @@ def main():
     tmpPath='data/github/AVAILABLE FILES FOR TESTING/'
     if os.path.exists(tmpPath) !=True:
         os.mkdir(tmpPath)
-    with open('./' + tmpPath +'Available files.csv',"w") as f:
-        f.write('File_Path|MD5\n')
-        i=0
-        for item in failedTestsList:
-            i+=1
-            vMD5=MD5fromName(item['filename'])
-            cFile=getFileNameFromMD5(vMD5,MD5andURLlist)
-            for filename in os.listdir('./data/github/CSV/'):
-                if cFile==filename:
-                    #f.write(json.dumps(MD5andURLlist[vMD5]))
-                    f.write('./data/github/CSV/' + cFile +'|' + vMD5)
-                    if i !=failedTestsList.__len__():
-                        f.write('\n')
-        f.close
+    jsonFile=open('./' + tmpPath +'Available files.json',"w")
+    csvFile=open('./' + tmpPath +'Available files.csv',"w")
+    csvFile.write('File_Path|MD5\n')
+    i=0
+    for item in failedTestsList:
+        i+=1
+        vMD5=MD5fromName(item['filename'])
+        cFile=getFileNameFromMD5(vMD5,MD5andURLlist)
+        for filename in os.listdir('./data/github/CSV/'):
+            if cFile==filename:
+                jsonFile.write(json.dumps(MD5andURLlist[vMD5]))
+                csvFile.write('./data/github/CSV/' + cFile +'|' + vMD5)
+                if i !=failedTestsList.__len__():
+                    jsonFile.write('\n')
+                    csvFile.write('\n')
+        csvFile.close
+        jsonFile.close
 
 if __name__ == "__main__":
     main()
