@@ -10,3 +10,6 @@
 *.rar
 *.tar
 *.zip
+# CSV files#
+############
+*.csv
