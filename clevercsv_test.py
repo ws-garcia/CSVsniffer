@@ -2,6 +2,7 @@ import collections
 import clevercsv
 import time
 import os
+import sys
 
 def getCSVdata(path: str)->str:
    with open(path) as f:
@@ -21,7 +22,8 @@ def DetectCSVDialect(path: str):
 
 def ImportExpectedResults()->dict:
   try:
-     with open(os.path.dirname(__file__) +'/DialectConf.txt', newline='') as csvfile:
+     basePath= os.path.dirname(__file__)
+     with open(os.path.join(basePath,'DialectConf.txt'), newline='') as csvfile:
         csvFilesDict={}
         csvRowDict={}
         spamreader = clevercsv.reader(csvfile, delimiter='|', quotechar='')
@@ -61,10 +63,12 @@ def GetQuoteName(aQuote:str)->str:
    elif aQuote == '\'':
       return 'singlequote'
 
+basePath= os.path.dirname(__file__)
+sys.stdout = open(os.path.join(basePath,'[POLLOCK]clevercsv_output.txt'), 'w')
 #Import expectect results as nested dicts
 ExpectedResults=ImportExpectedResults()
 #Get test path withing current .py file
-TestsCSVpath=os.path.dirname(__file__) + '/CSV/'
+TestsCSVpath=os.path.join(basePath,'CSV')
 passed=0
 failures=0
 t=time.time()
@@ -98,3 +102,4 @@ for filename in os.listdir(TestsCSVpath):
 print('[Passed test ratio]--: %r' %(round(100*passed/len(ExpectedResults),4)) +'%')
 print('[Failure ratio]--: %r' %(round(100*failures/len(ExpectedResults),4)) +'%')
 print('[Elapsed time]--: %r seconds' %(round(time.time()-t,2)))
+sys.stdout.close()
