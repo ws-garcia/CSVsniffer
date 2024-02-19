@@ -2422,6 +2422,6 @@ X[zips.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:
 Running normal form detection ...
 Matched normal form 3.
 +[Zipssortedbycitystate.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
-[Passed test ratio]--: 81.8841%
-[Failure ratio]--: 22.905%
-[Elapsed time]--: 221.01 seconds
+[Passed test ratio]--: 79.5775%
+[Failure ratio]--: 20.6704%
+[Elapsed time]--: 226.1 seconds
