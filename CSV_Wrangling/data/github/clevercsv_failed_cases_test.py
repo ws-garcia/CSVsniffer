@@ -102,7 +102,7 @@ for testItem in tSet:
                      '| EXPECTED:{delimiter = %r, quotechar = %r}' \
                         % (ExpectedResults[filename]['fields_delimiter'], ExpectedResults[filename]['quotechar']))
             else:
-               print("X [" + filename + "]: --> No result from cleverCSV")
+               print("X[" + filename + "]: --> No result from cleverCSV")
    print('[Passed test ratio]--: %r' %(round(100*passed/(len(ExpectedResults)-failures),4)) +'%')
    print('[Failure ratio]--: %r' %(round(100*failures/len(ExpectedResults),4)) +'%')
    print('[Elapsed time]--: %r seconds' %(round(time.time()-t,2)))
