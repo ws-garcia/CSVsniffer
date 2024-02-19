@@ -10,15 +10,10 @@ def getCSVdata(path: str)->str:
         return csvcontent
 
 def DetectCSVDialect(path: str):
-  try:
-      content= getCSVdata(path)
-      # you can use verbose=True to see what CleverCSV does
-      dialect = clevercsv.Sniffer().sniff(content,delimiters=[',',';','\t','|',':','.','=','<','>',' '],verbose=True)
-      return dialect
-  except OSError as err:
-    print("Error was: %s" % err)
-  except Exception as err:
-    print("Error was: %s" % err)
+   content= getCSVdata(path)
+   # you can use verbose=True to see what CleverCSV does
+   dialect = clevercsv.Sniffer().sniff(content,delimiters=[',',';','\t','|',':','.','=','<','>',' '],verbose=True)
+   return dialect
 
 def ImportExpectedResults(annotations :str)->dict:
   try:
@@ -87,8 +82,10 @@ for testItem in tSet:
          if os.path.isfile(file):
             try:
                dialect=DetectCSVDialect(file)
-            except:
+            except Exception as err:
                dialect=None
+               failures += 1
+               print("Error was: %s" % err)
             if dialect !=None:
                if GetDelName(dialect.delimiter)==ExpectedResults[filename]['fields_delimiter'] and \
                GetQuoteName(dialect.quotechar)==ExpectedResults[filename]['quotechar']:
@@ -106,7 +103,6 @@ for testItem in tSet:
                         % (ExpectedResults[filename]['fields_delimiter'], ExpectedResults[filename]['quotechar']))
             else:
                print("X [" + filename + "]: --> No result from cleverCSV")
-               failures += 1
    print('[Passed test ratio]--: %r' %(round(100*passed/(len(ExpectedResults)-failures),4)) +'%')
    print('[Failure ratio]--: %r' %(round(100*failures/len(ExpectedResults),4)) +'%')
    print('[Elapsed time]--: %r seconds' %(round(time.time()-t,2)))
