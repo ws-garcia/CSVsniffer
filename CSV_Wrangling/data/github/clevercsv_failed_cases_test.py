@@ -60,51 +60,55 @@ def GetQuoteName(aQuote:str)->str:
    elif aQuote == '\'':
       return 'singlequote'
 
-basePath= os.path.dirname(__file__)
-#Get test path withing current .py file
-TestsCSVpath=os.path.join(basePath, 'Curated files')
-#Testing over distint dataset
-tSet=['Manual_Dialect_Annotation.txt', 'Manual_Dialect_Annotation_CODEC.txt']
-stdoutArr=[os.path.join(basePath, '[CSV Wrangling]clevercsv_output.txt'), os.path.join(basePath, '[CSV Wrangling (no codec issues)]clevercsv_output.txt')]
-n=0
-for testItem in tSet:
-   sys.stdout = open(stdoutArr[n], 'w')
-   #Import expectect results as nested dicts
-   ExpectedResults=ImportExpectedResults(tSet[n])
-   passed=0
-   failures=0
-   t=time.time()
-   #Iterate and run all test files
-   for filename in os.listdir(TestsCSVpath):
-      if filename in ExpectedResults:
-         file = os.path.join(TestsCSVpath, filename)
-         #File check
-         if os.path.isfile(file):
-            try:
-               dialect=DetectCSVDialect(file)
-            except Exception as err:
-               dialect=None
-               failures += 1
-               print("Error was: %s" % err)
-            if dialect !=None:
-               if GetDelName(dialect.delimiter)==ExpectedResults[filename]['fields_delimiter'] and \
-               GetQuoteName(dialect.quotechar)==ExpectedResults[filename]['quotechar']:
-                  tflag ='+'
-                  passed += 1
+def main(basePath :str, outPath :str):
+   #Get test path withing current .py file
+   TestsCSVpath=os.path.join(basePath, 'Curated files')
+   #Testing over distint dataset
+   tSet=['Manual_Dialect_Annotation.txt', 'Manual_Dialect_Annotation_CODEC.txt']
+   stdoutArr=[os.path.join(outPath, '[CSV Wrangling]clevercsv_output.txt'), os.path.join(outPath, '[CSV Wrangling (no codec issues)]clevercsv_output.txt')]
+   n=0
+   for testItem in tSet:
+      sys.stdout = open(stdoutArr[n], 'w')
+      #Import expectect results as nested dicts
+      ExpectedResults=ImportExpectedResults(tSet[n])
+      passed=0
+      failures=0
+      t=time.time()
+      #Iterate and run all test files
+      for filename in os.listdir(TestsCSVpath):
+         if filename in ExpectedResults:
+            file = os.path.join(TestsCSVpath, filename)
+            #File check
+            if os.path.isfile(file):
+               try:
+                  dialect=DetectCSVDialect(file)
+               except Exception as err:
+                  dialect=None
+                  failures += 1
+                  print("Error was: %s" % err)
+               if dialect !=None:
+                  if GetDelName(dialect.delimiter)==ExpectedResults[filename]['fields_delimiter'] and \
+                  GetQuoteName(dialect.quotechar)==ExpectedResults[filename]['quotechar']:
+                     tflag ='+'
+                     passed += 1
+                  else:
+                     tflag ='X'
+                  if tflag =='+':
+                     print(tflag + '[' + filename + ']: --> cleverCSV detected: delimiter = %r, quotechar = %r' 
+                        % (dialect.delimiter, dialect.quotechar))
+                  else:
+                     print(tflag + '[' + filename + ']: --> cleverCSV detected: delimiter = %r, quotechar = %r' 
+                        % (dialect.delimiter, dialect.quotechar) + \
+                        '| EXPECTED:{delimiter = %r, quotechar = %r}' \
+                           % (ExpectedResults[filename]['fields_delimiter'], ExpectedResults[filename]['quotechar']))
                else:
-                  tflag ='X'
-               if tflag =='+':
-                  print(tflag + '[' + filename + ']: --> cleverCSV detected: delimiter = %r, quotechar = %r' 
-                     % (dialect.delimiter, dialect.quotechar))
-               else:
-                  print(tflag + '[' + filename + ']: --> cleverCSV detected: delimiter = %r, quotechar = %r' 
-                     % (dialect.delimiter, dialect.quotechar) + \
-                     '| EXPECTED:{delimiter = %r, quotechar = %r}' \
-                        % (ExpectedResults[filename]['fields_delimiter'], ExpectedResults[filename]['quotechar']))
-            else:
-               print("X[" + filename + "]: --> No result from cleverCSV")
-   print('[Passed test ratio]--: %r' %(round(100*passed/(len(ExpectedResults)-failures),4)) +'%')
-   print('[Failure ratio]--: %r' %(round(100*failures/len(ExpectedResults),4)) +'%')
-   print('[Elapsed time]--: %r seconds' %(round(time.time()-t,2)))
-   sys.stdout.close()
-   n+=1
+                  print("X[" + filename + "]: --> No result from cleverCSV")
+      print('[Passed test ratio]--: %r' %(round(100*passed/(len(ExpectedResults)-failures),4)) +'%')
+      print('[Failure ratio]--: %r' %(round(100*failures/len(ExpectedResults),4)) +'%')
+      print('[Elapsed time]--: %r seconds' %(round(time.time()-t,2)))
+      sys.stdout.close()
+      n+=1
+      
+if __name__ == "__main__":
+   basePath= os.path.dirname(__file__)
+   main(basePath, basePath)
