@@ -1,0 +1,2046 @@
+Running normal form detection ...
+Matched normal form 2.
++[0Al-Sn.CSV]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      850.833333	T =        1.000000	Q =      850.833333
+SimpleDialect('', '', ''):	P =        3.403000	skip.
+SimpleDialect(' ', '', ''):	P =      850.958333	T =        0.500587	Q =      425.978555
+SimpleDialect('.', '', ''):	P =     1133.667667	T =        0.666536	Q =      755.630325
++[1% nano+20% micro.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      863.333333	T =        0.999855	Q =      863.208339
+SimpleDialect('', '', ''):	P =        3.453000	skip.
+SimpleDialect(' ', '', ''):	P =      863.458333	T =        0.500578	Q =      432.228564
+SimpleDialect('.', '', ''):	P =     1150.334333	T =        0.666538	Q =      766.741436
++[1% SiO2_003.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 3.
++[10.January_2019.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[100mAOne.CSV]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =     1182.727273	T =        0.999651	Q =     1182.314050
+SimpleDialect('', '', ''):	P =        1.301000	skip.
+SimpleDialect(' ', '', ''):	P =      162.641917	skip.
+SimpleDialect('.', '', ''):	P =      370.822429	skip.
+SimpleDialect(':', '', ''):	P =      432.335333	skip.
++[18-12-06.CSV]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[2004-2016.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[20170320-ePC_Data-Travel-Stationery.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[300mAThree.CSV]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =    17520.500000	T =        1.000000	Q =    17520.500000
+SimpleDialect('', '', ''):	P =       35.041000	skip.
+SimpleDialect(' ', '', ''):	P =    11680.000500	skip.
+SimpleDialect('.', '', ''):	P =     7680.164500	skip.
+SimpleDialect(':', '', ''):	P =     8760.000500	skip.
++[air_quality_station3_2006.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[AL5083-emissivity.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       48.049696	T =        0.642044	Q =       30.850009
+SimpleDialect(',', '', '/'):	P =       48.049477	T =        0.642042	Q =       30.849804
+SimpleDialect(',', '"', ''):	P =     2397.272727	T =        0.617437	Q =     1480.165289
+SimpleDialect(',', '"', '/'):	P =      135.724946	skip.
+SimpleDialect(',', "'", ''):	P =       29.219022	skip.
+SimpleDialect(',', "'", '/'):	P =       29.218941	skip.
+SimpleDialect(',', '`', ''):	P =       28.799153	skip.
+SimpleDialect(',', '`', '/'):	P =       28.798931	skip.
+SimpleDialect(',', '~', ''):	P =       29.111636	skip.
+SimpleDialect(',', '~', '/'):	P =       47.142883	skip.
+SimpleDialect(';', '', ''):	P =       28.876837	skip.
+SimpleDialect(';', '"', ''):	P =       28.128734	skip.
+SimpleDialect(';', '"', '/'):	P =       10.583411	skip.
+SimpleDialect(';', "'", ''):	P =       17.023879	skip.
+SimpleDialect(';', '`', ''):	P =       14.937776	skip.
+SimpleDialect(';', '~', ''):	P =       19.146983	skip.
+SimpleDialect(';', '~', '/'):	P =       28.464311	skip.
+SimpleDialect('', '', ''):	P =        2.638000	skip.
+SimpleDialect('', '"', ''):	P =        2.637000	skip.
+SimpleDialect('', '"', '/'):	P =        0.298500	skip.
+SimpleDialect('', "'", ''):	P =        1.451000	skip.
+SimpleDialect('', '`', ''):	P =        1.546000	skip.
+SimpleDialect('', '~', ''):	P =        1.355000	skip.
+SimpleDialect('', '~', '/'):	P =        1.319000	skip.
+SimpleDialect(' ', '', ''):	P =        7.187891	skip.
+SimpleDialect(' ', '', '/'):	P =        7.187889	skip.
+SimpleDialect(' ', '', '·'):	P =        7.187891	skip.
+SimpleDialect(' ', '', '•'):	P =        7.187891	skip.
+SimpleDialect(' ', '', '…'):	P =        7.187891	skip.
+SimpleDialect(' ', '"', ''):	P =       17.948795	skip.
+SimpleDialect(' ', '"', '/'):	P =        6.054610	skip.
+SimpleDialect(' ', '"', '·'):	P =       17.948795	skip.
+SimpleDialect(' ', '"', '•'):	P =       17.948795	skip.
+SimpleDialect(' ', '"', '…'):	P =       17.948795	skip.
+SimpleDialect(' ', "'", ''):	P =        4.424304	skip.
+SimpleDialect(' ', "'", '/'):	P =        4.437916	skip.
+SimpleDialect(' ', "'", '·'):	P =        4.424304	skip.
+SimpleDialect(' ', "'", '•'):	P =        4.424304	skip.
+SimpleDialect(' ', "'", '…'):	P =        4.424304	skip.
+SimpleDialect(' ', '`', ''):	P =        4.728993	skip.
+SimpleDialect(' ', '`', '/'):	P =        4.714486	skip.
+SimpleDialect(' ', '`', '·'):	P =        4.714487	skip.
+SimpleDialect(' ', '`', '•'):	P =        4.728993	skip.
+SimpleDialect(' ', '`', '…'):	P =        4.728993	skip.
+SimpleDialect(' ', '~', ''):	P =        4.475223	skip.
+SimpleDialect(' ', '~', '/'):	P =        7.168250	skip.
+SimpleDialect(' ', '~', '·'):	P =        4.475223	skip.
+SimpleDialect(' ', '~', '•'):	P =        4.475223	skip.
+SimpleDialect(' ', '~', '…'):	P =        4.475223	skip.
+SimpleDialect('.', '', ''):	P =       48.053398	skip.
+SimpleDialect('.', '', '/'):	P =       49.013980	skip.
+SimpleDialect('.', '"', ''):	P =       85.846970	skip.
+SimpleDialect('.', '"', '/'):	P =       24.514784	skip.
+SimpleDialect('.', "'", ''):	P =       29.887871	skip.
+SimpleDialect('.', "'", '/'):	P =       29.887428	skip.
+SimpleDialect('.', '`', ''):	P =       30.505235	skip.
+SimpleDialect('.', '`', '/'):	P =       30.504856	skip.
+SimpleDialect('.', '~', ''):	P =       31.428593	skip.
+SimpleDialect('.', '~', '/'):	P =       48.052922	skip.
+SimpleDialect(':', '', ''):	P =       40.088154	skip.
+SimpleDialect(':', '"', ''):	P =       79.444889	skip.
+SimpleDialect(':', '"', '/'):	P =        9.732359	skip.
+SimpleDialect(':', "'", ''):	P =       26.925005	skip.
+SimpleDialect(':', '`', ''):	P =       24.888457	skip.
+SimpleDialect(':', '~', ''):	P =       19.673132	skip.
+SimpleDialect(':', '~', '/'):	P =       36.747475	skip.
+SimpleDialect('<', '', ''):	P =        4.612592	skip.
+SimpleDialect('<', '', '@'):	P =        4.594074	skip.
+SimpleDialect('<', '"', ''):	P =        2.190083	skip.
+SimpleDialect('<', '"', '/'):	P =        0.952233	skip.
+SimpleDialect('<', '"', '@'):	P =        2.148417	skip.
+SimpleDialect('<', "'", ''):	P =        3.436728	skip.
+SimpleDialect('<', "'", '@'):	P =        3.412918	skip.
+SimpleDialect('<', '`', ''):	P =        2.102426	skip.
+SimpleDialect('<', '`', '@'):	P =        2.102426	skip.
+SimpleDialect('<', '~', ''):	P =        2.663242	skip.
+SimpleDialect('<', '~', '/'):	P =        4.151333	skip.
+SimpleDialect('<', '~', '@'):	P =        2.642408	skip.
+SimpleDialect('=', '', ''):	P =        1.683667	skip.
+SimpleDialect('=', '"', ''):	P =        2.637000	skip.
+SimpleDialect('=', '"', '/'):	P =        0.810833	skip.
+SimpleDialect('=', "'", ''):	P =        1.283800	skip.
+SimpleDialect('=', '`', ''):	P =        1.224389	skip.
+SimpleDialect('=', '~', ''):	P =        0.848417	skip.
+SimpleDialect('=', '~', '/'):	P =        1.443143	skip.
+SimpleDialect('>', '', ''):	P =        4.521058	skip.
+SimpleDialect('>', '"', ''):	P =        2.190083	skip.
+SimpleDialect('>', '"', '/'):	P =        0.896647	skip.
+SimpleDialect('>', "'", ''):	P =        3.393871	skip.
+SimpleDialect('>', '`', ''):	P =        2.285086	skip.
+SimpleDialect('>', '~', ''):	P =        2.597765	skip.
+SimpleDialect('>', '~', '/'):	P =        4.068952	skip.
+SimpleDialect('|', '', ''):	P =        1.267556	skip.
+SimpleDialect('|', '"', ''):	P =        1.568000	skip.
+SimpleDialect('|', '"', '/'):	P =        0.420889	skip.
+SimpleDialect('|', "'", ''):	P =        1.058333	skip.
+SimpleDialect('|', '`', ''):	P =        0.903556	skip.
+SimpleDialect('|', '~', ''):	P =        0.927000	skip.
+SimpleDialect('|', '~', '/'):	P =        0.950667	skip.
++[all.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      327.239394	T =        0.681373	Q =      222.971940
+SimpleDialect(',', '"', ''):	P =     1291.555556	T =        0.851419	Q =     1099.654321
+SimpleDialect(',', "'", ''):	P =      326.564394	skip.
+SimpleDialect('', '', ''):	P =        1.453000	skip.
+SimpleDialect('', '"', ''):	P =        1.453000	skip.
+SimpleDialect('', "'", ''):	P =        1.450000	skip.
+SimpleDialect(' ', '', ''):	P =       83.672073	skip.
+SimpleDialect(' ', '', '/'):	P =       83.657674	skip.
+SimpleDialect(' ', '"', ''):	P =       83.666254	skip.
+SimpleDialect(' ', '"', '/'):	P =       83.651856	skip.
+SimpleDialect(' ', "'", ''):	P =       83.497073	skip.
+SimpleDialect(' ', "'", '/'):	P =       83.482674	skip.
+SimpleDialect('.', '', ''):	P =      181.854417	skip.
+SimpleDialect('.', '"', ''):	P =       16.175222	skip.
+SimpleDialect('.', "'", ''):	P =      181.479417	skip.
+SimpleDialect(':', '', ''):	P =        5.716500	skip.
+SimpleDialect(':', '"', ''):	P =        5.716500	skip.
+SimpleDialect(':', "'", ''):	P =        5.715000	skip.
++[April-2011-for-publication.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[Auto_Tone_sub205_over.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[Auto_Tone_sub242_nov.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 3.
++[Auto_Tone_sub315_day1.csv]: --> cleverCSV detected: delimiter = ',', quotechar = "'"
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        4.838172	T =        0.029126	Q =        0.140918
+SimpleDialect(',', '"', ''):	P =        4.822619	T =        0.680851	Q =        3.283485
+SimpleDialect(';', '', ''):	P =        3.000500	skip.
+SimpleDialect(';', '"', ''):	P =        0.010000	skip.
+SimpleDialect('', '', ''):	P =        0.010000	skip.
+SimpleDialect('', '"', ''):	P =        0.010000	skip.
+SimpleDialect(' ', '', ''):	P =        4.410500	T =        0.718404	Q =        3.168519
+SimpleDialect(' ', '"', ''):	P =        2.250500	skip.
+SimpleDialect('.', '', ''):	P =        3.625000	T =        0.000000	Q =        0.000000
+SimpleDialect('.', '"', ''):	P =        0.010000	skip.
+SimpleDialect(':', '', ''):	P =        4.154346	T =        0.381356	Q =        1.584285
+SimpleDialect(':', '"', ''):	P =        0.010000	skip.
++[Batch_3250493_batch_results.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      515.744008	T =        0.743628	Q =      383.521750
+SimpleDialect(',', '', '/'):	P =      515.743611	T =        0.743625	Q =      383.519704
+SimpleDialect(',', '"', ''):	P =     5849.142857	T =        0.969101	Q =     5668.408163
+SimpleDialect(',', '"', '/'):	P =     5849.142857	T =        0.969122	Q =     5668.530612
+SimpleDialect(',', "'", ''):	P =      161.392840	skip.
+SimpleDialect(',', "'", '/'):	P =      161.392560	skip.
+SimpleDialect('', '', ''):	P =        6.824000	skip.
+SimpleDialect('', '"', ''):	P =        6.824000	skip.
+SimpleDialect('', "'", ''):	P =        1.512500	skip.
+SimpleDialect(' ', '', ''):	P =      136.981224	skip.
+SimpleDialect(' ', '', '/'):	P =      136.980821	skip.
+SimpleDialect(' ', '', '@'):	P =      136.980951	skip.
+SimpleDialect(' ', '"', ''):	P =      390.051045	skip.
+SimpleDialect(' ', '"', '/'):	P =      390.051045	skip.
+SimpleDialect(' ', '"', '@'):	P =      390.048881	skip.
+SimpleDialect(' ', "'", ''):	P =       58.166693	skip.
+SimpleDialect(' ', "'", '/'):	P =       58.166661	skip.
+SimpleDialect(' ', "'", '@'):	P =       58.166492	skip.
+SimpleDialect('.', '', ''):	P =      133.383470	skip.
+SimpleDialect('.', '"', ''):	P =      207.481611	skip.
+SimpleDialect('.', "'", ''):	P =       60.119237	skip.
++[Businesses with a rateable value of less than $12,000 - March 2016.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        6.227778	T =        0.826772	Q =        5.148950
+SimpleDialect(',', '"', ''):	P =       12.444444	T =        0.841270	Q =       10.469136
+SimpleDialect('', '', ''):	P =        0.014000	skip.
+SimpleDialect('', '"', ''):	P =        0.014000	skip.
+SimpleDialect(' ', '', ''):	P =        2.270833	skip.
+SimpleDialect(' ', '"', ''):	P =        2.083583	skip.
+SimpleDialect('.', '', ''):	P =        1.480417	skip.
+SimpleDialect('.', '"', ''):	P =        1.480417	skip.
++[business_expenses_apr_jun_14_peter_lewis.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =    22154.000000	T =        0.861084	Q =    19076.444444
+SimpleDialect('', '', ''):	P =       33.231000	skip.
+SimpleDialect(' ', '', ''):	P =     8307.500500	skip.
+SimpleDialect(':', '', ''):	P =    22154.000000	T =        0.333333	Q =     7384.666667
++[Camp Palacios - Humidity.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =   115556.666667	T =        0.861080	Q =    99503.555556
+SimpleDialect('', '', ''):	P =      173.335000	skip.
+SimpleDialect(' ', '', ''):	P =    43333.500500	skip.
+SimpleDialect(':', '', ''):	P =   115556.666667	T =        0.333333	Q =    38518.888889
++[Camp Palacios - Wind Direction.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      306.219512	T =        0.951062	Q =      291.233789
+SimpleDialect(',', "'", ''):	P =      265.719512	skip.
+SimpleDialect('', '', ''):	P =        0.310000	skip.
+SimpleDialect('', "'", ''):	P =        0.269000	skip.
+SimpleDialect(' ', '', ''):	P =       32.609099	skip.
+SimpleDialect(' ', '', '/'):	P =       32.609091	skip.
+SimpleDialect(' ', "'", ''):	P =       28.009099	skip.
+SimpleDialect(' ', "'", '/'):	P =       28.009091	skip.
+SimpleDialect('.', '', ''):	P =        0.903500	skip.
+SimpleDialect('.', "'", ''):	P =        0.633500	skip.
+SimpleDialect('<', '', ''):	P =        8.019193	skip.
+SimpleDialect('<', "'", ''):	P =        6.930850	skip.
+SimpleDialect('=', '', ''):	P =        8.019193	skip.
+SimpleDialect('=', "'", ''):	P =        6.930850	skip.
+SimpleDialect('>', '', ''):	P =        0.647037	skip.
+SimpleDialect('>', "'", ''):	P =        0.626537	skip.
++[Consular_cases_April_2016.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      173.049130	T =        0.798948	Q =      138.257294
+SimpleDialect(',', '"', ''):	P =      686.583333	T =        0.882510	Q =      605.916667
+SimpleDialect(',', "'", ''):	P =       46.195344	skip.
+SimpleDialect(';', '', ''):	P =        0.707333	skip.
+SimpleDialect(';', '"', ''):	P =        0.707333	skip.
+SimpleDialect(';', "'", ''):	P =        0.507833	skip.
+SimpleDialect('', '', ''):	P =        0.749000	skip.
+SimpleDialect('', '"', ''):	P =        0.749000	skip.
+SimpleDialect('', "'", ''):	P =        0.350000	skip.
+SimpleDialect(' ', '', ''):	P =       24.516923	skip.
+SimpleDialect(' ', '', '@'):	P =       24.515486	skip.
+SimpleDialect(' ', '"', ''):	P =       25.865021	skip.
+SimpleDialect(' ', '"', '@'):	P =       25.855354	skip.
+SimpleDialect(' ', "'", ''):	P =       12.882761	skip.
+SimpleDialect(' ', "'", '@'):	P =       12.881226	skip.
+SimpleDialect('.', '', ''):	P =      100.213333	skip.
+SimpleDialect('.', '"', ''):	P =       76.875133	skip.
+SimpleDialect('.', "'", ''):	P =       46.676667	skip.
+SimpleDialect(':', '', ''):	P =        1.622000	skip.
+SimpleDialect(':', '"', ''):	P =        1.622000	skip.
+SimpleDialect(':', "'", ''):	P =        0.923500	skip.
++[Copy_of_2016-17_Q3_Final_V2.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       14.309419	T =        0.672613	Q =        9.624698
+SimpleDialect(',', '', '/'):	P =       14.268794	T =        0.615974	Q =        8.789203
+SimpleDialect(',', '"', ''):	P =       37.647059	T =        0.942647	Q =       35.487889
+SimpleDialect(',', '"', '/'):	P =       18.751838	skip.
+SimpleDialect('', '', ''):	P =        0.313000	skip.
+SimpleDialect('', '"', ''):	P =        0.040000	skip.
+SimpleDialect(' ', '', ''):	P =       55.412750	T =        0.516784	Q =       28.636448
+SimpleDialect(' ', '"', ''):	P =       14.625500	skip.
+SimpleDialect(':', '', ''):	P =       21.732000	skip.
+SimpleDialect(':', '"', ''):	P =        9.750500	skip.
+SimpleDialect('|', '', ''):	P =       93.639500	T =        0.843074	Q =       78.945071
+SimpleDialect('|', '"', ''):	P =        0.040000	skip.
+X[csv_good_dialect_star.csv]: --> cleverCSV detected: delimiter = '|', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        5.164833	T =        0.627193	Q =        3.239347
+SimpleDialect(';', '', ''):	P =       30.960678	T =        0.983616	Q =       30.453425
+SimpleDialect('', '', ''):	P =        0.074000	skip.
+SimpleDialect(' ', '', ''):	P =       18.250500	skip.
+SimpleDialect('.', '', ''):	P =        2.310721	skip.
+SimpleDialect('=', '', ''):	P =        2.781500	skip.
++[dd_Wickenburg_nobmp_623.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       24.471333	T =        0.001887	Q =        0.046172
+SimpleDialect(',', '"', ''):	P =       48.751000	T =        0.741379	Q =       36.142983
+SimpleDialect(';', '', ''):	P =        0.482167	skip.
+SimpleDialect(';', '"', ''):	P =        0.132000	skip.
+SimpleDialect('', '', ''):	P =        0.132000	skip.
+SimpleDialect('', '"', ''):	P =        0.132000	skip.
+SimpleDialect(' ', '', ''):	P =       12.398165	skip.
+SimpleDialect(' ', '"', ''):	P =       32.750500	skip.
+SimpleDialect('.', '', ''):	P =        0.398833	skip.
+SimpleDialect('.', '"', ''):	P =        0.132000	skip.
+SimpleDialect(':', '', ''):	P =        0.440500	skip.
+SimpleDialect(':', '"', ''):	P =        0.132000	skip.
+SimpleDialect('=', '', ''):	P =        0.494071	skip.
+SimpleDialect('=', '"', ''):	P =        0.132000	skip.
++[download (10).csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.858833	T =        0.003534	Q =        0.045438
+SimpleDialect(',', '"', ''):	P =       25.501000	T =        0.737226	Q =       18.800007
+SimpleDialect(';', '', ''):	P =        0.451167	skip.
+SimpleDialect(';', '"', ''):	P =        0.070000	skip.
+SimpleDialect('', '', ''):	P =        0.070000	skip.
+SimpleDialect('', '"', ''):	P =        0.070000	skip.
+SimpleDialect(' ', '', ''):	P =        5.603326	skip.
+SimpleDialect(' ', '"', ''):	P =       17.250500	skip.
+SimpleDialect('.', '', ''):	P =        0.411556	skip.
+SimpleDialect('.', '"', ''):	P =        0.070000	skip.
+SimpleDialect(':', '', ''):	P =        0.409500	skip.
+SimpleDialect(':', '"', ''):	P =        0.070000	skip.
+SimpleDialect('=', '', ''):	P =        0.463071	skip.
+SimpleDialect('=', '"', ''):	P =        0.070000	skip.
++[download (6).csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[dwp-cmg-spend-1214.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       44.464286	T =        0.990305	Q =       44.033192
+SimpleDialect(',', '"', ''):	P =       88.285714	T =        0.991678	Q =       87.551020
+SimpleDialect('', '', ''):	P =        0.104000	skip.
+SimpleDialect('', '"', ''):	P =        0.103000	skip.
+SimpleDialect(' ', '', ''):	P =       10.868129	skip.
+SimpleDialect(' ', '"', ''):	P =       10.690352	skip.
+SimpleDialect('.', '', ''):	P =        0.912000	skip.
+SimpleDialect('.', '"', ''):	P =        0.911750	skip.
++[epcs-dwp-cmg-spend-july-2017.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[erionite.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[extended.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[Feb-2016.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        2.500000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '', ''):	P =        0.005000	T =        0.000000	Q =        0.000000
+SimpleDialect(' ', '', ''):	P =        1.327778	T =        0.440000	Q =        0.584222
+SimpleDialect('|', '', ''):	P =        4.761905	T =        0.952381	Q =        4.535147
++[FEC data - [clevercsv issue #15].csv]: --> cleverCSV detected: delimiter = '|', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.417000	T =        0.714286	Q =        0.297857
+SimpleDialect(',', '"', ''):	P =        0.001000	skip.
+SimpleDialect(';', '', ''):	P =        0.334333	T =        0.400000	Q =        0.133733
+SimpleDialect(';', '"', ''):	P =        0.666667	T =        0.666667	Q =        0.444444
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.001000	skip.
+SimpleDialect(' ', '', ''):	P =        0.500500	T =        0.400000	Q =        0.200200
+SimpleDialect(' ', '"', ''):	P =        0.001000	skip.
++[File with multi-line field.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       10.886495	T =        0.631121	Q =        6.870694
+SimpleDialect(',', '"', ''):	P =       37.333833	T =        0.892999	Q =       33.339064
+SimpleDialect(',', "'", ''):	P =        3.698843	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.322855	skip.
+SimpleDialect('', '', ''):	P =        0.085000	skip.
+SimpleDialect('', '"', ''):	P =        0.085000	skip.
+SimpleDialect('', "'", ''):	P =        0.042000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022500	skip.
+SimpleDialect(' ', '', ''):	P =        2.771410	skip.
+SimpleDialect(' ', '"', ''):	P =        8.885881	skip.
+SimpleDialect(' ', "'", ''):	P =        1.278335	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.424746	skip.
+SimpleDialect('.', '', ''):	P =       11.652847	skip.
+SimpleDialect('.', '"', ''):	P =       13.723222	skip.
+SimpleDialect('.', "'", ''):	P =        5.626061	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218257	skip.
+SimpleDialect(':', '', ''):	P =       18.639556	skip.
+SimpleDialect(':', '"', ''):	P =       20.751000	skip.
+SimpleDialect(':', "'", ''):	P =        9.000667	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229667	skip.
++[file_double_trailing_newline.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.700745	T =        0.630719	Q =        8.010600
+SimpleDialect(',', '"', ''):	P =        8.259335	T =        0.777778	Q =        6.423928
+SimpleDialect(',', "'", ''):	P =        4.109715	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.624842	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.037000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        2.982384	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	T =        0.182331	Q =        2.124643
+SimpleDialect('.', '"', ''):	P =        3.845867	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	T =        0.000000	Q =        0.000000
+SimpleDialect(':', '"', ''):	P =        3.779612	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	T =        0.000000	Q =        0.000000
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[file_escape_char_0x00.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.700745	T =        0.630719	Q =        8.010600
+SimpleDialect(',', '"', ''):	P =        8.259335	T =        0.777778	Q =        6.423928
+SimpleDialect(',', '"', '\\'):	P =       74.666667	T =        0.892857	Q =       66.666667
+SimpleDialect(',', "'", ''):	P =        4.109715	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.624842	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.037000	skip.
+SimpleDialect('', '"', '\\'):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        2.982384	skip.
+SimpleDialect(' ', '"', '\\'):	P =        8.802548	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =        3.845867	skip.
+SimpleDialect('.', '"', '\\'):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =        3.779612	skip.
+SimpleDialect(':', '"', '\\'):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[file_escape_char_0x5C.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        7.901437	T =        0.223577	Q =        1.766581
+SimpleDialect(',', '"', ''):	P =        0.084000	skip.
+SimpleDialect(',', "'", ''):	P =        2.723000	T =        0.201835	Q =        0.549596
+SimpleDialect(',', "'", '\\'):	P =        2.750402	T =        0.240876	Q =        0.662506
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.910851	T =        0.816019	Q =        2.375309
+SimpleDialect(' ', '"', ''):	P =       12.724566	T =        0.913090	Q =       11.618676
+SimpleDialect(' ', "'", ''):	P =        1.362144	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.368323	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	T =        0.182331	Q =        2.124643
+SimpleDialect('.', '"', ''):	P =       13.722889	T =        0.000000	Q =        0.000000
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	T =        0.000000	Q =        0.000000
+SimpleDialect(':', '"', ''):	P =       20.750500	T =        0.000000	Q =        0.000000
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[file_field_delimiter_0x20.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.700745	T =        0.630719	Q =        8.010600
+SimpleDialect(',', '"', ''):	P =       74.666667	T =        0.693122	Q =       51.753086
+SimpleDialect(',', "'", ''):	P =        4.109715	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.624842	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.910851	skip.
+SimpleDialect(' ', '"', ''):	P =       12.724566	skip.
+SimpleDialect(' ', "'", ''):	P =        1.362144	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.368323	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[file_field_delimiter_0x2C_0x20.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        7.901437	T =        0.223577	Q =        1.766581
+SimpleDialect(',', '"', ''):	P =        0.084000	skip.
+SimpleDialect(',', "'", ''):	P =        2.723000	T =        0.201835	Q =        0.549596
+SimpleDialect(',', "'", '\\'):	P =        2.750402	T =        0.240876	Q =        0.662506
+SimpleDialect(';', '', ''):	P =       74.666667	T =        0.693122	Q =       51.753086
+SimpleDialect(';', '"', ''):	P =       74.666667	T =        0.892857	Q =       66.666667
+SimpleDialect(';', "'", ''):	P =        7.279596	skip.
+SimpleDialect(';', "'", '\\'):	P =        6.507213	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        8.802548	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[file_field_delimiter_0x3B.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        7.901437	T =        0.223577	Q =        1.766581
+SimpleDialect(',', '"', ''):	P =        0.084000	skip.
+SimpleDialect(',', "'", ''):	P =        2.723000	T =        0.201835	Q =        0.549596
+SimpleDialect(',', "'", '\\'):	P =        2.750402	T =        0.240876	Q =        0.662506
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect('\t', '', ''):	P =       74.666667	T =        0.693122	Q =       51.753086
+SimpleDialect('\t', '"', ''):	P =       74.666667	T =        0.892857	Q =       66.666667
+SimpleDialect('\t', "'", ''):	P =        7.279596	skip.
+SimpleDialect('\t', "'", '\\'):	P =        6.507213	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        8.802548	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[file_field_delimiter_0x9.csv]: --> cleverCSV detected: delimiter = '\t', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.848893	T =        0.634304	Q =        8.150107
+SimpleDialect(',', '"', ''):	P =       75.555556	T =        0.894118	Q =       67.555556
+SimpleDialect(',', "'", ''):	P =        4.208480	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.705650	skip.
+SimpleDialect('', '', ''):	P =        0.085000	skip.
+SimpleDialect('', '"', ''):	P =        0.085000	skip.
+SimpleDialect('', "'", ''):	P =        0.042000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022500	skip.
+SimpleDialect(' ', '', ''):	P =        2.771410	skip.
+SimpleDialect(' ', '"', ''):	P =        8.885881	skip.
+SimpleDialect(' ', "'", ''):	P =        1.278335	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.424746	skip.
+SimpleDialect('.', '', ''):	P =       11.652847	skip.
+SimpleDialect('.', '"', ''):	P =       13.723222	skip.
+SimpleDialect('.', "'", ''):	P =        5.626061	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218257	skip.
+SimpleDialect(':', '', ''):	P =       18.639556	skip.
+SimpleDialect(':', '"', ''):	P =       20.751000	skip.
+SimpleDialect(':', "'", ''):	P =        9.000667	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229667	skip.
++[file_header_multirow_2.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.997041	T =        0.637821	Q =        8.289779
+SimpleDialect(',', '"', ''):	P =       76.444444	T =        0.895349	Q =       68.444444
+SimpleDialect(',', "'", ''):	P =        4.307245	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.786458	skip.
+SimpleDialect('', '', ''):	P =        0.086000	skip.
+SimpleDialect('', '"', ''):	P =        0.086000	skip.
+SimpleDialect('', "'", ''):	P =        0.043000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.023000	skip.
+SimpleDialect(' ', '', ''):	P =        2.788651	skip.
+SimpleDialect(' ', '"', ''):	P =        8.969214	skip.
+SimpleDialect(' ', "'", ''):	P =        1.295001	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.441987	skip.
+SimpleDialect('.', '', ''):	P =       11.653013	skip.
+SimpleDialect('.', '"', ''):	P =       13.723556	skip.
+SimpleDialect('.', "'", ''):	P =        5.626228	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218457	skip.
+SimpleDialect(':', '', ''):	P =       18.639889	skip.
+SimpleDialect(':', '"', ''):	P =       20.751500	skip.
+SimpleDialect(':', "'", ''):	P =        9.001000	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229917	skip.
++[file_header_multirow_3.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.888889	T =        0.777778	Q =        0.691358
+SimpleDialect(',', '"', ''):	P =        0.888889	T =        1.000000	Q =        0.888889
+SimpleDialect('', '', ''):	P =        0.001000	skip.
+SimpleDialect('', '"', ''):	P =        0.001000	skip.
++[file_header_only.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       18.835195	T =        0.664368	Q =       12.513497
+SimpleDialect(';', '"', ''):	P =       73.645833	T =        0.807042	Q =       59.435299
+SimpleDialect(';', "'", ''):	P =        5.724177	skip.
+SimpleDialect(';', "'", '\\'):	P =        6.370935	skip.
+SimpleDialect('', '', ''):	P =        0.167000	skip.
+SimpleDialect('', '"', ''):	P =        0.167000	skip.
+SimpleDialect('', "'", ''):	P =        0.041500	skip.
+SimpleDialect('', "'", '\\'):	P =        0.042500	skip.
+SimpleDialect(' ', '', ''):	P =        5.492338	skip.
+SimpleDialect(' ', '"', ''):	P =        5.847149	skip.
+SimpleDialect(' ', "'", ''):	P =        2.488585	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.904491	skip.
+SimpleDialect('.', '', ''):	P =       17.282591	skip.
+SimpleDialect('.', '"', ''):	P =       15.158592	skip.
+SimpleDialect('.', "'", ''):	P =        8.498365	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.808797	skip.
+SimpleDialect(':', '', ''):	P =       27.583833	skip.
+SimpleDialect(':', '"', ''):	P =       23.896333	skip.
+SimpleDialect(':', "'", ''):	P =       10.867067	skip.
+SimpleDialect(':', "'", '\\'):	P =       11.216867	skip.
++[file_multitable_less.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       19.018745	T =        0.693599	Q =       13.191386
+SimpleDialect(';', '"', ''):	P =       74.683333	T =        0.827238	Q =       61.780916
+SimpleDialect(';', "'", ''):	P =        5.788743	skip.
+SimpleDialect(';', "'", '\\'):	P =        5.943365	skip.
+SimpleDialect('', '', ''):	P =        0.167000	skip.
+SimpleDialect('', '"', ''):	P =        0.167000	skip.
+SimpleDialect('', "'", ''):	P =        0.041500	skip.
+SimpleDialect('', "'", '\\'):	P =        0.042500	skip.
+SimpleDialect(' ', '', ''):	P =        5.492338	skip.
+SimpleDialect(' ', '"', ''):	P =        5.847149	skip.
+SimpleDialect(' ', "'", ''):	P =        2.488585	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.904491	skip.
+SimpleDialect('.', '', ''):	P =       23.162503	skip.
+SimpleDialect('.', '"', ''):	P =       15.353830	skip.
+SimpleDialect('.', "'", ''):	P =        9.760036	skip.
+SimpleDialect('.', "'", '\\'):	P =       10.102807	skip.
+SimpleDialect(':', '', ''):	P =       37.056222	skip.
+SimpleDialect(':', '"', ''):	P =       24.104667	skip.
+SimpleDialect(':', "'", ''):	P =       13.667167	skip.
+SimpleDialect(':', "'", '\\'):	P =       14.146083	skip.
++[file_multitable_more.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       25.247643	T =        0.679649	Q =       17.159534
+SimpleDialect(';', '"', ''):	P =      148.444444	T =        0.817698	Q =      121.382716
+SimpleDialect(';', "'", ''):	P =        7.487754	skip.
+SimpleDialect(';', "'", '\\'):	P =        5.915296	skip.
+SimpleDialect('', '', ''):	P =        0.167000	skip.
+SimpleDialect('', '"', ''):	P =        0.167000	skip.
+SimpleDialect('', "'", ''):	P =        0.041500	skip.
+SimpleDialect('', "'", '\\'):	P =        0.042500	skip.
+SimpleDialect(' ', '', ''):	P =        5.492338	skip.
+SimpleDialect(' ', '"', ''):	P =        5.847149	skip.
+SimpleDialect(' ', "'", ''):	P =        2.488585	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.904491	skip.
+SimpleDialect('.', '', ''):	P =       23.162503	skip.
+SimpleDialect('.', '"', ''):	P =       15.353830	skip.
+SimpleDialect('.', "'", ''):	P =        9.760036	skip.
+SimpleDialect('.', "'", '\\'):	P =       10.102807	skip.
+SimpleDialect(':', '', ''):	P =       37.056222	skip.
+SimpleDialect(':', '"', ''):	P =       24.104667	skip.
+SimpleDialect(':', "'", ''):	P =       13.667167	skip.
+SimpleDialect(':', "'", '\\'):	P =       14.146083	skip.
++[file_multitable_same.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       12.552596	T =        0.629263	Q =        7.898884
+SimpleDialect(';', '"', ''):	P =       73.777778	T =        0.816600	Q =       60.246914
+SimpleDialect(';', "'", ''):	P =        4.010949	skip.
+SimpleDialect(';', "'", '\\'):	P =        3.544033	skip.
+SimpleDialect('', '', ''):	P =        0.083000	skip.
+SimpleDialect('', '"', ''):	P =        0.083000	skip.
+SimpleDialect('', "'", ''):	P =        0.040000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.021500	skip.
+SimpleDialect(' ', '', ''):	P =        2.958095	skip.
+SimpleDialect(' ', '"', ''):	P =       10.552857	skip.
+SimpleDialect(' ', "'", ''):	P =        1.303415	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.509875	skip.
+SimpleDialect('.', '', ''):	P =       13.983016	skip.
+SimpleDialect('.', '"', ''):	P =       13.722556	skip.
+SimpleDialect('.', "'", ''):	P =        6.750873	skip.
+SimpleDialect('.', "'", '\\'):	P =        9.022321	skip.
+SimpleDialect(':', '', ''):	P =       27.958333	skip.
+SimpleDialect(':', '"', ''):	P =       41.500000	skip.
+SimpleDialect(':', "'", ''):	P =       13.500000	skip.
+SimpleDialect(':', "'", '\\'):	P =        9.638889	skip.
++[file_no_header.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.700745	T =        0.630719	Q =        8.010600
+SimpleDialect(',', '"', ''):	P =       74.666667	T =        0.892857	Q =       66.666667
+SimpleDialect(',', "'", ''):	P =        4.109715	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.624842	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        8.802548	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[file_no_trailing_newline.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.777778	T =        0.722222	Q =        1.283951
+SimpleDialect(',', '"', ''):	P =        1.777778	T =        0.944444	Q =        1.679012
+SimpleDialect(',', "'", ''):	P =        0.888889	skip.
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect('', "'", ''):	P =        0.001000	skip.
+SimpleDialect(' ', '', ''):	P =        0.482643	skip.
+SimpleDialect(' ', '"', ''):	P =        0.400500	skip.
+SimpleDialect(' ', "'", ''):	P =        0.482643	skip.
+SimpleDialect('.', '', ''):	P =        0.417167	skip.
+SimpleDialect('.', '"', ''):	P =        0.250500	skip.
+SimpleDialect('.', "'", ''):	P =        0.417167	skip.
+SimpleDialect(':', '', ''):	P =        0.333833	skip.
+SimpleDialect(':', '"', ''):	P =        0.250500	skip.
+SimpleDialect(':', "'", ''):	P =        0.333833	skip.
++[file_one_data_row.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.997041	T =        0.637821	Q =        8.289779
+SimpleDialect(',', '"', ''):	P =       76.444444	T =        0.895349	Q =       68.444444
+SimpleDialect(',', "'", ''):	P =        4.307245	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.786458	skip.
+SimpleDialect('', '', ''):	P =        0.086000	skip.
+SimpleDialect('', '"', ''):	P =        0.086000	skip.
+SimpleDialect('', "'", ''):	P =        0.043000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.023000	skip.
+SimpleDialect(' ', '', ''):	P =        2.788651	skip.
+SimpleDialect(' ', '"', ''):	P =        8.969214	skip.
+SimpleDialect(' ', "'", ''):	P =        1.295001	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.441987	skip.
+SimpleDialect('.', '', ''):	P =       11.653013	skip.
+SimpleDialect('.', '"', ''):	P =       13.723556	skip.
+SimpleDialect('.', "'", ''):	P =        5.626228	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218457	skip.
+SimpleDialect(':', '', ''):	P =       18.639889	skip.
+SimpleDialect(':', '"', ''):	P =       20.751500	skip.
+SimpleDialect(':', "'", ''):	P =        9.001000	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229917	skip.
++[file_preamble.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.700745	T =        0.630719	Q =        8.010600
+SimpleDialect(',', '"', ''):	P =       12.700745	T =        0.630719	Q =        8.010600
+SimpleDialect(',', "'", ''):	P =        3.088132	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.297624	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        2.852532	skip.
+SimpleDialect(' ', "'", ''):	P =        1.211635	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.267186	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	T =        0.182331	Q =        2.124643
+SimpleDialect('.', '"', ''):	P =       11.652680	T =        0.182331	Q =        2.124643
+SimpleDialect('.', "'", ''):	P =        2.057772	skip.
+SimpleDialect('.', "'", '\\'):	P =        2.223758	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	T =        0.000000	Q =        0.000000
+SimpleDialect(':', '"', ''):	P =       18.639222	T =        0.000000	Q =        0.000000
+SimpleDialect(':', "'", ''):	P =        4.078870	skip.
+SimpleDialect(':', "'", '\\'):	P =        2.879693	skip.
+X[file_quotation_char_0x27.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'singlequote'}
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.700745	T =        0.630719	Q =        8.010600
+SimpleDialect(',', '"', ''):	P =       74.666667	T =        0.892857	Q =       66.666667
+SimpleDialect(',', "'", ''):	P =        4.109715	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.624842	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        8.802548	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[file_record_delimiter_0xA.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.700745	T =        0.630719	Q =        8.010600
+SimpleDialect(',', '"', ''):	P =       74.666667	T =        0.892857	Q =       66.666667
+SimpleDialect(',', "'", ''):	P =        4.109715	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.624842	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        8.802548	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[file_record_delimiter_0xD.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[fire_archive_V1_50574.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[fr_hypo1.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       21.000000	T =        0.916667	Q =       19.250000
+SimpleDialect('', '', ''):	P =        0.042000	skip.
+SimpleDialect(' ', '', ''):	P =       10.250500	skip.
++[fr_RG65_pageid.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 3.
++[GPC_DCLG_December_2015_for_Publication.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[hist_2000_15O.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      126.548016	T =        0.860584	Q =      108.905206
+SimpleDialect(',', '"', ''):	P =      377.928571	T =        0.971393	Q =      367.117347
+SimpleDialect(',', "'", ''):	P =       52.005556	skip.
+SimpleDialect('', '', ''):	P =        0.407000	skip.
+SimpleDialect('', '"', ''):	P =        0.407000	skip.
+SimpleDialect('', "'", ''):	P =        0.279000	skip.
+SimpleDialect(' ', '', ''):	P =       17.731332	skip.
+SimpleDialect(' ', '', '/'):	P =       17.731177	skip.
+SimpleDialect(' ', '"', ''):	P =       17.731332	skip.
+SimpleDialect(' ', '"', '/'):	P =       17.731177	skip.
+SimpleDialect(' ', "'", ''):	P =       13.396664	skip.
+SimpleDialect(' ', "'", '/'):	P =       13.396664	skip.
+SimpleDialect('.', '', ''):	P =       66.836000	skip.
+SimpleDialect('.', '"', ''):	P =       16.171500	skip.
+SimpleDialect('.', "'", ''):	P =       44.892556	skip.
+SimpleDialect(':', '', ''):	P =        1.451000	skip.
+SimpleDialect(':', '"', ''):	P =        1.451000	skip.
+SimpleDialect(':', "'", ''):	P =        1.387000	skip.
++[HMRC_spending_over_25000_for_September_2018.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[hypo5.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        6.000000	T =        0.500000	Q =        3.000000
+SimpleDialect(',', '"', ''):	P =        5.333333	T =        0.708333	Q =        3.777778
+SimpleDialect('', '', ''):	P =        0.008000	skip.
+SimpleDialect('', '"', ''):	P =        0.008000	skip.
+SimpleDialect(' ', '', ''):	P =        2.958333	skip.
+SimpleDialect(' ', '"', ''):	P =        1.750500	skip.
+SimpleDialect(':', '', ''):	P =        7.000000	T =        0.500000	Q =        3.500000
+SimpleDialect(':', '"', ''):	P =        6.666667	T =        0.666667	Q =        4.444444
+X[Json data type - [clevercsv issue #37].csv]: --> cleverCSV detected: delimiter = ':', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =     3038.765152	T =        0.891478	Q =     2708.992260
+SimpleDialect(',', '"', ''):	P =     6072.727273	T =        0.899170	Q =     5460.413223
+SimpleDialect(',', "'", ''):	P =      432.317028	skip.
+SimpleDialect('', '', ''):	P =        6.680000	skip.
+SimpleDialect('', '"', ''):	P =        6.680000	skip.
+SimpleDialect('', "'", ''):	P =        3.802000	skip.
+SimpleDialect(' ', '', ''):	P =      144.501564	skip.
+SimpleDialect(' ', '"', ''):	P =      144.294906	skip.
+SimpleDialect(' ', "'", ''):	P =       76.692073	skip.
+SimpleDialect('.', '', ''):	P =      411.897000	skip.
+SimpleDialect('.', '"', ''):	P =      411.897000	skip.
+SimpleDialect('.', "'", ''):	P =      237.690611	skip.
+SimpleDialect(':', '', ''):	P =      113.369500	skip.
+SimpleDialect(':', '"', ''):	P =      113.369500	skip.
+SimpleDialect(':', "'", ''):	P =       53.547500	skip.
+SimpleDialect('>', '', ''):	P =        3.589500	skip.
+SimpleDialect('>', '"', ''):	P =        3.589500	skip.
+SimpleDialect('>', "'", ''):	P =        3.802000	skip.
++[june_2015(1).csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[Kokad pollen.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.557222	T =        0.166667	Q =        0.092870
+SimpleDialect(',', '"', ''):	P =        0.253500	T =        0.222222	Q =        0.056333
+SimpleDialect(';', '', ''):	P =        1.502000	T =        0.800000	Q =        1.201600
+SimpleDialect(';', '"', ''):	P =        1.502000	T =        0.800000	Q =        1.201600
+SimpleDialect('', '', ''):	P =        0.008000	skip.
+SimpleDialect('', '"', ''):	P =        0.008000	skip.
+SimpleDialect(' ', '', ''):	P =        0.837779	skip.
+SimpleDialect(' ', '"', ''):	P =        1.084603	skip.
+SimpleDialect('.', '', ''):	P =        0.601667	skip.
+SimpleDialect('.', '"', ''):	P =        0.503000	skip.
+SimpleDialect(':', '', ''):	P =        0.253500	skip.
+SimpleDialect(':', '"', ''):	P =        0.253500	skip.
++[Line feed character is more frequent than the car return-line feed combination.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      274.775000	T =        0.999418	Q =      274.614968
+SimpleDialect(',', '"', ''):	P =      274.775000	T =        1.000000	Q =      274.775000
+SimpleDialect('', '', ''):	P =        0.687000	skip.
+SimpleDialect('', '"', ''):	P =        0.687000	skip.
+SimpleDialect(' ', '', ''):	P =      171.500500	skip.
+SimpleDialect(' ', '"', ''):	P =      171.500500	skip.
+SimpleDialect('.', '', ''):	P =      182.889222	skip.
+SimpleDialect('.', '"', ''):	P =      182.889222	skip.
++[LOS_1050CFit.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        3.491402	T =        0.673684	Q =        2.352102
+SimpleDialect(',', '"', ''):	P =       10.285714	T =        0.785714	Q =        8.081633
+SimpleDialect('', '', ''):	P =        0.012000	skip.
+SimpleDialect('', '"', ''):	P =        0.012000	skip.
+SimpleDialect(' ', '', ''):	P =        1.185113	skip.
+SimpleDialect(' ', '"', ''):	P =        1.193460	skip.
+SimpleDialect(':', '', ''):	P =        0.255500	skip.
+SimpleDialect(':', '"', ''):	P =        0.255500	skip.
++[ministers-overseas-travel-jan-mar-2013.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        5.844811	T =        0.033632	Q =        0.196574
+SimpleDialect(',', '"', ''):	P =       40.736842	T =        0.878825	Q =       35.800554
+SimpleDialect(',', "'", ''):	P =        3.924809	skip.
+SimpleDialect(';', '', ''):	P =        0.447000	skip.
+SimpleDialect(';', '"', ''):	P =        0.043000	skip.
+SimpleDialect(';', "'", ''):	P =        0.332750	skip.
+SimpleDialect('', '', ''):	P =        0.043000	skip.
+SimpleDialect('', '"', ''):	P =        0.043000	skip.
+SimpleDialect('', "'", ''):	P =        0.016500	skip.
+SimpleDialect(' ', '', ''):	P =        1.553749	skip.
+SimpleDialect(' ', '', '/'):	P =        1.498241	skip.
+SimpleDialect(' ', '"', ''):	P =       10.500500	skip.
+SimpleDialect(' ', '"', '/'):	P =       10.500500	skip.
+SimpleDialect(' ', "'", ''):	P =        1.286709	skip.
+SimpleDialect(' ', "'", '/'):	P =        1.286709	skip.
+SimpleDialect('.', '', ''):	P =        5.301556	skip.
+SimpleDialect('.', '"', ''):	P =        0.043000	skip.
+SimpleDialect('.', "'", ''):	P =        3.477524	skip.
++[ministry-of-defence__30-09-2012__mod_300912-Air-Govt-data-template-u-senior.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       14.666667	T =        1.000000	Q =       14.666667
+SimpleDialect(',', "'", ''):	P =       14.666667	T =        1.000000	Q =       14.666667
+SimpleDialect('', '', ''):	P =        0.022000	skip.
+SimpleDialect('', "'", ''):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        7.250000	skip.
+SimpleDialect(' ', "'", ''):	P =        5.250500	skip.
+SimpleDialect(':', '', ''):	P =       17.600000	T =        0.600000	Q =       10.560000
+SimpleDialect(':', "'", ''):	P =       17.600000	T =        0.600000	Q =       10.560000
++[Mixed comma and colon - [clevercsv issue #35].csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.972556	T =        0.500000	Q =        0.486278
+SimpleDialect(';', '', ''):	P =        3.333333	T =        0.933333	Q =        3.111111
+SimpleDialect('', '', ''):	P =        0.005000	skip.
+SimpleDialect(' ', '', ''):	P =        1.000500	skip.
++[Mixed comma and semicolon-B.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.333333	T =        0.333333	Q =        0.444444
+SimpleDialect(',', "'", ''):	P =        1.333333	T =        0.333333	Q =        0.444444
+SimpleDialect(';', '', ''):	P =        1.333333	T =        0.666667	Q =        0.888889
+SimpleDialect(';', "'", ''):	P =        1.333333	T =        0.833333	Q =        1.111111
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', "'", ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.775000	skip.
+SimpleDialect(' ', "'", ''):	P =        0.708333	skip.
+SimpleDialect('.', '', ''):	P =        0.250500	skip.
+SimpleDialect('.', "'", ''):	P =        0.002000	skip.
++[Mixed comma and semicolon.csv]: --> cleverCSV detected: delimiter = ';', quotechar = "'"
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      190.907341	T =        0.715181	Q =      136.533277
+SimpleDialect(',', '"', ''):	P =      747.428571	T =        0.815858	Q =      609.795918
+SimpleDialect(',', "'", ''):	P =      133.579960	skip.
+SimpleDialect('', '', ''):	P =        0.872000	skip.
+SimpleDialect('', '"', ''):	P =        0.872000	skip.
+SimpleDialect('', "'", ''):	P =        0.610000	skip.
+SimpleDialect(' ', '', ''):	P =       41.268226	skip.
+SimpleDialect(' ', '"', ''):	P =       41.255477	skip.
+SimpleDialect(' ', "'", ''):	P =       29.008036	skip.
+SimpleDialect('.', '', ''):	P =      110.791917	skip.
+SimpleDialect('.', '"', ''):	P =        7.279333	skip.
+SimpleDialect('.', "'", ''):	P =       76.916917	skip.
++[moj-aramis-data-march-11.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[mordenite-dh-2.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        9.018503	T =        0.967857	Q =        8.728623
+SimpleDialect(',', '"', ''):	P =       53.333333	T =        0.987037	Q =       52.641975
+SimpleDialect(',', "'", ''):	P =        7.730145	skip.
+SimpleDialect('', '', ''):	P =        0.061000	skip.
+SimpleDialect('', '"', ''):	P =        0.060000	skip.
+SimpleDialect('', "'", ''):	P =        0.030500	skip.
+SimpleDialect(' ', '', ''):	P =        2.367675	skip.
+SimpleDialect(' ', '"', ''):	P =        2.559430	skip.
+SimpleDialect(' ', "'", ''):	P =        2.249291	skip.
+SimpleDialect('.', '', ''):	P =        0.779000	skip.
+SimpleDialect('.', '"', ''):	P =        0.529000	skip.
+SimpleDialect('.', "'", ''):	P =        0.519333	skip.
++[mos-oct-dec-2014.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.207608	T =        0.755396	Q =        0.912221
+SimpleDialect(',', "'", ''):	P =        0.972450	T =        0.666667	Q =        0.648300
+SimpleDialect('', '', ''):	P =        0.021000	skip.
+SimpleDialect('', "'", ''):	P =        0.011000	skip.
+SimpleDialect('\t', '', ''):	P =       18.375000	T =        0.678571	Q =       12.468750
+SimpleDialect('\t', "'", ''):	P =        4.791667	skip.
+SimpleDialect(' ', '', ''):	P =        0.986345	skip.
+SimpleDialect(' ', "'", ''):	P =        1.049584	skip.
+SimpleDialect('.', '', ''):	P =        0.539222	skip.
+SimpleDialect('.', "'", ''):	P =        0.011000	skip.
+SimpleDialect(':', '', ''):	P =        0.759000	skip.
+SimpleDialect(':', "'", ''):	P =        0.011000	skip.
++[movies-condensed.csv]: --> cleverCSV detected: delimiter = '\t', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.667167	T =        0.562500	Q =        0.937781
+SimpleDialect(',', '"', ''):	P =        1.334333	T =        0.571429	Q =        0.762476
+SimpleDialect(';', '', ''):	P =        1.625000	T =        0.571429	Q =        0.928571
+SimpleDialect(';', '"', ''):	P =        3.000000	T =        0.583333	Q =        1.750000
+SimpleDialect('', '', ''):	P =        0.006000	skip.
+SimpleDialect('', '"', ''):	P =        0.006000	skip.
+SimpleDialect(' ', '', ''):	P =        1.250500	skip.
+SimpleDialect(' ', '"', ''):	P =        1.250500	skip.
++[Multiple commas in fields.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[narrow.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.715278	T =        0.852632	Q =       10.841447
+SimpleDialect(',', '"', ''):	P =       50.750000	T =        0.866379	Q =       43.968750
+SimpleDialect('', '', ''):	P =        0.058000	skip.
+SimpleDialect('', '"', ''):	P =        0.058000	skip.
+SimpleDialect(' ', '', ''):	P =        2.940673	skip.
+SimpleDialect(' ', '', '†'):	P =        2.940596	skip.
+SimpleDialect(' ', '', '•'):	P =        2.940592	skip.
+SimpleDialect(' ', '"', ''):	P =        2.750381	skip.
+SimpleDialect(' ', '"', '†'):	P =        2.750240	skip.
+SimpleDialect(' ', '"', '•'):	P =        2.750050	skip.
+SimpleDialect('.', '', ''):	P =        6.876750	skip.
+SimpleDialect('.', '"', ''):	P =        9.057889	skip.
+SimpleDialect(':', '', ''):	P =        0.906556	skip.
+SimpleDialect(':', '"', ''):	P =        1.276500	skip.
+SimpleDialect('<', '', ''):	P =        0.740222	skip.
+SimpleDialect('<', '"', ''):	P =        0.740222	skip.
+SimpleDialect('=', '', ''):	P =        0.278500	skip.
+SimpleDialect('=', '"', ''):	P =        0.278500	skip.
+SimpleDialect('>', '', ''):	P =        0.528000	skip.
+SimpleDialect('>', '"', ''):	P =        0.528000	skip.
++[nati-clin-audi-bowe-canc-2017-tran-main-fiel-list.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       18.000000	T =        0.797784	Q =       14.360111
+SimpleDialect(',', '"', ''):	P =       18.000000	T =        0.950139	Q =       17.102493
+SimpleDialect('', '', ''):	P =        0.019000	skip.
+SimpleDialect('', '"', ''):	P =        0.019000	skip.
+SimpleDialect(' ', '', ''):	P =        4.500500	skip.
+SimpleDialect(' ', '"', ''):	P =        4.500500	skip.
+SimpleDialect('.', '', ''):	P =        5.885226	skip.
+SimpleDialect('.', '"', ''):	P =        5.568099	skip.
++[NBA_scores_out.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        5.872054	T =        0.864706	Q =        5.077600
+SimpleDialect(',', '"', ''):	P =       17.500000	T =        0.975000	Q =       17.062500
+SimpleDialect('', '', ''):	P =        0.020000	skip.
+SimpleDialect('', '"', ''):	P =        0.020000	skip.
+SimpleDialect(' ', '', ''):	P =        1.933271	skip.
+SimpleDialect(' ', '"', ''):	P =        2.187302	skip.
+SimpleDialect(':', '', ''):	P =        0.259500	skip.
+SimpleDialect(':', '"', ''):	P =        0.259500	skip.
++[Note_4_Staff_costs_-_Average_number_of_persons_employed_13-14.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      501.000000	T =        0.999501	Q =      500.750000
+SimpleDialect('', '', ''):	P =        1.002000	skip.
+SimpleDialect(' ', '', ''):	P =      334.083333	skip.
+SimpleDialect('.', '', ''):	P =      333.667167	skip.
++[O18_air.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[OccurrenceData351.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      161.060498	T =        0.958252	Q =      154.336477
+SimpleDialect(',', '"', ''):	P =      322.119403	T =        0.958967	Q =      308.901760
+SimpleDialect(',', "'", ''):	P =      138.896318	skip.
+SimpleDialect('', '', ''):	P =        0.327000	skip.
+SimpleDialect('', '"', ''):	P =        0.327000	skip.
+SimpleDialect('', "'", ''):	P =        0.282000	skip.
+SimpleDialect(' ', '', ''):	P =       29.517161	skip.
+SimpleDialect(' ', '"', ''):	P =       29.516799	skip.
+SimpleDialect(' ', "'", ''):	P =       25.203272	skip.
+SimpleDialect('.', '', ''):	P =        1.161500	skip.
+SimpleDialect('.', '"', ''):	P =        0.912000	skip.
+SimpleDialect('.', "'", ''):	P =        0.889500	skip.
+SimpleDialect('<', '', ''):	P =       12.163175	skip.
+SimpleDialect('<', '"', ''):	P =       12.163175	skip.
+SimpleDialect('<', "'", ''):	P =       11.381807	skip.
+SimpleDialect('=', '', ''):	P =       12.163175	skip.
+SimpleDialect('=', '"', ''):	P =       12.163175	skip.
+SimpleDialect('=', "'", ''):	P =       11.381807	skip.
++[Oct_2013.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.666667	T =        0.666667	Q =        0.444444
+SimpleDialect(',', '"', ''):	P =        0.666667	T =        0.666667	Q =        0.444444
+SimpleDialect(';', '', ''):	P =        0.750000	T =        0.500000	Q =        0.375000
+SimpleDialect(';', '"', ''):	P =        0.001000	skip.
+SimpleDialect('', '', ''):	P =        0.001000	skip.
+SimpleDialect('', '"', ''):	P =        0.001000	skip.
++[Optional quoted fields.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       56.029630	T =        0.695322	Q =       38.958614
+SimpleDialect(',', '"', ''):	P =      165.375000	T =        0.903439	Q =      149.406250
+SimpleDialect(',', "'", ''):	P =       21.119634	skip.
+SimpleDialect('', '', ''):	P =        0.189000	skip.
+SimpleDialect('', '"', ''):	P =        0.189000	skip.
+SimpleDialect('', "'", ''):	P =        0.095000	skip.
+SimpleDialect(' ', '', ''):	P =       16.386979	skip.
+SimpleDialect(' ', '"', ''):	P =       16.354447	skip.
+SimpleDialect(' ', "'", ''):	P =        9.131694	skip.
+SimpleDialect('.', '', ''):	P =       23.646083	skip.
+SimpleDialect('.', '"', ''):	P =        1.116556	skip.
+SimpleDialect('.', "'", ''):	P =       11.896083	skip.
++[over25k-transparency.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       21.826827	T =        0.889820	Q =       19.421938
+SimpleDialect(',', '"', ''):	P =       50.817815	T =        0.896732	Q =       45.569962
+SimpleDialect('', '', ''):	P =        0.182000	skip.
+SimpleDialect('', '"', ''):	P =        0.182000	skip.
+SimpleDialect(' ', '', ''):	P =        9.899239	skip.
+SimpleDialect(' ', '', '/'):	P =        9.837883	skip.
+SimpleDialect(' ', '"', ''):	P =       15.508458	skip.
+SimpleDialect(' ', '"', '/'):	P =       15.408756	skip.
+SimpleDialect('.', '', ''):	P =        9.199320	skip.
+SimpleDialect('.', '"', ''):	P =        9.175510	skip.
+SimpleDialect(':', '', ''):	P =        1.338500	skip.
+SimpleDialect(':', '"', ''):	P =        1.338500	skip.
++[permanent_secretary_and_director_general_expenses_and_hospitality_april_to_june_2012.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      141.566845	T =        0.529585	Q =       74.971708
+SimpleDialect('', '', ''):	P =        0.301000	skip.
+SimpleDialect('\t', '', ''):	P =      137.888889	T =        0.334723	Q =       46.154635
+SimpleDialect(' ', '', ''):	P =       75.000500	T =        0.499168	Q =       37.437854
+X[picasso.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''| EXPECTED:{delimiter = 'tab', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.944444	T =        0.833333	Q =        0.787037
+SimpleDialect('', '', ''):	P =        0.001000	skip.
+SimpleDialect(' ', '', ''):	P =        0.954545	T =        0.000000	Q =        0.000000
+SimpleDialect('.', '', ''):	P =        0.978261	T =        0.108696	Q =        0.106333
+SimpleDialect('|', '', ''):	P =        0.982759	T =        0.931034	Q =        0.914982
+X[Pipe character is more frequent than the comma.csv]: --> cleverCSV detected: delimiter = '|', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =        0.944444	T =        0.833333	Q =        0.787037
+SimpleDialect('', '', ''):	P =        0.001000	skip.
+SimpleDialect(' ', '', ''):	P =        0.954545	T =        0.000000	Q =        0.000000
+SimpleDialect('.', '', ''):	P =        0.978261	T =        0.021739	Q =        0.021267
+SimpleDialect('|', '', ''):	P =        0.982759	T =        0.931034	Q =        0.914982
+X[Pipe character is more frequent than the semicolon.csv]: --> cleverCSV detected: delimiter = '|', quotechar = ''| EXPECTED:{delimiter = 'semicolon', quotechar = 'doublequote'}
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      202.955813	T =        0.854319	Q =      173.389069
+SimpleDialect(',', '"', ''):	P =     2034.000000	T =        0.882799	Q =     1795.612188
+SimpleDialect(',', "'", ''):	P =      123.755002	skip.
+SimpleDialect(',', '`', ''):	P =      192.808023	skip.
+SimpleDialect(';', '', ''):	P =        8.053444	skip.
+SimpleDialect(';', '"', ''):	P =        2.147000	skip.
+SimpleDialect(';', "'", ''):	P =        4.271167	skip.
+SimpleDialect(';', '`', ''):	P =        6.040083	skip.
+SimpleDialect('', '', ''):	P =       13.348000	skip.
+SimpleDialect('', '"', ''):	P =        2.147000	skip.
+SimpleDialect('', "'", ''):	P =        7.710000	skip.
+SimpleDialect('', '`', ''):	P =        6.674000	skip.
+SimpleDialect('\t', '', ''):	P =        7.921500	skip.
+SimpleDialect('\t', '"', ''):	P =        2.147000	skip.
+SimpleDialect('\t', "'", ''):	P =        4.853000	skip.
+SimpleDialect('\t', '`', ''):	P =        5.281000	skip.
+SimpleDialect(' ', '', ''):	P =      130.875948	skip.
+SimpleDialect(' ', '', '/'):	P =      130.875241	skip.
+SimpleDialect(' ', '"', ''):	P =       37.980730	skip.
+SimpleDialect(' ', '"', '/'):	P =       37.979767	skip.
+SimpleDialect(' ', "'", ''):	P =       81.815578	skip.
+SimpleDialect(' ', "'", '/'):	P =       81.815529	skip.
+SimpleDialect(' ', '`', ''):	P =      128.862471	skip.
+SimpleDialect(' ', '`', '/'):	P =      128.861775	skip.
+SimpleDialect('.', '', ''):	P =       34.533517	skip.
+SimpleDialect('.', '"', ''):	P =       16.503690	skip.
+SimpleDialect('.', "'", ''):	P =       19.170163	skip.
+SimpleDialect('.', '`', ''):	P =       30.216827	skip.
+SimpleDialect(':', '', ''):	P =        6.059273	skip.
+SimpleDialect(':', '"', ''):	P =        1.429189	skip.
+SimpleDialect(':', "'", ''):	P =        4.011778	skip.
+SimpleDialect(':', '`', ''):	P =        4.847418	skip.
++[planning-application-aug-17.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      101.267333	T =        0.984009	Q =       99.647920
+SimpleDialect(',', '"', ''):	P =       75.950500	skip.
+SimpleDialect(',', "'", ''):	P =       75.950500	skip.
+SimpleDialect('', '', ''):	P =        0.390000	skip.
+SimpleDialect('', '"', ''):	P =        0.195000	skip.
+SimpleDialect('', "'", ''):	P =        0.195000	skip.
+SimpleDialect(' ', '', ''):	P =       17.095741	skip.
+SimpleDialect(' ', '"', ''):	P =       17.095741	skip.
+SimpleDialect(' ', "'", ''):	P =       17.095741	skip.
+SimpleDialect('.', '', ''):	P =       61.657133	skip.
+SimpleDialect('.', '"', ''):	P =       51.380944	skip.
+SimpleDialect('.', "'", ''):	P =       51.380944	skip.
+SimpleDialect(':', '', ''):	P =        3.872667	skip.
+SimpleDialect(':', '"', ''):	P =        2.904500	skip.
+SimpleDialect(':', "'", ''):	P =        2.904500	skip.
++[PLA_6%Talc-1hz.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.267305	T =        0.024691	Q =        0.031291
+SimpleDialect(',', '"', ''):	P =        3.789474	T =        0.881579	Q =        3.340720
+SimpleDialect(';', '', ''):	P =        0.334833	skip.
+SimpleDialect(';', '"', ''):	P =        0.004000	skip.
+SimpleDialect('', '', ''):	P =        0.004000	skip.
+SimpleDialect('', '"', ''):	P =        0.004000	skip.
+SimpleDialect(' ', '', ''):	P =        0.970749	skip.
+SimpleDialect(' ', '"', ''):	P =        0.750500	skip.
+SimpleDialect('.', '', ''):	P =        0.863429	skip.
+SimpleDialect('.', '"', ''):	P =        0.004000	skip.
++[prison-and-probation-ombudsman__30-09-2014__justice_PPO-September-Return-senior.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[pssave_traindata_m=10_n=10_timelow=15_timehight=30_numofloop=2000.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       33.055556	T =        1.000000	Q =       33.055556
+SimpleDialect('', '', ''):	P =        0.035000	skip.
+SimpleDialect(' ', '', ''):	P =        2.714435	skip.
++[public-toilet-borough-grid.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.888889	T =        0.805556	Q =        1.521605
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.967391	skip.
+SimpleDialect('.', '', ''):	P =        0.739130	skip.
+SimpleDialect('|', '', ''):	P =        0.491879	skip.
++[Rainbow CSV [issue #92].csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        6.068750	T =        0.989796	Q =        6.006824
+SimpleDialect(',', '"', ''):	P =       12.133333	T =        0.994872	Q =       12.071111
+SimpleDialect('', '', ''):	P =        0.013000	skip.
+SimpleDialect('', '"', ''):	P =        0.013000	skip.
+SimpleDialect(' ', '', ''):	P =        1.393012	skip.
+SimpleDialect(' ', '"', ''):	P =        1.558514	skip.
+SimpleDialect('.', '', ''):	P =        3.504963	skip.
+SimpleDialect('.', '"', ''):	P =        5.250500	skip.
++[rape_table_3_prosecution_outcomes_0708_1314.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =        0.626559	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =        0.939338	T =        0.969697	Q =        0.910873
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.973684	T =        0.304348	Q =        0.296339
+SimpleDialect(' ', '"', ''):	P =        0.250500	skip.
+SimpleDialect('.', '', ''):	P =        0.489222	skip.
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
++[Resultsgk06.datInfos.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =        0.626559	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =        0.939338	T =        0.969697	Q =        0.910873
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.973684	T =        0.304348	Q =        0.296339
+SimpleDialect(' ', '"', ''):	P =        0.250500	skip.
+SimpleDialect('.', '', ''):	P =        0.500333	skip.
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
++[ResultsOR30x100-0.25_10.dat__m21Infos.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       15.383430	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =       15.383430	T =        0.992722	Q =       15.271469
+SimpleDialect('', '', ''):	P =        0.031000	skip.
+SimpleDialect('', '"', ''):	P =        0.031000	skip.
+SimpleDialect(' ', '', ''):	P =       11.250000	skip.
+SimpleDialect(' ', '"', ''):	P =        7.500500	skip.
+SimpleDialect('.', '', ''):	P =        9.676677	skip.
+SimpleDialect('.', '"', ''):	P =        0.031000	skip.
++[ResultsOR30x100-0.25_5.dat__m28.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       11.904730	T =        0.041350	Q =        0.492256
+SimpleDialect(';', '"', ''):	P =       11.904730	T =        0.992392	Q =       11.814155
+SimpleDialect('', '', ''):	P =        0.024000	skip.
+SimpleDialect('', '"', ''):	P =        0.024000	skip.
+SimpleDialect(' ', '', ''):	P =        8.625000	skip.
+SimpleDialect(' ', '"', ''):	P =        5.750500	skip.
+SimpleDialect('.', '', ''):	P =        5.395178	skip.
+SimpleDialect('.', '"', ''):	P =        0.024000	skip.
++[ResultsOR30x100-0.50_1.dat__m21.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =        0.626559	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =        0.939338	T =        0.969697	Q =        0.910873
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.973684	T =        0.304348	Q =        0.296339
+SimpleDialect(' ', '"', ''):	P =        0.250500	skip.
+SimpleDialect('.', '', ''):	P =        0.500333	skip.
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
++[ResultsOR30x100-0.50_10.dat__m28Infos.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       16.377750	T =        0.030085	Q =        0.492730
+SimpleDialect(';', '"', ''):	P =       16.377750	T =        0.992815	Q =       16.260083
+SimpleDialect('', '', ''):	P =        0.033000	skip.
+SimpleDialect('', '"', ''):	P =        0.033000	skip.
+SimpleDialect(' ', '', ''):	P =       12.000000	skip.
+SimpleDialect(' ', '"', ''):	P =        8.000500	skip.
+SimpleDialect('.', '', ''):	P =        7.639691	skip.
+SimpleDialect('.', '"', ''):	P =        0.033000	skip.
++[ResultsOR30x100-0.50_3.dat.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       12.898407	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =       12.898407	T =        0.992486	Q =       12.801485
+SimpleDialect('', '', ''):	P =        0.026000	skip.
+SimpleDialect('', '"', ''):	P =        0.026000	skip.
+SimpleDialect(' ', '', ''):	P =        9.375000	skip.
+SimpleDialect(' ', '"', ''):	P =        6.250500	skip.
+SimpleDialect('.', '', ''):	P =        8.011615	skip.
+SimpleDialect('.', '"', ''):	P =        0.026000	skip.
++[ResultsOR30x100-0.50_5.dat__m23.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =        0.626559	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =        0.939338	T =        0.969697	Q =        0.910873
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.973684	T =        0.304348	Q =        0.296339
+SimpleDialect(' ', '"', ''):	P =        0.250500	skip.
+SimpleDialect('.', '', ''):	P =        0.489222	skip.
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
++[ResultsOR30x100-0.75_1.dat__m21Infos.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =        7.932167	T =        0.062003	Q =        0.491820
+SimpleDialect(';', '"', ''):	P =        7.932167	T =        0.992051	Q =        7.869113
+SimpleDialect('', '', ''):	P =        0.016000	skip.
+SimpleDialect('', '"', ''):	P =        0.016000	skip.
+SimpleDialect(' ', '', ''):	P =        5.625000	skip.
+SimpleDialect(' ', '"', ''):	P =        3.750500	skip.
+SimpleDialect('.', '', ''):	P =        3.404417	skip.
+SimpleDialect('.', '"', ''):	P =        0.016000	skip.
++[ResultsOR30x100-0.75_10.dat__m13.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =        0.626559	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =        0.939338	T =        0.969697	Q =        0.910873
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.973684	T =        0.304348	Q =        0.296339
+SimpleDialect(' ', '"', ''):	P =        0.250500	skip.
+SimpleDialect('.', '', ''):	P =        0.500333	skip.
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
++[ResultsOR30x100-0.75_5.dat__m29Infos.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       16.442099	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =       16.442099	T =        0.996597	Q =       16.386150
+SimpleDialect('', '', ''):	P =        0.033000	skip.
+SimpleDialect('', '"', ''):	P =        0.033000	skip.
+SimpleDialect(' ', '', ''):	P =       12.000000	skip.
+SimpleDialect(' ', '"', ''):	P =        8.000500	skip.
+SimpleDialect('.', '', ''):	P =       10.343136	skip.
+SimpleDialect('.', '"', ''):	P =        0.033000	skip.
++[ResultsOR30x250-0.25_7.dat.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =        0.626559	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =        0.939338	T =        0.969697	Q =        0.910873
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.973684	T =        0.304348	Q =        0.296339
+SimpleDialect(' ', '"', ''):	P =        0.250500	skip.
+SimpleDialect('.', '', ''):	P =        0.500333	skip.
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
++[ResultsOR30x250-0.50_1.datInfos.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       16.442099	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =       16.442099	T =        0.996597	Q =       16.386150
+SimpleDialect('', '', ''):	P =        0.033000	skip.
+SimpleDialect('', '"', ''):	P =        0.033000	skip.
+SimpleDialect(' ', '', ''):	P =       12.000000	skip.
+SimpleDialect(' ', '"', ''):	P =        8.000500	skip.
+SimpleDialect('.', '', ''):	P =       10.343136	skip.
+SimpleDialect('.', '"', ''):	P =        0.033000	skip.
++[ResultsOR30x250-0.50_4.dat.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       16.442099	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =       16.442099	T =        0.996597	Q =       16.386150
+SimpleDialect('', '', ''):	P =        0.033000	skip.
+SimpleDialect('', '"', ''):	P =        0.033000	skip.
+SimpleDialect(' ', '', ''):	P =       12.000000	skip.
+SimpleDialect(' ', '"', ''):	P =        8.000500	skip.
+SimpleDialect('.', '', ''):	P =       10.342821	skip.
+SimpleDialect('.', '"', ''):	P =        0.033000	skip.
++[ResultsOR30x250-0.75_2.dat.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       16.442099	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =       16.442099	T =        0.996597	Q =       16.386150
+SimpleDialect('', '', ''):	P =        0.033000	skip.
+SimpleDialect('', '"', ''):	P =        0.033000	skip.
+SimpleDialect(' ', '', ''):	P =       12.000000	skip.
+SimpleDialect(' ', '"', ''):	P =        8.000500	skip.
+SimpleDialect('.', '', ''):	P =       10.342505	skip.
+SimpleDialect('.', '"', ''):	P =        0.033000	skip.
++[ResultsOR30x250-0.75_3.dat.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =        0.626559	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =        0.939338	T =        0.969697	Q =        0.910873
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.973684	T =        0.304348	Q =        0.296339
+SimpleDialect(' ', '"', ''):	P =        0.250500	skip.
+SimpleDialect('.', '', ''):	P =        0.472556	skip.
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
++[ResultsOR30x250-0.75_4.datInfos.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =        0.626559	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =        0.939338	T =        0.969697	Q =        0.910873
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.973684	T =        0.304348	Q =        0.296339
+SimpleDialect(' ', '"', ''):	P =        0.250500	skip.
+SimpleDialect('.', '', ''):	P =        0.489222	skip.
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
++[ResultsOR30x250-0.75_9.datInfos.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =        0.626559	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =        0.939338	T =        0.969697	Q =        0.910873
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.973684	T =        0.304348	Q =        0.296339
+SimpleDialect(' ', '"', ''):	P =        0.250500	skip.
+SimpleDialect('.', '', ''):	P =        0.500333	skip.
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
++[ResultsOR30x500-0.50_6.datInfos.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       16.469157	T =        0.000000	Q =        0.000000
+SimpleDialect(';', '"', ''):	P =       16.469157	T =        0.998187	Q =       16.439305
+SimpleDialect('', '', ''):	P =        0.033000	skip.
+SimpleDialect('', '"', ''):	P =        0.033000	skip.
+SimpleDialect(' ', '', ''):	P =       12.000000	skip.
+SimpleDialect(' ', '"', ''):	P =        8.000500	skip.
+SimpleDialect('.', '', ''):	P =       10.343136	skip.
+SimpleDialect('.', '"', ''):	P =        0.033000	skip.
++[ResultsOR30x500-0.75_3.dat.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.700745	T =        0.629630	Q =        7.996765
+SimpleDialect(',', '"', ''):	P =        0.993902	skip.
+SimpleDialect(',', "'", ''):	P =        4.109715	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.624842	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.001000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        0.999513	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	T =        0.182331	Q =        2.124643
+SimpleDialect('.', '"', ''):	P =        0.997268	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	T =        0.000000	Q =        0.000000
+SimpleDialect(':', '"', ''):	P =        0.989011	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	T =        0.000000	Q =        0.000000
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[row_extra_quote0_col0.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.700745	T =        0.629630	Q =        7.996765
+SimpleDialect(',', '"', ''):	P =        2.719173	skip.
+SimpleDialect(',', "'", ''):	P =        4.109715	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.624842	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.003000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        1.025121	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	T =        0.182331	Q =        2.124643
+SimpleDialect('.', '"', ''):	P =        0.999373	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	T =        0.000000	Q =        0.000000
+SimpleDialect(':', '"', ''):	P =        0.996545	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	T =        0.000000	Q =        0.000000
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[row_extra_quote5_col3.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       10.759511	T =        0.628571	Q =        6.763121
+SimpleDialect(',', '"', ''):	P =       36.889389	T =        0.890374	Q =       32.845365
+SimpleDialect(',', "'", ''):	P =        3.609954	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.248781	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.884242	skip.
+SimpleDialect(' ', '"', ''):	P =        8.950529	skip.
+SimpleDialect(' ', "'", ''):	P =        1.383498	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.544649	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[row_field_delimiter_0_0x20.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       10.862543	T =        0.629670	Q =        6.839821
+SimpleDialect(',', '"', ''):	P =       36.889389	T =        0.890374	Q =       32.845365
+SimpleDialect(',', "'", ''):	P =        3.682076	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.308883	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852815	skip.
+SimpleDialect(' ', '"', ''):	P =        7.602184	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305448	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.512058	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[row_field_delimiter_5_0x20.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       10.884368	T =        0.630316	Q =        6.860594
+SimpleDialect(',', '"', ''):	P =       37.326389	T =        0.892715	Q =       33.321836
+SimpleDialect(',', "'", ''):	P =        4.108171	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.623579	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        8.802548	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[row_less_sep_row0_col1.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.699482	T =        0.631407	Q =        8.018539
+SimpleDialect(',', '"', ''):	P =       37.326389	T =        0.891391	Q =       33.272397
+SimpleDialect(',', "'", ''):	P =        4.108873	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.624153	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        8.802548	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[row_less_sep_row5_col6.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.702596	T =        0.631121	Q =        8.016873
+SimpleDialect(',', '"', ''):	P =       37.338889	T =        0.892999	Q =       33.343578
+SimpleDialect(',', "'", ''):	P =        4.110949	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.625852	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        8.802548	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[row_more_sep_row0_col0.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       12.701813	T =        0.631121	Q =        8.016378
+SimpleDialect(',', '"', ''):	P =       37.338889	T =        0.892999	Q =       33.343578
+SimpleDialect(',', "'", ''):	P =        4.110427	skip.
+SimpleDialect(',', "'", '\\'):	P =        3.625424	skip.
+SimpleDialect('', '', ''):	P =        0.084000	skip.
+SimpleDialect('', '"', ''):	P =        0.084000	skip.
+SimpleDialect('', "'", ''):	P =        0.041000	skip.
+SimpleDialect('', "'", '\\'):	P =        0.022000	skip.
+SimpleDialect(' ', '', ''):	P =        2.852532	skip.
+SimpleDialect(' ', '"', ''):	P =        8.802548	skip.
+SimpleDialect(' ', "'", ''):	P =        1.305174	skip.
+SimpleDialect(' ', "'", '\\'):	P =        1.457772	skip.
+SimpleDialect('.', '', ''):	P =       11.652680	skip.
+SimpleDialect('.', '"', ''):	P =       13.722889	skip.
+SimpleDialect('.', "'", ''):	P =        5.625894	skip.
+SimpleDialect('.', "'", '\\'):	P =        7.218057	skip.
+SimpleDialect(':', '', ''):	P =       18.639222	skip.
+SimpleDialect(':', '"', ''):	P =       20.750500	skip.
+SimpleDialect(':', "'", ''):	P =        9.000333	skip.
+SimpleDialect(':', "'", '\\'):	P =        7.229417	skip.
++[row_more_sep_row5_col6.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       73.834551	T =        1.000000	Q =       73.834551
+SimpleDialect('', '', ''):	P =        0.303000	skip.
+SimpleDialect(' ', '', ''):	P =       75.998503	T =        0.408316	Q =       31.031372
+SimpleDialect('.', '', ''):	P =        2.681370	skip.
++[S30out.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[S39.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 1.
++[scottish_law_commission-2011-03-31-organogram-junior.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       11.750311	T =        0.755119	Q =        8.872884
+SimpleDialect(',', '"', ''):	P =      116.705882	T =        0.913662	Q =      106.629758
+SimpleDialect(',', "'", ''):	P =        6.901573	skip.
+SimpleDialect('', '', ''):	P =        0.124000	skip.
+SimpleDialect('', '"', ''):	P =        0.124000	skip.
+SimpleDialect('', "'", ''):	P =        0.040000	skip.
+SimpleDialect(' ', '', ''):	P =        3.621387	skip.
+SimpleDialect(' ', '"', ''):	P =        3.119501	skip.
+SimpleDialect(' ', "'", ''):	P =        2.744667	skip.
+SimpleDialect('.', '', ''):	P =       21.854417	skip.
+SimpleDialect('.', '"', ''):	P =       20.816917	skip.
+SimpleDialect('.', "'", ''):	P =       11.366867	skip.
+SimpleDialect(':', '', ''):	P =       16.778500	skip.
+SimpleDialect(':', '"', ''):	P =       16.778500	skip.
+SimpleDialect(':', "'", ''):	P =        5.682000	skip.
++[senior-staff-march-2020.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.714286	T =        0.857143	Q =        1.469388
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.250500	skip.
+SimpleDialect('|', '', ''):	P =        1.000000	skip.
++[Short pipe separated table embedded.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[SouthTrent_Demand_zone-based.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =    23864.400000	T =        0.909581	Q =    21706.595556
+SimpleDialect(',', '', '/'):	P =    11932.192857	skip.
+SimpleDialect(',', "'", ''):	P =     3728.866856	skip.
+SimpleDialect(',', "'", '/'):	P =     2983.090628	skip.
+SimpleDialect('', '', ''):	P =       25.569000	skip.
+SimpleDialect('', "'", ''):	P =        7.990500	skip.
+SimpleDialect(' ', '', ''):	P =     1077.497295	skip.
+SimpleDialect(' ', '', '/'):	P =     1077.496538	skip.
+SimpleDialect(' ', "'", ''):	P =      673.393156	skip.
+SimpleDialect(' ', "'", '/'):	P =      673.392743	skip.
+SimpleDialect('.', '', ''):	P =     2752.866469	skip.
+SimpleDialect('.', "'", ''):	P =     1500.289113	skip.
+SimpleDialect(':', '', ''):	P =     4261.555889	skip.
+SimpleDialect(':', "'", ''):	P =     1997.541917	skip.
++[spending_2020_01.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.229717	T =        0.129187	Q =        0.158863
+SimpleDialect(',', '"', ''):	P =        8.526316	T =        0.894737	Q =        7.628809
+SimpleDialect(';', '', ''):	P =        0.502333	skip.
+SimpleDialect(';', '"', ''):	P =        0.009000	skip.
+SimpleDialect('', '', ''):	P =        0.009000	skip.
+SimpleDialect('', '"', ''):	P =        0.009000	skip.
+SimpleDialect(' ', '', ''):	P =        1.268793	skip.
+SimpleDialect(' ', '', '/'):	P =        1.268782	skip.
+SimpleDialect(' ', '"', ''):	P =        2.000500	skip.
+SimpleDialect(' ', '"', '/'):	P =        2.000500	skip.
+SimpleDialect('.', '', ''):	P =        1.172052	skip.
+SimpleDialect('.', '"', ''):	P =        0.009000	skip.
+SimpleDialect(':', '', ''):	P =        0.254000	skip.
+SimpleDialect(':', '"', ''):	P =        0.009000	skip.
++[student_loans_company_limited-2011-09-30-organogram-senior.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[Sun2014-Rs.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.041667	T =        0.600000	Q =        0.625000
+SimpleDialect(',', '"', ''):	P =        2.000000	T =        0.666667	Q =        1.333333
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.003000	skip.
+SimpleDialect(' ', '', ''):	P =        0.937500	skip.
+SimpleDialect(' ', '', '/'):	P =        0.928571	skip.
+SimpleDialect(' ', '"', ''):	P =        0.937500	skip.
+SimpleDialect(' ', '"', '/'):	P =        0.928571	skip.
+SimpleDialect('.', '', ''):	P =        0.251000	skip.
+SimpleDialect('.', '"', ''):	P =        0.251000	skip.
++[Sustainability_-_Water_consumption_P_56.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.003000	T =        0.500000	Q =        0.501500
+SimpleDialect(',', '"', ''):	P =        2.000000	T =        0.875000	Q =        1.750000
+SimpleDialect('', '', ''):	P =        0.010000	skip.
+SimpleDialect('', '"', ''):	P =        0.004000	skip.
+SimpleDialect(' ', '', ''):	P =        1.583667	skip.
+SimpleDialect(' ', '"', ''):	P =        0.750500	skip.
+SimpleDialect(':', '', ''):	P =        0.254500	skip.
+SimpleDialect(':', '"', ''):	P =        0.004000	skip.
+SimpleDialect('|', '', ''):	P =        2.002000	T =        0.772727	Q =        1.547000
+SimpleDialect('|', '"', ''):	P =        0.004000	skip.
++[Table embedded in the last record.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.003000	T =        0.500000	Q =        0.501500
+SimpleDialect(',', '"', ''):	P =        2.000000	T =        0.875000	Q =        1.750000
+SimpleDialect('', '', ''):	P =        0.010000	skip.
+SimpleDialect('', '"', ''):	P =        0.004000	skip.
+SimpleDialect(' ', '', ''):	P =        1.583667	skip.
+SimpleDialect(' ', '"', ''):	P =        0.750500	skip.
+SimpleDialect(':', '', ''):	P =        0.254500	skip.
+SimpleDialect(':', '"', ''):	P =        0.004000	skip.
+SimpleDialect('|', '', ''):	P =        2.002000	T =        0.772727	Q =        1.547000
+SimpleDialect('|', '"', ''):	P =        0.004000	skip.
++[Table embedded in the second record.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[Takakai2008-ch4.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        4.401000	T =        0.789474	Q =        3.474474
+SimpleDialect(';', '', ''):	P =        4.000500	T =        0.702703	Q =        2.811162
+SimpleDialect('', '', ''):	P =        0.013000	skip.
+SimpleDialect(' ', '', ''):	P =        3.571762	T =        0.573248	Q =        2.047507
+SimpleDialect('.', '', ''):	P =        5.077923	T =        0.537931	Q =        2.731572
+X[testGeometries.txt]: --> cleverCSV detected: delimiter = ',', quotechar = ''| EXPECTED:{delimiter = 'semicolon', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
++[tetranatrolite.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      115.200000	T =        0.000000	Q =        0.000000
+SimpleDialect(',', '"', ''):	P =      115.200000	T =        0.857812	Q =       98.820000
+SimpleDialect('', '', ''):	P =        0.128000	skip.
+SimpleDialect('', '"', ''):	P =        0.128000	skip.
+SimpleDialect(' ', '', ''):	P =       12.624577	skip.
+SimpleDialect(' ', '"', ''):	P =       31.750500	skip.
+SimpleDialect('.', '', ''):	P =       31.750500	skip.
+SimpleDialect('.', '"', ''):	P =        0.128000	skip.
++[trinity-house__31-03-2015__dft_310315-Trinity-House-Organogram-ver-1-junior.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.252000	T =        0.166667	Q =        0.042000
+SimpleDialect(',', '"', ''):	P =        0.005000	skip.
+SimpleDialect(';', '', ''):	P =        0.252000	T =        0.500000	Q =        0.126000
+SimpleDialect(';', '"', ''):	P =        0.252000	T =        0.666667	Q =        0.168000
+SimpleDialect('', '', ''):	P =        0.005000	skip.
+SimpleDialect('', '"', ''):	P =        0.005000	skip.
+SimpleDialect('\t', '', ''):	P =        0.252000	T =        0.500000	Q =        0.126000
+SimpleDialect('\t', '"', ''):	P =        0.252000	T =        0.666667	Q =        0.168000
+SimpleDialect(' ', '', ''):	P =        1.096816	T =        0.833333	Q =        0.914014
+SimpleDialect(' ', '"', ''):	P =        0.706225	skip.
+SimpleDialect(':', '', ''):	P =        0.252000	skip.
+SimpleDialect(':', '"', ''):	P =        0.252000	skip.
+SimpleDialect('|', '', ''):	P =        0.252000	skip.
+SimpleDialect('|', '"', ''):	P =        0.252000	skip.
+X[Undefined field delimiter.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       90.666667	T =        0.991285	Q =       89.876543
+SimpleDialect('', '', ''):	P =        0.102000	skip.
+SimpleDialect(' ', '', ''):	P =       25.250500	skip.
+SimpleDialect('.', '', ''):	P =       44.889389	skip.
++[vissim_data_conf2473_i12_v2026.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(';', '', ''):	P =       90.666667	T =        0.991285	Q =       89.876543
+SimpleDialect('', '', ''):	P =        0.102000	skip.
+SimpleDialect(' ', '', ''):	P =       25.250500	skip.
+SimpleDialect('.', '', ''):	P =       44.889389	skip.
++[vissim_data_conf2473_i7_v1987.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[W32.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       73.834551	T =        1.000000	Q =       73.834551
+SimpleDialect('', '', ''):	P =        0.303000	skip.
+SimpleDialect(' ', '', ''):	P =       75.998503	T =        0.408316	Q =       31.031372
+SimpleDialect('.', '', ''):	P =        1.596381	skip.
++[W44out.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[wairakite-dh.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =     2202.396739	T =        0.954353	Q =     2101.863434
+SimpleDialect(',', '"', ''):	P =     4404.782609	T =        0.954463	Q =     4204.204159
+SimpleDialect(',', "'", ''):	P =     2201.918478	skip.
+SimpleDialect('', '', ''):	P =        4.605000	skip.
+SimpleDialect('', '"', ''):	P =        4.605000	skip.
+SimpleDialect('', "'", ''):	P =        4.604000	skip.
+SimpleDialect(' ', '', ''):	P =      245.620833	skip.
+SimpleDialect(' ', '', '/'):	P =      245.503620	skip.
+SimpleDialect(' ', '', '‰'):	P =      245.620553	skip.
+SimpleDialect(' ', '"', ''):	P =      245.620833	skip.
+SimpleDialect(' ', '"', '/'):	P =      245.503620	skip.
+SimpleDialect(' ', '"', '‰'):	P =      245.620553	skip.
+SimpleDialect(' ', "'", ''):	P =      245.566211	skip.
+SimpleDialect(' ', "'", '/'):	P =      245.448998	skip.
+SimpleDialect(' ', "'", '‰'):	P =      245.565931	skip.
+SimpleDialect('.', '', ''):	P =      566.804833	skip.
+SimpleDialect('.', '"', ''):	P =      566.056333	skip.
+SimpleDialect('.', "'", ''):	P =      566.679833	skip.
++[Wakefield Council Procurement Card Transactions 2018-19 Q2.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       84.175000	T =        0.881506	Q =       74.200775
+SimpleDialect(',', '"', ''):	P =      168.000000	T =        0.895089	Q =      150.375000
+SimpleDialect('', '', ''):	P =        0.224000	skip.
+SimpleDialect('', '"', ''):	P =        0.224000	skip.
+SimpleDialect(' ', '', ''):	P =       15.847108	skip.
+SimpleDialect(' ', '', '/'):	P =       15.825583	skip.
+SimpleDialect(' ', '"', ''):	P =       14.482949	skip.
+SimpleDialect(' ', '"', '/'):	P =       14.463080	skip.
+SimpleDialect('.', '', ''):	P =        5.286889	skip.
+SimpleDialect('.', '"', ''):	P =        5.120556	skip.
++[Wine_Cellar_Consumption_dataset_14-15.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        3.624423	T =        0.871518	Q =        3.158751
+SimpleDialect(',', '"', ''):	P =       47.833333	T =        0.937318	Q =       44.835034
+SimpleDialect('', '', ''):	P =        0.069000	skip.
+SimpleDialect('', '"', ''):	P =        0.049000	skip.
+SimpleDialect(' ', '', ''):	P =        3.354176	skip.
+SimpleDialect(' ', '"', ''):	P =        4.173892	skip.
+SimpleDialect('.', '', ''):	P =        1.170847	skip.
+SimpleDialect('.', '"', ''):	P =        1.310071	skip.
+SimpleDialect(':', '', ''):	P =        0.783000	skip.
+SimpleDialect(':', '"', ''):	P =        0.049000	skip.
++[workforce-management-information-dft_201706.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+[Passed test ratio]--: 94.5946%
+[Failure ratio]--: 0.0%
+[Elapsed time]--: 397.88 seconds
