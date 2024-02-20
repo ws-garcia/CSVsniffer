@@ -8,7 +8,7 @@ Companion repository for the paper:
 
 by [W. García](https://sciprofiles.com/profile/3400377).
 
-An application of the methodology described in the paper can be found in the [CSV interface](https://github.com/ws-garcia/VBA-CSV-interface) repository. 
+An application of the new methodology outlined in the paper can be found in the [CSV interface](https://github.com/ws-garcia/VBA-CSV-interface) repository. 
 
 ## Introduction
 
