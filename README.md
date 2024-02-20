@@ -17,7 +17,7 @@ The results from the research can be reproduced by running the `RunTests` method
 
 ## Data
 
-The `CSV` folder contains the files copied from the [Pollock framework](https://github.com/HPI-Information-Systems/Pollock) and other collected test files. The expect configuration for each CSV tested is saved in the `DialectConf.txt` file, new files can be added.
+The `CSV` folder contains the files copied from the [Pollock framework](https://github.com/HPI-Information-Systems/Pollock) and other collected test files. Also the dataset used for the [CSV wrangling research](https://github.com/alan-turing-institute/CSV_Wrangling). The expect configuration for each set CSV tested is saved in the `DialectConf.txt` file, new files can be added.
 
 ## Requirements
 
