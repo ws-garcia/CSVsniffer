@@ -2297,6 +2297,6 @@ SimpleDialect(' ', '"', ''):	P =        1.273810	T =        0.250000	Q =        
 SimpleDialect('.', '', ''):	P =        0.667167	T =        0.000000	Q =        0.000000
 SimpleDialect('.', '"', ''):	P =        0.003000	skip.
 X[zips.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
-[Passed test ratio]--: 68.3099%
+[Passed test ratio]--: 76.9841%
 [Failure ratio]--: 0.0%
-[Elapsed time]--: 192.69 seconds
+[Elapsed time]--: 220.45 seconds

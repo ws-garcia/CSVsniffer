@@ -2424,4 +2424,4 @@ Matched normal form 3.
 +[Zipssortedbycitystate.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
 [Passed test ratio]--: 79.5775%
 [Failure ratio]--: 20.6704%
-[Elapsed time]--: 195.46 seconds
+[Elapsed time]--: 219.27 seconds
