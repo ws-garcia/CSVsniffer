@@ -88,6 +88,7 @@ def main(basePath :str, outPath :str, only_messy :bool= False):
       ExpectedResults=ImportExpectedResults(tSet[n])
       passed=0
       failures=0
+      totaltests=0
       t=time.time()
       #Iterate and run all test files
       for filename in os.listdir(TestsCSVpath):
@@ -97,6 +98,7 @@ def main(basePath :str, outPath :str, only_messy :bool= False):
                if 'normal-file' in ExpectedResults[filename]:
                   load_file= (ExpectedResults[filename]['normal-file']=='no')
             if load_file:
+               totaltests+=1
                file = os.path.join(TestsCSVpath, filename)
                #File check
                if os.path.isfile(file):
@@ -123,8 +125,8 @@ def main(basePath :str, outPath :str, only_messy :bool= False):
                               % (ExpectedResults[filename]['fields_delimiter'], ExpectedResults[filename]['quotechar']))
                   else:
                      print("X[" + filename + "]: --> No result from cleverCSV")
-      print('[Passed test ratio]--: %r' %(round(100*passed/(len(ExpectedResults)-failures),4)) +'%')
-      print('[Failure ratio]--: %r' %(round(100*failures/len(ExpectedResults),4)) +'%')
+      print('[Passed test ratio]--: %r' %(round(100*passed/(totaltests-failures),4)) +'%')
+      print('[Failure ratio]--: %r' %(round(100*failures/totaltests,4)) +'%')
       print('[Elapsed time]--: %r seconds' %(round(time.time()-t,2)))
       sys.stdout.close()
       n+=1
