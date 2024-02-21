@@ -26,13 +26,23 @@ def ImportExpectedResults(annotations :str)->dict:
         for row in spamreader:
            if len(row)>1:
               if i>0:
-                 csvRowDict={
-                    'encoding':row[1],
-                    'fields_delimiter':row[2],
-                    'quotechar':row[3],
-                    'escapechar':row[4],
-                    'records_delimiter':row[5]
-                 }
+                 if len(row)==6:
+                  csvRowDict={
+                     'encoding':row[1],
+                     'fields_delimiter':row[2],
+                     'quotechar':row[3],
+                     'escapechar':row[4],
+                     'records_delimiter':row[5]
+                  }
+                 elif len(row)==7:
+                  csvRowDict={
+                     'encoding':row[1],
+                     'fields_delimiter':row[2],
+                     'quotechar':row[3],
+                     'escapechar':row[4],
+                     'records_delimiter':row[5],
+                     'normal-file': row[6]
+                  }
                  csvFilesDict[row[0]]=csvRowDict
               else:
                  i+=1
@@ -60,12 +70,17 @@ def GetQuoteName(aQuote:str)->str:
    elif aQuote == '\'':
       return 'singlequote'
 
-def main(basePath :str, outPath :str):
+def main(basePath :str, outPath :str, only_messy :bool= False):
    #Get test path withing current .py file
    TestsCSVpath=os.path.join(basePath, 'Curated files')
-   #Testing over distint dataset
-   tSet=['Manual_Dialect_Annotation.txt', 'Manual_Dialect_Annotation_CODEC.txt']
-   stdoutArr=[os.path.join(outPath, '[CSV Wrangling]clevercsv_output.txt'), os.path.join(outPath, '[CSV Wrangling (no codec issues)]clevercsv_output.txt')]
+   tmpstdofname= '[CSV Wrangling (no codec issues)-ONLY MESSY= %r]clevercsv_output.txt' % only_messy
+   if only_messy:
+      tSet=['Manual_Dialect_Annotation_CODEC.txt']
+      stdoutArr=[ os.path.join(outPath,tmpstdofname)]
+   else:
+      #Testing over two datasets
+      tSet=['Manual_Dialect_Annotation.txt', 'Manual_Dialect_Annotation_CODEC.txt']
+      stdoutArr=[os.path.join(outPath, '[CSV Wrangling]clevercsv_output.txt'), os.path.join(outPath,tmpstdofname)]
    n=0
    for testItem in tSet:
       sys.stdout = open(stdoutArr[n], 'w')
@@ -77,32 +92,37 @@ def main(basePath :str, outPath :str):
       #Iterate and run all test files
       for filename in os.listdir(TestsCSVpath):
          if filename in ExpectedResults:
-            file = os.path.join(TestsCSVpath, filename)
-            #File check
-            if os.path.isfile(file):
-               try:
-                  dialect=DetectCSVDialect(file)
-               except Exception as err:
-                  dialect=None
-                  failures += 1
-                  print("Error was: %s" % err)
-               if dialect !=None:
-                  if GetDelName(dialect.delimiter)==ExpectedResults[filename]['fields_delimiter'] and \
-                  GetQuoteName(dialect.quotechar)==ExpectedResults[filename]['quotechar']:
-                     tflag ='+'
-                     passed += 1
+            load_file=True
+            if only_messy:
+               if 'normal-file' in ExpectedResults[filename]:
+                  load_file= (ExpectedResults[filename]['normal-file']=='no')
+            if load_file:
+               file = os.path.join(TestsCSVpath, filename)
+               #File check
+               if os.path.isfile(file):
+                  try:
+                     dialect=DetectCSVDialect(file)
+                  except Exception as err:
+                     dialect=None
+                     failures += 1
+                     print("Error was: %s" % err)
+                  if dialect !=None:
+                     if GetDelName(dialect.delimiter)==ExpectedResults[filename]['fields_delimiter'] and \
+                     GetQuoteName(dialect.quotechar)==ExpectedResults[filename]['quotechar']:
+                        tflag ='+'
+                        passed += 1
+                     else:
+                        tflag ='X'
+                     if tflag =='+':
+                        print(tflag + '[' + filename + ']: --> cleverCSV detected: delimiter = %r, quotechar = %r' 
+                           % (dialect.delimiter, dialect.quotechar))
+                     else:
+                        print(tflag + '[' + filename + ']: --> cleverCSV detected: delimiter = %r, quotechar = %r' 
+                           % (dialect.delimiter, dialect.quotechar) + \
+                           '| EXPECTED:{delimiter = %r, quotechar = %r}' \
+                              % (ExpectedResults[filename]['fields_delimiter'], ExpectedResults[filename]['quotechar']))
                   else:
-                     tflag ='X'
-                  if tflag =='+':
-                     print(tflag + '[' + filename + ']: --> cleverCSV detected: delimiter = %r, quotechar = %r' 
-                        % (dialect.delimiter, dialect.quotechar))
-                  else:
-                     print(tflag + '[' + filename + ']: --> cleverCSV detected: delimiter = %r, quotechar = %r' 
-                        % (dialect.delimiter, dialect.quotechar) + \
-                        '| EXPECTED:{delimiter = %r, quotechar = %r}' \
-                           % (ExpectedResults[filename]['fields_delimiter'], ExpectedResults[filename]['quotechar']))
-               else:
-                  print("X[" + filename + "]: --> No result from cleverCSV")
+                     print("X[" + filename + "]: --> No result from cleverCSV")
       print('[Passed test ratio]--: %r' %(round(100*passed/(len(ExpectedResults)-failures),4)) +'%')
       print('[Failure ratio]--: %r' %(round(100*failures/len(ExpectedResults),4)) +'%')
       print('[Elapsed time]--: %r seconds' %(round(time.time()-t,2)))
@@ -111,4 +131,4 @@ def main(basePath :str, outPath :str):
       
 if __name__ == "__main__":
    basePath= os.path.dirname(__file__)
-   main(basePath, basePath)
+   main(basePath, basePath,True)

@@ -42,10 +42,6 @@ SimpleDialect('>', '"', ''):	P =        1.066556	skip.
 SimpleDialect('|', '', ''):	P =        2.558523	skip.
 SimpleDialect('|', '"', ''):	P =        3.108667	skip.
 +[100-external-simple.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x9d in position 575: character maps to <undefined>
-X[2009-2010ZS-studenti.csv]: --> No result from cleverCSV
-Error was: 'charmap' codec can't decode byte 0x9d in position 4385: character maps to <undefined>
-X[211.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -113,8 +109,6 @@ Didn't match any normal forms.
 Running data consistency measure ...
 SimpleDialect('', '', ''):	P =        0.001000	T =        0.000000	Q =        0.000000
 X[admins.csv]: --> cleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
-Error was: 'charmap' codec can't decode byte 0x81 in position 109: character maps to <undefined>
-X[ads_classic_queries.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Not normal, has potential escapechar.
 Running data consistency measure ...
@@ -206,8 +200,6 @@ SimpleDialect('.', '', ''):	P =       63.826000	skip.
 SimpleDialect('.', '"', ''):	P =       63.659667	skip.
 SimpleDialect('.', "'", ''):	P =       43.495278	skip.
 +[afghanngos.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
-Error was: 'charmap' codec can't decode byte 0x81 in position 3023: character maps to <undefined>
-X[ag2.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Not normal, has potential escapechar.
 Running data consistency measure ...
@@ -235,8 +227,6 @@ SimpleDialect(':', '"', ''):	P =        3.377000	skip.
 SimpleDialect(':', '"', '\\'):	P =        3.377000	skip.
 SimpleDialect(':', "'", ''):	P =        0.935667	skip.
 +[airports.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
-Error was: 'charmap' codec can't decode byte 0x81 in position 2024: character maps to <undefined>
-X[ALBUMS.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -329,10 +319,6 @@ SimpleDialect(':', '"', '/'):	P =        1.002000	skip.
 Running normal form detection ...
 Matched normal form 2.
 +[Apr-2014_Apr-2014_Platform.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x8f in position 141: character maps to <undefined>
-X[articles.csv]: --> No result from cleverCSV
-Error was: 'charmap' codec can't decode byte 0x8d in position 7988: character maps to <undefined>
-X[artists.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -412,8 +398,6 @@ SimpleDialect('>', '', '/'):	P =        0.041000	skip.
 SimpleDialect('>', '"', ''):	P =        0.041000	skip.
 SimpleDialect('>', '"', '/'):	P =        0.041000	skip.
 X[BIO.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
-Error was: 'charmap' codec can't decode byte 0x9d in position 1459: character maps to <undefined>
-X[Blizak_2010.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -433,8 +417,6 @@ SimpleDialect(':', '', ''):	P =        4.076500	skip.
 SimpleDialect(':', '"', ''):	P =        4.076500	skip.
 SimpleDialect(':', "'", ''):	P =        2.717333	skip.
 +[blocks.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x9d in position 4298: character maps to <undefined>
-X[book.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -581,8 +563,6 @@ SimpleDialect(' ', '"', ''):	P =        7.319532	skip.
 SimpleDialect('.', '', ''):	P =        3.240067	skip.
 SimpleDialect('.', '"', ''):	P =        2.940667	skip.
 +[cliente.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
-Error was: 'charmap' codec can't decode byte 0x90 in position 5643: character maps to <undefined>
-X[clientes_lujan.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -688,8 +668,6 @@ SimpleDialect(':', '', ''):	P =        1.813500	skip.
 SimpleDialect(':', '"', ''):	P =        1.813500	skip.
 SimpleDialect(':', "'", ''):	P =        1.450800	skip.
 +[copyright.csv]: --> cleverCSV detected: delimiter = '\t', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x8d in position 99: character maps to <undefined>
-X[councils.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -754,11 +732,6 @@ SimpleDialect('|', '"', ''):	P =        0.250500	skip.
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
-Error was: line contains NULL byte
-X[csv_template.csv]: --> No result from cleverCSV
-Running normal form detection ...
-Didn't match any normal forms.
-Running data consistency measure ...
 SimpleDialect(',', '', ''):	P =        5.917000	T =        0.013699	Q =        0.081055
 SimpleDialect(',', "'", ''):	P =        5.889222	T =        0.013889	Q =        0.081795
 SimpleDialect(';', '', ''):	P =       24.000000	T =        0.407407	Q =        9.777778
@@ -784,17 +757,9 @@ SimpleDialect('', "'", ''):	P =        0.062000	skip.
 SimpleDialect(' ', '', ''):	P =        3.156940	T =        0.841379	Q =        2.656184
 SimpleDialect(' ', "'", ''):	P =        2.846483	T =        0.904025	Q =        2.573291
 X[currencies.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'singlequote'}
-Error was: 'charmap' codec can't decode byte 0x9d in position 6307: character maps to <undefined>
-X[data-1.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Matched normal form 2.
 +[data.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x81 in position 4744: character maps to <undefined>
-X[data_gov_catalog.csv]: --> No result from cleverCSV
-Error was: 'charmap' codec can't decode byte 0x8f in position 6: character maps to <undefined>
-X[dbpj_female_fbg.csv]: --> No result from cleverCSV
-Error was: 'charmap' codec can't decode byte 0x81 in position 287: character maps to <undefined>
-X[DBPortfolioGenerale.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Not normal, has potential escapechar.
 Running data consistency measure ...
@@ -852,10 +817,6 @@ SimpleDialect(' ', '"', ''):	P =      806.268020	T =        0.999990	Q =      80
 SimpleDialect('.', '', ''):	P =     2857.024143	T =        0.999971	Q =     2856.942509
 SimpleDialect('.', '"', ''):	P =     4285.286714	T =        0.999986	Q =     4285.225492
 X[diamonds.csv]: --> cleverCSV detected: delimiter = '.', quotechar = '"'| EXPECTED:{delimiter = 'space', quotechar = 'doublequote'}
-Error was: 'charmap' codec can't decode byte 0x8d in position 3101: character maps to <undefined>
-X[dict.csv]: --> No result from cleverCSV
-Error was: 'charmap' codec can't decode byte 0x81 in position 1239: character maps to <undefined>
-X[docs.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -868,10 +829,6 @@ SimpleDialect(' ', '"', ''):	P =       25.502845	skip.
 SimpleDialect(':', '', ''):	P =       42.189734	skip.
 SimpleDialect(':', '"', ''):	P =       84.000500	skip.
 +[dodgers_2010_schedule.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
-Error was: 'charmap' codec can't decode byte 0x90 in position 278: character maps to <undefined>
-X[dtslist.csv]: --> No result from cleverCSV
-Error was: 'charmap' codec can't decode byte 0x9d in position 5867: character maps to <undefined>
-X[dumplovr.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Not normal, has potential escapechar.
 Running data consistency measure ...
@@ -913,8 +870,6 @@ SimpleDialect('', '"', ''):	P =        0.035000	skip.
 SimpleDialect(' ', '', ''):	P =        4.169913	T =        0.721154	Q =        3.007149
 SimpleDialect(' ', '"', ''):	P =        4.136580	T =        0.728155	Q =        3.012073
 X[Empty.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
-Error was: 'charmap' codec can't decode byte 0x8f in position 21: character maps to <undefined>
-X[en-phrases.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -976,8 +931,6 @@ SimpleDialect(':', "'", ''):	P =       10.000000	skip.
 SimpleDialect('=', '', ''):	P =        3.752500	skip.
 SimpleDialect('=', "'", ''):	P =        0.020000	skip.
 +[exit.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x9d in position 24: character maps to <undefined>
-X[explanations.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -1075,10 +1028,6 @@ SimpleDialect(' ', '"', ''):	P =      175.444444	skip.
 SimpleDialect('.', '', ''):	P =       73.000250	skip.
 SimpleDialect('.', '"', ''):	P =       83.335000	skip.
 +[GPU_rod_1_metrica.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x81 in position 6586: character maps to <undefined>
-X[gsi_adresser_og_elevtall_2010.csv]: --> No result from cleverCSV
-Error was: 'charmap' codec can't decode byte 0x9d in position 5345: character maps to <undefined>
-X[hirise_captions.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Not normal, has potential escapechar.
 Running data consistency measure ...
@@ -1099,10 +1048,6 @@ SimpleDialect(':', "'", ''):	P =        0.040000	skip.
 SimpleDialect(':', "'", '/'):	P =        0.017500	skip.
 SimpleDialect(':', '~', ''):	P =        0.179667	skip.
 +[iconbar-hermes.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x8f in position 70: character maps to <undefined>
-X[index_cfi.csv]: --> No result from cleverCSV
-Error was: 'charmap' codec can't decode byte 0x8d in position 441: character maps to <undefined>
-X[input.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -1272,10 +1217,6 @@ SimpleDialect(':', '"', ''):	P =       60.033000	skip.
 SimpleDialect(':', "'", ''):	P =       26.898667	skip.
 SimpleDialect(':', '`', ''):	P =       28.936000	skip.
 +[kodepos-2008-10-20.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
-Error was: 'charmap' codec can't decode byte 0x8d in position 5889: character maps to <undefined>
-X[library_data.csv]: --> No result from cleverCSV
-Error was: 'charmap' codec can't decode byte 0x81 in position 7369: character maps to <undefined>
-X[libros.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Not normal, has potential escapechar.
 Running data consistency measure ...
@@ -1613,8 +1554,6 @@ SimpleDialect('.', '', ''):	P =       11.943750	skip.
 SimpleDialect('.', '"', ''):	P =       11.610917	skip.
 SimpleDialect('.', "'", ''):	P =        7.363583	skip.
 +[mgrs_index.csv]: --> cleverCSV detected: delimiter = '\t', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x81 in position 1031: character maps to <undefined>
-X[MicrosoftTermCollection-bel.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Not normal, has potential escapechar.
 Running data consistency measure ...
@@ -1829,8 +1768,6 @@ SimpleDialect('>', '"', ''):	P =        0.028000	skip.
 SimpleDialect('>', '"', '\\'):	P =        0.028000	skip.
 SimpleDialect('>', "'", ''):	P =        0.395556	skip.
 +[paperpile.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
-Error was: 'charmap' codec can't decode byte 0x9d in position 6355: character maps to <undefined>
-X[parneringwithinterviews.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -1845,8 +1782,6 @@ SimpleDialect(' ', '"', ''):	P =        1.588741	skip.
 SimpleDialect('.', '', ''):	P =        3.063000	skip.
 SimpleDialect('.', '"', ''):	P =        2.730167	skip.
 +[Parsed.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
-Error was: 'charmap' codec can't decode byte 0x90 in position 319: character maps to <undefined>
-X[phonography_lib.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Not normal, has potential escapechar.
 Running data consistency measure ...
@@ -1999,8 +1934,6 @@ SimpleDialect('', '"', ''):	P =       95.058000	skip.
 SimpleDialect(' ', '', ''):	P =    23764.746951	skip.
 SimpleDialect(' ', '"', ''):	P =    23764.746875	skip.
 +[raw-data-russian-parlimentary-elections-2011-english-headers-only-no-links.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
-Error was: 'charmap' codec can't decode byte 0x9d in position 152: character maps to <undefined>
-X[raw_58_house.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -2121,13 +2054,9 @@ SimpleDialect(' ', '"', '¿'):	P =       10.040278	skip.
 SimpleDialect('.', '', ''):	P =        9.312444	skip.
 SimpleDialect('.', '"', ''):	P =        8.893000	skip.
 +[shops.csv]: --> cleverCSV detected: delimiter = ';', quotechar = '"'
-Error was: 'charmap' codec can't decode byte 0x90 in position 337: character maps to <undefined>
-X[shortcuts.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Matched normal form 2.
 +[simulation.csv]: --> cleverCSV detected: delimiter = '\t', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x81 in position 44: character maps to <undefined>
-X[sjis.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -2150,8 +2079,6 @@ SimpleDialect('', '"', ''):	P =        0.001000	skip.
 SimpleDialect(' ', '', ''):	P =        0.750000	T =        0.000000	Q =        0.000000
 SimpleDialect(' ', '"', ''):	P =        0.500000	T =        0.500000	Q =        0.250000
 X[source-en.csv]: --> No result from cleverCSV
-Error was: 'charmap' codec can't decode byte 0x90 in position 1073: character maps to <undefined>
-X[Speaking_Tool.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -2174,8 +2101,6 @@ SimpleDialect('', '', ''):	P =        0.002000	skip.
 SimpleDialect(' ', '', ''):	P =        0.775000	T =        0.555556	Q =        0.430556
 SimpleDialect(' ', '', '/'):	P =        0.775000	T =        0.555556	Q =        0.430556
 +[stringtable.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x8d in position 1259: character maps to <undefined>
-X[supplements.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Matched normal form 2.
 +[table1.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
@@ -2283,8 +2208,6 @@ SimpleDialect(',', '', ''):	P =     5000.000000	T =        1.000000	Q =     5000
 SimpleDialect('', '', ''):	P =       10.000000	skip.
 SimpleDialect(' ', '', ''):	P =     2499.750500	skip.
 +[top-10k-2009-03-06.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x9d in position 2709: character maps to <undefined>
-X[tweets.csv]: --> No result from cleverCSV
 Running normal form detection ...
 Didn't match any normal forms.
 Running data consistency measure ...
@@ -2423,5 +2346,5 @@ Running normal form detection ...
 Matched normal form 3.
 +[Zipssortedbycitystate.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
 [Passed test ratio]--: 79.5775%
-[Failure ratio]--: 20.6704%
-[Elapsed time]--: 195.46 seconds
+[Failure ratio]--: 0.0%
+[Elapsed time]--: 198.02 seconds

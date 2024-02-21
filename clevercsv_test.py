@@ -24,7 +24,7 @@ def DetectCSVDialect(path: str):
 def ImportExpectedResults()->dict:
   try:
      basePath= os.path.dirname(__file__)
-     with open(os.path.join(basePath,'DialectConf.txt'), newline='') as csvfile:
+     with open(os.path.join(basePath,'Dialect_annotations.txt'), newline='') as csvfile:
         csvFilesDict={}
         csvRowDict={}
         spamreader = clevercsv.reader(csvfile, delimiter='|', quotechar='')
@@ -110,4 +110,7 @@ if __name__ == "__main__":
    if os.path.exists(os.path.join(basePath, 'cleverCSV')) !=True:
         os.makedirs(os.path.join(basePath, 'cleverCSV'))
    main(basePath, os.path.join(basePath,'cleverCSV'))
+   #Test over all files
    clevercsv_failed_cases_test.main(os.path.join(basePath, 'CSV_Wrangling', 'data', 'github'),os.path.join(basePath,'cleverCSV'))
+   #Exclude normal CSV files
+   clevercsv_failed_cases_test.main(os.path.join(basePath, 'CSV_Wrangling', 'data', 'github'),os.path.join(basePath,'cleverCSV'),True)

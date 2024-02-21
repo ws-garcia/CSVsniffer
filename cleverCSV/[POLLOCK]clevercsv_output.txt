@@ -2043,4 +2043,4 @@ SimpleDialect(':', '"', ''):	P =        0.049000	skip.
 +[workforce-management-information-dft_201706.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
 [Passed test ratio]--: 94.5946%
 [Failure ratio]--: 0.0%
-[Elapsed time]--: 397.88 seconds
+[Elapsed time]--: 365.11 seconds
