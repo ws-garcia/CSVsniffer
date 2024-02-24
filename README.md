@@ -4,7 +4,7 @@
 Companion repository for the paper:
 
 [**Detecting CSV File Dialects by Table Uniformity Measurement and Data Type Inference**](https://www.preprints.org/manuscript/202402.0858) 
-[(PDF)](https://www.preprints.org/manuscript/202402.0858/v2/download)
+[(PDF)](https://www.preprints.org/manuscript/202402.0858/v5/download)
 
 by [W. García](https://sciprofiles.com/profile/3400377).
 
