@@ -1,5 +1,5 @@
 \\ Running CSV dialect sniffing tests
-21/2/2024 1:57:15 a. m.
+26/5/2024 3:51:40 p. m.
 ----------------------------------------
 + [FILE: file_double_trailing_newline.csv] 
 + [FILE: file_escape_char_0x00.csv] 
@@ -45,7 +45,7 @@
 + [FILE: W44out.csv] 
 + [FILE: workforce-management-information-dft_201706.csv] 
 + [FILE: 20170320-ePC_Data-Travel-Stationery.csv] 
-X [FILE: dd_Wickenburg_nobmp_623.csv] --> detected:{delimiter = '=', quotechar = '"'}|expected:{delimiter = ';', quotechar = '"'}
++ [FILE: dd_Wickenburg_nobmp_623.csv] 
 + [FILE: 0Al-Sn.CSV] 
 + [FILE: 1% SiO2_003.csv] 
 + [FILE: 100mAOne.CSV] 
@@ -150,6 +150,6 @@ X [FILE: dd_Wickenburg_nobmp_623.csv] --> detected:{delimiter = '=', quotechar =
 + [FILE: movies-condensed.csv] 
 + [FILE: csv_good_dialect_star.csv] 
 ----------------------------------------
-[Passed test ratio]--:99.32%
-[Delimiter ratio]--:99.32%
-[Elapsed time]--:(123.58 seconds)
+[Passed test ratio]--:100.00%
+[Delimiter ratio]--:100.00%
+[Elapsed time]--:(132.39 seconds)

@@ -1,5 +1,5 @@
 \\ Running CSV dialect sniffing tests
-21/2/2024 2:12:04 a. m.
+26/5/2024 4:06:33 p. m.
 ----------------------------------------
 + [FILE: 1.csv] 
 + [FILE: 1.fail.csv] 
@@ -21,12 +21,12 @@ X [FILE: admins.csv] --> detected:{delimiter = '#', quotechar = '"'}|expected:{d
 + [FILE: association.csv] 
 + [FILE: awaymanagers-data.csv] 
 X [FILE: bandwidth-2011-08-21-1MHz-175MHz.csv] --> detected:{delimiter = ' ', quotechar = '"'}|expected:{delimiter = '	', quotechar = '"'}
-X [FILE: baselog.csv] --> detected:{delimiter = '|', quotechar = '"'}|expected:{delimiter = ',', quotechar = '"'}
++ [FILE: baselog.csv] 
 + [FILE: benchmark.csv] 
 + [FILE: BIO.csv] 
 + [FILE: blocks.csv] 
 + [FILE: bookings.csv] 
-X [FILE: bugs.csv] --> detected:{delimiter = ':', quotechar = '"'}|expected:{delimiter = ',', quotechar = '"'}
++ [FILE: bugs.csv] 
 + [FILE: CalculusComponents.csv] 
 + [FILE: cassette_features.csv] 
 + [FILE: cityList.csv] 
@@ -35,7 +35,7 @@ X [FILE: bugs.csv] --> detected:{delimiter = ':', quotechar = '"'}|expected:{del
 + [FILE: cnx22-XE133-XE131M-XE133M.csv] 
 + [FILE: conversion_17_to_18.csv] 
 X [FILE: coord.csv] --> detected:{delimiter = ',', quotechar = '"'}|expected:{delimiter = ';', quotechar = '"'}
-+ [FILE: copyright.csv] 
+X [FILE: copyright.csv] --> detected:{delimiter = '	', quotechar = '''}|expected:{delimiter = '	', quotechar = '"'}
 + [FILE: countrynames.csv] 
 + [FILE: coupons.csv] 
 + [FILE: csv_data.csv] 
@@ -66,7 +66,7 @@ X [FILE: diamonds.csv] --> detected:{delimiter = '.', quotechar = '"'}|expected:
 + [FILE: general.csv] 
 + [FILE: GPU_rod_1_metrica.csv] 
 + [FILE: iconbar-hermes.csv] 
-X [FILE: iometeroutput.csv] --> detected:{delimiter = '.', quotechar = '"'}|expected:{delimiter = ',', quotechar = '"'}
++ [FILE: iometeroutput.csv] 
 + [FILE: ip-log.csv] 
 X [FILE: isco.csv] --> detected:{delimiter = ';', quotechar = '"'}|expected:{delimiter = ';', quotechar = '''}
 + [FILE: items.csv] 
@@ -111,7 +111,7 @@ X [FILE: register_data.csv] --> detected:{delimiter = ',', quotechar = '"'}|expe
 + [FILE: report.csv] 
 X [FILE: resources.csv] --> detected:{delimiter = ',', quotechar = '"'}|expected:{delimiter = ';', quotechar = '"'}
 + [FILE: responses.csv] 
-+ [FILE: results.csv] 
+X [FILE: results.csv] --> detected:{delimiter = '	', quotechar = '''}|expected:{delimiter = '	', quotechar = '"'}
 + [FILE: sample.csv] 
 + [FILE: sample_map.csv] 
 + [FILE: set001.csv] 
@@ -124,7 +124,7 @@ X [FILE: stringtable.csv] --> detected:{delimiter = ' ', quotechar = '"'}|expect
 + [FILE: table1.csv] 
 + [FILE: TableA.csv] 
 + [FILE: talks.csv] 
-X [FILE: task4_pad.csv] --> detected:{delimiter = '.', quotechar = '"'}|expected:{delimiter = ',', quotechar = '"'}
+X [FILE: task4_pad.csv] --> detected:{delimiter = ':', quotechar = '"'}|expected:{delimiter = ',', quotechar = '"'}
 + [FILE: tentative_accounts.csv] 
 + [FILE: test.csv] 
 + [FILE: test_data.csv] 
@@ -144,6 +144,6 @@ X [FILE: uris.csv] --> detected:{delimiter = '.', quotechar = '"'}|expected:{del
 + [FILE: zips.csv] 
 + [FILE: Zipssortedbycitystate.csv] 
 ----------------------------------------
-[Passed test ratio]--:87.32%
-[Delimiter ratio]--:88.03%
-[Elapsed time]--:(79.61 seconds)
+[Passed test ratio]--:88.03%
+[Delimiter ratio]--:90.14%
+[Elapsed time]--:(109.81 seconds)

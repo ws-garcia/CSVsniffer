@@ -1,5 +1,5 @@
 \\ Running CSV dialect sniffing tests
-21/2/2024 2:09:01 a. m.
+26/5/2024 4:01:51 p. m.
 ----------------------------------------
 + [FILE: 1.csv] 
 + [FILE: 1.fail.csv] 
@@ -183,4 +183,4 @@ X [FILE: uris.csv] --> detected:{delimiter = '.', quotechar = '"'}|expected:{del
 ----------------------------------------
 [Passed test ratio]--:88.83%
 [Delimiter ratio]--:91.62%
-[Elapsed time]--:(183.47 seconds)
+[Elapsed time]--:(201.53 seconds)

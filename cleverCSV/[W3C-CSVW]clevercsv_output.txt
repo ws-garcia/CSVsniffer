@@ -1,0 +1,1514 @@
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       36.778767	T =        0.694662	Q =       25.548815
+SimpleDialect(',', '"', ''):	P =      740.666667	T =        0.954995	Q =      707.333333
+SimpleDialect(',', "'", ''):	P =       28.518771	skip.
+SimpleDialect(';', '', ''):	P =        5.672919	skip.
+SimpleDialect(';', '"', ''):	P =        1.060083	skip.
+SimpleDialect(';', "'", ''):	P =        3.895459	skip.
+SimpleDialect('', '', ''):	P =        1.111000	skip.
+SimpleDialect('', '"', ''):	P =        1.111000	skip.
+SimpleDialect('', "'", ''):	P =        0.361500	skip.
+SimpleDialect(' ', '', ''):	P =       12.689042	skip.
+SimpleDialect(' ', '"', ''):	P =       19.612709	skip.
+SimpleDialect(' ', "'", ''):	P =        8.359067	skip.
+SimpleDialect('.', '', ''):	P =      100.639059	skip.
+SimpleDialect('.', '"', ''):	P =       75.767685	skip.
+SimpleDialect('.', "'", ''):	P =       58.087765	skip.
+SimpleDialect(':', '', ''):	P =        2.052500	skip.
+SimpleDialect(':', '"', ''):	P =        1.111000	skip.
+SimpleDialect(':', "'", ''):	P =        0.906333	skip.
++[2010_Occupations.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[addresses.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Error was: 'charmap' codec can't decode byte 0x81 in position 4112: character maps to <undefined>
+X [Album.csv]: --> No result from cleverCSV
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       47.222222	T =        0.558261	Q =       26.362319
+SimpleDialect(',', '"', ''):	P =      138.000000	T =        0.840580	Q =      116.000000
+SimpleDialect(',', '"', '¡'):	P =       64.083333	skip.
+SimpleDialect(',', "'", ''):	P =       26.722222	skip.
+SimpleDialect(';', '', ''):	P =        0.470833	skip.
+SimpleDialect(';', '"', ''):	P =        0.276000	skip.
+SimpleDialect(';', '"', '¡'):	P =        0.256000	skip.
+SimpleDialect(';', "'", ''):	P =        0.274556	skip.
+SimpleDialect('', '', ''):	P =        0.276000	skip.
+SimpleDialect('', '"', ''):	P =        0.276000	skip.
+SimpleDialect('', '"', '¡'):	P =        0.256000	skip.
+SimpleDialect('', "'", ''):	P =        0.079000	skip.
+SimpleDialect(' ', '', ''):	P =       12.929922	skip.
+SimpleDialect(' ', '"', ''):	P =       68.750500	skip.
+SimpleDialect(' ', '"', '¡'):	P =       42.657991	skip.
+SimpleDialect(' ', "'", ''):	P =        8.928433	skip.
+SimpleDialect('.', '', ''):	P =        2.527000	skip.
+SimpleDialect('.', '"', ''):	P =        0.512500	skip.
+SimpleDialect('.', '"', '¡'):	P =        0.620381	skip.
+SimpleDialect('.', "'", ''):	P =        1.399200	skip.
++[Artist.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        5.079670	T =        0.965278	Q =        4.903293
+SimpleDialect(',', '"', ''):	P =       10.153846	T =        0.972028	Q =        9.869822
+SimpleDialect('', '', ''):	P =        0.011000	skip.
+SimpleDialect('', '"', ''):	P =        0.011000	skip.
+SimpleDialect(' ', '', ''):	P =        1.003644	skip.
+SimpleDialect(' ', '"', ''):	P =        1.094529	skip.
+SimpleDialect('.', '', ''):	P =        1.138500	skip.
+SimpleDialect('.', '"', ''):	P =        1.013750	skip.
++[cambornedata-snippet.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      205.848901	T =        0.983445	Q =      202.441159
+SimpleDialect(',', '"', ''):	P =      411.692308	T =        0.983615	Q =      404.946746
+SimpleDialect('', '', ''):	P =        0.446000	skip.
+SimpleDialect('', '"', ''):	P =        0.446000	skip.
+SimpleDialect(' ', '', ''):	P =       32.075073	skip.
+SimpleDialect(' ', '"', ''):	P =       37.344529	skip.
+SimpleDialect('.', '', ''):	P =       68.204133	skip.
+SimpleDialect('.', '"', ''):	P =       68.104333	skip.
++[cambornedata.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 3.
++[countries.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[country_slice.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        4.638370	T =        0.764706	Q =        3.546989
+SimpleDialect(',', '"', ''):	P =       26.666667	T =        0.859375	Q =       22.916667
+SimpleDialect(',', "'", ''):	P =        2.122695	skip.
+SimpleDialect('', '', ''):	P =        0.033000	skip.
+SimpleDialect('', '"', ''):	P =        0.032000	skip.
+SimpleDialect('', "'", ''):	P =        0.007500	skip.
+SimpleDialect(' ', '', ''):	P =        1.250079	skip.
+SimpleDialect(' ', '', '/'):	P =        1.249851	skip.
+SimpleDialect(' ', '"', ''):	P =        1.465901	skip.
+SimpleDialect(' ', '"', '/'):	P =        1.542660	skip.
+SimpleDialect(' ', "'", ''):	P =        1.191247	skip.
+SimpleDialect(' ', "'", '/'):	P =        1.099190	skip.
+SimpleDialect('.', '', ''):	P =        1.579413	skip.
+SimpleDialect('.', '"', ''):	P =        2.108917	skip.
+SimpleDialect('.', "'", ''):	P =        0.823556	skip.
+SimpleDialect(':', '', ''):	P =        0.266000	skip.
+SimpleDialect(':', '"', ''):	P =        0.032000	skip.
+SimpleDialect(':', "'", ''):	P =        0.007500	skip.
++[csvw-requirements-notes.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        2.835333	T =        0.062500	Q =        0.177208
+SimpleDialect(',', '"', ''):	P =        2.835333	T =        0.812500	Q =        2.303708
+SimpleDialect('', '', ''):	P =        0.010000	skip.
+SimpleDialect('', '"', ''):	P =        0.010000	skip.
+SimpleDialect(' ', '', ''):	P =        1.124574	skip.
+SimpleDialect(' ', '"', ''):	P =        2.250500	skip.
+SimpleDialect(':', '', ''):	P =        0.485269	skip.
+SimpleDialect(':', '"', ''):	P =        0.010000	skip.
++[CSV_QS601EW2011WARDH_151277.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       27.733516	T =        0.748428	Q =       20.756531
+SimpleDialect(',', '"', ''):	P =       55.384615	T =        0.873077	Q =       48.355030
+SimpleDialect(',', '"', '¡'):	P =        2.782692	skip.
+SimpleDialect(',', "'", ''):	P =       18.489011	skip.
+SimpleDialect('', '', ''):	P =        0.060000	skip.
+SimpleDialect('', '"', ''):	P =        0.060000	skip.
+SimpleDialect('', '"', '¡'):	P =        0.003000	skip.
+SimpleDialect('', "'", ''):	P =        0.030000	skip.
+SimpleDialect(' ', '', ''):	P =        4.646343	skip.
+SimpleDialect(' ', '', '/'):	P =        4.644719	skip.
+SimpleDialect(' ', '', '¡'):	P =        4.644178	skip.
+SimpleDialect(' ', '"', ''):	P =       14.750500	skip.
+SimpleDialect(' ', '"', '/'):	P =       14.750500	skip.
+SimpleDialect(' ', '"', '¡'):	P =        0.999308	skip.
+SimpleDialect(' ', "'", ''):	P =        4.259147	skip.
+SimpleDialect(' ', "'", '/'):	P =        4.257659	skip.
+SimpleDialect(' ', "'", '¡'):	P =        4.257163	skip.
+SimpleDialect('.', '', ''):	P =        5.827944	skip.
+SimpleDialect('.', '"', ''):	P =        8.188000	skip.
+SimpleDialect('.', '"', '¡'):	P =        0.818877	skip.
+SimpleDialect('.', "'", ''):	P =        4.995381	skip.
++[Customer.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[department.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Error was: 'charmap' codec can't decode byte 0x81 in position 11: character maps to <undefined>
+X [EG.csv]: --> No result from cleverCSV
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        8.400000	T =        0.585185	Q =        4.915556
+SimpleDialect(',', '"', ''):	P =        8.400000	T =        0.896296	Q =        7.528889
+SimpleDialect('', '', ''):	P =        0.009000	skip.
+SimpleDialect('', '"', ''):	P =        0.009000	skip.
+SimpleDialect(' ', '', ''):	P =        2.465535	skip.
+SimpleDialect(' ', '"', ''):	P =        2.000500	skip.
+SimpleDialect(':', '', ''):	P =        3.200500	skip.
+SimpleDialect(':', '"', ''):	P =        0.009000	skip.
++[Employee.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =     1233.236111	T =        0.634652	Q =      782.675445
+SimpleDialect(',', '"', ''):	P =     4807.500000	T =        0.848703	Q =     4080.138889
+SimpleDialect(',', "'", ''):	P =      162.383227	skip.
+SimpleDialect('', '', ''):	P =        5.769000	skip.
+SimpleDialect('', '"', ''):	P =        5.769000	skip.
+SimpleDialect('', "'", ''):	P =        1.336000	skip.
+SimpleDialect(' ', '', ''):	P =      383.483759	skip.
+SimpleDialect(' ', '', '/'):	P =      383.452064	skip.
+SimpleDialect(' ', '', '@'):	P =      383.481622	skip.
+SimpleDialect(' ', '"', ''):	P =      444.190113	skip.
+SimpleDialect(' ', '"', '/'):	P =      444.117172	skip.
+SimpleDialect(' ', '"', '@'):	P =      444.187587	skip.
+SimpleDialect(' ', "'", ''):	P =      127.769398	skip.
+SimpleDialect(' ', "'", '/'):	P =      127.759138	skip.
+SimpleDialect(' ', "'", '@'):	P =      127.768626	skip.
+SimpleDialect('.', '', ''):	P =        2.705962	skip.
+SimpleDialect('.', '"', ''):	P =        2.705962	skip.
+SimpleDialect('.', "'", ''):	P =        1.254629	skip.
++[ESCC-payment-data-Q2281011.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.838429	T =        0.700000	Q =        0.586900
+SimpleDialect(',', '"', ''):	P =        1.200500	T =        0.875000	Q =        1.050438
+SimpleDialect('', '', ''):	P =        0.004000	skip.
+SimpleDialect('', '"', ''):	P =        0.004000	skip.
+SimpleDialect(' ', '', ''):	P =        0.758333	skip.
+SimpleDialect(' ', '"', ''):	P =        0.679167	skip.
+SimpleDialect('.', '', ''):	P =        0.545111	skip.
+SimpleDialect('.', '"', ''):	P =        0.801000	skip.
+SimpleDialect(':', '', ''):	P =        0.667667	skip.
+SimpleDialect(':', '"', ''):	P =        0.667667	skip.
++[events-listing.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.257143	T =        0.684211	Q =        0.860150
+SimpleDialect(',', '"', ''):	P =        2.400000	T =        0.933333	Q =        2.240000
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect('', '"', ''):	P =        0.003000	skip.
+SimpleDialect(' ', '', ''):	P =        1.305556	skip.
+SimpleDialect(' ', '"', ''):	P =        1.111111	skip.
+SimpleDialect('.', '', ''):	P =        0.544778	skip.
+SimpleDialect('.', '"', ''):	P =        0.800500	skip.
+SimpleDialect(':', '', ''):	P =        0.667167	skip.
+SimpleDialect(':', '"', ''):	P =        0.667167	skip.
++[events-listing2.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 3.
++[Genre.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       37.404545	T =        0.963183	Q =       36.027418
+SimpleDialect(',', '"', ''):	P =       74.700000	T =        0.991566	Q =       74.070000
+SimpleDialect('', '', ''):	P =        0.083000	skip.
+SimpleDialect('', '"', ''):	P =        0.083000	skip.
+SimpleDialect(' ', '', ''):	P =        8.678708	skip.
+SimpleDialect(' ', '"', ''):	P =        7.795763	skip.
+SimpleDialect('.', '', ''):	P =        9.023500	skip.
+SimpleDialect('.', '"', ''):	P =        9.023500	skip.
++[HEFCE_organogram_junior_data_31032011.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        2.370927	T =        0.907216	Q =        2.150944
+SimpleDialect(',', '"', ''):	P =        4.736842	T =        0.947368	Q =        4.487535
+SimpleDialect('', '', ''):	P =        0.005000	skip.
+SimpleDialect('', '"', ''):	P =        0.005000	skip.
+SimpleDialect(' ', '', ''):	P =        1.188274	skip.
+SimpleDialect(' ', '"', ''):	P =        0.946810	skip.
++[HEFCE_organogram_senior_data_31032011.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       11.082173	T =        0.949045	Q =       10.517477
+SimpleDialect(',', '"', ''):	P =       33.230769	T =        0.957265	Q =       31.810651
+SimpleDialect('', '', ''):	P =        0.036000	skip.
+SimpleDialect('', '"', ''):	P =        0.036000	skip.
+SimpleDialect(' ', '', ''):	P =        2.289119	skip.
+SimpleDialect(' ', '', '/'):	P =        2.495949	skip.
+SimpleDialect(' ', '"', ''):	P =        2.487268	skip.
+SimpleDialect(' ', '"', '/'):	P =        2.734596	skip.
+SimpleDialect('.', '', ''):	P =        0.766500	skip.
+SimpleDialect('.', '"', ''):	P =        0.517000	skip.
++[HXL_3W_samples_draft_Multilingual.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      184.133333	T =        0.704004	Q =      129.630638
+SimpleDialect(',', '"', ''):	P =      367.111111	T =        0.969868	Q =      356.049383
+SimpleDialect('', '', ''):	P =        0.413000	skip.
+SimpleDialect('', '"', ''):	P =        0.413000	skip.
+SimpleDialect(' ', '', ''):	P =       42.136236	skip.
+SimpleDialect(' ', '', '/'):	P =       42.107069	skip.
+SimpleDialect(' ', '', '¡'):	P =       42.092486	skip.
+SimpleDialect(' ', '"', ''):	P =      103.000500	skip.
+SimpleDialect(' ', '"', '/'):	P =      103.000500	skip.
+SimpleDialect(' ', '"', '¡'):	P =      103.000500	skip.
+SimpleDialect('.', '', ''):	P =       53.396083	skip.
+SimpleDialect('.', '"', ''):	P =      103.000500	skip.
+SimpleDialect(':', '', ''):	P =      137.333833	skip.
+SimpleDialect(':', '"', ''):	P =        0.413000	skip.
++[Invoice.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[InvoiceLine.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        2.625000	T =        0.916667	Q =        2.406250
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect(' ', '', ''):	P =        1.128205	skip.
+SimpleDialect('.', '', ''):	P =        0.750500	skip.
++[junior-roles.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 3.
++[MediaType.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.007000	T =        1.000000	Q =        0.007000
+SimpleDialect(' ', '', ''):	P =        0.933155	T =        1.000000	Q =        0.933155
+SimpleDialect('.', '', ''):	P =        1.876000	T =        1.000000	Q =        1.876000
+X[methane_molecular_structure_xyz_20140911.csv]: --> cleverCSV detected: delimiter = '.', quotechar = ''| EXPECTED:{delimiter = 'space', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
++[moon-walkers.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       40.894444	T =        0.974668	Q =       39.858518
+SimpleDialect(',', '"', ''):	P =       81.777778	T =        0.975845	Q =       79.802469
+SimpleDialect(',', "'", ''):	P =       27.262963	skip.
+SimpleDialect('', '', ''):	P =        0.092000	skip.
+SimpleDialect('', '"', ''):	P =        0.092000	skip.
+SimpleDialect('', "'", ''):	P =        0.046000	skip.
+SimpleDialect(' ', '', ''):	P =        7.100135	skip.
+SimpleDialect(' ', '', '/'):	P =        7.098796	skip.
+SimpleDialect(' ', '"', ''):	P =        6.486740	skip.
+SimpleDialect(' ', '"', '/'):	P =        6.485504	skip.
+SimpleDialect(' ', "'", ''):	P =        6.553971	skip.
+SimpleDialect(' ', "'", '/'):	P =        6.552735	skip.
+SimpleDialect('.', '', ''):	P =       14.945444	skip.
+SimpleDialect('.', '"', ''):	P =       14.945444	skip.
+SimpleDialect('.', "'", ''):	P =       11.209083	skip.
+SimpleDialect(':', '', ''):	P =        0.295500	skip.
+SimpleDialect(':', '"', ''):	P =        0.295500	skip.
+SimpleDialect(':', "'", ''):	P =        0.197000	skip.
++[mth-10-january-2014.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[ni.2449-S3.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Error was: 'charmap' codec can't decode byte 0x8d in position 1996: character maps to <undefined>
+X [occurrence.txt]: --> No result from cleverCSV
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =       18.240000	T =        0.964211	Q =       17.587200
+SimpleDialect(',', '', '/'):	P =        9.105000	skip.
+SimpleDialect('', '', ''):	P =        0.019000	skip.
+SimpleDialect(' ', '', ''):	P =        1.328250	skip.
+SimpleDialect('.', '', ''):	P =        5.472556	skip.
+SimpleDialect(':', '', ''):	P =        3.072581	skip.
+SimpleDialect('|', '', ''):	P =        1.392556	skip.
++[open_data_-_banes_public_toilets_-_15.09.14_-v3-2.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 3.
++[organizations.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Not normal, has potential escapechar.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =     5966.161472	T =        0.913061	Q =     5447.471191
+SimpleDialect(',', '', '/'):	P =     5966.161418	T =        0.913061	Q =     5447.470908
+SimpleDialect(',', '', '\\'):	P =     5966.161418	T =        0.913061	Q =     5447.470908
+SimpleDialect(',', '"', ''):	P =    41730.360000	T =        0.949644	Q =    39628.985200
+SimpleDialect(',', '"', '/'):	P =    20865.179796	skip.
+SimpleDialect(',', '"', '\\'):	P =    20865.179796	skip.
+SimpleDialect(',', "'", ''):	P =     1582.346696	skip.
+SimpleDialect(',', "'", '/'):	P =     1582.346696	skip.
+SimpleDialect(',', "'", '\\'):	P =     1582.346696	skip.
+SimpleDialect(',', '`', ''):	P =     5220.391288	skip.
+SimpleDialect(',', '`', '/'):	P =     5220.391241	skip.
+SimpleDialect(',', '`', '\\'):	P =     5220.391241	skip.
+SimpleDialect(',', '~', ''):	P =     5220.391288	skip.
+SimpleDialect(',', '~', '/'):	P =     5220.391241	skip.
+SimpleDialect(',', '~', '\\'):	P =     5220.391241	skip.
+SimpleDialect(';', '', ''):	P =      796.702287	skip.
+SimpleDialect(';', '', '@'):	P =      796.685621	skip.
+SimpleDialect(';', '"', ''):	P =      779.128506	skip.
+SimpleDialect(';', '"', '@'):	P =      779.111840	skip.
+SimpleDialect(';', "'", ''):	P =      377.766989	skip.
+SimpleDialect(';', "'", '@'):	P =      377.750322	skip.
+SimpleDialect(';', '`', ''):	P =      724.274807	skip.
+SimpleDialect(';', '`', '@'):	P =      724.259655	skip.
+SimpleDialect(';', '~', ''):	P =      724.274807	skip.
+SimpleDialect(';', '~', '@'):	P =      724.259655	skip.
+SimpleDialect('', '', ''):	P =       42.582000	skip.
+SimpleDialect('', '"', ''):	P =       42.582000	skip.
+SimpleDialect('', "'", ''):	P =       20.974000	skip.
+SimpleDialect('', '`', ''):	P =       21.291000	skip.
+SimpleDialect('', '~', ''):	P =       21.291000	skip.
+SimpleDialect(' ', '', ''):	P =      910.321494	skip.
+SimpleDialect(' ', '', '/'):	P =      890.530963	skip.
+SimpleDialect(' ', '', '@'):	P =      910.317357	skip.
+SimpleDialect(' ', '"', ''):	P =      955.772287	skip.
+SimpleDialect(' ', '"', '/'):	P =      933.010984	skip.
+SimpleDialect(' ', '"', '@'):	P =      955.758825	skip.
+SimpleDialect(' ', "'", ''):	P =      458.436414	skip.
+SimpleDialect(' ', "'", '/'):	P =      458.436096	skip.
+SimpleDialect(' ', "'", '@'):	P =      458.434699	skip.
+SimpleDialect(' ', '`', ''):	P =      890.531896	skip.
+SimpleDialect(' ', '`', '/'):	P =      871.583496	skip.
+SimpleDialect(' ', '`', '@'):	P =      890.527849	skip.
+SimpleDialect(' ', '~', ''):	P =      890.531896	skip.
+SimpleDialect(' ', '~', '/'):	P =      871.583496	skip.
+SimpleDialect(' ', '~', '@'):	P =      890.527849	skip.
+SimpleDialect('.', '', ''):	P =     2854.024204	skip.
+SimpleDialect('.', '"', ''):	P =     4120.374859	skip.
+SimpleDialect('.', "'", ''):	P =     1686.704138	skip.
+SimpleDialect('.', '`', ''):	P =     2634.483881	skip.
+SimpleDialect('.', '~', ''):	P =     2634.483881	skip.
+SimpleDialect(':', '', ''):	P =     4265.470200	skip.
+SimpleDialect(':', '"', ''):	P =       33.414750	skip.
+SimpleDialect(':', "'", ''):	P =     2100.273533	skip.
+SimpleDialect(':', '`', ''):	P =     3554.558500	skip.
+SimpleDialect(':', '~', ''):	P =     3554.558500	skip.
+SimpleDialect('<', '', ''):	P =    11271.105333	skip.
+SimpleDialect('<', '', '@'):	P =    11271.094222	skip.
+SimpleDialect('<', '"', ''):	P =       22.538500	skip.
+SimpleDialect('<', '"', '@'):	P =       22.538500	skip.
+SimpleDialect('<', "'", ''):	P =     5554.503889	skip.
+SimpleDialect('<', "'", '@'):	P =     5554.492778	skip.
+SimpleDialect('<', '`', ''):	P =     8453.329000	skip.
+SimpleDialect('<', '`', '@'):	P =     8453.320667	skip.
+SimpleDialect('<', '~', ''):	P =     8453.329000	skip.
+SimpleDialect('<', '~', '@'):	P =     8453.320667	skip.
+SimpleDialect('=', '', ''):	P =       26.281000	skip.
+SimpleDialect('=', '"', ''):	P =       26.281000	skip.
+SimpleDialect('=', "'", ''):	P =       11.734500	skip.
+SimpleDialect('=', '`', ''):	P =       17.520667	skip.
+SimpleDialect('=', '~', ''):	P =       17.520667	skip.
+SimpleDialect('>', '', ''):	P =    11271.527556	skip.
+SimpleDialect('>', '"', ''):	P =       22.289000	skip.
+SimpleDialect('>', "'", ''):	P =     5554.670556	skip.
+SimpleDialect('>', '`', ''):	P =     8453.645667	skip.
+SimpleDialect('>', '~', ''):	P =     8453.645667	skip.
++[Palo_Alto_Trees.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[people.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 3.
++[Playlist.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[PlaylistTrack.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.897596	T =        0.623188	Q =        0.559372
+SimpleDialect(',', '"', ''):	P =        4.800000	T =        0.500000	Q =        2.400000
+SimpleDialect('', '', ''):	P =        0.006000	skip.
+SimpleDialect('', '"', ''):	P =        0.006000	skip.
+SimpleDialect(' ', '', ''):	P =        0.959755	skip.
+SimpleDialect(' ', '"', ''):	P =        0.839431	skip.
+SimpleDialect('.', '', ''):	P =        2.143357	skip.
+SimpleDialect('.', '"', ''):	P =        2.143357	skip.
+SimpleDialect(':', '', ''):	P =        1.167000	skip.
+SimpleDialect(':', '"', ''):	P =        1.139222	skip.
+SimpleDialect('<', '', ''):	P =        0.668667	skip.
+SimpleDialect('<', '"', ''):	P =        0.335833	skip.
+SimpleDialect('>', '', ''):	P =        0.668667	skip.
+SimpleDialect('>', '"', ''):	P =        0.335833	skip.
++[PLOSone-search-results.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =    23981.816503	T =        0.000001	Q =        0.020679
+SimpleDialect(',', '"', ''):	P =    71930.133333	T =        0.932784	Q =    67095.280000
+SimpleDialect(',', "'", ''):	P =     2820.623851	skip.
+SimpleDialect('', '', ''):	P =       77.068000	skip.
+SimpleDialect('', '"', ''):	P =       77.068000	skip.
+SimpleDialect('', "'", ''):	P =       39.279000	skip.
+SimpleDialect(' ', '', ''):	P =     3815.270254	skip.
+SimpleDialect(' ', '"', ''):	P =    19266.750500	skip.
+SimpleDialect(' ', "'", ''):	P =     2361.340867	skip.
+SimpleDialect('.', '', ''):	P =       39.384222	skip.
+SimpleDialect('.', '"', ''):	P =       77.068000	skip.
+SimpleDialect('.', "'", ''):	P =       32.613500	skip.
+SimpleDialect(':', '', ''):	P =    38534.000000	skip.
+SimpleDialect(':', '"', ''):	P =       77.068000	skip.
+SimpleDialect(':', "'", ''):	P =    19639.500000	skip.
++[pp-monthly-update-new-version.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.005000	T =        1.000000	Q =        0.005000
+SimpleDialect(' ', '', ''):	P =        0.778111	T =        1.000000	Q =        0.778111
+X[professions.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
++[projects.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.333833	T =        0.769231	Q =        1.026026
+SimpleDialect('', '', ''):	P =        0.005000	skip.
+SimpleDialect(' ', '', ''):	P =        0.612978	skip.
+SimpleDialect('.', '', ''):	P =        0.252000	skip.
++[rembrandt-paintings.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[senior-roles.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =      185.288720	T =        0.940009	Q =      174.173112
+SimpleDialect(',', '"', ''):	P =     1290.600000	T =        0.999093	Q =     1289.430000
+SimpleDialect(',', "'", ''):	P =      162.127630	skip.
+SimpleDialect('', '', ''):	P =        1.434000	skip.
+SimpleDialect('', '"', ''):	P =        1.434000	skip.
+SimpleDialect('', "'", ''):	P =        0.717000	skip.
+SimpleDialect(' ', '', ''):	P =       78.623040	skip.
+SimpleDialect(' ', '"', ''):	P =       78.956409	skip.
+SimpleDialect(' ', "'", ''):	P =       73.381504	skip.
+SimpleDialect('.', '', ''):	P =        1.049833	skip.
+SimpleDialect('.', '"', ''):	P =        1.049833	skip.
+SimpleDialect('.', "'", ''):	P =        0.699889	skip.
++[soc_structure_2010.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[task_assignments.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test001.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 3.
++[test002.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[test003.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test005.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test006.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        5.600000	T =        0.657143	Q =        3.680000
+SimpleDialect('', '', ''):	P =        0.007000	skip.
+SimpleDialect(' ', '', ''):	P =        1.500500	skip.
+SimpleDialect(':', '', ''):	P =        2.000500	skip.
++[test007.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 3.
++[test008.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[test009.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test010.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test019.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test020.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test021.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test022.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test038.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test039.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test040.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test041.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test042.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test043.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test044.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test045.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test046.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test047.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test048.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test049.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.201000	T =        0.882353	Q =        1.059706
+SimpleDialect('', '', ''):	P =        0.005000	skip.
+SimpleDialect(' ', '', ''):	P =        1.024405	skip.
++[test051.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.201000	T =        0.882353	Q =        1.059706
+SimpleDialect('', '', ''):	P =        0.005000	skip.
+SimpleDialect(' ', '', ''):	P =        2.035714	T =        0.551724	Q =        1.123153
+X[test052.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        2.000500	T =        1.000000	Q =        2.000500
+SimpleDialect('', '', ''):	P =        0.006000	skip.
+SimpleDialect(' ', '', ''):	P =        1.321429	skip.
++[test055.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test056.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.601000	T =        0.909091	Q =        1.455455
+SimpleDialect('', '', ''):	P =        0.006000	skip.
+SimpleDialect(' ', '', ''):	P =        0.975714	skip.
++[test057.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.600500	T =        0.952381	Q =        1.524286
+SimpleDialect('', '', ''):	P =        0.005000	skip.
+SimpleDialect(' ', '', ''):	P =        1.009936	skip.
++[test058.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.611444	T =        1.000000	Q =        0.611444
+SimpleDialect('', '', ''):	P =        0.004000	skip.
+SimpleDialect(' ', '', ''):	P =        0.750500	T =        0.714286	Q =        0.536071
++[test091.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 3.
++[test116.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 3.
++[test117.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 3.
++[test120.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[test121-ref.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 3.
++[test121.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 3.
++[test122.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        3.000000	T =        0.937500	Q =        2.812500
+SimpleDialect(',', '"', ''):	P =        3.000000	T =        1.000000	Q =        3.000000
+SimpleDialect('', '', ''):	P =        0.004000	skip.
+SimpleDialect('', '"', ''):	P =        0.004000	skip.
+SimpleDialect(' ', '', ''):	P =        0.583667	skip.
+SimpleDialect(' ', '"', ''):	P =        0.750500	skip.
+SimpleDialect('.', '', ''):	P =        0.611444	skip.
+SimpleDialect('.', '"', ''):	P =        0.611444	skip.
++[test125.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 3.
++[test126.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[test127.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.666667	T =        0.916667	Q =        1.527778
+SimpleDialect(',', '"', ''):	P =        1.666667	T =        1.000000	Q =        1.666667
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.333833	skip.
+SimpleDialect(' ', '"', ''):	P =        0.250500	skip.
++[test152.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test153.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test154.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
++[test155.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test156.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
++[test157.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 3.
++[test158.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test159.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
++[test160.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test161.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.333833	T =        0.500000	Q =        0.166917
+SimpleDialect(',', '"', ''):	P =        0.002000	skip.
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+SimpleDialect('.', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
+X[test162.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+SimpleDialect('.', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X [test163.csv]: --> No result from cleverCSV
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+SimpleDialect('.', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X [test164.csv]: --> No result from cleverCSV
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test165.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test166.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test167.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(',', '"', ''):	P =        0.002000	skip.
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+SimpleDialect('.', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
+X[test168.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+SimpleDialect('.', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X [test169.csv]: --> No result from cleverCSV
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+SimpleDialect('.', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X [test170.csv]: --> No result from cleverCSV
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.500000	Q =        0.001000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect('.', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+X [test171.csv]: --> No result from cleverCSV
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test172.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test173.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test174.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test175.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test176.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test177.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test178.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test179.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test180.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test181.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test182.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
++[test183.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test184.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test185.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test186.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        3.600000	T =        0.825000	Q =        2.970000
+SimpleDialect('', '', ''):	P =        0.004000	skip.
+SimpleDialect(' ', '', ''):	P =        0.750500	skip.
+SimpleDialect(':', '', ''):	P =        0.908715	skip.
++[test187.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test188.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.666667	T =        0.583333	Q =        0.972222
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.583333	skip.
+SimpleDialect(':', '', ''):	P =        1.666667	T =        0.500000	Q =        0.833333
++[test189.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.777778	T =        0.611111	Q =        1.086420
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.894444	skip.
+SimpleDialect(':', '', ''):	P =        0.912879	skip.
++[test190.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test191.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.777778	T =        0.611111	Q =        1.086420
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.894444	skip.
+SimpleDialect(':', '', ''):	P =        0.916084	skip.
++[test192.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test193.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test194.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.500000	T =        0.875000	Q =        1.312500
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.250500	skip.
+SimpleDialect('=', '', ''):	P =        0.333833	skip.
++[test195.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test196.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test197.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test198.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test199.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test200.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test201.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
++[test202.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test203.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test204.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test205.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test206.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test207.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test208.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test209.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test210.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test211.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test212.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test213.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test214.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test215.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test216.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test217.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test218.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test219.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test220.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test221.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test222.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test223.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test224.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test225.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test226.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test227.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.375500	T =        1.000000	Q =        0.375500
+X[test228.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.375500	T =        1.000000	Q =        0.375500
+X[test229.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.375500	T =        1.000000	Q =        0.375500
+X[test230.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.003000	T =        1.000000	Q =        0.003000
+SimpleDialect(' ', '', ''):	P =        0.500500	T =        1.000000	Q =        0.500500
+X[test231.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.003000	T =        1.000000	Q =        0.003000
+SimpleDialect(' ', '', ''):	P =        0.500500	T =        1.000000	Q =        0.500500
+X[test232.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
++[test233.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test234.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test238.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test242.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test243.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test244.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.000000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect('.', '', ''):	P =        1.333333	T =        0.500000	Q =        0.666667
+SimpleDialect(':', '', ''):	P =        1.600000	T =        0.800000	Q =        1.280000
+X[test245.csv]: --> cleverCSV detected: delimiter = ':', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.000000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect('.', '', ''):	P =        1.333333	T =        0.500000	Q =        0.666667
+SimpleDialect(':', '', ''):	P =        1.600000	T =        0.800000	Q =        1.280000
+X[test246.csv]: --> cleverCSV detected: delimiter = ':', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
+X[test247.csv]: --> cleverCSV detected: delimiter = ':', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        2.250000	T =        0.833333	Q =        1.875000
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect(' ', '', ''):	P =        0.433667	skip.
++[test248.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test249.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
++[test254.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.004000	T =        1.000000	Q =        0.004000
+SimpleDialect(' ', '', ''):	P =        0.750500	T =        1.000000	Q =        0.750500
+X[test255.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 3.
++[test256.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[test257.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Matched normal form 2.
++[test258.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test261.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 2.
++[test262.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.003000	T =        1.000000	Q =        0.003000
+SimpleDialect(' ', '', ''):	P =        0.500500	T =        1.000000	Q =        0.500500
+X[test269.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.004000	T =        1.000000	Q =        0.004000
+SimpleDialect(' ', '', ''):	P =        0.750500	T =        1.000000	Q =        0.750500
+X[test271.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.004000	T =        1.000000	Q =        0.004000
+SimpleDialect(' ', '', ''):	P =        0.750500	T =        1.000000	Q =        0.750500
+X[test272.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test279.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test280.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        1.000000	Q =        0.002000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        1.000000	Q =        0.250500
+X[test281.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Matched normal form 3.
++[test282.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        3.428571	T =        0.428571	Q =        1.469388
+SimpleDialect(',', '"', ''):	P =        3.428571	T =        0.500000	Q =        1.714286
+SimpleDialect('', '', ''):	P =        0.004000	skip.
+SimpleDialect('', '"', ''):	P =        0.004000	skip.
+SimpleDialect(' ', '', ''):	P =        0.750500	skip.
+SimpleDialect(' ', '"', ''):	P =        0.750500	skip.
+SimpleDialect('.', '', ''):	P =        2.000000	T =        0.375000	Q =        0.750000
+SimpleDialect('.', '"', ''):	P =        0.750500	skip.
++[test283.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.171509	T =        0.120482	Q =        0.141146
+SimpleDialect(',', '"', ''):	P =        4.444444	T =        0.755556	Q =        3.358025
+SimpleDialect('', '', ''):	P =        0.005000	skip.
+SimpleDialect('', '"', ''):	P =        0.005000	skip.
+SimpleDialect(' ', '', ''):	P =        1.000500	skip.
+SimpleDialect(' ', '"', ''):	P =        1.000500	skip.
+SimpleDialect('.', '', ''):	P =        1.833333	skip.
+SimpleDialect('.', '"', ''):	P =        0.005000	skip.
++[test284.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        3.166667	T =        0.000000	Q =        0.000000
+SimpleDialect(',', '"', ''):	P =        5.833333	T =        0.738095	Q =        4.305556
+SimpleDialect('', '', ''):	P =        0.007000	skip.
+SimpleDialect('', '"', ''):	P =        0.007000	skip.
+SimpleDialect(' ', '', ''):	P =        1.500500	skip.
+SimpleDialect(' ', '"', ''):	P =        1.500500	skip.
+SimpleDialect('.', '', ''):	P =        6.000000	T =        0.000000	Q =        0.000000
+SimpleDialect('.', '"', ''):	P =        0.007000	skip.
++[test285.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.250500	T =        0.000000	Q =        0.000000
+SimpleDialect(',', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+X[test286.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.500000	Q =        0.001000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect('.', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+X [test287.csv]: --> No result from cleverCSV
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(',', '"', ''):	P =        0.002000	skip.
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+X[test288.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(',', '"', ''):	P =        0.002000	skip.
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+X[test289.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.000000	T =        0.000000	Q =        0.000000
+SimpleDialect(',', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+X[test290.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.583333	T =        0.200000	Q =        0.116667
+SimpleDialect(',', '"', ''):	P =        0.002000	skip.
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+X[test291.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.333833	T =        0.250000	Q =        0.083458
+SimpleDialect(',', '"', ''):	P =        0.002000	skip.
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+X[test292.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.333833	T =        0.250000	Q =        0.083458
+SimpleDialect(',', '"', ''):	P =        0.002000	skip.
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+X[test293.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.583333	T =        0.000000	Q =        0.000000
+SimpleDialect(',', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+X[test294.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.333333	T =        0.166667	Q =        0.222222
+SimpleDialect(',', '"', ''):	P =        0.002000	skip.
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
++[test295.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.500000	Q =        0.001000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect('.', '', ''):	P =        1.000000	T =        0.500000	Q =        0.500000
+X[test296.csv]: --> cleverCSV detected: delimiter = '.', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.250500	T =        0.000000	Q =        0.000000
+SimpleDialect(',', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect('.', '', ''):	P =        1.000000	T =        0.000000	Q =        0.000000
+SimpleDialect('.', '"', ''):	P =        0.250500	T =        0.000000	Q =        0.000000
+X[test297.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.500000	Q =        0.001000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect('.', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+X [test298.csv]: --> No result from cleverCSV
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.500000	Q =        0.001000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect('.', '', ''):	P =        1.000000	T =        0.750000	Q =        0.750000
+X[test299.csv]: --> cleverCSV detected: delimiter = '.', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.500000	Q =        0.001000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect('.', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+X[test300.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.500000	Q =        0.001000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect('.', '', ''):	P =        1.000000	T =        0.500000	Q =        0.500000
+X[test301.csv]: --> cleverCSV detected: delimiter = '.', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(',', '"', ''):	P =        0.002000	skip.
+SimpleDialect('', '', ''):	P =        0.002000	skip.
+SimpleDialect('', '"', ''):	P =        0.002000	skip.
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect('.', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
+X[test302.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        0.250500	T =        0.000000	Q =        0.000000
+SimpleDialect(',', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect('.', '', ''):	P =        1.000000	T =        0.000000	Q =        0.000000
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
+X[test303.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.000000	T =        0.000000	Q =        0.000000
+SimpleDialect(',', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect('', '"', ''):	P =        0.002000	T =        0.000000	Q =        0.000000
+SimpleDialect(' ', '', ''):	P =        0.250500	T =        0.333333	Q =        0.083500
+SimpleDialect(' ', '"', ''):	P =        0.250500	T =        0.666667	Q =        0.167000
+SimpleDialect('.', '', ''):	P =        1.000000	T =        0.000000	Q =        0.000000
+SimpleDialect('.', '"', ''):	P =        0.002000	skip.
+X[test304.csv]: --> cleverCSV detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.500000	T =        0.333333	Q =        0.500000
+SimpleDialect(';', '', ''):	P =        0.800500	T =        0.818182	Q =        0.654955
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect(' ', '', ''):	P =        0.500500	skip.
+X[test305.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.500000	T =        0.333333	Q =        0.500000
+SimpleDialect(';', '', ''):	P =        0.800500	T =        0.818182	Q =        0.654955
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect(' ', '', ''):	P =        0.500500	skip.
+X[test306.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.500000	T =        0.333333	Q =        0.500000
+SimpleDialect(';', '', ''):	P =        0.800500	T =        0.818182	Q =        0.654955
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect(' ', '', ''):	P =        0.500500	skip.
+X[test307.csv]: --> cleverCSV detected: delimiter = ';', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Error was: 'charmap' codec can't decode byte 0x81 in position 1434: character maps to <undefined>
+X [Track.csv]: --> No result from cleverCSV
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        1.794444	T =        0.820513	Q =        1.472365
+SimpleDialect(',', '"', ''):	P =        3.555556	T =        0.888889	Q =        3.160494
+SimpleDialect(';', '', ''):	P =        0.439000	skip.
+SimpleDialect(';', '"', ''):	P =        0.439000	skip.
+SimpleDialect('', '', ''):	P =        0.004000	skip.
+SimpleDialect('', '"', ''):	P =        0.004000	skip.
+SimpleDialect(' ', '', ''):	P =        1.769048	skip.
+SimpleDialect(' ', '"', ''):	P =        1.769048	skip.
+SimpleDialect('.', '', ''):	P =        1.000500	skip.
+SimpleDialect('.', '"', ''):	P =        0.004000	skip.
+SimpleDialect('<', '', ''):	P =        1.200500	skip.
+SimpleDialect('<', '"', ''):	P =        0.004000	skip.
+SimpleDialect('>', '', ''):	P =        1.200500	skip.
+SimpleDialect('>', '"', ''):	P =        0.004000	skip.
++[tree-ops-ext.csv]: --> cleverCSV detected: delimiter = ',', quotechar = '"'
+Running normal form detection ...
+Matched normal form 2.
++[tree-ops.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        2.000000	T =        1.000000	Q =        2.000000
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect(' ', '', ''):	P =        0.800500	skip.
+SimpleDialect('.', '', ''):	P =        0.500500	skip.
+SimpleDialect(':', '', ''):	P =        0.500500	skip.
++[tweets.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+Running normal form detection ...
+Didn't match any normal forms.
+Running data consistency measure ...
+SimpleDialect(',', '', ''):	P =        2.250000	T =        0.833333	Q =        1.875000
+SimpleDialect('', '', ''):	P =        0.003000	skip.
+SimpleDialect(' ', '', ''):	P =        0.433667	skip.
++[unicode-nfc.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
+[Passed test ratio]--: 56.5611%
+[Failure ratio]--: 4.9774%
+[Elapsed time]--: 132.5 seconds
