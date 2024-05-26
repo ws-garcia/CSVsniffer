@@ -1,0 +1,40 @@
+Iconbar_Y,Iconbar_Padding,Iconbar_Spacing,Icon_Width,Icon_Height,Icon_Padding,Icongroup_Padding
+1020,10,compact,24,24,6,12
+Caption,Icon,Y,Width,Height,Command[0],Command[1]
+Desktop,desktop.png,,28,28,dolphin ~/Desktop,
+Trash,trash.png,,28,28,dolphin 'Trash:///',
+Gnome Control Center,gnome-control-center.png,,28,28,gnome-control-center,gksu gnome-control-center
+,,,,,,
+GVim,gvim.png,,28,28,gvim -c 'colorscheme koehler',gvim -c 'colorscheme darkblue'
+urxvt,urxvt.png,,28,28,urxvt,cd /root && gksu urxvt
+urxvt screen,urxvt.png,,28,28,urxvt -e screen -m,cd /root && gksu 'urxvt -e screen -m'
+,,,,,,
+Firefox,firefox.png,,28,28,firefox,
+Chrome,google_chrome.png,,28,28,google-chrome,
+,,,,,,
+XChat,xchat.png,,28,28,xchat,
+Pidgin,pidgin.png,,28,28,pidgin,
+Skype,skype.png,,28,28,skype,
+,,,,,,
+Aqualung,aqualung.png,,28,28,aqualung,
+VLC,vlc.png,,28,28,vlc,
+Spotify,spotify.xpm,,28,28,wine spotify,
+GtkPod,gtkpod.png,,28,28,gtkpod,
+,,,,,,
+Dia,dia.xpm,,28,28,dia,
+Zim,zim.png,,28,28,zim,
+vym,vym.png,,28,28,vym,
+,,,,,,
+Planner,planner.png,,28,28,planner,
+GCalc,gcalc.png,,28,28,gcalctool,
+Evolution,evolution.png,,28,28,evolution,
+,,,,,,
+Picasa,google_picasa.png,,28,28,picasa,
+Evince,evince.png,,28,28,evince,
+Acroread,acroread.png,,28,28,acroread,
+Lyx,lyx.png,,28,28,lyx,
+OOffice,ooffice.png,,28,28,ooffice,
+,,,,,,
+VirtualBox,virtualbox.png,,28,28,VirtualBox,
+Windows XP,winxp.png,,28,28,VBoxManage startvm Windows_XP_SP3,
+Windows Vista,winvista.png,,28,28,VBoxManage startvm Windows_Vista,

@@ -1,0 +1,30 @@
+Contributions,,,
+Contributor name,Bugzilla ID,Version,Committer
+Patrick Mueller,131360,0.1,Bjorn Freeman-Benson
+Michael Forster,132810,0.1,Bjorn Freeman-Benson
+Paul Colton,162333,0.1,Bjorn Freeman-Benson
+Jeff Mesnil,132580,0.1,Bjorn Freeman-Benson
+Jeff Mesnil,132596,0.1,Bjorn Freeman-Benson
+Channing Walton,143456,0.1,Bjorn Freeman-Benson
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~,,,
+
+Contributors,,,
+Name,Company,Employer of Record,
+Paul Colton,Aptana,,
+Patrick Mueller,IBM,,
+Michael Forster,self,University of Passau
+Jeff Mesnil,self,Continuent
+Channing Walton,self,FusionDQ Ltd
+
+Committers,,
+Name,Company,
+Bjorn Freeman-Benson,Eclipse Foundation,
+Ward Cunningham,Eclipse Foundation,
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~,,
+
+3rd Party Software,,
+Name,Version,IPZilla #
+Rhino,1.6.2,(approved before IPZilla process existed)

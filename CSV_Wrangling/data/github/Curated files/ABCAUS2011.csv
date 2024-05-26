@@ -1,0 +1,324 @@
+,Date,Account,Debit,Credit,Amount,Balance
+1001 · MacQuarie Cash Management Trust,,,,,,6731.52
+,15/01/2011,1001 · MacQuarie Cash Management Trust,,168.15,-168.15,6563.37
+,18/01/2011,1001 · MacQuarie Cash Management Trust,5500,,5500,12063.37
+,31/01/2011,1001 · MacQuarie Cash Management Trust,34.09,,34.09,12097.46
+,17/02/2011,1001 · MacQuarie Cash Management Trust,3850,,3850,15947.46
+,18/02/2011,1001 · MacQuarie Cash Management Trust,,165.89,-165.89,15781.57
+,24/02/2011,1001 · MacQuarie Cash Management Trust,24972.53,,24972.53,40754.1
+,24/02/2011,1001 · MacQuarie Cash Management Trust,,20000,-20000,20754.1
+,28/02/2011,1001 · MacQuarie Cash Management Trust,55.48,,55.48,20809.58
+,1/03/2011,1001 · MacQuarie Cash Management Trust,,2530,-2530,18279.58
+,8/03/2011,1001 · MacQuarie Cash Management Trust,,1767,-1767,16512.58
+,10/03/2011,1001 · MacQuarie Cash Management Trust,,165.89,-165.89,16346.69
+,23/03/2011,1001 · MacQuarie Cash Management Trust,,1083,-1083,15263.69
+,30/03/2011,1001 · MacQuarie Cash Management Trust,,9748.69,-9748.69,5515
+,31/03/2011,1001 · MacQuarie Cash Management Trust,63.99,,63.99,5578.99
+Total 1001 · MacQuarie Cash Management Trust,,,34476.09,35628.62,-1152.53,5578.99
+1002 · National Australia Bank AUD,,,,,,0
+Total 1002 · National Australia Bank AUD,,,,,,0
+1030 · Trust Account,,,,,,19169.22
+Total 1030 · Trust Account,,,,,,19169.22
+1051 · Petty Cash,,,,,,0
+Total 1051 · Petty Cash,,,,,,0
+1052 · Trust Account,,,,,,0
+Total 1052 · Trust Account,,,,,,0
+1080 · Cash On Hand,,,,,,200
+Total 1080 · Cash On Hand,,,,,,200
+1200 · Accounts Receivable,,,,,,10181.6
+,18/01/2011,1200 · Accounts Receivable,,5500,-5500,4681.6
+,17/02/2011,1200 · Accounts Receivable,,3850,-3850,831.6
+,25/03/2011,1200 · Accounts Receivable,2750,,2750,3581.6
+,7/04/2011,1200 · Accounts Receivable,3300,,3300,6881.6
+,27/04/2011,1200 · Accounts Receivable,2750,,2750,9631.6
+Total 1200 · Accounts Receivable,,,8800,9350,-550,9631.6
+1400 · Loans to Related Companies,,,,,,61393.18
+1402 · Loans to ABC Singapore,,,,,,61393.18
+,7/02/2011,1402 · Loans to ABC Singapore,28000,,28000,89393.18
+,30/03/2011,1402 · Loans to ABC Singapore,9748.69,,9748.69,99141.87
+Total 1402 · Loans to ABC Singapore,,,37748.69,0,37748.69,99141.87
+1400 · Loans to Related Companies - Other,,,,,,0
+Total 1400 · Loans to Related Companies - Other,,,,,,0
+Total 1400 · Loans to Related Companies,,,37748.69,0,37748.69,99141.87
+1499 · Undeposited Funds,,,,,,0
+Total 1499 · Undeposited Funds,,,,,,0
+1560 · Plant & Equipment,,,,,,0
+1561 · Original Cost,,,,,,2078.1
+Total 1561 · Original Cost,,,,,,2078.1
+1562 · Accoumulated Depreciation,,,,,,-2078.1
+Total 1562 · Accoumulated Depreciation,,,,,,-2078.1
+1560 · Plant & Equipment - Other,,,,,,0
+Total 1560 · Plant & Equipment - Other,,,,,,0
+Total 1560 · Plant & Equipment,,,,,,0
+1570 · Computer Equipment,,,,,,0
+1571 · Computer Equipment - Original C,,,,,,0
+Total 1571 · Computer Equipment - Original C,,,,,,0
+1572 · Computer Equip- Accum Depn,,,,,,0
+Total 1572 · Computer Equip- Accum Depn,,,,,,0
+1570 · Computer Equipment - Other,,,,,,0
+Total 1570 · Computer Equipment - Other,,,,,,0
+Total 1570 · Computer Equipment,,,,,,0
+6620 · Formation Expenses,,,,,,0
+Total 6620 · Formation Expenses,,,,,,0
+2000 · Accounts Payable,,,,,,0
+,5/01/2011,2000 · Accounts Payable,,168.15,-168.15,-168.15
+,15/01/2011,2000 · Accounts Payable,168.15,,168.15,0
+,6/02/2011,2000 · Accounts Payable,,165.89,-165.89,-165.89
+,18/02/2011,2000 · Accounts Payable,165.89,,165.89,0
+,28/02/2011,2000 · Accounts Payable,,5060,-5060,-5060
+,1/03/2011,2000 · Accounts Payable,2530,,2530,-2530
+,5/03/2011,2000 · Accounts Payable,,165.89,-165.89,-2695.89
+,10/03/2011,2000 · Accounts Payable,165.89,,165.89,-2530
+,28/03/2011,2000 · Accounts Payable,,1894.94,-1894.94,-4424.94
+,5/04/2011,2000 · Accounts Payable,,170.34,-170.34,-4595.28
+,5/05/2011,2000 · Accounts Payable,,165.89,-165.89,-4761.17
+Total 2000 · Accounts Payable,,,3029.93,7791.1,-4761.17,-4761.17
+2010 · ABC Trust Account (USD),,,,,,0
+Total 2010 · ABC Trust Account (USD),,,,,,0
+2030 · Accounts Payable - THB,,,,,,0
+Total 2030 · Accounts Payable - THB,,,,,,0
+2100 · Payroll Liabilities,,,,,,0
+2102 · Payroll Tax,,,,,,0
+Total 2102 · Payroll Tax,,,,,,0
+2105 · Superannuation Liabilities,,,,,,0
+Total 2105 · Superannuation Liabilities,,,,,,0
+2100 · Payroll Liabilities - Other,,,,,,0
+Total 2100 · Payroll Liabilities - Other,,,,,,0
+Total 2100 · Payroll Liabilities,,,,,,0
+2110 · Prepaid M&S Fees,,,,,,-10621.39
+,24/05/2011,2110 · Prepaid M&S Fees,2083,,2083,-8538.39
+,24/05/2011,2110 · Prepaid M&S Fees,5621.39,,5621.39,-2917
+Total 2110 · Prepaid M&S Fees,,,7704.39,0,7704.39,-2917
+2120 · Loans - Related Parties,,,,,,-195680.95
+2121 · Loans - Other,,,,,,0
+Total 2121 · Loans - Other,,,,,,0
+2122 · Loans - ABC HK,,,,,,-195680.95
+,24/02/2011,2122 · Loans - ABC HK,,25000,-25000,-220680.95
+Total 2122 · Loans - ABC HK,,,0,25000,-25000,-220680.95
+2120 · Loans - Related Parties - Other,,,,,,0
+Total 2120 · Loans - Related Parties - Other,,,,,,0
+Total 2120 · Loans - Related Parties,,,0,25000,-25000,-220680.95
+2140 · Shareholders Loans,,,,,,15712.55
+2141 · Loans - Shareholder 1,,,,,,15712.55
+Total 2141 · Loans - Shareholder 1,,,,,,15712.55
+2142 · Loans - Shareholder 2,,,,,,0
+2143 · Loans Shareholder 3,,,,,,0
+Total 2143 · Loans Shareholder 3,,,,,,0
+2142 · Loans - Shareholder 2 - Other,,,,,,0
+Total 2142 · Loans - Shareholder 2 - Other,,,,,,0
+Total 2142 · Loans - Shareholder 2,,,,,,0
+2140 · Shareholders Loans - Other,,,,,,0
+Total 2140 · Shareholders Loans - Other,,,,,,0
+Total 2140 · Shareholders Loans,,,,,,15712.55
+2150 · Loan from Other,,,,,,0
+,7/02/2011,2150 · Loan from Other,,28000,-28000,-28000
+,24/02/2011,2150 · Loan from Other,20000,,20000,-8000
+Total 2150 · Loan from Other,,,20000,28000,-8000,-8000
+2190 · Accrued Expenses,,,,,,0
+Total 2190 · Accrued Expenses,,,,,,0
+2200 · Tax Payable,,,,,,-2685.52
+,5/01/2011,2200 · Tax Payable,15.28,,15.28,-2670.24
+,6/02/2011,2200 · Tax Payable,15.08,,15.08,-2655.16
+,28/02/2011,2200 · Tax Payable,460,,460,-2195.16
+,5/03/2011,2200 · Tax Payable,15.08,,15.08,-2180.08
+,8/03/2011,2200 · Tax Payable,1767,,1767,-413.08
+,23/03/2011,2200 · Tax Payable,98.45,,98.45,-314.63
+,25/03/2011,2200 · Tax Payable,,250,-250,-564.63
+,5/04/2011,2200 · Tax Payable,15.48,,15.48,-549.15
+,7/04/2011,2200 · Tax Payable,,300,-300,-849.15
+,27/04/2011,2200 · Tax Payable,,250,-250,-1099.15
+,5/05/2011,2200 · Tax Payable,15.08,,15.08,-1084.07
+Total 2200 · Tax Payable,,,2401.45,800,1601.45,-1084.07
+1110 · Retained Earnings,,,,,,101675.38
+Total 1110 · Retained Earnings,,,,,,101675.38
+3000 · Opening Bal Equity,,,,,,-200
+Total 3000 · Opening Bal Equity,,,,,,-200
+4100 · SW Licence Fees,,,,,,0
+Total 4100 · SW Licence Fees,,,,,,0
+4120 · Software Maintenance Fees,,,,,,-5621.39
+,24/05/2011,4120 · Software Maintenance Fees,,7704.39,-7704.39,-13325.78
+Total 4120 · Software Maintenance Fees,,,0,7704.39,-7704.39,-13325.78
+4200 · Consultancy and Development,,,,,,-5500
+,25/03/2011,4200 · Consultancy and Development,,2500,-2500,-8000
+,7/04/2011,4200 · Consultancy and Development,,1000,-1000,-9000
+,7/04/2011,4200 · Consultancy and Development,,2000,-2000,-11000
+,27/04/2011,4200 · Consultancy and Development,,1500,-1500,-12500
+,27/04/2011,4200 · Consultancy and Development,,1000,-1000,-13500
+Total 4200 · Consultancy and Development,,,0,8000,-8000,-13500
+4300 · Automatos Service Revenue,,,,,,0
+Total 4300 · Automatos Service Revenue,,,,,,0
+4520 · Consulting Expenses Recovery,,,,,,0
+Total 4520 · Consulting Expenses Recovery,,,,,,0
+4599 · Interest Received,,,,,,0
+Total 4599 · Interest Received,,,,,,0
+4999 · Uncategorised Income,,,,,,0
+Total 4999 · Uncategorised Income,,,,,,0
+5200 · Software Purchase for Resale,,,,,,0
+Total 5200 · Software Purchase for Resale,,,,,,0
+5210 · Subcontractor Expenses,,,,,,2652.93
+,28/03/2011,5210 · Subcontractor Expenses,1894.94,,1894.94,4547.87
+Total 5210 · Subcontractor Expenses,,,1894.94,0,1894.94,4547.87
+5250 · Third Party Sales Commission,,,,,,0
+Total 5250 · Third Party Sales Commission,,,,,,0
+5260 · Cost - Automatos Service,,,,,,0
+Total 5260 · Cost - Automatos Service,,,,,,0
+6110 · Motor Expense,,,,,,0
+Total 6110 · Motor Expense,,,,,,0
+6115 · Exchange Gain/Loss,,,,,,-2049.55
+,24/02/2011,6115 · Exchange Gain/Loss,27.47,,27.47,-2022.08
+Total 6115 · Exchange Gain/Loss,,,27.47,0,27.47,-2022.08
+6120 · Bank Service Charges,,,,,,-30
+Total 6120 · Bank Service Charges,,,,,,-30
+6125 · Books and Publications,,,,,,0
+Total 6125 · Books and Publications,,,,,,0
+6130 · Cash Discounts,,,,,,0
+Total 6130 · Cash Discounts,,,,,,0
+6140 · Gifts and Donations,,,,,,0
+Total 6140 · Gifts and Donations,,,,,,0
+6150 · Depreciation Expense,,,,,,0
+Total 6150 · Depreciation Expense,,,,,,0
+6160 · Dues and Subscriptions,,,,,,0
+Total 6160 · Dues and Subscriptions,,,,,,0
+6170 · Equipment Rental,,,,,,0
+Total 6170 · Equipment Rental,,,,,,0
+6175 · Expensed Equipment,,,,,,0
+Total 6175 · Expensed Equipment,,,,,,0
+6180 · Insurance,,,,,,0
+6185 · Workers Compensation Insurance,,,,,,0
+Total 6185 · Workers Compensation Insurance,,,,,,0
+6190 · Sickness and accident Insurance,,,,,,0
+Total 6190 · Sickness and accident Insurance,,,,,,0
+6180 · Insurance - Other,,,,,,0
+Total 6180 · Insurance - Other,,,,,,0
+Total 6180 · Insurance,,,,,,0
+6200 · Interest Expense,,,,,,0
+6210 · Finance Charge,,,,,,0
+Total 6210 · Finance Charge,,,,,,0
+6220 · Loan Interest,,,,,,0
+Total 6220 · Loan Interest,,,,,,0
+6375 · Mortgage,,,,,,0
+Total 6375 · Mortgage,,,,,,0
+6200 · Interest Expense - Other,,,,,,0
+Total 6200 · Interest Expense - Other,,,,,,0
+Total 6200 · Interest Expense,,,,,,0
+6230 · Licenses and Permits,,,,,,0
+Total 6230 · Licenses and Permits,,,,,,0
+6240 · Miscellaneous,,,,,,0
+Total 6240 · Miscellaneous,,,,,,0
+6250 · Postage and Delivery,,,,,,13
+Total 6250 · Postage and Delivery,,,,,,13
+6260 · Printing and Stationery,,,,,,39.95
+Total 6260 · Printing and Stationery,,,,,,39.95
+6270 · Professional Fees,,,,,,568
+6275 · Accounting,,,,,,350
+,28/02/2011,6275 · Accounting,2300,,2300,2650
+,28/02/2011,6275 · Accounting,2300,,2300,4950
+Total 6275 · Accounting,,,4600,0,4600,4950
+6280 · Legal Fees,,,,,,0
+Total 6280 · Legal Fees,,,,,,0
+6282 · Asic Fees,,,,,,218
+Total 6282 · Asic Fees,,,,,,218
+6284 · Secretarial,,,,,,0
+Total 6284 · Secretarial,,,,,,0
+6270 · Professional Fees - Other,,,,,,0
+Total 6270 · Professional Fees - Other,,,,,,0
+Total 6270 · Professional Fees,,,4600,0,4600,5168
+6288 · Recruitment Fees,,,,,,0
+Total 6288 · Recruitment Fees,,,,,,0
+6290 · Rent,,,,,,984.55
+,23/03/2011,6290 · Rent,984.55,,984.55,1969.1
+Total 6290 · Rent,,,984.55,0,984.55,1969.1
+6295 · Office Expenses,,,,,,0
+Total 6295 · Office Expenses,,,,,,0
+6300 · Repairs,,,,,,0
+6310 · Building Repairs,,,,,,0
+Total 6310 · Building Repairs,,,,,,0
+6320 · Computer Repairs,,,,,,0
+Total 6320 · Computer Repairs,,,,,,0
+6330 · Equipment Repairs,,,,,,0
+Total 6330 · Equipment Repairs,,,,,,0
+6300 · Repairs - Other,,,,,,0
+Total 6300 · Repairs - Other,,,,,,0
+Total 6300 · Repairs,,,,,,0
+6334 · Subscriptions,,,,,,0
+Total 6334 · Subscriptions,,,,,,0
+6335 · Software Expense,,,,,,0
+Total 6335 · Software Expense,,,,,,0
+6336 · EDP Consumables,,,,,,0
+Total 6336 · EDP Consumables,,,,,,0
+6340 · Telephone & Internet,,,,,,2680.18
+6341 · Mobile,,,,,,1303.15
+Total 6341 · Mobile,,,,,,1303.15
+6343 · Skype,,,,,,0
+Total 6343 · Skype,,,,,,0
+6345 · Fax,,,,,,0
+Total 6345 · Fax,,,,,,0
+6346 · ADSL Telephone Line,,,,,,213.47
+,5/01/2011,6346 · ADSL Telephone Line,34.73,,34.73,248.2
+,6/02/2011,6346 · ADSL Telephone Line,32.67,,32.67,280.87
+,5/03/2011,6346 · ADSL Telephone Line,32.67,,32.67,313.54
+,5/04/2011,6346 · ADSL Telephone Line,36.72,,36.72,350.26
+,5/05/2011,6346 · ADSL Telephone Line,32.67,,32.67,382.93
+Total 6346 · ADSL Telephone Line,,,169.46,0,169.46,382.93
+6347 · ISP Fees,,,,,,1163.56
+,5/01/2011,6347 · ISP Fees,118.14,,118.14,1281.7
+,6/02/2011,6347 · ISP Fees,118.14,,118.14,1399.84
+,5/03/2011,6347 · ISP Fees,118.14,,118.14,1517.98
+,5/04/2011,6347 · ISP Fees,118.14,,118.14,1636.12
+,5/05/2011,6347 · ISP Fees,118.14,,118.14,1754.26
+Total 6347 · ISP Fees,,,590.7,0,590.7,1754.26
+6348 · Internet Expenses,,,,,,0
+Total 6348 · Internet Expenses,,,,,,0
+6340 · Telephone & Internet - Other,,,,,,0
+Total 6340 · Telephone & Internet - Other,,,,,,0
+Total 6340 · Telephone & Internet,,,760.16,0,760.16,3440.34
+6350 · Travel & Ent,,,,,,1107.01
+6360 · Entertainment,,,,,,157
+Total 6360 · Entertainment,,,,,,157
+6370 · Meals,,,,,,0
+Total 6370 · Meals,,,,,,0
+6380 · Travel,,,,,,618.98
+Total 6380 · Travel,,,,,,618.98
+6385 · Local Transportation,,,,,,331.03
+Total 6385 · Local Transportation,,,,,,331.03
+6350 · Travel & Ent - Other,,,,,,0
+Total 6350 · Travel & Ent - Other,,,,,,0
+Total 6350 · Travel & Ent,,,,,,1107.01
+6390 · Utilities,,,,,,0
+6400 · Gas and Electric,,,,,,0
+Total 6400 · Gas and Electric,,,,,,0
+6410 · Water,,,,,,0
+Total 6410 · Water,,,,,,0
+6390 · Utilities - Other,,,,,,0
+Total 6390 · Utilities - Other,,,,,,0
+Total 6390 · Utilities,,,,,,0
+6480 · External Services,,,,,,27.5
+Total 6480 · External Services,,,,,,27.5
+6490 · Web Hosting Services,,,,,,0
+Total 6490 · Web Hosting Services,,,,,,0
+6500 · Marketing Expenses,,,,,,0
+6510 · Webex Presentation,,,,,,0
+Total 6510 · Webex Presentation,,,,,,0
+6500 · Marketing Expenses - Other,,,,,,0
+Total 6500 · Marketing Expenses - Other,,,,,,0
+Total 6500 · Marketing Expenses,,,,,,0
+6560 · Payroll Expenses,,,,,,0
+6565 · Employee Super,,,,,,0
+Total 6565 · Employee Super,,,,,,0
+6560 · Payroll Expenses - Other,,,,,,0
+Total 6560 · Payroll Expenses - Other,,,,,,0
+Total 6560 · Payroll Expenses,,,,,,0
+6910 · Formation Expenses Written Off,,,,,,0
+Total 6910 · Formation Expenses Written Off,,,,,,0
+7010 · Interest Income,,,,,,-747.77
+,31/01/2011,7010 · Interest Income,,34.09,-34.09,-781.86
+,28/02/2011,7010 · Interest Income,,55.48,-55.48,-837.34
+,31/03/2011,7010 · Interest Income,,63.99,-63.99,-901.33
+Total 7010 · Interest Income,,,0,153.56,-153.56,-901.33
+7030 · Other Income,,,,,,0
+Total 7030 · Other Income,,,,,,0
+8010 · Other Expenses,,,,,,0
+Total 8010 · Other Expenses,,,,,,0
+No accnt,,,,,,0
+Total no accnt,,,,,,0
+TOTAL,,,122427.67,122427.67,0,0

@@ -1,0 +1,320 @@
+REA,Supplément de Réanimation,2004-01-01 00:00:00,2004-12-31 00:00:00,932.67,1,2004
+FAU+0,Nombre de passages inférieur à 12500,2004-01-01 00:00:00,2004-12-31 00:00:00,368625,,
+FAU+12500,"Nombre de passages supérieur ou égal à 12500, inférieur à 17499",2004-01-01 00:00:00,2004-12-31 00:00:00,614374,,
+FAU+17500,"Nombre de passages supérieur ou égal à 17500, inférieur à 22499",2004-01-01 00:00:00,2004-12-31 00:00:00,875035,,
+FAU+22500,"Nombre de passages supérieur ou égal à 17500, intérieur à 27499",2004-01-01 00:00:00,2004-12-31 00:00:00,1.1406e+06,,
+FAU+27500,"Nombre de passages supérieur ou égal à 17500, intérieur à 32499",2004-01-01 00:00:00,2004-12-31 00:00:00,1.40617e+06,,
+FAU+32500,"Nombre de passages supérieur ou égal à 17500, inférieur à 37499",2004-01-01 00:00:00,2004-12-31 00:00:00,1.68028e+06,,
+FAU+37500*5000,"Nombre de passages supérieur ou égal à 37500, par tranche de 5000",2004-01-01 00:00:00,2004-12-31 00:00:00,274113,,
+ATU,Prestation acceuil traitement aux urgences,2004-01-01 00:00:00,2004-12-31 00:00:00,25,,
+CPO-1,"Au moins 20 donneurs d’organes recensés, Au moins 30 cornées ou tissus prélevés, Animation du réseau, Mission d’étude clinique et de recueil d’information sur la greffe assurée en liaison avec l’Etablissement français des greffes",2004-01-01 00:00:00,2004-12-31 00:00:00,484000,,
+CPO-2,"Au moins 20 donneurs d’organes recensés, Au moins 30 cornées ou tissus prélevés, Animation du réseau.",2004-01-01 00:00:00,2004-12-31 00:00:00,345500,,
+CPO-3,"Entre 10 et 20 donneurs d’organes recensés, Prélèvement de tissus",2004-01-01 00:00:00,2004-12-31 00:00:00,232000,,
+CPO-4,"Moins de 10 donneurs d’organes recensés (et/ou transferts de donneurs potentiels), Prélèvement de tissus",2004-01-01 00:00:00,2004-12-31 00:00:00,140000,,
+CPO-5,Prélèvement de tissus uniquement,2004-01-01 00:00:00,2004-12-31 00:00:00,31000,,
+CG-2A,Corse du Sud,2004-01-01 00:00:00,2004-12-31 00:00:00,5,,
+CG-2B,Haute Corse,2004-01-01 00:00:00,2004-12-31 00:00:00,5,,
+CG-75,Paris,2004-01-01 00:00:00,2004-12-31 00:00:00,10,,
+CG-92,Hauts de Seine,2004-01-01 00:00:00,2004-12-31 00:00:00,10,,
+CG-93,Seine Saint Denis,2004-01-01 00:00:00,2004-12-31 00:00:00,10,,
+CG-94,Val de Marne,2004-01-01 00:00:00,2004-12-31 00:00:00,10,,
+CG-971,Guadeloupe,2004-01-01 00:00:00,2004-12-31 00:00:00,25,,
+CG-972,Martinique,2004-01-01 00:00:00,2004-12-31 00:00:00,25,,
+CG-973,Guyane,2004-01-01 00:00:00,2004-12-31 00:00:00,25,,
+CG-974,Réunion,2004-01-01 00:00:00,2004-12-31 00:00:00,30,,
+REA,Supplément de réanimation,2005-01-01 00:00:00,2006-03-14 00:00:00,833.24,1,"2005,2006T1"
+STF,Supplément de soins intensifs,2005-01-01 00:00:00,2006-03-14 00:00:00,417.12,1,"2005,2006T1"
+SRC,Supplément de surveillance continue,2005-01-01 00:00:00,2006-03-14 00:00:00,277.75,1,"2005,2006T1"
+NN1,Supplément de Néonatalogie,2005-01-01 00:00:00,2006-03-14 00:00:00,300.81,1,"2005,2006T1"
+NN2,Supplément Néonatalogie avec soins intensifs,2005-01-01 00:00:00,2006-03-14 00:00:00,421.13,1,"2005,2006T1"
+NN3,Supplément de réanimation néonatale,2005-01-01 00:00:00,2006-03-14 00:00:00,601.62,1,"2005,2006T1"
+REA,Supplément de réanimation,2006-03-15 00:00:00,2006-08-31 00:00:00,824.91,1,2006T2T3
+STF,Supplément de soins intensifs,2006-03-15 00:00:00,2006-08-31 00:00:00,412.95,1,2006T2T3
+SRC,Supplément de surveillance continue,2006-03-15 00:00:00,2006-08-31 00:00:00,274.97,1,2006T2T3
+NN1,Supplément de Néonatalogie,2006-03-15 00:00:00,2006-08-31 00:00:00,297.8,1,2006T2T3
+NN2,Supplément Néonatalogie avec soins intensifs,2006-03-15 00:00:00,2006-08-31 00:00:00,416.92,1,2006T2T3
+NN3,Supplément de réanimation néonatale,2006-03-15 00:00:00,2006-08-31 00:00:00,824.91,1,2006T2T3
+REP,Supplément de réanimation pédiatrie,2007-03-01 00:00:00,2007-12-31 00:00:00,950,1,2007T2T3T4
+REA,Supplément de réanimation,2007-03-01 00:00:00,2007-12-31 00:00:00,838.16,1,2007T2T3T4
+STF,Supplément de soins intensifs,2007-03-01 00:00:00,2007-12-31 00:00:00,419.58,1,2007T2T3T4
+SRC,Supplément de surveillance continue,2007-03-01 00:00:00,2007-12-31 00:00:00,279.39,1,2007T2T3T4
+NN1,Supplément de Néonatalogie,2007-03-01 00:00:00,2007-12-31 00:00:00,316.67,1,2007T2T3T4
+NN2,Supplément Néonatalogie avec soins intensifs,2007-03-01 00:00:00,2007-12-31 00:00:00,475,1,2007T2T3T4
+NN3,Supplément de réanimation néonatale,2007-03-01 00:00:00,2007-12-31 00:00:00,950,1,2007T2T3T4
+REP,Supplément de réanimation pédiatrie,2008-01-01 00:00:00,2008-02-29 00:00:00,914.85,1,2008T1
+REA,Supplément de réanimation,2008-01-01 00:00:00,2008-02-29 00:00:00,807.15,1,2008T1
+STF,Supplément de soins intensifs,2008-01-01 00:00:00,2008-02-29 00:00:00,404.06,1,2008T1
+SRC,Supplément de surveillance continue,2008-01-01 00:00:00,2008-02-29 00:00:00,269.05,1,2008T1
+NN1,Supplément de Néonatalogie,2008-01-01 00:00:00,2008-02-29 00:00:00,304.95,1,2008T1
+NN2,Supplément Néonatalogie avec soins intensifs,2008-01-01 00:00:00,2008-02-29 00:00:00,457.43,1,2008T1
+NN3,Supplément de réanimation néonatale,2008-01-01 00:00:00,2008-02-29 00:00:00,914.85,1,2008T1
+REP,Supplément de réanimation pédiatrie,2008-03-01 00:00:00,2009-02-28 00:00:00,919.42,1,"2008T2T3T4,2009T1"
+REA,Supplément de réanimation,2008-03-01 00:00:00,2009-02-28 00:00:00,811.18,1,"2008T2T3T4,2009T1"
+STF,Supplément de soins intensifs,2008-03-01 00:00:00,2009-02-28 00:00:00,406.08,1,"2008T2T3T4,2009T1"
+SRC,Supplément de surveillance continue,2008-03-01 00:00:00,2009-02-28 00:00:00,270.39,1,"2008T2T3T4,2009T1"
+NN1,Supplément de Néonatalogie,2008-03-01 00:00:00,2009-02-28 00:00:00,306.47,1,"2008T2T3T4,2009T1"
+NN2,Supplément Néonatalogie avec soins intensifs,2008-03-01 00:00:00,2009-02-28 00:00:00,459.71,1,"2008T2T3T4,2009T1"
+NN3,Supplément de réanimation néonatale,2008-03-01 00:00:00,2009-02-28 00:00:00,919.42,1,"2008T2T3T4,2009T1"
+REP,Supplément de réanimation pédiatrie,2009-03-01 00:00:00,2009-12-31 00:00:00,761.29,"a,b,c",2009T2T4T4
+REA,Supplément de réanimation,2009-03-01 00:00:00,2009-12-31 00:00:00,650.36,"a,b,c",2009T2T4T4
+STF,Supplément de soins intensifs,2009-03-01 00:00:00,2009-12-31 00:00:00,325.18,"a,b,c",2009T2T4T4
+SRC,Supplément de surveillance continue,2009-03-01 00:00:00,2009-12-31 00:00:00,260.14,"a,b,c",2009T2T4T4
+NN1,Supplément de Néonatalogie,2009-03-01 00:00:00,2009-12-31 00:00:00,256.3,"a,b,c",2009T2T4T4
+NN2,Supplément Néonatalogie avec soins intensifs,2009-03-01 00:00:00,2009-12-31 00:00:00,385.21,"a,b,c",2009T2T4T4
+NN3,Supplément de réanimation néonatale,2009-03-01 00:00:00,2009-12-31 00:00:00,761.29,"a,b,c",2009T2T4T4
+REP,Supplément de réanimation pédiatrie,2009-03-01 00:00:00,2009-12-31 00:00:00,922.98,d,2009T2T4T4
+REA,Supplément de réanimation,2009-03-01 00:00:00,2009-12-31 00:00:00,814.32,d,2009T2T4T4
+STF,Supplément de soins intensifs,2009-03-01 00:00:00,2009-12-31 00:00:00,407.65,d,2009T2T4T4
+SRC,Supplément de surveillance continue,2009-03-01 00:00:00,2009-12-31 00:00:00,326.12,d,2009T2T4T4
+NN1,Supplément de Néonatalogie,2009-03-01 00:00:00,2009-12-31 00:00:00,307.66,d,2009T2T4T4
+NN2,Supplément Néonatalogie avec soins intensifs,2009-03-01 00:00:00,2009-12-31 00:00:00,461.49,d,2009T2T4T4
+NN3,Supplément de réanimation néonatale,2009-03-01 00:00:00,2009-12-31 00:00:00,922.98,d,2009T2T4T4
+D12,Forfait d'autodialyse simple,2009-03-01 00:00:00,2009-12-31 00:00:00,232.64,"a,b,c",2009T2T4T4
+REA,Supplément de réanimation,2006-09-01 00:00:00,2007-02-28 00:00:00,833.16,1,"2006T4,2007T1"
+SRC,Supplément de surveillance continue,2006-09-01 00:00:00,2007-02-28 00:00:00,277.72,1,"2006T4,2007T1"
+NN1,Supplément de Néonatalogie,2006-09-01 00:00:00,2007-02-28 00:00:00,300.78,1,"2006T4,2007T1"
+NN2,Supplément Néonatalogie avec soins intensifs,2006-09-01 00:00:00,2007-02-28 00:00:00,421.09,1,"2006T4,2007T1"
+NN3,Supplément de réanimation néonatale,2006-09-01 00:00:00,2007-02-28 00:00:00,833.16,1,"2006T4,2007T1"
+D13,Forfait d'autodialyse assistée,2009-03-01 00:00:00,2009-12-31 00:00:00,238.87,"a,b,c",2009T2T4T4
+D14,Forfait d'hémodialyse à domicile,2009-03-01 00:00:00,2009-12-31 00:00:00,206.38,"a,b,c",2009T2T4T4
+D15,Forfait de dialyse péritonéale automatisée (DPA),2009-03-01 00:00:00,2009-12-31 00:00:00,700.54,"a,b,c",2009T2T4T4
+D16,Forfait de dialyse péritonéale continue ambulatoire (DPCA),2009-03-01 00:00:00,2009-12-31 00:00:00,544.06,"a,b,c",2009T2T4T4
+D20,Forfait d'entraînement à la dialyse péritonéale automatisée,2009-03-01 00:00:00,2009-12-31 00:00:00,426.62,"a,b,c",2009T2T4T4
+D21,Forfait d'entraînement à la dialyse péritonéale continue ambulatoire,2009-03-01 00:00:00,2009-12-31 00:00:00,399.77,"a,b,c",2009T2T4T4
+DTP,Indemnité compensatrice à tierce personne,2009-03-01 00:00:00,2009-12-31 00:00:00,23.73,"a,b,c",2009T2T4T4
+PO1,Prélèvement du ou des reins et/ou du foie,2009-03-01 00:00:00,2009-12-31 00:00:00,7321.15,"a,b,c",2009T2T4T4
+PO2,"Prélèvement du ou des reins, du foie, du coeur, du pancréas, du ou des poumons et/ou de l'intestin, ou prélèvement d'au moins 7 organes",2009-03-01 00:00:00,2009-12-31 00:00:00,10304.4,"a,b,c",2009T2T4T4
+PO3,Autres prélèvements d'organes,2009-03-01 00:00:00,2009-12-31 00:00:00,8472.81,"a,b,c",2009T2T4T4
+PO4,Prélèvements d'organes sur coeur arrêté,2009-03-01 00:00:00,2009-12-31 00:00:00,11239.8,"a,b,c",2009T2T4T4
+PO5,Prélèvement de rein(s),2009-03-01 00:00:00,2009-12-31 00:00:00,404.09,"a,b,c",2009T2T4T4
+PO6,Prélèvement du foie,2009-03-01 00:00:00,2009-12-31 00:00:00,404.09,"a,b,c",2009T2T4T4
+PO7,Prélèvement de poumon(s),2009-03-01 00:00:00,2009-12-31 00:00:00,515.22,"a,b,c",2009T2T4T4
+PO8,Prélèvement de coeur ou du bloc coeur/poumon,2009-03-01 00:00:00,2009-12-31 00:00:00,484.91,"a,b,c",2009T2T4T4
+PO9,Prélèvement de pancréas,2009-03-01 00:00:00,2009-12-31 00:00:00,606.14,"a,b,c",2009T2T4T4
+GHT1,,2009-03-01 00:00:00,2009-12-31 00:00:00,53.94,"a,b,c",2009T2T4T4
+GHT2,,2009-03-01 00:00:00,2009-12-31 00:00:00,69.86,"a,b,c",2009T2T4T4
+GHT3,,2009-03-01 00:00:00,2009-12-31 00:00:00,86.03,"a,b,c",2009T2T4T4
+GHT4,,2009-03-01 00:00:00,2009-12-31 00:00:00,102,"a,b,c",2009T2T4T4
+GHT5,,2009-03-01 00:00:00,2009-12-31 00:00:00,118.04,"a,b,c",2009T2T4T4
+GHT6,,2009-03-01 00:00:00,2009-12-31 00:00:00,134.01,"a,b,c",2009T2T4T4
+GHT7,,2009-03-01 00:00:00,2009-12-31 00:00:00,150.02,"a,b,c",2009T2T4T4
+GHT8,,2009-03-01 00:00:00,2009-12-31 00:00:00,166.04,"a,b,c",2009T2T4T4
+GHT9,,2009-03-01 00:00:00,2009-12-31 00:00:00,182.07,"a,b,c",2009T2T4T4
+GHT10,,2009-03-01 00:00:00,2009-12-31 00:00:00,198.14,"a,b,c",2009T2T4T4
+GHT11,,2009-03-01 00:00:00,2009-12-31 00:00:00,214.09,"a,b,c",2009T2T4T4
+GHT12,,2009-03-01 00:00:00,2009-12-31 00:00:00,230.12,"a,b,c",2009T2T4T4
+GHT13,,2009-03-01 00:00:00,2009-12-31 00:00:00,246.12,"a,b,c",2009T2T4T4
+GHT14,,2009-03-01 00:00:00,2009-12-31 00:00:00,262.14,"a,b,c",2009T2T4T4
+GHT15,,2009-03-01 00:00:00,2009-12-31 00:00:00,278.16,"a,b,c",2009T2T4T4
+GHT16,,2009-03-01 00:00:00,2009-12-31 00:00:00,294.13,"a,b,c",2009T2T4T4
+GHT17,,2009-03-01 00:00:00,2009-12-31 00:00:00,310.18,"a,b,c",2009T2T4T4
+GHT18,,2009-03-01 00:00:00,2009-12-31 00:00:00,326.17,"a,b,c",2009T2T4T4
+GHT19,,2009-03-01 00:00:00,2009-12-31 00:00:00,342.2,"a,b,c",2009T2T4T4
+GHT20,,2009-03-01 00:00:00,2009-12-31 00:00:00,358.22,"a,b,c",2009T2T4T4
+GHT21,,2009-03-01 00:00:00,2009-12-31 00:00:00,374.16,"a,b,c",2009T2T4T4
+GHT22,,2009-03-01 00:00:00,2009-12-31 00:00:00,390.29,"a,b,c",2009T2T4T4
+GHT23,,2009-03-01 00:00:00,2009-12-31 00:00:00,406.19,"a,b,c",2009T2T4T4
+GHT24,,2009-03-01 00:00:00,2009-12-31 00:00:00,422.38,"a,b,c",2009T2T4T4
+GHT25,,2009-03-01 00:00:00,2009-12-31 00:00:00,438.25,"a,b,c",2009T2T4T4
+GHT26,,2009-03-01 00:00:00,2009-12-31 00:00:00,454.41,"a,b,c",2009T2T4T4
+GHT27,,2009-03-01 00:00:00,2009-12-31 00:00:00,470.25,"a,b,c",2009T2T4T4
+GHT28,,2009-03-01 00:00:00,2009-12-31 00:00:00,486.19,"a,b,c",2009T2T4T4
+GHT29,,2009-03-01 00:00:00,2009-12-31 00:00:00,502.24,"a,b,c",2009T2T4T4
+GHT30,,2009-03-01 00:00:00,2009-12-31 00:00:00,518.27,"a,b,c",2009T2T4T4
+GHT31,,2009-03-01 00:00:00,2009-12-31 00:00:00,534.24,"a,b,c",2009T2T4T4
+GHT1-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,46.93,"a,b,c",2009T2T4T4
+GHT2-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,60.78,"a,b,c",2009T2T4T4
+GHT3-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,74.85,"a,b,c",2009T2T4T4
+GHT4-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,88.74,"a,b,c",2009T2T4T4
+GHT5-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,102.69,"a,b,c",2009T2T4T4
+GHT6-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,116.59,"a,b,c",2009T2T4T4
+GHT7-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,130.51,"a,b,c",2009T2T4T4
+GHT8-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,144.45,"a,b,c",2009T2T4T4
+GHT9-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,158.4,"a,b,c",2009T2T4T4
+GHT10-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,172.39,"a,b,c",2009T2T4T4
+GHT11-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,186.26,"a,b,c",2009T2T4T4
+GHT12-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,200.21,"a,b,c",2009T2T4T4
+GHT13-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,214.12,"a,b,c",2009T2T4T4
+GHT14-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,228.07,"a,b,c",2009T2T4T4
+GHT15-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,242,"a,b,c",2009T2T4T4
+GHT16-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,255.9,"a,b,c",2009T2T4T4
+GHT17-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,269.86,"a,b,c",2009T2T4T4
+GHT18-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,283.77,"a,b,c",2009T2T4T4
+GHT19-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,297.72,"a,b,c",2009T2T4T4
+GHT20-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,311.65,"a,b,c",2009T2T4T4
+GHT21-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,325.52,"a,b,c",2009T2T4T4
+GHT22-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,339.56,"a,b,c",2009T2T4T4
+GHT23-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,353.39,"a,b,c",2009T2T4T4
+GHT24-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,367.47,"a,b,c",2009T2T4T4
+GHT25-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,381.28,"a,b,c",2009T2T4T4
+GHT26-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,395.33,"a,b,c",2009T2T4T4
+GHT27-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,409.11,"a,b,c",2009T2T4T4
+GHT28-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,422.99,"a,b,c",2009T2T4T4
+GHT29-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,436.95,"a,b,c",2009T2T4T4
+GHT30-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,450.9,"a,b,c",2009T2T4T4
+GHT31-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,464.79,"a,b,c",2009T2T4T4
+GHT1,,2009-03-01 00:00:00,2009-12-31 00:00:00,53.5,d,2009T2T4T4
+GHT2,,2009-03-01 00:00:00,2009-12-31 00:00:00,69.48,d,2009T2T4T4
+GHT3,,2009-03-01 00:00:00,2009-12-31 00:00:00,85.45,d,2009T2T4T4
+GHT4,,2009-03-01 00:00:00,2009-12-31 00:00:00,101.42,d,2009T2T4T4
+GHT5,,2009-03-01 00:00:00,2009-12-31 00:00:00,117.39,d,2009T2T4T4
+GHT6,,2009-03-01 00:00:00,2009-12-31 00:00:00,133.36,d,2009T2T4T4
+GHT7,,2009-03-01 00:00:00,2009-12-31 00:00:00,149.33,d,2009T2T4T4
+GHT8,,2009-03-01 00:00:00,2009-12-31 00:00:00,165.3,d,2009T2T4T4
+GHT9,,2009-03-01 00:00:00,2009-12-31 00:00:00,181.28,d,2009T2T4T4
+GHT10,,2009-03-01 00:00:00,2009-12-31 00:00:00,197.25,d,2009T2T4T4
+GHT11,,2009-03-01 00:00:00,2009-12-31 00:00:00,213.22,d,2009T2T4T4
+GHT12,,2009-03-01 00:00:00,2009-12-31 00:00:00,229.19,d,2009T2T4T4
+GHT13,,2009-03-01 00:00:00,2009-12-31 00:00:00,245.16,d,2009T2T4T4
+GHT14,,2009-03-01 00:00:00,2009-12-31 00:00:00,261.13,d,2009T2T4T4
+GHT15,,2009-03-01 00:00:00,2009-12-31 00:00:00,277.1,d,2009T2T4T4
+GHT16,,2009-03-01 00:00:00,2009-12-31 00:00:00,293.08,d,2009T2T4T4
+GHT17,,2009-03-01 00:00:00,2009-12-31 00:00:00,309.05,d,2009T2T4T4
+GHT18,,2009-03-01 00:00:00,2009-12-31 00:00:00,325.02,d,2009T2T4T4
+GHT19,,2009-03-01 00:00:00,2009-12-31 00:00:00,340.99,d,2009T2T4T4
+GHT20,,2009-03-01 00:00:00,2009-12-31 00:00:00,356.96,d,2009T2T4T4
+GHT21,,2009-03-01 00:00:00,2009-12-31 00:00:00,372.93,d,2009T2T4T4
+GHT22,,2009-03-01 00:00:00,2009-12-31 00:00:00,388.91,d,2009T2T4T4
+GHT23,,2009-03-01 00:00:00,2009-12-31 00:00:00,404.88,d,2009T2T4T4
+GHT24,,2009-03-01 00:00:00,2009-12-31 00:00:00,420.85,d,2009T2T4T4
+GHT25,,2009-03-01 00:00:00,2009-12-31 00:00:00,436.82,d,2009T2T4T4
+GHT26,,2009-03-01 00:00:00,2009-12-31 00:00:00,452.79,d,2009T2T4T4
+GHT27,,2009-03-01 00:00:00,2009-12-31 00:00:00,468.76,d,2009T2T4T4
+GHT28,,2009-03-01 00:00:00,2009-12-31 00:00:00,484.73,d,2009T2T4T4
+GHT29,,2009-03-01 00:00:00,2009-12-31 00:00:00,500.71,d,2009T2T4T4
+GHT30,,2009-03-01 00:00:00,2009-12-31 00:00:00,516.68,d,2009T2T4T4
+GHT31,,2009-03-01 00:00:00,2009-12-31 00:00:00,532.65,d,2009T2T4T4
+GHT1-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,46.55,d,2009T2T4T4
+GHT2-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,60.44,d,2009T2T4T4
+GHT3-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,74.34,d,2009T2T4T4
+GHT4-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,88.23,d,2009T2T4T4
+GHT5-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,102.13,d,2009T2T4T4
+GHT6-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,116.02,d,2009T2T4T4
+GHT7-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,129.92,d,2009T2T4T4
+GHT8-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,143.82,d,2009T2T4T4
+GHT9-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,157.71,d,2009T2T4T4
+GHT10-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,171.61,d,2009T2T4T4
+GHT11-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,185.5,d,2009T2T4T4
+GHT12-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,199.4,d,2009T2T4T4
+GHT13-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,213.29,d,2009T2T4T4
+GHT14-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,227.19,d,2009T2T4T4
+GHT15-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,241.08,d,2009T2T4T4
+GHT16-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,254.98,d,2009T2T4T4
+GHT17-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,268.87,d,2009T2T4T4
+GHT18-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,282.77,d,2009T2T4T4
+GHT19-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,296.66,d,2009T2T4T4
+GHT20-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,310.56,d,2009T2T4T4
+GHT21-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,324.45,d,2009T2T4T4
+GHT22-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,338.35,d,2009T2T4T4
+GHT23-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,352.24,d,2009T2T4T4
+GHT24-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,366.14,d,2009T2T4T4
+GHT25-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,380.03,d,2009T2T4T4
+GHT26-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,393.93,d,2009T2T4T4
+GHT27-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,407.82,d,2009T2T4T4
+GHT28-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,421.72,d,2009T2T4T4
+GHT29-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,435.61,d,2009T2T4T4
+GHT30-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,449.51,d,2009T2T4T4
+GHT31-4,,2009-03-01 00:00:00,2009-12-31 00:00:00,463.4,d,2009T2T4T4
+D09,Forfait d'hémodialyse en centre,2009-03-01 00:00:00,2009-12-31 00:00:00,293.86,d,2009T2T4T4
+D10,Forfait d'hémodialyse en centre pour enfant,2009-03-01 00:00:00,2009-12-31 00:00:00,341.08,d,2009T2T4T4
+D11,Forfait d'hémodialyse en unité de dialyse médicalisée,2009-03-01 00:00:00,2009-12-31 00:00:00,252.96,d,2009T2T4T4
+D17,Forfait d'entraînement à l'hémodialyse à domicile et à l'autodialyse,2009-03-01 00:00:00,2009-12-31 00:00:00,355.27,d,2009T2T4T4
+D18,Forfait d'entraînement à la dialyse péritonéale automatisée,2009-03-01 00:00:00,2009-12-31 00:00:00,363.98,d,2009T2T4T4
+D19,Forfait d'entraînement à la dialyse péritonéale continue ambulatoire,2009-03-01 00:00:00,2009-12-31 00:00:00,338.93,d,2009T2T4T4
+D12,Forfait d'autodialyse simple,2009-03-01 00:00:00,2009-12-31 00:00:00,216.97,d,2009T2T4T4
+D13,Forfait d'autodialyse assistée,2009-03-01 00:00:00,2009-12-31 00:00:00,222.77,d,2009T2T4T4
+D14,Forfait d'hémodialyse à domicile,2009-03-01 00:00:00,2009-12-31 00:00:00,195.62,d,2009T2T4T4
+D15,Forfait de dialyse péritonéale automatisée (DPA),2009-03-01 00:00:00,2009-12-31 00:00:00,664.02,d,2009T2T4T4
+D16,Forfait de dialyse péritonéale continue ambulatoire (DPCA),2009-03-01 00:00:00,2009-12-31 00:00:00,515.7,d,2009T2T4T4
+D20,Forfait d'entraînement à la dialyse péritonéale automatisée,2009-03-01 00:00:00,2009-12-31 00:00:00,363.97,d,2009T2T4T4
+D21,Forfait d'entraînement à la dialyse péritonéale continue ambulatoire,2009-03-01 00:00:00,2009-12-31 00:00:00,338.93,d,2009T2T4T4
+DTP,Indemnité compensatrice à tierce personne,2009-03-01 00:00:00,2009-12-31 00:00:00,23.73,d,2009T2T4T4
+PO1,Prélèvement du ou des reins et/ou du foie,2009-03-01 00:00:00,2009-12-31 00:00:00,5642.14,d,2009T2T4T4
+PO2,"Prélèvement du ou des reins, du foie, du coeur, du pancréas, du ou des poumons et/ou de l'intestin, ou prélèvement d'au moins 7 organes",2009-03-01 00:00:00,2009-12-31 00:00:00,8570.8,d,2009T2T4T4
+PO3,Autres prélèvements d'organes,2009-03-01 00:00:00,2009-12-31 00:00:00,6785.72,d,2009T2T4T4
+PO4,Prélèvements d'organes sur coeur arrêté,2009-03-01 00:00:00,2009-12-31 00:00:00,7899,d,2009T2T4T4
+SE1,Acte d’endoscopie sans anesthésie générale ou loco-régionale de la liste 1 nécessitant le recours à un secteur opératoire,2009-03-01 00:00:00,2009-12-31 00:00:00,75.77,"a,b,c,d",2009T2T4T4
+SE2,Acte sans anesthésie générale ou loco-régionale de la liste 2 nécessitant le recours à un secteur opératoire,2009-03-01 00:00:00,2009-12-31 00:00:00,60.61,"a,b,c,d",2009T2T4T4
+SE3,Acte de la liste 3 nécessitant une mise en observation du patient environnement hospitalier,2009-03-01 00:00:00,2009-12-31 00:00:00,40.41,"a,b,c,d",2009T2T4T4
+SE4,Acte de la liste 4 nécessitant une mise en observation du patient dans un environnement hospitalier,2009-03-01 00:00:00,2009-12-31 00:00:00,20.2,"a,b,c,d",2009T2T4T4
+CPOA+,20 donneurs recensés + prélèvements de tissus ( 30 cornées ou tissus) + animation du réseau + mission d’études cliniques,2009-03-01 00:00:00,2009-12-31 00:00:00,443731,"a,b,c",2009T2T4T4
+CPOA,20 donneurs recensés + prélèvements de tissus (30 cornées ou tissus) + animation du réseau,2009-03-01 00:00:00,2009-12-31 00:00:00,316754,"a,b,c",2009T2T4T4
+CPOA2,20 donneurs recensés + prélèvements de tissus (30 cornées ou tissus) + au moins 20 organes prélevés par les équipes locales,2009-03-01 00:00:00,2009-12-31 00:00:00,326754,"a,b,c",2009T2T4T4
+CPOB,Entre 10 et 20 donneurs recensés + prélèvements de tissus,2009-03-01 00:00:00,2009-12-31 00:00:00,212698,"a,b,c",2009T2T4T4
+CPOC,Moins de 10 donneurs recensés (et/ou transfert de donneurs potentiels) + prélèvements de tissus,2009-03-01 00:00:00,2009-12-31 00:00:00,128352,"a,b,c",2009T2T4T4
+CPOD,Autorisation de tissus uniquement,2009-03-01 00:00:00,2009-12-31 00:00:00,28421,"a,b,c",2009T2T4T4
+ATU+0,Nombre de passages inférieur à 5000,2009-03-01 00:00:00,2009-12-31 00:00:00,470553,"a,b,c",2009T2T4T4
+ATU+5000,"Nombre de passages supérieur ou égal à 5000, inférieur à 7500",2009-03-01 00:00:00,2009-12-31 00:00:00,635246,"a,b,c",2009T2T4T4
+ATU+7500,"Nombre de passages supérieur ou égal à 7500, inférieur à 10000",2009-03-01 00:00:00,2009-12-31 00:00:00,799940,"a,b,c",2009T2T4T4
+ATU+10000,"Nombre de passages supérieur ou égal à 10000, inférieur à 12500",2009-03-01 00:00:00,2009-12-31 00:00:00,964633,"a,b,c",2009T2T4T4
+ATU+12500,"Nombre de passages supérieur ou égal à 12500, inférieur à 15000",2009-03-01 00:00:00,2009-12-31 00:00:00,1.12933e+06,"a,b,c",2009T2T4T4
+ATU+15000,"Nombre de passages supérieur ou égal à 15000, inférieur à 17500",2009-03-01 00:00:00,2009-12-31 00:00:00,1.29402e+06,"a,b,c",2009T2T4T4
+ATU+17500,"Nombre de passages supérieur ou égal à 17500, inférieur à 20000",2009-03-01 00:00:00,2009-12-31 00:00:00,1.4654e+06,"a,b,c",2009T2T4T4
+ATU+20000,"Nombre de passages supérieur ou égal à 20000, inférieur à 22500",2009-03-01 00:00:00,2009-12-31 00:00:00,1.63678e+06,"a,b,c",2009T2T4T4
+ATU+22500,"Nombre de passages supérieur ou égal à 22500, inférieur à 25000",2009-03-01 00:00:00,2009-12-31 00:00:00,1.80815e+06,"a,b,c",2009T2T4T4
+ATU+25000,"Nombre de passages supérieur ou égal à 25000, inférieur à 27500",2009-03-01 00:00:00,2009-12-31 00:00:00,1.97953e+06,"a,b,c",2009T2T4T4
+ATU+27500,"Nombre de passages supérieur ou égal à 27500, inférieur à 30000",2009-03-01 00:00:00,2009-12-31 00:00:00,2.15091e+06,"a,b,c",2009T2T4T4
+ATU+30000,"Nombre de passages supérieur ou égal à 30000, inférieur à 32500",2009-03-01 00:00:00,2009-12-31 00:00:00,2.32229e+06,"a,b,c",2009T2T4T4
+ATU+32500,"Nombre de passages supérieur ou égal à 32500, inférieur à 35000",2009-03-01 00:00:00,2009-12-31 00:00:00,2.49366e+06,"a,b,c",2009T2T4T4
+ATU+35000,"Nombre de passages supérieur ou égal à 35000, inférieur à 37500",2009-03-01 00:00:00,2009-12-31 00:00:00,2.66504e+06,"a,b,c",2009T2T4T4
+ATU+37500,"Nombre de passages supérieur ou égal à 37500, inférieur à 40000",2009-03-01 00:00:00,2009-12-31 00:00:00,2.83642e+06,"a,b,c",2009T2T4T4
+ATU+40000,"Nombre de passages supérieur ou égal à 40000, inférieur à 42500",2009-03-01 00:00:00,2009-12-31 00:00:00,3.0078e+06,"a,b,c",2009T2T4T4
+ATU+42500,"Nombre de passages supérieur ou égal à 42500, inférieur à 45000",2009-03-01 00:00:00,2009-12-31 00:00:00,3.17918e+06,"a,b,c",2009T2T4T4
+ATU+45000,"Nombre de passages supérieur ou égal à 45000, inférieur à 47500",2009-03-01 00:00:00,2009-12-31 00:00:00,3.35055e+06,"a,b,c",2009T2T4T4
+ATU+47500,"Nombre de passages supérieur ou égal à 47500, inférieur à 50000",2009-03-01 00:00:00,2009-12-31 00:00:00,3.52193e+06,"a,b,c",2009T2T4T4
+ATU+50000,"Nombre de passages supérieur ou égal à 50000, inférieur à 52500",2009-03-01 00:00:00,2009-12-31 00:00:00,3.69331e+06,"a,b,c",2009T2T4T4
+ATU+52500,"Nombre de passages supérieur ou égal à 52500, inférieur à 55000",2009-03-01 00:00:00,2009-12-31 00:00:00,3.86469e+06,"a,b,c",2009T2T4T4
+ATU+55000,"Nombre de passages supérieur ou égal à 55000, inférieur à 57500",2009-03-01 00:00:00,2009-12-31 00:00:00,4.03606e+06,"a,b,c",2009T2T4T4
+ATU+57500,"Nombre de passages supérieur ou égal à 57500, inférieur à 60000",2009-03-01 00:00:00,2009-12-31 00:00:00,4.20744e+06,"a,b,c",2009T2T4T4
+ATU+60000,"Nombre de passages supérieur ou égal à 60000, inférieur à 62500",2009-03-01 00:00:00,2009-12-31 00:00:00,4.37882e+06,"a,b,c",2009T2T4T4
+ATU+62500,"Nombre de passages supérieur ou égal à 62500, inférieur à 65000",2009-03-01 00:00:00,2009-12-31 00:00:00,4.5502e+06,"a,b,c",2009T2T4T4
+ATU+65000,"Nombre de passages supérieur ou égal à 65000, inférieur à 67500",2009-03-01 00:00:00,2009-12-31 00:00:00,4.72157e+06,"a,b,c",2009T2T4T4
+ATU+67500,"Nombre de passages supérieur ou égal à 67500, inférieur à 70000",2009-03-01 00:00:00,2009-12-31 00:00:00,4.89295e+06,"a,b,c",2009T2T4T4
+ATU+70000,"Nombre de passages supérieur ou égal à 70000, inférieur à 72500",2009-03-01 00:00:00,2009-12-31 00:00:00,5.06433e+06,"a,b,c",2009T2T4T4
+ATU+72500,"Nombre de passages supérieur ou égal à 72500, inférieur à 75000",2009-03-01 00:00:00,2009-12-31 00:00:00,5.23571e+06,"a,b,c",2009T2T4T4
+ATU+75000,"Nombre de passages supérieur ou égal à 75000, inférieur à 77500",2009-03-01 00:00:00,2009-12-31 00:00:00,5.40708e+06,"a,b,c",2009T2T4T4
+ATU+77500,"Nombre de passages supérieur ou égal à 77500, inférieur à 80000",2009-03-01 00:00:00,2009-12-31 00:00:00,5.57846e+06,"a,b,c",2009T2T4T4
+ATU+80000*2500,"Nombre de passages au delà de 80000, par tranche de 25000",2009-03-01 00:00:00,2009-12-31 00:00:00,171378,"a,b,c",2009T2T4T4
+FAG-G-R,"Par tranche de 10 greffes (avec un minimum de 5 greffes), rein",2009-03-01 00:00:00,2009-12-31 00:00:00,36672,"a,b,c",2009T2T4T4
+FAG-G-A,"Par tranche de 10 greffes (avec un minimum de 5 greffes), autre",2009-03-01 00:00:00,2009-12-31 00:00:00,32088,"a,b,c",2009T2T4T4
+FAG-P-R,"Par tranche de 10 patients inscrits (avec un minimum de 5 greffes), rein",2009-03-01 00:00:00,2009-12-31 00:00:00,9397,"a,b,c",2009T2T4T4
+FAG-P-A,"Par tranche de 10 patients inscrits (avec un minimum de 5 greffes), autre",2009-03-01 00:00:00,2009-12-31 00:00:00,8480,"a,b,c",2009T2T4T4
+FAG-D,"Par tranche de 5 donneurs vivants (moyenne sur 3 années, elle doit au moins
+être égale à 1)",2009-03-01 00:00:00,2009-12-31 00:00:00,22920,"a,b,c",2009T2T4T4
+FAG-1A,La tranche des 10 premiers allogreffes de moelle,2009-03-01 00:00:00,2009-12-31 00:00:00,45840,"a,b,c",2009T2T4T4
+FAG-A,"Par tranche de 10 allogreffes de moelle, après la première tranche",2009-03-01 00:00:00,2009-12-31 00:00:00,91680,"a,b,c",2009T2T4T4
+ATU+0,Nombre de passages inférieur à 7500,2009-03-01 00:00:00,2009-12-31 00:00:00,350382,d,2009T2T4T4
+ATU+7500,"Nombre de passages supérieur ou égal à 7500, inférieur à 10000",2009-03-01 00:00:00,2009-12-31 00:00:00,431282,d,2009T2T4T4
+ATU+10000,"Nombre de passages supérieur ou égal à 10000, inférieur à 12500",2009-03-01 00:00:00,2009-12-31 00:00:00,512182,d,2009T2T4T4
+ATU+12500,"Nombre de passages supérieur ou égal à 12500, inférieur à 15000",2009-03-01 00:00:00,2009-12-31 00:00:00,593082,d,2009T2T4T4
+ATU+15000,"Nombre de passages supérieur ou égal à 15000, inférieur à 17500",2009-03-01 00:00:00,2009-12-31 00:00:00,673982,d,2009T2T4T4
+ATU+17500,"Nombre de passages supérieur ou égal à 17500, inférieur à 20000",2009-03-01 00:00:00,2009-12-31 00:00:00,754882,d,2009T2T4T4
+ATU+20000,"Nombre de passages supérieur ou égal à 20000, inférieur à 22500",2009-03-01 00:00:00,2009-12-31 00:00:00,835782,d,2009T2T4T4
+ATU+22500,"Nombre de passages supérieur ou égal à 22500, inférieur à 25000",2009-03-01 00:00:00,2009-12-31 00:00:00,916682,d,2009T2T4T4
+ATU+25000,"Nombre de passages supérieur ou égal à 25000, inférieur à 27500",2009-03-01 00:00:00,2009-12-31 00:00:00,997582,d,2009T2T4T4
+ATU+27500,"Nombre de passages supérieur ou égal à 27500, inférieur à 30000",2009-03-01 00:00:00,2009-12-31 00:00:00,1.07848e+06,d,2009T2T4T4
+ATU+30000,"Nombre de passages supérieur ou égal à 30000, inférieur à 32500",2009-03-01 00:00:00,2009-12-31 00:00:00,1.15938e+06,d,2009T2T4T4
+ATU+32500,"Nombre de passages supérieur ou égal à 32500, inférieur à 35000",2009-03-01 00:00:00,2009-12-31 00:00:00,1.24028e+06,d,2009T2T4T4
+ATU+35000,"Nombre de passages supérieur ou égal à 35000, inférieur à 37500",2009-03-01 00:00:00,2009-12-31 00:00:00,1.32118e+06,d,2009T2T4T4
+ATU+37500,"Nombre de passages supérieur ou égal à 37500, inférieur à 40000",2009-03-01 00:00:00,2009-12-31 00:00:00,1.40208e+06,d,2009T2T4T4
+ATU+40000,"Nombre de passages supérieur ou égal à 40000, inférieur à 42500",2009-03-01 00:00:00,2009-12-31 00:00:00,1.48298e+06,d,2009T2T4T4
+ATU+42500,"Nombre de passages supérieur ou égal à 42500, inférieur à 45000",2009-03-01 00:00:00,2009-12-31 00:00:00,1.56388e+06,d,2009T2T4T4
+ATU+45000,"Nombre de passages supérieur ou égal à 45000, inférieur à 47500",2009-03-01 00:00:00,2009-12-31 00:00:00,1.64478e+06,d,2009T2T4T4
+ATU+47500,"Nombre de passages supérieur ou égal à 47500, inférieur à 50000",2009-03-01 00:00:00,2009-12-31 00:00:00,1.72568e+06,d,2009T2T4T4
+ATU+50000,"Nombre de passages supérieur ou égal à 50000, inférieur à 52500",2009-03-01 00:00:00,2009-12-31 00:00:00,1.80658e+06,d,2009T2T4T4
+ATU+52500,"Nombre de passages supérieur ou égal à 52500, inférieur à 55000",2009-03-01 00:00:00,2009-12-31 00:00:00,1.88748e+06,d,2009T2T4T4
+ATU+55000,"Nombre de passages supérieur ou égal à 55000, inférieur à 57500",2009-03-01 00:00:00,2009-12-31 00:00:00,1.96838e+06,d,2009T2T4T4
+ATU+57500,"Nombre de passages supérieur ou égal à 57500, inférieur à 60000",2009-03-01 00:00:00,2009-12-31 00:00:00,2.04928e+06,d,2009T2T4T4
+ATU+60000,"Nombre de passages supérieur ou égal à 60000, inférieur à 62500",2009-03-01 00:00:00,2009-12-31 00:00:00,2.13018e+06,d,2009T2T4T4
+ATU+62500,"Nombre de passages supérieur ou égal à 62500, inférieur à 65000",2009-03-01 00:00:00,2009-12-31 00:00:00,2.21108e+06,d,2009T2T4T4
+ATU+65000,"Nombre de passages supérieur ou égal à 65000, inférieur à 67500",2009-03-01 00:00:00,2009-12-31 00:00:00,2.29198e+06,d,2009T2T4T4
+ATU+67500,"Nombre de passages supérieur ou égal à 67500, inférieur à 70000",2009-03-01 00:00:00,2009-12-31 00:00:00,2.37288e+06,d,2009T2T4T4
+ATU+70000,"Nombre de passages supérieur ou égal à 70000, inférieur à 72500",2009-03-01 00:00:00,2009-12-31 00:00:00,2.45378e+06,d,2009T2T4T4
+ATU+72500,"Nombre de passages supérieur ou égal à 72500, inférieur à 75000",2009-03-01 00:00:00,2009-12-31 00:00:00,2.53468e+06,d,2009T2T4T4
+ATU+75000,"Nombre de passages supérieur ou égal à 75000, inférieur à 77500",2009-03-01 00:00:00,2009-12-31 00:00:00,2.61558e+06,d,2009T2T4T4
+ATU+77500,"Nombre de passages supérieur ou égal à 77500, inférieur à 80000",2009-03-01 00:00:00,2009-12-31 00:00:00,2.69648e+06,d,2009T2T4T4
+ATU+80000*2500,"Nombre de passages au delà de 80000, par tranche de 25000",2009-03-01 00:00:00,2009-12-31 00:00:00,80900,d,2009T2T4T4
+CPOD,Autorisation de tissus uniquement,2009-03-01 00:00:00,2009-12-31 00:00:00,23000,d,2009T2T4T4
+CPO,Autorisation de tissus et d'organes,2009-03-01 00:00:00,2009-12-31 00:00:00,34500,d,2009T2T4T4
+,,,,,,
+STF,Supplément de soins intensifs,2006-09-01 00:00:00,2007-02-28 00:00:00,417.08,1,"2006T4,2007T1"

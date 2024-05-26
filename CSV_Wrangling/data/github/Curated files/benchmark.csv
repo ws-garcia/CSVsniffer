@@ -1,0 +1,16 @@
+,,Bridge,,,RainyDay,,,Adobe,,
+Date,What Changed,Basic,Tele,Ref,Basic,Tele,Ref,Basic,Tele,Ref
+31-Jan,,4202,-1399,1747,-4672,-3095,-4800,1971,-1505,1472
+,Made chainers try to get w/in 7 of there enemy to keep them on defensive.,3203,-1505,2383,4775,-3835,3864,1578,-3678,-2592
+,Made archons be much more aggressive,6752,-6088,1714,4567,4663,4775,1417,2361,-2964
+,Made chainers attack from a little farther,3732,-6944,2266,4199,4033,-3420,1445,-3777,-3400
+,Added soldiers,2058,-5578,2236,3539,-4783,-3903,2160,-3560,1615
+,Made archons transfer flux between themselves so we reach 3000 faster,2026,-2948,1861,4298,-4562,3563,1933,-1802,1606
+,Made units send a low energon message more often.,2167,5868,2225,4378,-4285,-4570,2015,7445,1905
+,"Added Kory's ""better"" tower code.",1475,2386,1718*,3982,4780,-3379,1873,-4500,-2527
+,Fixed wout bugging issues / switched to using wouts to spawn towers.,2601,-1784,-3187,4800,-3634,-3443,2865,3900,-2693
+,Made archons only give wouts flux when they are attacking.,1921,-4589,2237,4178,4314,-4800,1563,-2319,3022
+,Fixed archon loop,3974,-5769,2034,4602,4707,3791,1231,2643,1992
+,Merged Taylors FollowArchon code.  Made efficiency improvements.,1795,5636,1729,4800,-3933,*-4744,2394,*-6557,2071
+,Fixed idiot archons.,3074,7371,3439,*-4799,*-4580,4728,1816,-2093,-4711
+,Made us spawn more wouts.  Made archons ignore non-shooting enemies.,4851,-2124,1726,4736,-4275,4800,2109,-1434,5377

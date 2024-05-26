@@ -1,0 +1,72 @@
+epsrc (rkb-explorer-epsrc);http://epsrc.rkbexplorer.com/sparql
+Data.gov (data-gov);http://services.data.gov/sparql
+Budapest University of Technology and Economics (RKBExplorer) (rkb-explorer-budapest);http://budapest.rkbexplorer.com/sparql/
+dotAC (RKBExplorer) (rkb-explorer-dotac);http://dotac.rkbexplorer.com/sparql/
+Research Assessment Exercise 2001 (RKBExplorer) (rkb-explorer-rae2001);http://rae2001.rkbexplorer.com/sparql/
+SIDER: Side Effect Resource (fu-berlin-sider);http://www4.wiwiss.fu-berlin.de/sider/sparql
+#GeoSpecies Knowledge Base (geospecies);http://lod.openlinksw.com/sparql
+Université Paul Sabatier - Toulouse 3 (RKB Explorer) (rkb-explorer-irit);http://irit.rkbexplorer.com/sparql/
+Universität Ulm (RKBExplorer) (rkb-explorer-ulm);http://ulm.rkbexplorer.com/sparql/
+France Telecom Recherche et Développement (RKBExplorer) (rkb-explorer-ft);http://ft.rkbexplorer.com/sparql/
+Alpiner Skirennsport in Österreich (austrian_ski_racers);http://open.poolparty.punkt.at/PoolParty/SPARQLEndPoint/urn:uuid:1D763C7B-F7F6-0001-7A36-93201D7016CC
+LIBRIS (libris);http://lab3.libris.kb.se/sparql
+DBTune.org Jamendo RDF Server (jamendo-dbtune);http://dbtune.org/jamendo/sparql/
+ERA - Australian Research Council publication ratings (RKBExplorer) (rkb-explorer-era);http://era.rkbexplorer.com/sparql/
+RISKS Digest (RKBExplorer) (rkb-explorer-risks);http://risks.rkbexplorer.com/sparql/
+DBLP in RDF (L3S) (l3s-dblp);http://dblp.l3s.de/d2r/sparql
+DEPLOY (RKBExplorer) (rkb-explorer-deploy);http://deploy.rkbexplorer.com/sparql/
+Deep Blue (RKBExplorer) (rkb-explorer-deepblue);http://deepblue.rkbexplorer.com/sparql/
+OpenLink Software LOD Cache (openlink-lod-cache);http://lod.openlinksw.com/sparql
+digitaleconomy (rkb-explorer-digitaleconomy);http://digitaleconomy.rkbexplorer.com/sparql
+School of Electronics and Computer Science, University of Southampton (RKBExplorer) (rkb-explorer-southampton);http://southampton.rkbexplorer.com/sparql/
+World Factbook (FU Berlin) (world-factbook-fu-berlin);http://www4.wiwiss.fu-berlin.de/factbook/sparql
+CiteSeer (Research Index) (RKBExplorer) (rkb-explorer-citeseer);http://citeseer.rkbexplorer.com/sparql/
+Association for Computing Machinery (ACM) (RKBExplorer) (rkb-explorer-acm);http://acm.rkbexplorer.com/sparql/
+DBLP Computer Science Bibliography (RKBExplorer) (rkb-explorer-dblp);http://dblp.rkbexplorer.com/sparql/
+webconf (rkb-explorer-webconf);http://webconf.rkbexplorer.com/sparql
+DBTune.org Magnatune RDF server (dbtune-magnatune);http://dbtune.org/magnatune/sparql/
+Web Science Conference (RKBExplorer) (rkb-explorer-webscience);http://webscience.rkbexplorer.com/sparql
+STITCH: Chemical-Protein Interactions (fu-berlin-stitch);http://www4.wiwiss.fu-berlin.de/stitch/sparql
+Korean Institute of Science Technology and Information (RKBExplorer) (rkb-explorer-kisti);http://kisti.rkbexplorer.com/sparql/
+TaxonConcept Knowledge Base (taxonconcept);http://lsd.taxonconcept.org/sparql
+National Science Foundation (RKBExplorer) (rkb-explorer-nsf);http://nsf.rkbexplorer.com/sparql/
+crm (rkb-explorer-crm);http://crm.rkbexplorer.com/sparql
+IBM Research GmbH (RKBExplorer) (rkb-explorer-ibm);http://ibm.rkbexplorer.com/sparql/
+Diverse Italian ReSIST Partner Institutions (RKBExplorer) (rkb-explorer-italy);http://italy.rkbexplorer.com/sparql
+Institut Eurécom (RKBExplorer) (rkb-explorer-eurecom);http://eurecom.rkbexplorer.com/sparql/
+Università degli studi di Roma "La Sapienza" (RKBExplorer) (rkb-explorer-roma);http://roma.rkbexplorer.com/sparql/
+ReSIST Resilience Mechanisms (RKBExplorer.com) (rkb-explorer-resex);http://resex.rkbexplorer.com/sparql/
+ReSIST MSc in Resilient Computing Curriculum (RKBExplorer) (rkb-explorer-curriculum);http://curriculum.rkbexplorer.com/sparql/
+GeoLinkedData (geolinkeddata);http://geo.linkeddata.es/sparql
+DBLP Bibliography Database in RDF (FU Berlin) (fu-berlin-dblp);http://www4.wiwiss.fu-berlin.de/dblp/sparql
+Linked Data Service der Universitätsbibliothek Mannheim (ub-mannheim-linked-data);http://data.bib.uni-mannheim.de/sparql
+Ordnance Survey (RKBExplorer) (rkb-explorer-os);http://os.rkbexplorer.com/sparql/
+University of Newcastle upon Tyne (RKBExplorer) (rkb-explorer-newcastle);http://newcastle.rkbexplorer.com/sparql/
+DailyMed (fu-berlin-dailymed);http://www4.wiwiss.fu-berlin.de/dailymed/sparql
+WordNet (RKBExplorer) (rkb-explorer-wordnet);http://wordnet.rkbexplorer.com/sparql/
+lobid. Bibliographic Resources (lobid-resources);http://lobid.org/sparql/
+European Nature Information System (eunis);http://lsd.taxonconcept.org/sparql
+#Linked Open Commerce (linked-open-commerce);http://linkedopencommerce.com/sparql
+TheSoz Thesaurus for the Social Sciences (GESIS) (gesis-thesoz);http://lod.gesis.org/thesoz/sparql
+Community R&D Information Service (CORDIS) (RKBExplorer) (rkb-explorer-cordis);http://cordis.rkbexplorer.com/sparql/
+UN/LOCODE (RKBExplorer) (rkb-explorer-unlocode);http://unlocode.rkbexplorer.com/sparql/
+Technische Universität Darmstadt (RKBExplorer) (rkb-explorer-darmstadt);http://darmstadt.rkbexplorer.com/sparql/
+LinkedGeoData (linkedgeodata);http://linkedgeodata.org/sparql/
+Università di Pisa (RKBExplorer) (rkb-explorer-pisa);http://pisa.rkbexplorer.com/sparql/
+Semantic Web Dog Food Corpus (semantic-web-dog-food);http://data.semanticweb.org/sparql
+DBTune.org/classical (dbtune-classical);http://dbtune.org/classical/sparql/
+ePrints3 Institutional Archive Collection (RKBExplorer) (rkb-explorer-eprints);http://eprints.rkbexplorer.com/sparql/
+DBpedia (dbpedia);http://dbpedia.org/sparql
+Resilient Computing Courseware (RKBExplorer) (rkb-explorer-courseware);http://courseware.rkbexplorer.com/sparql/
+UK JISC (RKBExplorer) (rkb-explorer-jisc);http://jisc.rkbexplorer.com/sparql/
+Fundação da Faculdade de Ciencas da Universidade de Lisboa (RKBExplorer) (rkb-explorer-lisbon);http://lisbon.rkbexplorer.com/sparql
+Project Gutenberg in RDF (FU Berlin) (fu-berlin-project-gutenberg);http://www4.wiwiss.fu-berlin.de/gutendata/sparql
+MediCare (fu-berlin-medicare);http://www4.wiwiss.fu-berlin.de/medicare/sparql
+data.open.ac.uk, Linked Data from the Open University (data-open-ac-uk);http://data.open.ac.uk/query
+ReSIST Project Wiki (RKBExplorer) (rkb-explorer-wiki);http://wiki.rkbexplorer.com/sparql/
+Eurostat in RDF (FU Berlin) (fu-berlin-eurostat);http://www4.wiwiss.fu-berlin.de/eurostat/sparql
+Hungarian National Library (NSZL) catalog (hungarian-national-library-catalog);http://setaria.oszk.hu/joseki/sparql
+Diseasome (fu-berlin-diseasome);http://www4.wiwiss.fu-berlin.de/diseasome/sparql
+LAAS-CNRS (RKBExplorer) (rkb-explorer-laas);http://laas.rkbexplorer.com/sparql/
+IEEE Papers (RKBExplorer) (rkb-explorer-ieee);http://ieee.rkbexplorer.com/sparql/
+Vytautas Magnus University, Kaunas (RKBExplorer) (rkb-explorer-kaunas);http://kaunas.rkbexplorer.com/sparql

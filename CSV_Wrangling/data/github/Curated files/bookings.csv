@@ -1,0 +1,4 @@
+id; email; creditCardName; checkinDate; hotelName; salePriceCents; netSalePriceCents;credits; code; nights; rooms
+#{list items:bookings, as:'booking' }
+${booking.id};${booking.user.email}; ${booking.creditCardName}; ${booking.checkinDate?.format('dd/mm/yyyy')}; ${booking.hotelName};${booking.salePriceCents};${booking.netSalePriceCents};${booking.credits};${booking.code};${booking.nights};${booking.rooms}
+#{/list}	
