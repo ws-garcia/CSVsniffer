@@ -1,5 +1,5 @@
 # CSVsniffer
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10668894.svg)](https://doi.org/10.5281/zenodo.10668894)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11325617.svg)](https://doi.org/10.5281/zenodo.11325617)
 
 Companion repository for the paper:
 
