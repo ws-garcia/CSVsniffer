@@ -8,11 +8,11 @@ Companion repository for the paper:
 
 by [W. García](https://sciprofiles.com/profile/3400377).
 
-An application of the new methodology outlined in the paper can be found in the [CSV interface](https://github.com/ws-garcia/VBA-CSV-interface) repository. 
+An application of the _Table Uniformity_ method outlined in the paper can be found in the [CSV interface](https://github.com/ws-garcia/VBA-CSV-interface) repository. Also, a Python version using `CleverCSV` source code has been implemented and stored in the `python` folder, demonstrating the reliability of the research presented.
 
 ## Introduction
 
-The results from the research can be reproduced by running the `RunTests` method from the macro-enabled Excel workbook `CSVsniffer.xlsm`. To review the results for CleverCSV it is necessary to run the scripts from the `clevercsv_test.py` file. The text files with the results output are stored in the `Current research` and `cleverCSV` folders
+The results from the research can be reproduced by running the `RunTests` method from the macro-enabled Excel workbook `CSVsniffer.xlsm`. To review the results for CleverCSV it is necessary to run the scripts from the `clevercsv_test.py` file. The text files with the results output are stored in the `Current research` and `cleverCSV` folders. Additional results can be read from the `python/tests results/` folder.
 
 
 ## Data
@@ -20,6 +20,34 @@ The results from the research can be reproduced by running the `RunTests` method
 The `CSV` folder contains the files copied from the [Pollock framework](https://github.com/HPI-Information-Systems/Pollock) and other collected test files. Also the dataset used for the [CSV wrangling research](https://github.com/alan-turing-institute/CSV_Wrangling) is available in the `CSV_Wranglin` folder. Note that only link to the files can be provided, in this last case,due to the authors holds the copyright. A dataset from w3c, CSVW project, is available in the `W3C-CSVW` folder. 
 
 The expect configuration for each tested CSV is saved in the `Dialect_annotations.txt`, `Manual_dialect_annotation.txt` and `W3C-CSVW-Dialect_annotations.txt` files.
+
+## Results
+
+The table below shows the dialect detection accuracy for both `CSVsniffer` and `CleverCSV`.
+
+|Data set                    |CSVsniffer|CleverCSV|
+|:---------------------------|:---------|:--------|
+|POLLOCK                     |96.6216%  |94.5946% |
+|CSV Wrangling               |88.8158%  |79.5775% |
+|CSV Wrangling filtered CODEC|89.4366%  |79.5775% |
+|CSV Wrangling MESSY         |78.8732%  |76.9841% |
+|W3C-CSVW                    |95.4338%  |59.5238% |
+
+The following table shows the average accuracy for both tools.
+
+|Tool        |Accuracy average|
+|:-----------|:---------------|
+|`CSVsniffer`|89.84%          |
+|`CleverCSV` |78.05%          |
+
+The last table shows the execution times obtained.
+
+|Tool        |Run-time    |
+|:-----------|:-----------|
+|`CSVsniffer`|95.41 sec.  |
+|`CleverCSV` |1067.47 sec.|
+
+The results show that `CSVsniffer`, based on the _Table Uniformity_ method, is a solid candidate to be considered as a utility for reliable dialect detection for CSV files.
 
 ## Requirements
 
