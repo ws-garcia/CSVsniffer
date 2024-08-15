@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Aug 2011 16:04:36 GMT
+Server: Apache/2.2.19 (Unix)
+Last-Modified: Sat, 27 Aug 2011 01:16:02 GMT
+ETag: "2a0001-203bcdf-4ab7267be7880"
+Accept-Ranges: bytes
+Content-Length: 212
+Content-Type: text/plain
+
+bug_id,"bug_status","resolution","bug_severity","product","component","assigned_to","reporter","short_desc"
+22555,"CLOSED","FIXED","blocker","Sisyphus","openbox","icesik@altlinux.org","user@email.com","segfault"

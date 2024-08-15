@@ -1509,6 +1509,6 @@ SimpleDialect(',', '', ''):	P =        2.250000	T =        0.833333	Q =        1
 SimpleDialect('', '', ''):	P =        0.003000	skip.
 SimpleDialect(' ', '', ''):	P =        0.433667	skip.
 +[unicode-nfc.csv]: --> cleverCSV detected: delimiter = ',', quotechar = ''
-[Passed test ratio]--: 56.5611%
+[Passed test ratio]--: 59.5238%
 [Failure ratio]--: 4.9774%
-[Elapsed time]--: 132.5 seconds
+[Elapsed time]--: 147.5 seconds

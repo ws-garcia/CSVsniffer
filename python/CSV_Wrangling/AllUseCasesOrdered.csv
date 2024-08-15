@@ -1,0 +1,422 @@
+Approvals Flow|Auto Approval |LONG TERM PLANNING|
+Manage (Setup) - Conditional Rules|CR-UC10 - Define Individual Rules for Consolidate Rule|LONG TERM PLANNING|
+Manage (Setup) - Rule Balance|RB-UC10 - Create Balance|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC10 - Create TER Template|LONG TERM PLANNING|
+Manage (Setup) - Approval Rules|Auto Approval|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC100 - Search / Edit existing Timecards - Basic and Advanced Search , enable Saved Search |LONG TERM PLANNING|
+Manage (Setup) Public Timecard Templates|UC1 : Create Projects Public Timecard Template|LONG TERM PLANNING|
+Manage (Setup) T&L Rule Sets|RS-UC10 - CRUD TER Rule Set (x5)|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC10 - Create TER Rule|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC100 - Location Timecard Fields - State only|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC10 - Create New group for Self|LONG TERM PLANNING|
+Manage Repeating Periods|UC1-Weekly Period Starts on Sunday|LONG TERM PLANNING|
+Manage Time Categories|UC1: Create a new time category|LONG TERM PLANNING|
+Manage Time Consumer Sets|UC1 - Create Time Consumer Set for Projects|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC10 - Worker Create Template from Template Page|LONG TERM PLANNING|
+Time Processing Setup Profile|UC1: Create a Worker Core Processing Profile|LONG TERM PLANNING|
+Timekeeper Setup Profiles|UC1: Create Group Web Time Entry Setup Profile|LONG TERM PLANNING|
+Transfer Time|Hard coded Projects Timecard transferred to Projects on Save|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|UC1: Create a new Worker Web Time Entry Setup Profile|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager creates own timecard from Portrait |LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC10 - Enable TK Group entry from Table of Worker|LONG TERM PLANNING|
+Web TimeEntry - Worker|Basic Timecard Absence Entry|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow|HR Manager rejects timecard|LONG TERM PLANNING|
+Manage (Setup) - Conditional Rules|CR-UC20 - Define Rule Conditions and Conditional Rule, defineing default rule|LONG TERM PLANNING|
+Manage (Setup) - Rule Balance|RB-UC20 - Edit Balance|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC20 - Duplicate TER Template|LONG TERM PLANNING|
+Manage (Setup) - Approval Rules|Manager Approval|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC200 - All Crud Functions From Search / Results  (Create, Duplicate, Edit and Delete a Timecard Set (never used)) on timecards from the Results table, along with changes from the task page that reflects back to questionaire|LONG TERM PLANNING|
+Manage (Setup) Public Timecard Templates|UC2: Edit Existing Public Template|LONG TERM PLANNING|
+Manage (Setup) T&L Rule Sets|RS-UC20 - CRUD TCR Rule Set (x5)|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC20 - Duplicate TER Rule|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC200 - Location Timecard Fields - all 4 based on GeoCode|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC20 - Create New Group for Other Timekeeper|LONG TERM PLANNING|
+Manage Repeating Periods|UC2: Bi-weekly Period Starts Monday|LONG TERM PLANNING|
+Manage Time Categories|UC2: Create time category for special pay|LONG TERM PLANNING|
+Manage Time Consumer Sets|UC2 - Create Time Consumer Set for Payroll|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC20 - Worker edit Template from Template Page|LONG TERM PLANNING|
+Time Processing Setup Profile| Update an existing Worker Core Processing Profile|LONG TERM PLANNING|
+Timekeeper Setup Profiles|UC2: Duplicate existing Profile and Troubleshoot|LONG TERM PLANNING|
+Transfer Time|Hard coded Projects Timecard transferred to Projects on Submit|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|UC2.5: Create a Worker Web Time Entry Setup Profile|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager edits own timecard|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC20 - Enable TK Group Entry from Gantt list of Workers|LONG TERM PLANNING|
+Web TimeEntry - Worker|Basic Calendar Absence and Work time Entry|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow|HR Manager approves corrected timecard|LONG TERM PLANNING|
+Manage (Setup) - Conditional Rules|CR-UC30 - Define Consolidate Rule Set, with Order and Conditions based on Time Entries|LONG TERM PLANNING|
+Manage (Setup) - Rule Balance|RB-UC30 - Duplicate Balance|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC30 - Edit TER Template|LONG TERM PLANNING|
+Manage (Setup) - Approval Rules|HR Manager Approval|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC300 - Task List Navigation - Navigating to / from Pages, to Task List, to speicifc pages,   Create Different Timecard Set 'types' and ensure Task list is complete|LONG TERM PLANNING|
+Manage (Setup) Public Timecard Templates|UC3: Duplicate Public Timecard Template|LONG TERM PLANNING|
+Manage (Setup) T&L Rule Sets|RS-UC30 - CRUD TIR Rule Set (x5)|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC30 - Edit TER Rule|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC300 - Update Alternate name values - from Search Results Page|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC30 - Edit Group Criteria|LONG TERM PLANNING|
+Manage Repeating Periods|UC3: Daily Period Starts Monday|LONG TERM PLANNING|
+Manage Time Categories|UC3:   Basic and Advanced Search|LONG TERM PLANNING|
+Manage Time Consumer Sets|UC3- Create Time Consumer Set for Payroll and Projects|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC30 - Worker Delete Template from Template Page|LONG TERM PLANNING|
+Time Processing Setup Profile|Duplicate a Worker Core Processing Setup Profile|LONG TERM PLANNING|
+Timekeeper Setup Profiles|UC3: Search and Duplicate Profiles|LONG TERM PLANNING|
+Transfer Time|Valid Values - Projects Timecard entered with Project, Task,  Expenditure Type , transfer to Projects on Save|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|UC3: Update an existing Web Entry Profile|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager creates a new timecard for a mid-period hire|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC30 - Enable TK Group entry for a group of workers - all with the same time consumer set (all with same setup Profile)|LONG TERM PLANNING|
+Web TimeEntry - Worker|Calendar Absence Entry without Absence Mgmt|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow|Time exceeding limits requires approvals|LONG TERM PLANNING|
+Manage (Setup) - Conditional Rules|CR-UC40 - Define Consolidate Rule Set with Rules anfd Conditions assigned to a person without Condition values on TC|LONG TERM PLANNING|
+Manage (Setup) - Rule Balance|RB-UC40 - Delete customer created Balance|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC40 - Delete TER Template - Business Rules|LONG TERM PLANNING|
+Manage (Setup) - Approval Rules|Project Data Approval Rule|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC400 - Enable TCR Results Matrix on Review Page|LONG TERM PLANNING|
+Manage (Setup) Public Timecard Templates|UC4: Delete existing Public Timecard Template|LONG TERM PLANNING|
+Manage (Setup) T&L Rule Sets|RS-UC40 - CRUD TAR Rule Set (x5)|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC40 - Delete TER Rule - Business Rules|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC400 - Edit Existing Timecard Fields - TC Level|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC40 - Edit Static Group|LONG TERM PLANNING|
+Manage Repeating Periods|UC4: Edit Existing Time Period|LONG TERM PLANNING|
+Manage Time Categories|UC4: Import time category into new category|LONG TERM PLANNING|
+Manage Time Consumer Sets|UC4: Search and Review Time Consumer Set|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC40 - Worker search for Templates from Template Page|LONG TERM PLANNING|
+Time Processing Setup Profile|Change values in Update  History mode|LONG TERM PLANNING|
+Timekeeper Setup Profiles| Change values in Update  History mode|LONG TERM PLANNING|
+Transfer Time|Valid Values - Projects Timecard transferred to Projects on Submit|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|UC4: Duplicate a Web Entry Setup Profile|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager deletes timecard|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC40 - Time entry for group of workers - all workers with different profiles|LONG TERM PLANNING|
+Web TimeEntry - Worker|Calendar Absence Entry without TL|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow| Manager Hierarchy - Serial approval|LONG TERM PLANNING|
+Manage (Setup) - Conditional Rules|CR-UC50 - Define Business Rules when Defining Conditional Rules|LONG TERM PLANNING|
+Manage (Setup) - Rule Balance|RB-UC50 - Create Seeded Balances|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC50 - Create TCR Template|LONG TERM PLANNING|
+Manage (Setup) - Approval Rules|Payroll Data Approval Rule|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC500 - Create Layout Set for Worker using the TC Fields defined for each section, (ensure only available from that section)|LONG TERM PLANNING|
+Manage (Setup) Public Timecard Templates|UC5:  Create Projects Biweekly Timecard Template|LONG TERM PLANNING|
+Manage (Setup) T&L Rule Sets|RS-UC50 - Rule Sets with Conditional Rules - 1|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC50 - Create TCR Rule|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC500 - Duplicate a TC Field - chaging the component type and Required / Not required for each TC Field.|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC50 - Delete TK Group |LONG TERM PLANNING|
+Manage Repeating Periods|Create Daily - 3 Day period|LONG TERM PLANNING|
+Manage Time Categories|UC5: Use Add Nest and Delete Nest|LONG TERM PLANNING|
+Manage Time Consumer Sets|UC5: Search and Edit Time Consumer Set|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC50 - Worker Define Templates with all fields completed|LONG TERM PLANNING|
+Time Processing Setup Profile|Delete Worker Core Processing Setup Profile|LONG TERM PLANNING|
+Timekeeper Setup Profiles| Delete Group Web Time Entry Setup Profile|LONG TERM PLANNING|
+Transfer Time|Projects Timecard entered with Project, Task,  Expenditure Type, Billable Flag and Work Type, transfer to Projects on Approval|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|UC5:  Change values in Update  History mode|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager applies public template for his worker|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC50 - Time entry for workers where additional rows are added for workers, along with viewing the Person Context info, and valeu lists are different for different workers|LONG TERM PLANNING|
+Web TimeEntry - Worker|Absence with Holidays in Saved Timecard|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow|Changed Time Approval|LONG TERM PLANNING|
+Manage (Setup) - Conditional Rules|CR-UC60 - Define all other Conditional Rule Functionality|LONG TERM PLANNING|
+Manage (Setup) - Rule Balance|RB-UC60 - Business Rules on Balances|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC60 - Duplicate TCR Template|LONG TERM PLANNING|
+Manage (Setup) - Approval Rules|Approval Maximum|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC600 - Enable TCR Results on Manager Page, not on Worker Page|LONG TERM PLANNING|
+Manage (Setup) Public Timecard Templates|UC6: Create Project Fields Timecard Template|LONG TERM PLANNING|
+Manage (Setup) T&L Rule Sets|RS-UC60 - Rule Sets with Conditional Rules - 2|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC60 - Duplicate TCR Rule|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC600 - Edit Timecard Fields - TC Field Level|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC60 - Duplicate TK Group|LONG TERM PLANNING|
+Manage Repeating Periods|Create Daily - 40 day period|LONG TERM PLANNING|
+Manage Time Categories|Moving multiple nests in condition pane|LONG TERM PLANNING|
+Manage Time Consumer Sets|Delete of Time Consumer Set|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC60 - Worker Define Template with only attributes defined|LONG TERM PLANNING|
+Time Processing Setup Profile|View Profile Precedence Details|LONG TERM PLANNING|
+Timekeeper Setup Profiles| View Profile Precedence Details|LONG TERM PLANNING|
+Transfer Time|Use of User Defined Field - Projects Timecard entered with Project, Task,  Expenditure Type, and Contract Number (user defined fields)|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|UC6:  Delete Worker Web Time Entry Setup Profile|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager Defines Default Timecard Template|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC60 - Time Entry - with switch to other group entry layouts - entering for same group of workers|LONG TERM PLANNING|
+Web TimeEntry - Worker|Absence in Timecard to Payroll|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow|Multiple Project Manager different Approval Actions|LONG TERM PLANNING|
+Manage (Setup) - Conditional Rules|CR-UC70 - Define all other Conditional Rule Functionality|LONG TERM PLANNING|
+Manage (Setup) - Rule Balance|RB-UC70 - Business Rules on Balances|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC70 - Edit TCR Template|LONG TERM PLANNING|
+Manage (Setup) - Approval Rules|Exceed Schedule Limit|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC700 - Confirmation Page enbaled - with proper listing in Task List, Navigation and set defintion along with TCR Results on Page as well as Review Page|LONG TERM PLANNING|
+Manage (Setup) Public Timecard Templates|UC7: Search and Duplicate Timecard Template|LONG TERM PLANNING|
+Manage (Setup) T&L Rule Sets|RS-UC70 - Rule Sets when Overrides executed|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC70 - Edit TCR Rule|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC700 - Create TC Fields using various value sets (different types) to ensure all value set types can be used to create tc fields.|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC70 - View Timekeeper group |LONG TERM PLANNING|
+Manage Repeating Periods|Create Weekly - 6 week|LONG TERM PLANNING|
+Manage Time Categories|Adding, duplicating and deleting rows in condition pane|LONG TERM PLANNING|
+Manage Time Consumer Sets|Edit Time Consumer Set and Associate an "AMX Approval Task" for Projects Time Consumer|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC70 - Worker Duplicate Template |LONG TERM PLANNING|
+Time Processing Setup Profile|Compare Profiles for Precedence|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Compare Profiles for Precedence|LONG TERM PLANNING|
+Transfer Time|Projects Timecard entered with parallel approval to Project Managers|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|UC7:   View Profile Precedence Details|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager Defines Default Number of Blank Rows for New timecard|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC70 - Time entry - with switch to individual workers timecard, then timekeepers ind timecard foe workers, navigating to list for each worker|LONG TERM PLANNING|
+Web TimeEntry - Worker|Change Absence Types in Timecard|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow|Payroll Data for Payroll Manager Approval, Approval not triggered|LONG TERM PLANNING|
+Manage (Setup) - Conditional Rules|CR-UC80 - Define all other Conditional Rule Functionality|LONG TERM PLANNING|
+Manage (Setup) - Rule Balance|RB-UC80 - Additional Use Case Balances 1|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC80 - Delete TCR Template - Business rules|LONG TERM PLANNING|
+Manage (Setup) - Approval Rules|Adjusted Timecard|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC800 - Time Summary Info on Worker Entry|LONG TERM PLANNING|
+Manage (Setup) T&L Rule Sets|RS-UC80 - Business Rules on Rule Sets|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC80 - Delete TCR Rule - Business rules|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC800 - Delete Timecard Fields - Timecard level with Rules, Templates - plus Rules|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC80 - Search For Groups, and TK Groups - both basic and advanced|LONG TERM PLANNING|
+Manage Repeating Periods|Create Monthly - Calendar Month|LONG TERM PLANNING|
+Manage Time Categories|Validate "usage" column|LONG TERM PLANNING|
+Manage Time Consumer Sets|Edit Time Consumer Set and Associate an "AMX Approval Task" for Payroll Time Consumer|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC80 - Worker Exports Template for Detached entry|LONG TERM PLANNING|
+Time Processing Setup Profile|Setup Option Valid Values|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Setup Option Valid Values|LONG TERM PLANNING|
+Transfer Time|Projects Timecard with Absence Entries sent to Payroll and Projects|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|UC8: Compare Profiles for Precedence|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager enters absence time for some of his reports for the month in Calendar Entry|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC80 - Enter from Group Entry - starting with Gantt selection.  Use all actions from Toolbar, buttons, displays.  Navigate to Individual Timecard, execute all toolbar actions|LONG TERM PLANNING|
+Web TimeEntry - Worker|Timecard Opens, Absence Rejected|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow|Payroll Data sent to Payroll Manager Approval, Approval Triggered|LONG TERM PLANNING|
+Manage (Setup) - Conditional Rules|CR-UC90 - Define all other Conditional Rule Functionality|LONG TERM PLANNING|
+Manage (Setup) - Rule Balance|RB-UC90 - Additional Use Case Balances 2|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC90 - Create TCR Template - with multiple adds to outputs|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC900 - Enable all remianing functionality in Timecard (QBE, Person Info differences, Attribute Context info functionality, Attribute Orientation, Display Schedule info or not, Override Labels, Sort, Instructional Text, Date Format changes, Sub totals (and totlas on different pages), All Dialogs with context sensitive components), as well as promoting actions to buttons on worker toolbar and add row additional functionality (options when adding row).  Option to set region and field options (open /. closed)|LONG TERM PLANNING|
+Manage (Setup) T&L Rule Sets|RS-UC90 - Business Rules on Rule Sets|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC90 - Create TCR Rule - with multiple adds to outputs|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC900 - Complete all CRUD Actions from Search / Results page, along with View entries|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC90 - Navigate to Manage TK Groups form Super Timekeeper Access|LONG TERM PLANNING|
+Manage Repeating Periods|Create Monthly - Quarter|LONG TERM PLANNING|
+Manage Time Categories|Multiple attribute usage and value set prompt|LONG TERM PLANNING|
+Manage Time Consumer Sets|Create a time consumer set and associate function for Projects for Terminated Worker Timecard Access|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC90 - Worker Defines list of Projects for Export|LONG TERM PLANNING|
+Time Processing Setup Profile|Validate Group Usage|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Validate Group Usage|LONG TERM PLANNING|
+Transfer Time|Timecard Search with Projects Fields|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|Setup Option Valid Values|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager edits one of their employee's timecards|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC90 - Submit timecards from ind timecards, after starting from group entry pages|LONG TERM PLANNING|
+Web TimeEntry - Worker|Timecard Opens, Absence Approved|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow|Payroll and Projects Timecard with Parallel Approval|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC100 - CRUD TAR Rules|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC1000 - Complete all Worker Template Functionality (Any remaining)|LONG TERM PLANNING|
+Manage (Setup) T&L Rule Sets|RS-UC100 - All other Rule Set functionality|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC100 - CRUD TAR Rules|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC1000 - Create Timecard Fields using the Payroll Alt Name Process - view all updates to alt name after process completes|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC100 - Navigate to own groups for Timekeeper|LONG TERM PLANNING|
+Manage Repeating Periods|Create Monthly - Year|LONG TERM PLANNING|
+Manage Time Categories|Multiple attribute usage and "any value" prompt|LONG TERM PLANNING|
+Manage Time Consumer Sets|Create a time consumer set and associate function for Payroll for Terminated Worker Timecard Access|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC100 - Capture all other Template Functionality (may be some remaining functionality not addressed)|LONG TERM PLANNING|
+Time Processing Setup Profile|Validate Precedence order of all Web Profiles|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Validate Precedence order of all Web Profiles|LONG TERM PLANNING|
+Transfer Time|Projects Timecard transferred to Projects with Tieback Statuses - Accepted|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|Validate Group Usage|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager reminds workers of timecard submissions|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC100 - Enter for grp on grp entry pages, then to individual pages for CLA group of workers.  CLA entry from either set of pages|LONG TERM PLANNING|
+Web TimeEntry - Worker|Saved Timecard, Absence Approval open|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow|Payroll and Projects Timecard with Parallel then Serial Approval|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC110 - CRUD TIR Rules|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC1100 - Configure Calendar Entry|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC110 - CRUD TIR Rules|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC1100 - Create Timecard Fields using the Projects Process - view all updates to alt name after process completes|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC110 - Use Groups assigned to enter, update timecard data|LONG TERM PLANNING|
+Manage Repeating Periods|Create Monthly - Semi Year|LONG TERM PLANNING|
+Manage Time Categories|Multiple attribute usage and "null value" prompt|LONG TERM PLANNING|
+Manage Time Consumer Sets|Not allow delete of a time consumer set|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC140 - Create Template from Timecard entry - then edit on template page.  Back to Timecard to reapply to blank timecard period - with final entries|LONG TERM PLANNING|
+Time Processing Setup Profile|Advanced Search: Profile Values|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Advanced Search: Profile Values|LONG TERM PLANNING|
+Transfer Time|Projects Timecard transferred to Projects with Tieback Statuses - Rejected|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|Validate Precedence order of all Web Profiles|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager reviews Monitor Timecard Issues analytic |LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC110 - Enter for Grp of workers - starting on grp pages, then to individual - execute TCR processing to view results, |LONG TERM PLANNING|
+Web TimeEntry - Worker|Submitted Timecard, Absence Approval open|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow|Payroll Manager Approval for Expedited Timecard|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC120 - Develop Seed Formula / Template 1|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC1200 - Configure Calendar Entry|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC120 - Develop Seed Rules 1|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC1200 - Basic / Advanced Search Timecard Fields Templates and Associated to layout Set, Saved Search|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC120 - Generate Workflow Messages to route to TK for updates to Group|LONG TERM PLANNING|
+Manage Repeating Periods|Create Monthly - 4 months|LONG TERM PLANNING|
+Manage Time Categories|Import two time categories|LONG TERM PLANNING|
+Manage Time Consumer Sets|Validate business logic on a new time consumer set|LONG TERM PLANNING|
+Manage Worker Templates|WPT-UC150 - Business Rules for all template actions|LONG TERM PLANNING|
+Time Processing Setup Profile|Advanced Search: Profile Option Name|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Advanced Search: Profile Option Name|LONG TERM PLANNING|
+Transfer Time|Projects and Payroll timecard|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|Advanced Search: Profile Values|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager reviews department overtime in Time Pie Analytic|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC120 - Add Hoc entry of workers from grp of 1|LONG TERM PLANNING|
+Web TimeEntry - Worker|Approved Timecard, Absence Approval open|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Approvals Flow|Delegate Approval to other Manager|LONG TERM PLANNING|
+Manage (Setup) - Rule Templates|RT-UC130 - Develop Seed Formula / Template 2|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC1300 - Configure Calendar Entry Dialogs and Navigation|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC130 - Develop Seed Rules 2|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC1300 - All Assignment Entry Options defined / created|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC130 - CLA notices to TK for Grps their assigned to|LONG TERM PLANNING|
+Manage Repeating Periods|Create Monthly - Semi monthly|LONG TERM PLANNING|
+Manage Time Categories|Validate with incorrect logic|LONG TERM PLANNING|
+Manage Time Consumer Sets|Not allow edit of existing time consumer set if associated to worker|LONG TERM PLANNING|
+Time Processing Setup Profile|Advanced Search: Groups Assigned to|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Advanced Search: Groups Assigned to|LONG TERM PLANNING|
+Transfer Time|Projects timecard with overtime rules|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|Advanced Search: Profile Option Name|LONG TERM PLANNING|
+Web TimeEntry - Manager|Timecard Worklist Approval|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC130 - Create Grp after entering for a grp of workers|LONG TERM PLANNING|
+Web TimeEntry - Worker|Rejected Timecard, Absence Approval open|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) - Rule Templates|RT-UC140 - Develop Seed Formula / Template 3|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC1400 - Time Summary Info different on Manager Pages|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC140 - Seed Rule 3|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC1400 - Define TC Fields for the different regions on the timecard to ensure compliance to only show on proper selection form|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC140 - Generate Group Members for different timecard period dates (dynamic groups)|LONG TERM PLANNING|
+Manage Repeating Periods|Create Weekly - Starts on Wednesday|LONG TERM PLANNING|
+Manage Time Categories|Duplicate time category|LONG TERM PLANNING|
+Time Processing Setup Profile|Add effective dated rows |LONG TERM PLANNING|
+Timekeeper Setup Profiles|Different access days for Timecard Actions|LONG TERM PLANNING|
+Transfer Time|Projects timecard with overtime and Project distribution rules|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|Advanced Search: Groups Assigned to|LONG TERM PLANNING|
+Web TimeEntry - Manager|Timecard Approval via Delegation|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC140 - Time Entry for very lareg group of Workers|LONG TERM PLANNING|
+Web TimeEntry - Worker|Multiple timecard period absence for multiple assignments|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) - Rule Templates|RT-UC150 - Develop Seed Formula / Template 4|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC1500 - Worker Entry - Regional panels operational|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC150 - Seed Rule 4|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC1500 - Absences Seed Timecard Fields|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC150 - Business Rules for edits, errors in TK Groups|LONG TERM PLANNING|
+Manage Repeating Periods|Create Search for monthly periods and duplicate period|LONG TERM PLANNING|
+Manage Time Categories|Delete time category not in use|LONG TERM PLANNING|
+Time Processing Setup Profile|Troubleshoot a worker in multiple groups|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Add effective dated rows |LONG TERM PLANNING|
+Transfer Time|Terminated worker - manager view timecard|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|Different access days for Timecard Actions|LONG TERM PLANNING|
+Web TimeEntry - Manager|Timecard Rejection|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC150 - Mass Edit for workers - using all different mass edit options|LONG TERM PLANNING|
+Web TimeEntry - Worker|Balances do not allow initial absence entry|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) - Rule Templates|RT-UC160 - Seed Rule Temaplte 1|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC1600 - Navigate from TC Fields Table Action to TC Fields - Create TC Field, then back - in List of Timecard Fields|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC160 - Business Rules on Rule page|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC1600 - Projects Seed Timecard Fields|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC160 - Business Rules - any additional rules / messages|LONG TERM PLANNING|
+Manage Repeating Periods|No edit ability for period length or type for existing time period|LONG TERM PLANNING|
+Manage Time Categories|Not allow delete of category in use|LONG TERM PLANNING|
+Time Processing Setup Profile|Validate business rule logic|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Troubleshoot a timekeeper associated to multiple groups|LONG TERM PLANNING|
+Transfer Time|Terminated worker - timekeeper edit last timecard and expedite|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|Add effective dated rows |LONG TERM PLANNING|
+Web TimeEntry - Manager|Timecard requiring more information|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC160 - Mass Edit for CLA workers|LONG TERM PLANNING|
+Web TimeEntry - Worker|Impact of changing timecard statuses on recurring absence|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) - Rule Templates|RT-UC170 - Seed Rule Template 2|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC1700 - Configure Printable Timecard|LONG TERM PLANNING|
+Manage (Setup) T&L Rules|R-UC170 - Business Rules on Rule Page 2|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC1700 - Payroll Seed Timecard Fields|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC170 - Navigate to create / edit groups from FSM pages|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Audit Options:  Notification sent to worker|LONG TERM PLANNING|
+Transfer Time|Adjustment to Approved Projects Timecard|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|Troubleshoot a worker in multiple groups|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager accesses Watchlist for Errored Timecards|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC170 - Override TCR rules on Tiemkeeper Group and Timekeeper Individual Entry Pages|LONG TERM PLANNING|
+Web TimeEntry - Worker|Non-contiguous absence|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) - Rule Templates|RT-UC180 - Test all other Rule Template - Message and Additional Attributes Functionality|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC1800 - Additonal Review Page Options - Summary versus look like timecard, totals and extra information displayed|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC1800 - Payroll Dependnet Timecard Fields|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC180 - Navigate to Edit / Update Groups from gantt Page|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Audit Options:  Notification sent to worker and manager|LONG TERM PLANNING|
+Transfer Time|Timecard Summary displays Projects breakdown|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web Entry Setup Profiles|Validate Business Rule logic|LONG TERM PLANNING|
+Web TimeEntry - Manager|Manager reviews time for terminated worker|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC180 - Override TCR Results|LONG TERM PLANNING|
+Web TimeEntry - Worker|Absences for multiple work relationships|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) - Rule Templates|RT-UC190 - Business Rules on Template page|LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC1900 - Additional Add Attribute Configuration and Daily Detail Configuration options (carry over to Timekeeper as well)|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC1900 - Projects Dependent Timecard Fields|LONG TERM PLANNING|
+Manage (Setup) Timekeeper Groups|TKG-UC190 - View Groups f Workers for Future / Past Timeperiods|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Audit Options:  Notification sent to worker and manager|LONG TERM PLANNING|
+Transfer Time|Time Balance Monitor displays total Project Hours Worked|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web TimeEntry - Manager|Manager makes prior period changes for his workers time|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC190 - Change Timecard Period for Individual worker from Individual entry page, then submit timecard|LONG TERM PLANNING|
+Web TimeEntry - Worker|Absence entry in timecard matrix|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) - Rule Templates|RT-UC200 - Business Rules on Template Page |LONG TERM PLANNING|
+Manage (Setup) Layout Composer|LC-UC2000 - Group Entry - No Individual TK Layout,   Projects Fields - No Dialogs or mass Edit Functionality|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC2000 - Define TC Fields using all possible Value Set Functions|LONG TERM PLANNING|
+Timekeeper Setup Profiles|Validate Business Rule Logic|LONG TERM PLANNING|
+Transfer Time|Missing Timecard Analytic displays unapproved timecards for the month|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web TimeEntry - Manager|Manager cleans up old timecards mischarged to incorrect accounts|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC200 - Edit approved Timecard where Worker cannot update the timecard.|LONG TERM PLANNING|
+Web TimeEntry - Worker|Absence entry in timecard via dialog|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) Layout Composer|LC-UC2100 - Group Entry - No Individual TK Layout,   Projects Fields - With Dialogs but no mass Edit Functionality|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC2100 - Define Timecard Field Default / Derived Functions|LONG TERM PLANNING|
+Transfer Time|Projects Printable Timecard|LONG TERM PLANNING|PROJECT-INTEGRATION
+Web TimeEntry - Manager|Manager follows up on his organizations outstanding rejected timecards |LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC210 - Business Rules and Messages for all edit, updates and possible changes|LONG TERM PLANNING|
+Web TimeEntry - Worker|Void absence, saved timecard|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) Layout Composer|LC-UC2200 - Group Entry - No Individual TK Layout,   Projects Fields - No Dialogs but does include mass Edit Functionality|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC2200 - Define TCR Override Timecard Fields|LONG TERM PLANNING|
+Transfer Time|TTP-UC10 - Use case to define Transffer process - Time Moved to payroll on Submit / Approval|LONG TERM PLANNING|PAYROLL INTEGRATION
+Web TimeEntry - Manager|Manager can edit timecards for 30 days in past|LONG TERM PLANNING|
+Web TimeEntry - Timekeeper|TKE-UC220 - Business Rules For different workers, based on changing layouts for worker, upodates in the past, then submit revised timecards|LONG TERM PLANNING|
+Web TimeEntry - Worker|Time Summary includes Absence hours|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) Layout Composer|LC-UC2300 - Group Entry - With Individual TK Layout,   Projects Fields - No Dialogs but does include mass Edit Functionality|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC2300 - Define Absence Dependnet (Context as well as reason, inputs) Timecard Fields|LONG TERM PLANNING|
+Transfer Time|TTP-UC20 - Use case to define Transffer process - Time Moved to payroll on Submit no Approval needed|LONG TERM PLANNING|PAYROLL INTEGRATION
+Web TimeEntry - Worker|Entered absence and processed absence differs|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) Layout Composer|LC-UC2400 - Change and late Audit pages enabled along with changes to Timecard Page Navigation as a result of the CLA entries|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC2400 - Define all Other timecard Fields Types|LONG TERM PLANNING|
+Transfer Time|TTP-UC30 - Use case to define Transffer process - Time Moved to payroll on Save|LONG TERM PLANNING|PAYROLL INTEGRATION
+Web TimeEntry - Worker|End absence in timecard|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) Layout Composer|LC-UC2500 - Configure Timekeeper Calendar / Gantt Entry|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC2500 - Edit Alt Name TC Fields - adding new fields - not required.  Ensure adds work properly, Business Rules and UI add Correctly|LONG TERM PLANNING|
+Transfer Time|TTP-UC40 - Use case to define Transffer process - Time Moved to payroll all other statuses (expedited, with errors)|LONG TERM PLANNING|PAYROLL INTEGRATION
+Web TimeEntry - Worker|Manager entered absence, not editable by worker|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) Layout Composer|LC-UC2600 - Configure Timekeeper Calendar / Gantt Entry|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC2600 - Define multiple segment alt name components - varying required fields and non required fields.  Define Alt name Set based on defintion, ensure rules enforced|LONG TERM PLANNING|
+Transfer Time|TTP-UC50 - Use case to define Transffer process - Time Moved to payroll on Save|LONG TERM PLANNING|PAYROLL INTEGRATION
+Web TimeEntry - Worker|Absence entry via HR Specialist, with open timecard by worker|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) Layout Composer|LC-UC2700 - Complete Setup of Individual and Timekeeper Sets that enable Manager (different layout), navigation to different pages, Timecard Fields, CLA and all sections within page enabled.|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC2700 - Define Alt Name Multipole segments - with multiple segment dependent field defintions.|LONG TERM PLANNING|
+Transfer Time|TTP-UC60 - Business Rules on All status / error conditions|LONG TERM PLANNING|PAYROLL INTEGRATION
+Web TimeEntry - Worker|Open ended leave in timecard|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) Layout Composer|LC-UC2800 - Complete Timekeeper Set along with Actions to enable TCR Results on Individual timekeeper Pages|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC2800 - Business Rules for TC Fields - 1st pass|LONG TERM PLANNING|
+Transfer Time|TTP-UC70 - Business Rules - remaining|LONG TERM PLANNING|PAYROLL INTEGRATION
+Web TimeEntry - Worker|Void absence and update work time in timecard|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) Layout Composer|LC-UC2900 - Define all Business Rules Worker Sets - All Pages, Fields|LONG TERM PLANNING|
+Manage (Setup) Timecard Fields|TCF-UC2900 - Business Rules for TC Fields - 2nd pass|LONG TERM PLANNING|
+Web TimeEntry - Worker|Schedule changes absence hours reported|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) Layout Composer|LC-UC3000 - Define all Business Rules Group Entry - All Pages, Fields |LONG TERM PLANNING|
+Web TimeEntry - Worker|Future vacation update to accruals |LONG TERM PLANNING|ABSENCE-INTEGRATION
+Manage (Setup) Layout Composer|LC-UC3100 - All One off functionality not previosuly captured (including Messages overrides with TIRs)|LONG TERM PLANNING|
+Web TimeEntry - Worker|Timecard submitted, absence approval suspended|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Timecard open, absence rejected|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Timecard saved, absence rejected|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Timecard submitted, absence rejected|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Absence rejected in timecard|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Absence and Time Approvers Same|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Absence and Time Approvers differ|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Route prior period absence for approval|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Changing absence history|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Absences not for display in timecard|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Timecard actions and absence entries|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Non-editable absences in timecard|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Timecard Actions and Calendar entries|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|No pre-population of absence allowed|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Test absence entry if active timecard present|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Pre-populated absence and default template|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Pre-populated absence and apply template|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Access to other absence pages from timecard|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Group Time Entry and pre-populated absences|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Group Time Entry and open ended absence|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|Group Time Entry and absence entries for multiple workers|LONG TERM PLANNING|ABSENCE-INTEGRATION
+Web TimeEntry - Worker|WTE-UC100 - Timecard With Regional and Contextual panels fully operational - Period Navigation, Help, and Accrual Information|LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC110 - Time Summary - On timecard, along with Analytics.  Changes to Analytics For worker|LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC120 - Remaining Functionality - Possible Intr-Period Navigation, 'Apply to all' - daily detail (if possible)|LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC130 - Enable all TCR Error Statuses and save with Expedited Status|LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC140 - Enable Configurable Messages to Display (TIRs)|LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC150 - Worker Calendar Entry 0 Navigation|LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC160 - Worker Calendar Entry to Timecard and Back|LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC170 - Worker Calendar Entry - Absences and Dialogs|LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC180 - Worker Calendar to Timecard entry, long with Workarea Navigation|LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC190 - Mobile Entry |LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC200 - Mobile Entry |LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC210 - Messaging from Timecard (stretch for 1.3)|LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC220 - All Business Rules 1st pass - |LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC230 - Business Rules 2nd pass |LONG TERM PLANNING|
+Web TimeEntry - Worker|WTE-UC240 - Remaining Functionality - Possible Intr-Period Navigation, 'Apply to all' - daily detail (if possible)|LONG TERM PLANNING|
+

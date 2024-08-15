@@ -106,7 +106,7 @@ def main(basePath: str, outPath :str):
                print("X [" + filename + "]: --> No result from cleverCSV")
                failures += 1
       n+=1
-      print('[Passed test ratio]--: %r' %(round(100*passed/len(ExpectedResults),4)) +'%')
+      print('[Passed test ratio]--: %r' %(round(100*passed/(len(ExpectedResults)-failures),4)) +'%')
       print('[Failure ratio]--: %r' %(round(100*failures/len(ExpectedResults),4)) +'%')
       print('[Elapsed time]--: %r seconds' %(round(time.time()-t,2)))
       sys.stdout.close()

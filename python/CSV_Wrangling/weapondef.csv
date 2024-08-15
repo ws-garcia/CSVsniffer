@@ -1,0 +1,70 @@
+# $Id$
+
+# Lines beginning with # are comments, by default.
+# If your first column is character data which could start with #, then either
+# change the delimiter by setting *CSV_SKIP_PREFIX or disable comments entirely
+# by giving * at the end of your \m command.
+# If you put comments or blank lines into your CVS files, that will render
+# them useless to most other programs which can import CSV files.
+# For this reason, when SqlTool exports (\x), it writes only one header line 
+# and the data records.
+
+# TROUBLESHOOTING.  If SqlTool just does not see your header record, then
+# the problem is very likely with the record delimiter.
+# CSV files are ASCII.  The row delimiter defaults to \r\n on Windows and
+# \n on UNIX (in general, whatever Java's line.separator system property is).
+# So, you won't ever have a problem if you generate CSV files with SqlTool
+# and import them on the same computer.
+# If you are using a CSV file with the wrong delimiters, then just set the
+# row delimiter of SqlTool, like
+#   * *CSV_ROW_DELIM \r\n
+# to set it to Windows style.  Or you could convert the file with a program.
+# It's pretty damned easy with perl.
+#    Windows->UNIX:   perl -pi -we 's:\r::g;' file.csv...
+#    UNIX->Windows:   perl -pi -we 's:$:\r:;' file.csv...
+
+# If you use headerswitch{}, only the header line matching your target table
+# name will be used.
+# The target table name may be specified with *CSV_TARGET_TABLE, by
+# a "targettable=" directive in this file, or (default) by the base name of 
+# the CVS (this) file.
+# headerswitches are really useful to allow you to populate foreign keys from
+# the same file.
+# Use file name of "-" to not import a column.  This is useful for the previous
+# purpose, and also to allow for automatic generation of identity/primary keys
+# and other column values by default clauses.
+headerswitch{
+itemdef:name|-|-|-|-|-|-|-|-|-|-
+weapondef:itemdef_name|basemaxvalue|-|damagescale|criticaldamagemodifier|rangeincrement|baseweight|damagecat|featureset|trainingcat|effortcat
+}
+
+# Note that SqlTool is smart enough to recognize that an empty value for most
+# fields should be interpreted as a null.  For JDBC types, like VARCHAR, where
+# a zero length string signify something else, SqlTool uses *CVS_NULL_REP to
+# represent null (it defaults to the string "[null]".
+
+#SIMPLE WEAPONS
+#UNARMED ATTACKS
+gauntlet|2|1d2|GAUNTLET|x2||1|BLUDGEONING|[]|SIMPLE|UNARMED
+unarmed strike||1d2|GAUNTLET|x2|||BLUDGEONING|[NONLETHAL]|SIMPLE|UNARMED
+#LIGHT MELEE WEAPONS
+#dagger|2|1d3|DAGGER|19-20/x2|10|1|PIERCING, SLASHING|[BLADED]|SIMPLE|LIGHT
+dagger, punching|2|1d3|DAGGER|x3||1|PIERCING|[]|SIMPLE|LIGHT
+gauntlet, spiked|5|1d3|DAGGER|x2||1|PIERCING|[]|SIMPLE|LIGHT
+mace, light|5|1d4|SHORTSPEAR|x2||4|BLUDGEONING|[]|SIMPLE|LIGHT
+sickle|6|1d4|SHORTSPEAR|x2||2|SLASHING|[BLADED]|SIMPLE|LIGHT
+#ONE-HANDED MELEE WEAPONS
+club||1d4|SHORTSPEAR|x2|10|3|BLUDGEONING|[]|SIMPLE|ONEHANDED
+mace, heavy|12|1d6|LONGSWORD|x2||8|BLUDGEONING|[]|SIMPLE|ONEHANDED
+#morningstar|8|1d6|LONGSWORD|x2||6|[BLUDGEONING AND PIERCING]|SIMPLE|ONEHANDED
+shortspear|1|1d4|SHORTSPEAR|x2|20|3|PIERCING|[]|SIMPLE|ONEHANDED
+#TWO-HANDED MELEE WEAPONS
+longspear|5|1d6|LONGSWORD|x3||9|PIERCING|[REACH]|SIMPLE|TWOHANDED
+quarterstaff||1d4/1d4|SHORTSPEAR/1d6|x2||4|BLUDGEONING|[DOUBLE]|SIMPLE|TWOHANDED
+spear|2|1d6|LONGSWORD|x3|20|6|PIERCING|[]|SIMPLE|TWOHANDED
+#RANGED WEAPONS
+crossbow, heavy|50|1d8|BASTARDSWORD|19-20/x2|120|8|PIERCING|[]|SIMPLE|TWOHANDED
+bolts, crossbow (10)|1||[null]|[null]||1||||SIMPLE|TWOHANDED
+crossbow, light|35|1d6|LONGSWORD|19-20/x2|80|4|PIERCING|[]|SIMPLE|TWOHANDED
+bolts, crossbow (10)|1||[null]|[null]||1||||SIMPLE|TWOHANDED
+dart|0.5|1d3|DAGGER|x2|20|.5|PIERCING|[]|SIMPLE|ONEHANDED

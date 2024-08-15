@@ -1,0 +1,12 @@
+global_encoding               , ISO-8859-1    , set encoding type for read and written files
+global_skip_uptodate_check    , false         , skip up-to-date check, always generate
+global_verbose                , false         , print out the index whenever the generator runs
+global_debug                  , false         , debug mode - causes lots of output
+global_types                  , all           , only parse these types of files (comma separated)
+global_delimiter_start_char   , $             , start delimiter character for stringtemplate expressions
+global_delimiter_end_char     , $             , end delimiter character for stringtemplate expressions
+global_external_package       , null          , user package that will be scanned to find parsers and processors;
+csv_separator                 , ","           , csv parser: character to use for separation
+csv_skip_lines                , 0             , csv parser: how many lines to skip
+csv_quote_character           , ""            , csv parser: character used to quote
+json_classname                , java.util.List, json parser: will return objects of this type

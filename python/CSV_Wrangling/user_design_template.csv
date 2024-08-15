@@ -1,0 +1,38 @@
+# Old SQL Example Report Design Document
+#
+# Text not in quotes are column names from the SQL query
+# Quoted text are labels that will appear in the report.
+# Expressions like ( id + id ) * 10 below must be single 
+# space delimited. So (id+id) will not parse correctly.
+#
+# NaN and Infinity are returned as zero. 
+#
+# Comments are lines beginning with a hash #. They are 
+# stripped when this document is parsed.
+#
+# Values (either columns or expressions) are rounded by default. 
+# To disable this set round_report_values to false in
+# config/initializers/old_sql.rb. You can also change the
+# precision, which is 2 by default.
+#
+# Tabs or spaces can optionally be used between "cells" for 
+# ease of reading.
+#
+# All uppercase labels are bolded and converted to capitalized 
+# words for the jqgrid, and HTML table report views.
+#
+id,							name
+"EXAMPLE MATH OPERATION",	id + id
+"Totals",					"..."
+"Expression",				( id + id ) * 10
+"Divide by Zero 1",			0 / 0
+"Divide by Zero 2",			1.0 / 0
+"Divide by Zero 3",			0.0 / 0.0
+"Rounding",					200.0 / 43.0
+
+#Spreadsheet Test Data,,
+#,Total, 200
+#,Foo, 35
+#,,
+#,Foo / Total,
+#,=C28 / C29,

@@ -1,0 +1,319 @@
+"bookId","title","intro","author","press","publishDate","pages","isbn","fileFormat","fileSize","tags"
+1,"jQuery 1.4 Reference Guide","The book is a detailed reference guide, and an invaluable resource for answers to all your queries about jQuery. It is intended to be a quick reference to help at times when you need to quickly confirm a feature of the library. 
+This book is for you if you are a web developer who wants a broad, organized view of all that jQuery library has to offer or a quick reference on their desk to refer to for particular details. Basic knowledge of HTML and CSS is required. You should be comfortable with the syntax of JavaScript, but no knowledge of jQuery is assumed. 
+This is a reference guide, not an introductory title and if you are looking to get started with jQuery 1.3 (or JavaScript libraries in general) then you are looking for the companion title Learning jQuery 1.3.","Karl Swedberg, Jonathan Chaffer","其他","2010-01-01",335,"978-1-84951-004-2","PDF",2590000,"javascript, jQuery"
+2,"Drupal 6 JavaScript and jQuery","Putting jQuery, AJAX, and JavaScript effects into your Drupal 6 modules and themes
+
+<ul>
+    <li>Learn about JavaScript support in Drupal 6</li>
+    <li>Packed with example code ready for you to use</li>
+    <li>Harness the popular jQuery library to enhance your Drupal sites</li>
+    <li>Make the most of Drupal’s built-in JavaScript libraries</li>
+</ul>
+
+In Detail
+
+JavaScript: It’s not just for calculators and image rollovers.
+
+Drupal 6 is loaded with new features, and not all of them are necessarily implemented in PHP. This unique book, for web designers and developers, will take you through what can be done with JavaScript (and especially with jQuery) in Drupal 6.
+
+With the combination of the powerhouse jQuery library with its own robust set of JavaScript tools, Drupal 6 comes with a pre-packaged killer JavaScript environment. Cross-platform by nature, it provides all of the tools necessary to create powerful AJAX-enabled scripts, gorgeous visual effects, and view-enhancing behaviors. In addition, Drupal developers have ported some of its most powerful PHP tools – like a theming engine and support for localization and language translation – to JavaScript, making it possible to write simple scripts where once only complex PHP code could be used.
+
+This book gives you the keys to the toolbox, showing you how to use Drupal’s JavaScript libraries to make your modules and themes more dynamic, interactive and responsive, and add effects to make your Drupal site explode into life!
+
+If you’ve dipped your toe in the water of theme or module development with Drupal 6, this is the book you want to make the look and behavior of your work something special. With it’s project-based approach, this book is carefully constructed to guide you from how JavaScript fits into the overall Drupal architecture through to making you a master of the jQuery library in the world of Drupal themes and modules.
+
+What you will learn from this book?
+
+<ul>
+    <li>An introduction to JavaScript in Drupal 6</li>
+    <li>The basics of the jQuery library</li>
+    <li>Creating JavaScript-enabled themes</li>
+    <li>Manipulating a page on the fly with jQuery</li>
+    <li>Authoring simple PHPTemplate files designed to maximize scripting potential</li>
+    <li>Using jQuery to add effects in Drupal 6</li>
+    <li>Working with Drupal 6 behaviors</li>
+    <li>Adding AJAX to modules</li>
+    <li>Using Drupal’s localization and language translation engine in your JavaScript</li>
+    <li>Theming on the client-side with Drupal’s JavaScript theme engine</li>
+    <li>Building better forms</li>
+    <li>Working with Drupal 6’s JavaScript library</li>
+    <li>Writing portable JavaScript tools as Drupal modules</li>
+</ul>
+
+Approach
+
+This book focuses on teaching by example. Chapters are packed with example code, providing hands-on examples you can play with and then release to your own Drupal sites. By introducing short projects interspersed with discussion, the pace is rapid yet practical.
+
+Who this book is written for?
+
+This book is for web designers and developers who want to add JavaScript elements to Drupal themes or modules to create more flexible and responsive user interfaces.
+
+You are expected to know about the basic operation of Drupal, and be familiar with the concept of theming and modules in Drupal. No experience of creating themes or modules is required.
+
+You will need to know the basics of client-side web development; this means HTML, CSS, but also have a rudimentary grasp of the syntax of JavaScript. Familiarity with PHP programming will be an advantage, since we will be writing PHPTemplate files and (at the end) creating Drupal modules. However, the PHP is covered thoroughly enough that even the PHP neophyte will not find the text too demanding. The book also covers the jQuery JavaScript library and its use in Drupal, but no knowledge of jQuery is expected – you will learn everything you need in this book.
+","Matt Butcher","其他","2009-03-09",340,"978-1847196163","PDF",7270000,"Drupal, javascript, jQuery"
+3,"Beginning JavaScript and CSS Development with jQuery","jQuery is a JavaScript library that helps web developers create JavaScript applications that work well in any browser. This book demonstrates how to use jQuery to reduce the amount of code you need to write and reduce the amount of testing that is required. Youll see how separation of presentation (CSS), markup (XHTML), and script (JavaScript and Ajax) in web pages is a crucial direction in web development for creating maintainable, accessible, cost-effective web sites. The featured full-color code syntax highlighting provides you with a visual reinforcement so you can see the various pieces and parts that make up each line and section of code for each language.
+From the Back Cover
+
+jQuery allows you to do more in the world of dynamic web applications, with less code and fewer errors. It reduces the amount of JavaScript programming to only a few lines of code while making your JavaScript more intuitive and attractive to work with. At the same time, jQuery makes it easier to manipulate CSS from JavaScript by allowing you to set style for one or many elements at once.
+
+With this unique, project-oriented book, author Richard York teaches even the most novice of JavaScript users how to quickly get started utilizing the JavaScript jQuery Library to decrease the amount of code that needs to be written and tested. A four-color code syntax highlighting system provides a visual reinforcement and allows you to see the nuts and bolts that comprise each line and section of code. With this helpful guide and hands-on exercises, you’ll be able to put jQuery to work for you and avoid having to write code from scratch.
+
+What you will learn from this book
+
+    * How to install and test jQuery
+    * Techniques to manipulate content and attributes
+    * Ways to filter and map a selection or an array
+    * The difference between GET and POST
+    * How to easily show, hide, slide, and fade elements with smooth animations and transitions
+    * Good practice for jQuery plugin development
+    * Methods for making elements draggable
+    * Ways to customize sortable lists
+    * How to implement and localize a datepicker
+
+Who this book is for
+
+This book is for web designers eager to do more with their web-based applications, but who do not necessarily have much JavaScript experience. Some basic knowledge of XHTML and CSS is necessary.
+
+Wrox Beginning guides are crafted to make learning programming languages and technologies easier than you think, providing a structured, tutorial format that will guide you through all the techniques involved.","Richard York","Wrox Press","2009-05-04",560,"978-0470227794","PDF",9920000,"CSS, javascript, jQuery"
+4,"jQuery 1.3 with PHP","Enhance your PHP applications by increasing their responsiveness through jQuery and its plugins.
+
+    * Combine client-side jQuery with your server-side PHP to make your applications more efficient and exciting for the client
+    * Learn about some of the most popular jQuery plugins and methods
+    * Create powerful and responsive user interfaces for your PHP applications
+    * Complete examples of PHP and jQuery with clear explanations
+    * No JavaScript expertise or jQuery experience required
+
+In Detail
+
+To make PHP applications that respond quickly, avoid unnecessary page reloads, and provide great user interfaces, often requires complex JavaScript techniques and even then, if you get that far, they might not even work across different browsers! With jQuery, you can use one of the most popular JavaScript libraries, forget about cross-browser issues, and simplify the creation of very powerful and responsive interfaces – all with the minimum of code.
+This is the first book in the market that will ease the server-side PHP coder into the client-side world of the popular jQuery JavaScript library.
+
+This book will show you how to use jQuery to enhance your PHP applications, with many examples using jQuery’s user interface library jQuery UI, and other examples using popular jQuery plugins. It will help you to add exciting user interface features to liven up your PHP applications without having to become a master of client-side JavaScript.
+
+This book will teach you how to use jQuery to create some really stunning effects, but without you needing to have in-depth knowledge of how jQuery works. It provides you with everything you need to build practical user interfaces for everything from graphics manipulation to drag-and-drop to data searching, and much more. The book also provides practical demonstrations of PHP and jQuery and explains those examples, rather than starting from how JavaScript works and how it is different from PHP.
+
+By the end of this book, you should be able to take any PHP application you have written, and transform it into a responsive, user-friendly interface, with capabilities you would not have dreamed of being able to achieve, all in just a few lines of JavaScript.
+
+What you will learn from this book?
+
+    * Integrate jQuery into your PHP applications
+    * Add tabs and accordions using the jQuery-UI project to make your pages easier to read
+    * Validate forms locally and remotely
+    * Enhance your existing form controls, optimize large select-boxes, build auto-suggest fields for your forms.
+    * Manipulate images non-destructively
+    * Manage your files and directories
+    * Create your own jQuery plugins
+    * Write a weekly calendar
+    * Use a drag/drop mechanism to sort lists and create hierarchical menus
+    * Paginate, order, and search large data sets
+
+Approach
+
+This book takes a practical approach to integrating PHP and jQuery, showing examples of every point discussed. All examples are written such that you should be able to copy out the code into your own projects and see immediate results, no matter what your experience with JavaScript. You will find projects developed within a chapter, building them up step-by-step, describing the process and thought that goes into it. Minimal requirements are needed on the server-side, so the examples should work with any setup.
+
+Who this book is written for?
+
+This book is for PHP application developers who want to improve their user interfaces through jQuery’s capabilities and responsiveness. Whether you are familiar with jQuery or have only dabbled a little with JavaScript, this book will provide you with numerous practical examples of how to improve your application.","Kae Verens","其他","2009-10-26",248,"978-1847196989","PDF",4050000,"javascript, jQuery, PHP"
+5,"jQuery: Visual QuickStart Guide","jQuery is a popular JavaScript library that simplifies event handling, animating, and Ajax interactions for rapid web development. Many companies are using jQuery including: Amazon, Google, Twitter, Bank of America, BBC, ESPN, CBS News, Digg, Reuters, IBM, Netflix, Dell, Oracle, Slashdot, Tecnorati, and Intuit.
+
+Even casual web designers, who create web pages for fun, want to add the latest cool effects to their sites, and jQuery–the fast, flexible JavaScript library–is a tool of choice. Just as CSS separates “display” characteristics from the HTML structure, jQuery separates the “behavior” characteristics from the HTML structure. From visual effects, special controls, and Ajax made easy, the jQuery Visual QuickStart Guide will teach readers how to make the most of jQuery using the task-based, step-by-step, visual format they love. It’s crammed with examples and there’s a special section on widgets.","Steven Holzner","其他","2009-07-10",240,"978-0321647498","PDF",4310000,"javascript, jQuery"
+6,"jQuery UI 1.6: The User Interface Library for jQuery","Product Description
+Modern web application user interface design requires rapid development and proven results. jQuery UI, a trusted plugin for the jQuery JavaScript library, gives you a trusted platform on which to build rich and engaging interfaces with maximum compatibility, stability, and a minimum of time and effort.
+
+jQuery UI has a series of ready-made, great-looking user interface widgets and a comprehensive set of core interaction helpers designed to be implemented in a consistent and developer-friendly way. With all this, the amount of code that you need to write personally to take a project from conception to completion is drastically reduced This book has been written to maximize your experience with the library by breaking down each component and walking you through examples that progressively build upon your knowledge, taking you from beginner to advanced usage in a series of easy to follow steps.
+
+In this book, you’ll learn how each component can be initialized in a basic default implementation and then see how easy it is to customize its appearance and configure its behaviour to tailor it to the requirements of your application. You’ll look at the properties and methods exposed by each component’s API and see how these can be used to bring out the best in each component.
+
+Events play a key role in any modern web applications if it is to meet the expected minimum requirements of interactivity and responsiveness, and each chapter will show you the custom events fired by each component and how these events can be intercepted and acted upon.
+
+Approach
+
+An example-based approach leads you step-by-step through the implementation and customization of each library component and its associated resources in turn. To emphasize the way that jQuery UI takes the difficulty out of user interface design and implementation, each chapter ends with a `fun with’ section that puts together what you’ve learned throughout the chapter to make a usable and fun page. In these sections you’ll often get to experiment with the latest associated technologies like AJAX and JSON.
+
+From the Publisher
+Who this book is written for?
+
+This book is for front-end designers and developers that need to quickly learn how to use the jQuery UI User Interface Library. To get the most out of this book you should have a good working knowledge of HTML, CSS and JavaScript, and will need to be comfortable using jQuery, the underlying foundation of jQuery UI.
+
+What you will learn from this book?
+
+    * Organize different sections of related content as tabs and accordins and save space on your page
+    * Display messages, images, and interactive content like forms using the dialog widget
+    * Use sliders for volume and color control of your applications by dynamically scrolling left and right, displaying different ranges
+    * Allow your site visitors to select dates from the calendar using date picker widget
+    * Enrich your interface with auto complete: start typing the first few letters of a name in your address book and the application will do the rest
+    * Provide a drag-and-drop mechanism to let users directly rearrange elements around the page
+    * Make a range of elements of a group selectable and take collective actions on them
+    * Create a page with content boxes on it that can be sorted into various positions to suit the visitors personal preference
+    * Add flair to your actions with animation effects","Dan Wellman","其他","2009-02-03",440,"978-1847195128","PDF",7640000,"javascript, jQuery"
+7,"jQuery in Action","Product Description
+A good web development framework anticipates what you need to do and makes those tasks easier and more efficient; jQuery practically reads your mind. Developers of every stripe-hobbyists and professionals alike-fall in love with jQuery the minute they’ve reduced 20 lines of clunky JavaScript into three lines of elegant, readable code. This new, concise JavaScript library radically simplifies how you traverse HTML documents, handle events, perform animations, and add Ajax interactions to your web pages.jQuery in Action, like jQuery itself, is a concise tool designed to make you a more efficient and effective web developer. In a short 300 pages, this book introduces you to the jQuery programming model and guides you through the major features and techniques you’ll need to be productive immediately. The book anchors each new concept in the tasks you’ll tackle in day-to-day web development and offers unique lab pages where you immediately put your jQuery knowledge to work.
+
+There are dozens of JavaScript libraries available now, with major companies like Google, Yahoo and AOL open-sourcing their in-house tools. This book shows you how jQuery stacks up against other libraries and helps you navigate interaction with other tools and frameworks.
+
+jQuery in Action offers a rich investigation of the up-and-coming jQuery library for client-side JavaScript. This book covers all major features and capabilities in a manner focused on getting the reader up and running with jQuery from the very first sections. Web Developers reading this book will gain a deep understanding of how to use jQuery to simplify their pages and lives, as well as learn the philosophy behind writing jQuery-enhanced pages.
+
+About the Author
+Bear Bibeault has been working in the area of web applications since the mid-90s, getting started with beta versions of JSP and Servlets. He is a senior moderator at the popular JavaRanch site, and has contributed articles to that site’s JavaRanch Journal. He also co-authored two other Manning books: Ajax in Practice and Prototype and Scriptaculous in Action. Bear works and resides in Austin, TX.
+
+Yehuda Katz contributes actively to jQuery, heading up the plugin development team. He also runs Visual jQuery, a dynamic, brosable version of the jQuery API, used heavily by new users of the library and core developers alike. Born in Minnesota and raised in New York, he now lives in sunny Santa Barbara, CA, where he works for Procore Technologies.","Bear Bibeault, Yehuda Katz, John Resig","Manning Publications","2008-02-07",376,"978-1933988351","PDF",23170000,"javascript, jQuery"
+8,"Building iPhone Apps with HTML CSS and JavaScript","It’s a fact: if you know HTML, CSS, and JavaScript, you already have the tools you need to develop your own iPhone apps. With this book, you’ll learn how to use these open source web technologies to design and build apps for the iPhone and iPod Touch on the platform of your choice-without using Objective-C or Cocoa.
+
+Device-agnostic mobile apps are the wave of the future, and this book shows you how to create one product for several platforms. You’ll find guidelines for converting your product into a native iPhone app using the free PhoneGap framework. And you’ll learn why releasing your product as a web app first helps you find, fix, and test bugs much faster than if you went straight to the App Store with a product built with Apple’s tools.
+
+* Build iPhone apps with tools you already know how to use
+* Learn how to make an existing website look and behave like an iPhone app
+* Add native-looking animations to your web app using jQTouch
+* Take advantage of client-side data storage with apps that run even when the iPhone is offline
+* Hook into advanced iPhone features — including the accelerometer, geolocation, and vibration — with JavaScript
+* Submit your applications to the App Store with Xcode","Jonathan Stark","O'Reilly","2010-01-01",192,"978-0596805784","PDF",4200000,"CSS, HTML, iPhone, javascript"
+9,"jQuery Recipes: A Problem-Solution Approach","Product Description
+jQuery is one of today’s most popular JavaScript web application development frameworks and libraries. jQuery Recipes can get you started with jQuery quickly and easily, and it will serve as a valuable long-term reference.
+
+    * The book begins with small initial problems that developers typically face while working with jQuery, and gradually goes deeper to explore more complex problems.
+    * The solutions include illustrations and clear, concise explanations of the code. Using this book and jQuery, your web sites will be more dynamic and lively.
+
+What you’ll learn
+
+    * How to use the jQuery framework
+    * The basics of Cascading Style Sheets (CSS) and how they apply to jQuery and its functions
+    * Fundamentals like selectors, the DOM, and event handling with running code recipes
+    * How to make your web sites more dynamic using rich code templates
+    * How to apply animation effects to your web sites using jQuery code recipes
+    * How to develop Ajax applications using jQuery
+    * How to use jQuery utility functions
+    * How to extend jQuery with plug-ins and their types
+
+Who is this book for?
+
+The book is meant for the beginners who have a little knowledge of HTML and intend to make dynamic websites. The book will be of great use for developers and professionals who wish to make highly interactive websites with minimum code.
+
+About the Author
+
+Bintu Harwani is a computer programmer and Web developer with several years of experience building content driven Web sites using a variety of Web development technologies including PHP, Ruby, Rails, and more.","Bintu Harwani","Apress","2010-01-11",350,"1430227095","PDF",4690000,"javascript, jQuery"
+10,"jQuery UI 1.7: The User Interface Library for jQuery","Build highly interactive web applications with ready-to-use widgets from the jQuery User Interface library
+
+    * Organize your interfaces with reusable widgets: accordions, date pickers, dialogs, sliders, tabs, and more
+    * Enhance the interactivity of your pages by making elements drag-and-droppable, sortable, selectable, and resizable
+    * Packed with examples and clear explanations of how to easily design elegant and powerful front-end interfaces for your web applications
+    * Revised and targeted at jQuery UI 1.7
+
+In Detail Modern web application user interface design requires rapid development and proven results. jQuery UI, a trusted suite of official plug-ins for the jQuery JavaScript library, gives you a solid platform on which to build rich and engaging interfaces with maximum compatibility and stability, and minimum time and effort.
+
+jQuery UI has a series of ready-made, great-looking user interface widgets and a comprehensive set of core interaction helpers designed to be implemented in a consistent and developer-friendly way. With all this, the amount of code that you need to write personally to take a project from conception to completion is drastically reduced.
+
+Specially revised for version 1.7 of jQuery UI, this book has been written to maximize your experience with the library by breaking down each component and walking you through examples that progressively build upon your knowledge, taking you from beginner to advanced usage in a series of easy-to-follow steps.
+
+In this book, you’ll learn how each component can be initialized in a basic default implementation and then see how easy it is to customize its appearance and configure its behavior to tailor it to the requirements of your application. You’ll look at the configuration options and the methods exposed by each component’s API to see how these can be used to bring out the best of the library.
+
+Events play a key role in any modern web application if it is to meet the expected minimum requirements of interactivity and responsiveness, and each chapter will show you the custom events fired by the component covered and how these events can be intercepted and acted upon.
+
+What you will learn from this book?
+
+    * How the brand-new CSS framework styles each of the library components
+    * Organizing different sections of related content as tabs and accordions to save space on your page while maximizing its content
+    * Displaying messages, images, and interactive content like forms using the dialog widget
+    * Using sliders for volume and color control of your applications by dynamically scrolling left and right, displaying different ranges
+    * Allowing your site visitors to select dates from the calendar using the date picker widget
+    * Adding an attractive and effective deterministic progress bar to give visitors essential feedback on how much longer a process has left to complete
+    * Providing a drag-and-drop mechanism to let users directly rearrange elements around the page
+    * Making a range of elements of a group selectable and taking collective actions on them
+    * Creating a page with content boxes that can be sorted into various positions to suit the visitor’s personal preference
+    * Adding flair to your actions with animation effects
+
+Approach
+
+An example-based approach leads you step-by-step through the implementation and customization of each library component and its associated resources in turn. To emphasize the way that jQuery UI takes the difficulty out of user interface design and implementation, each chapter ends with a ‘fun with’ section that puts together what you’ve learned throughout the chapter to make a usable and fun page. In these sections you’ll often get to experiment with the latest associated technologies like AJAX and JSON.
+
+Who this book is written for?
+
+This book is for front-end designers and developers who need to quickly learn how to use the jQuery UI User Interface Library. To get the most out of this book you should have a good working knowledge of HTML, CSS, and JavaScript, and will need to be comfortable using jQuery, the underlying foundation of jQuery UI.","Dan Wellman","其他","2009-11-09",392,"978-1847199720","PDF",11660000,"javascript, jQuery"
+11,"Learning jQuery","jQuery is a powerful JavaScript library that can enhance your websites regardless of your background.
+Created by John Resig, jQuery is an open-source project with a dedicated core team of top-notch JavaScript developers. It provides a wide range of features, an easy-to-learn syntax, and robust cross-platform compatibility in a single compact file. What’s more, over a hundred plug-ins have been developed to extend jQuery’s functionality, making it an essential tool for nearly every client-side scripting occasion.
+Learning jQuery provides a gentle introduction to jQuery concepts, allowing you to add interactions and animations to your pages—even if previous attempts at writing JavaScript have left you baffled. This book guides you past the pitfalls associated with AJAX, events, effects, and advanced JavaScript language features.","Jonathan Chaffer","其他","2007-06-01",376,"978-1-847192-50-9","PDF",9400000,"javascript, jQuery"
+12,"Practical C Programming, 3rd Edition","Product Description
+There are lots of introductory C books, but this edition of Practical C Programming is the one that has the no-nonsense, practical approach that has made Nutshell Handbooks(R) so popular. C programming is more than just getting the syntax right. Style and debugging also play a tremendous part in creating programs that run well and are easy to maintain. Practical C Programming teaches you not only the mechanics of programming, but also how to create programs that are easy to read, debug, and maintain. This third edition introduces popular Integrated Development Environments on Windows systems, as well as UNIX programming utilities, and features a large statistics-generating program to pull together the concepts and features in the language.
+
+From the Publisher
+There are lots of introductory C books, but this is the one that has the no-nonsense, practical approach that has made Nutshell Handbooks(R) famous. C programming is more than just getting the syntax right. Style and debugging also play a tremendous part in creating programs that run well and are easy to maintain. This new edition of Practical C Programming teaches you not only the mechanics of programming, but also how to create programs that are easy to read, debug, and maintain. It features more extensive examples, offers an introduction to graphical development environments, and describes Electronic Archaeology (the art of going through someone else’s code). As in earlier editions, practical rules are still stressed. For example, there are fifteen precedence rules in C (&& comes before || comes before ?:). The practical programmer reduces these to two: multiplication and division come before addition and subtraction put parentheses around everything else. Topics covered: Good programming style C syntax: what to use and what not to use The programming environment, including integrated development kits The total programming process Floating point limitations Tricks and surprises Program examples conform to ANSI C. Covers several Windows compilers, as well as UNIX compilers.","Steve Oualline","O'Reilly","1997-08-01",454,"978-1565923065","PDF",5870000,"cpp"
+13,"C++: The Complete Reference(third edition)","Offering the most complete coverage of the newly updated ANSI C++ Standard–including updated material on the STL namespace naming methods, and new classes–this book is an easy-to-follow, three-part organization of description of the root of C++, detailed coverage of C++ and effective C++ software application development.","Herbert Schildt","McGraw-Hill","1998-08-01",1041,"9780078824760","PDF",8770000,"cpp"
+14,"Extended STL, Volume 1: Collections and Iterators","“Wilson’s menu of STL treatments will no doubt be good eating for generic programming adherents, ardent C programmers just now taking on STL and C++, Java programmers taking a second look at C++, and authors of libraries targeting multiple platforms and languages. Bon appetit!”
+–George Frazier, Cadence Design Systems, Inc.
+
+“A thorough treatment of the details and caveats of STL extension.”
+–Pablo Aguilar, C++ Software Engineer
+
+“This book is not just about extending STL, it’s also about extending my thinking in C++.”
+–Serge Krynine, C++ Software Engineer, RailCorp Australia
+
+“You might not agree 100% with everything Wilson has to say, but as a whole his book is the most valuable, in-depth study of practical STL-like programming.”
+–Thorsten Ottosen, M.C.S., Boost Contributor
+
+“Wilson is a master lion tamer, persuading multifarious third-party library beasts to jump through STL hoops. He carefully guides the reader through the design considerations, pointing out the pitfalls and making sure you don’t get your head bitten off.”
+–Adi Shavit, Chief Software Architect, EyeTech Co. Ltd
+
+“Wilson’s book provides more than enough information to change the angst/uncertainty level of extending STL from ‘daunting’ to ‘doable.’ ”
+–Garth Lancaster, EDI/Automation Manager, Business Systems Group, MBF Australia
+
+“This book will open up your eyes and uncover just how powerful STL’s abstractions really are.”
+–Nevin “:-)” Liber, 19-year veteran of C++
+
+“In the canon of C++ there are very few books that extend the craft. Wilson’s work consistently pushes the limits, showing what can and cannot be done, and the tradeoffs involved.”
+–John O’Halloran, Head of Software Development, Mediaproxy
+
+“Essential concepts and practices to take the working programmer beyond the standard library.”
+–Greg Peet
+
+“Extended STL is not just a book about adapting the STL to fit in with your everyday work, it’s also an odyssey through software design and concepts, C++ power techniques, and the perils of real-world software development–in other words, it’s a Matthew Wilson book. If you’re serious about C++, I think you should read it.”
+–Björn Karlsson, Principle Architect, ReadSoft; author of Beyond the C++ Standard Library: An Introduction to Boost
+
+In Extended STL, renowned C++ expert Matthew Wilson shows how to go beyond the C++ standard and extend the Standard Template Library into the wider C++ world of APIs and non-standard collections, to write software that is more efficient, expressive, flexible, and robust.
+
+In Volume 1, Wilson’s innovative techniques help you master STL extension in two important areas: adapting technology-specific libraries and operating system APIs to STL-compliant collections, and defining sophisticated iterator adaptors with which the latent efficiency and expressive power of STL can be realized. Using real-world examples, Wilson illustrates several powerful concepts and techniques that enable you to extend STL in directions never envisioned by its creators, including collections, element reference categories, external iterator invalidation and inferred interface adaptation.
+
+Extended STL, Volume 1, will be an invaluable resource for every C++ programmer who is at least minimally familiar with the STL.
+
+    * Learn specific principles and techniques for STL extension
+    * Learn more about the STL by looking inside the implementation of STL extensions
+    * Learn general techniques for implementing wrappers over operating system APIs and technology-specific libraries
+    * Learn how to write iterator adaptors and understand the reasons behind the restrictions on their implementations and use
+
+Specific coverage includes
+
+    * Making the most of collections, and understanding how they differ from containers
+    * Mastering element reference categories: defining them, detecting them, and using them to design STL extension collections and iterators
+    * Working with external iterator invalidation, and understanding its surprising impact on the design of STL-compatible collections
+    * Adapting real-world APIs ranging from file
+    * system enumeration to scatter/gather I/O
+    * Using standalone iterator types, from simple std::ostream_iterator extensions to sophisticated adaptors that filter and transform types or values
+
+The accompanying CD-ROM contains an extensive collection of open-source libraries created by the author. Also included: several test projects, and three bonus chapters.","Matthew Wilson","Addison Wesley","2007-06-29",624,"978-0321305503","PDF",2850000,"cpp"
+15,"C++ in a Nutshell","C++ in a Nutshell packs an enormous amount of information on C++ (and the many libraries used with it) in an indispensable quick reference for those who live in a deadline-driven world and need the facts but not the frills. The book’s language reference is organized first by topic, followed by an alphabetical reference to the language’s keywords, complete with syntax summaries and pointers to the topic references. The library reference is organized by header file, and each library chapter and class declaration presents the classes and types in alphabetical order for easy lookup. Cross-references link related methods, classes, and other key features. This is an ideal resource for students as well as professional programmers. When you’re programming, you need answers to questions about language syntax, or parameters required by library routines quickly. C++ in a Nutshell is a concise desktop reference that answers these questions, putting the full power of this flexible, adaptable (but somewhat difficult to master) language at every C++ programmer’s fingertips.","Ray Lischner","O'Reilly","2003-05-01",808,"978-0596002985","CHM",1160000,"cpp"
+16,"Secure Programming Cookbook for C and C++","Secure Programming Cookbook for C and C++ is an important new resource for developers serious about writing secure code. It contains a wealth of solutions to problems faced by those who care about the security of their applications. It covers a wide range of topics, including safe initialization, access control, input validation, symmetric and public key cryptography, cryptographic hashes and MACs, authentication and key exchange, PKI, random numbers, and anti-tampering. The rich set of code samples provided in the book’s more than 200 recipes will help programmers secure the C and C++ programs they write for both Unix® (including Linux®) and Windows® environments. The book’s web site supplements the book by providing a place to post new recipes, including those written in additional languages like Perl, Java, and Python. Monthly prizes will reward the best recipes submitted by readers. The Secure Programming Cookbook for C and C++ is destined to become an essential part of any developer’s library, a code companion developers will turn to again and again as they seek to protect their systems from attackers and reduce the risks they face in today’s dangerous world.","Matt Messier, John Viega","O'Reilly","2003-07-01",784,"0-596-00394-3","CHM",1360000,"cpp"
+17,"How Not to Program in C++","How Not to Program in C++ is a puzzle book with over 100 challenges. Readers must find errors in up to 40 lines of code. By learning to detect the errors, readers become more efficient programmers. Based on real-world programs, readers solve puzzles ranging from easy (one wrong character) to difficult (errors with multiple threads). Clues help along the way, and answers are at the back of the book.","Steve Oualline","其他","2003-03-01",283,"978-1886411951","CHM",796340,"cpp"
+18,"C++ Cookbook ","Despite its highly adaptable and flexible nature, C++ is also one of the more complex programming languages to learn. Once mastered, however, it can help you organize and process information with amazing efficiency and quickness.
+The “C++ Cookbook” will make your path to mastery much shorter. This practical, problem-solving guide is ideal if you’re an engineer, programmer, or researcher writing an application for one of the legions of platforms on which C++ runs. The algorithms provided in “C++ Cookbook” will jump-start your development by giving you some basic building blocks that you don’t have to develop on your own.
+
+Less a tutorial than a problem-solver, the book addresses many of the most common problems you’re likely encounter–whether you’ve been programming in C++ for years or you’re relatively new to the language. Here are just some of the time-consuming tasks this book contains practical solutions for:
+
+Reading the contents of a directory
+
+Creating a singleton class
+
+Date and time parsing/arithmetic
+
+String and text manipulation
+
+Working with files
+
+Parsing XML
+
+Using the standard containers
+
+Typical of O’Reilly’s “Cookbook” series, “C++ Cookbook” is written in a straightforward format, featuring recipes that contain problem statements and code solutions, and apply not to hypothetical situations, but those that you’re likely to encounter. A detailed explanation then follows each recipe in order to show you how and why the solution works. This question-solution-discussion format is a proven teaching method, as any fan of the “Cookbook” series can attest to. This book will move quickly to the top of your list of essential C++ references.","Jeff Cogswell, Christopher Diggins, Ryan Stephens, Jonathan Turkanis","O'Reilly","2005-11-01",592,"0-596-00761-2","CHM",856290,"cpp"
+19,"The C++ Standard Library: A Tutorial and Reference","C++ Standard Library provides a set of common classes and interfaces that greatly extend the core C++ language. The library, however, is not self-explanatory. To make full use of its components-and to benefit from their power-you need a resource that does far more than list the classes and their functions.
+The C++ Standard Library not only provides comprehensive documentation of each library component, it also offers clearly written explanations of complex concepts, describes the practical programming details needed for effective use, and gives example after example of working code.
+This thoroughly up-to-date book reflects the newest elements of the C++ standard library incorporated into the full ANSI/ISO C++ language standard. In particular, the text focuses on the Standard Template Library (STL), examining containers, iterators, function objects, and STL algorithms. You will also find detailed coverage of special containers, strings, numerical classes, internationalization, and the IOStream library. Each component is presented in depth, with an introduction to its purpose and design, examples, a detailed description, traps and pitfalls, and the exact signature and definition of its classes and their functions. An insightful introduction to fundamental concepts and an overview of the library will help bring newcomers quickly up to speed.
+Comprehensive, detailed, readable, and practical, The C++ Standard Library is the C++ resource you will turn to again and again.","Nicolai M. Josuttis","Addison Wesley","1999-08-06",832,"0-201-37926-0","CHM",3370000,"cpp"

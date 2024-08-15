@@ -1,0 +1,141 @@
+TYPE,NAME,RESPONSE
+CDS,neo ORF,"draw blue box with label ""bgal"" inside"
+LRPCR_primer,LAR3_1,
+LRPCR_primer,LRPCR LAR3_EN2,
+LRPCR_primer,LRPCR RAF5,
+LRPCR_primer,RAF5,
+PCR_primer,EN2FRT 5'LRPCR,
+SSR_site,FRT,"draw green semi-circle with label ""FRT"" above"
+SSR_site,FRT site,"draw green semi-circle with label ""FRT"" above"
+SSR_site,loxP,"draw red triangle with label ""loxP"" below"
+SSR_site,loxP site,"draw red triangle with label ""loxP"" below"
+exon,EN2_exon2,
+exon,En2_exon2,
+gateway,B1,N/A
+gateway,B2,N/A
+gateway,Gateway  L1 site,
+gateway,Gateway L1,
+gateway,Gateway L1 site,
+gateway,Gateway L2,
+gateway,Gateway L2 site,
+gateway,Gateway R1,
+gateway,Gateway R2,
+gene,B gal translation,"draw blue box with label ""bgal"" inside"
+gene,En2 T2A fusion,
+gene,b-galactosidase,
+gene,bgal,
+gene,neo,
+gene,neo translation,
+gene,rat CD4 B-gal fusion,
+intron,En2 intron1,
+misc_feature,,
+misc_feature,3IRES5,
+misc_feature,3IRES5 seq primer
+misc_feature,B1 site
+misc_feature,B2 site?
+misc_feature,CD4 TM domain
+misc_feature,ClonNAT
+misc_feature,ECMV IRES
+misc_feature,EM7
+misc_feature,EM7 promoter
+misc_feature,EM7_3'
+misc_feature,EM7_3' seq primer
+misc_feature,EN2_exon2
+misc_feature,En2 exon
+misc_feature,En2 intron
+misc_feature,En2SAF
+misc_feature,En2_exon2
+misc_feature,FCHK2
+misc_feature,FCHK2 seq primer
+misc_feature,FRT
+misc_feature,FRT 
+misc_feature,FRT site
+misc_feature,FRT3
+misc_feature,FRT5
+misc_feature,Frt
+misc_feature,Gateway  L1 site
+misc_feature,Gateway L1
+misc_feature,Gateway L1 site
+misc_feature,Gateway L2
+misc_feature,Gateway L2 site
+misc_feature,GatewayL2
+misc_feature,IRES5for primer
+misc_feature,IRES5for seq primer
+misc_feature,L1 seq primer
+misc_feature,LAR3_1
+misc_feature,LRPCR LAR3_EN2
+misc_feature,LRPCR RAF5
+misc_feature,LacZCla5
+misc_feature,LacZCla5 seq primer
+misc_feature,LoxP
+misc_feature,NF seq primer
+misc_feature,PGK Promoter # should be a promoter TYPE
+misc_feature,PNF seq primer
+misc_feature,RAF5
+misc_feature,SV40 pA
+misc_feature,T2A
+misc_feature,TM domain
+misc_feature,b-galactosidase
+misc_feature,betact5
+misc_feature,betact5 seq primer
+misc_feature,bgal
+misc_feature,en-2 exon
+misc_feature,en-2 intron
+misc_feature,en2intronbound3
+misc_feature,en2intronbound3 seq primer
+misc_feature,frame 0
+misc_feature,frame 1
+misc_feature,frame 2
+misc_feature,frame0
+misc_feature,frame1
+misc_feature,frame2
+misc_feature,human beta actin promoter
+misc_feature,lacZ
+misc_feature,loxP
+misc_feature,loxP site
+misc_feature,loxp site
+misc_feature,neo
+misc_feature,neo ORF
+misc_feature,neoBstB1_5
+misc_feature,neoBstB1_5 seq primer
+misc_feature,neoPstI_5
+misc_feature,neoPstI_5 seq primer
+misc_feature,neoSphI_5
+misc_feature,neoSphI_5 seq primer
+misc_feature,neomycin resistance 
+misc_feature,osteopontin repeat 1
+misc_feature,osteopontin repeat 2
+misc_feature,osteopontin repeat 3
+misc_feature,osteopontin repeat 4
+misc_feature,osteopontin repeat 5
+misc_feature,osteopontin repeat 6
+misc_feature,rat CD4 fragment
+misc_feature,rat Cd4
+misc_feature,seq primer FCHK1
+misc_feature,seq primer FCHK2
+misc_feature,seq primer L1
+misc_feature,seq primer NF
+polyA_site,SV40 pA
+primer_bind,FCHK1 seq primer
+primer_bind,FCHK2
+primer_bind,FCHK2 seq primer
+primer_bind,FRT3
+primer_bind,FRT3 seq primer
+primer_bind,FRT5
+primer_bind,FRT5 seq primer
+primer_bind,IRES5for primer
+primer_bind,L1 seq primer
+primer_bind,NF seq primer
+primer_bind,PNF seq primer
+primer_bind,R1 primer
+primer_bind,R1R primer
+primer_bind,R2 primer
+primer_bind,R2R primer
+primer_bind,seq primer FCHK1
+primer_bind,seq primer FCHK2
+primer_bind,seq primer L1
+primer_bind,seq primer NF
+primer_bind,seq primer PNF
+promoter,EM7 promoter
+promoter,human beta actin promoter
+promoter,human ubiquitin promoter

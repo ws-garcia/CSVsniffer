@@ -1,0 +1,169 @@
+MDB;mdb110319;Full Magic Database;All Magic: The Gathering Cards at 2011.03.19.; ;
+BLOCK;core;Core Set Editions;Core sets for beginner players;CORE;
+SET;m11;Magic 2011;Magic 2011 Core Set;07/2010;249
+SET;m10;Magic 2010;Description;07/2009;249
+SET;10e;Tenth Edition;Description;07/2007;383
+SET;9e;Ninth Edition;Description;07/2005;350
+SET;8e;Eighth Edition;Description;07/2003;350
+SET;7e;Seventh Edition;Description;04/2001;350
+SET;6e;Classic Sixth Edition;Description;04/1999;350
+SET;5e;Fifth Edition;Description;03/1997;449
+SET;4e;Fourth Edition;Description;04/1995;378
+SET;rv;Revised Edition;Description;04/1994;306
+SET;un;Unlimited Edition;Description;10/1993;302
+SET;be;Limited Edition Beta;Description;08/1993;302
+SET;al;Limited Edition Alpha;Description;08/1993;295
+BLOCK;som;Scars of Mirrodin;Description;CYCLE;
+SET;mbs;Mirrodin Besieged;Description;02/2011;155
+SET;som;Scars of Mirrodin;Description;10/2010;249
+BLOCK;zen;Zendikar;Description;CYCLE;
+SET;roe;Rise of the Eldrazi;Description;04/2010;248
+SET;wwk;Worldwake;Description;02/2010;145
+SET;zen;Zendikar;Description;10/2009;269
+BLOCK;ala;Shards of Alara;Description;CYCLE;
+SET;arb;Alara Reborn;Description;04/2009;145
+SET;cfx;Conflux;Description;02/2009;145
+SET;ala;Shards of Alara;Description;10/2008;249
+BLOCK;lwshm;Lorwyn-Shadowmoor;Description;CYCLE;
+SET;eve;Eventide;Description;07/2008;180
+SET;shm;Shadowmoor;Description;05/2008;301
+SET;mt;Morningtide;Description;02/2008;150
+SET;lw;Lorwyn;Description;10/2007;301
+BLOCK;ts;Time Spiral;Description;CYCLE;
+SET;fut;Future Sight;Description;05/2007;180
+SET;pc;Planar Chaos;Description;02/2007;168
+SET;ts;Time Spiral;Description;10/2006;301
+SET;tsts;Time Spiral "Timeshifted";Description;10/2006;122
+BLOCK;ia;Ice Age;Description;CYCLE;
+SET;cs;Coldsnap;Description;07/2006;155
+SET;ai;Alliances;Description;06/1996;199
+SET;hl;Homelands;Description;10/1995;140
+SET;ia;Ice Age;Description;06/1995;383
+BLOCK;rav;Ravnica;Description;CYCLE;
+SET;di;Dissension;Description;05/2006;190
+SET;gp;Guildpact;Description;02/2006;165
+SET;rav;Ravnica: City of Guilds;Description;10/2005;306
+BLOCK;kam;Kamigawa;Description;CYCLE;
+SET;sok;Saviors of Kamigawa;Description;06/2005;170
+SET;bok;Betrayers of Kamigawa;Description;02/2005;170
+SET;chk;Champions of Kamigawa;Description;10/2004;317
+BLOCK;mi;Mirrodin;Description;CYCLE;
+SET;5dn;Fifth Dawn;Description;06/2004;165
+SET;ds;Darksteel;Description;02/2004;165
+SET;mi;Mirrodin;Description;10/2003;306
+BLOCK;on;Onslaught;Description;CYCLE;
+SET;sc;Scourge;Description;05/2003;143
+SET;le;Legions;Description;02/2003;145
+SET;on;Onslaught;Description;10/2002;350
+BLOCK;od;Odyssey;Description;CYCLE;
+SET;ju;Judgment;Description;05/2002;143
+SET;tr;Torment;Description;02/2002;143
+SET;od;Odyssey;Description;10/2001;350
+BLOCK;in;Invasion;Description;CYCLE;
+SET;ap;Apocalypse;Description;06/2001;148
+SET;ps;Planeshift;Description;02/2001;143
+SET;in;Invasion;Description;10/2000;355
+BLOCK;mm;Masques;Description;CYCLE;
+SET;pr;Prophecy;Description;06/2000;143
+SET;ne;Nemesis;Description;02/2000;143
+SET;mm;Mercadian Masques;Description;10/1999;350
+BLOCK;uz;Urza;Description;CYCLE;
+SET;ud;Urza's Destiny;Description;06/1999;143
+SET;ul;Urza's Legacy;Description;02/1999;143
+SET;us;Urza's Saga;Description;10/1998;350
+BLOCK;tp;Tempest;Description;CYCLE;
+SET;ex;Exodus;Description;06/1998;143
+SET;sh;Stronghold;Description;03/1998;143
+SET;tp;Tempest;Description;10/1997;350
+BLOCK;mr;Mirage;Description;CYCLE;
+SET;wl;Weatherlight;Description;06/1997;167
+SET;vi;Visions;Description;02/1997;167
+SET;mr;Mirage;Description;10/1996;350
+BLOCK;ea;Early Sets;Description;OTHER;
+SET;fe;Fallen Empires;Description;11/1994;187
+SET;dk;The Dark;Description;08/1994;119
+SET;lg;Legends;Description;06/1994;310
+SET;aq;Antiquities;Description;03/1994;100
+SET;an;Arabian Nights;Description;10/1993;92
+BLOCK;mo;Magic Online;Description;OTHER;
+SET;me4;MTGO Masters Edition IV;Description;01/2011;260
+SET;me3;MTGO Masters Edition III;Description;08/2009;230
+SET;me2;MTGO Masters Edition II;Description;08/2008;245
+SET;med;MTGO Masters Edition;Description;09/2007;195
+BLOCK;rep;Reprint Sets;Description;OTHER;
+SET;avn;Duel Decks: Ajani vs. Nicol Bolas;Description;09/2011;120
+SET;kvd;Duel Decks: Knights vs. Dragons;Description;04/2011;120
+SET;pd2;Premium Deck Series: Fire and Lightning;Description;11/2010;34
+SET;ddf;Duel Decks: Elspeth vs. Tezzeret;Description;08/2010;79
+SET;fvr;From the Vault: Relics;Description;08/2010;15
+SET;dpa;Duels of the Planeswalkers;Description;06/2010;113
+SET;arc;Archenemy;Description;06/2010;151
+SET;pvc;Duel Decks: Phyrexia vs. The Coalition;Description;03/2010;71
+SET;pds;Premium Deck Series: Slivers;Description;11/2009;41
+SET;gvl;Duel Decks: Garruk vs. Liliana ;Description;11/2009;63
+SET;pch;Planechase;Description;09/2009;171
+SET;fve;From the Vault: Exiled;Description;08/2009;15
+SET;dvd;Duel Decks: Divine vs. Demonic;Description;04/2009;62
+SET;jvc;Duel Decks: Jace vs. Chandra;Description;11/2008;62
+SET;fvd;From the Vault: Dragons;Description;08/2008;15
+SET;evg;Duel Decks: Elves vs. Goblins;Description;10/2007;62
+SET;ch;Chronicles;Description;07/1995;125
+BLOCK;theme;Theme Decks;Description;OTHER;
+SET;cstd;Coldsnap Theme Decks;Description;07/2006;62
+BLOCK;ind;Independent Box Sets;Description;OTHER;
+SET;9eb;Ninth Edition Box Set;Description;07/2005;9
+SET;8eb;Eighth Edition Box Set;Description;07/2003;7
+SET;dm;Deckmasters;Description;12/2001;56
+SET;bd;Beatdown Box Set;Description;10/2000;90
+SET;br;Battle Royale Box Set;Description;11/1999;136
+SET;at;Anthologies;Description;10/1998;85
+SET;mgbc;Multiverse Gift Box Cards;Description;09/1998;10
+BLOCK;un;Un-Serious Sets;Description;OTHER;
+SET;uh;Unhinged;Description;11/2004;145
+SET;ug;Unglued;Description;08/1998;88
+BLOCK;alt;Alternate Art;Description;OTHER;
+SET;uhaa;Unhinged Alternate Foils;Description;11/2004;19
+BLOCK;beg;Beginner Sets;Description;OTHER;
+SET;st2k;Starter 2000;Description;07/2000;20
+SET;st;Starter 1999;Description;07/1999;173
+SET;p3k;Portal Three Kingdoms;Description;05/1999;180
+SET;po2;Portal Second Age;Description;06/1998;165
+SET;po;Portal;Description;06/1997;222
+SET;itp;Introductory Two-Player Set;Description; ;67
+BLOCK;ev;Event Incentives;Description;OTHER;
+SET;15ann;15th Anniversary;Description; ;2
+SET;gpx;Grand Prix;Description; ;5
+SET;pro;Pro Tour;Description; ;5
+SET;mgdc;Magic Game Day Cards;Description; ;7
+SET;wrl;Worlds;Description; ;1
+SET;drc;Dragon Con;Description; ;1
+BLOCK;tour;Tournament Rewards;Description;OTHER;
+SET;ptc;Prerelease Events;Description; ;48
+SET;rep;Release Events;Description; ;13
+SET;mlp;Magic: The Gathering Launch Parties;Description; ;13
+SET;sum;Summer of Magic;Description; ;2
+SET;mss;Magic Scholarship Series;Description; ;5
+SET;grc;Gateway;Description; ;50
+SET;cp;Champs;Description; ;12
+SET;thgt;Two-Headed Giant Tournament;Description; ;1
+SET;jsr;Junior Series;Description; ;6
+SET;ajs;APAC Junior Series;Description; ;4
+SET;arena;Arena League;Description; ;83
+SET;fnmp;Friday Night Magic;Description; ;131
+SET;mprp;Magic Player Rewards;Description; ;53
+SET;sus;Super Series;Description; ;13
+BLOCK;gift;Gifts;Description;OTHER;
+SET;hho;Happy Holidays;Description; ;5
+SET;jr;Judge Gift Program;Description; ;58
+SET;pot;Portal Demogame;Description; ;6
+BLOCK;red;Redemption Rewards;Description;OTHER;
+SET;euro;European Land Program;Description; ;15
+SET;guru;Guru;Description; ;5
+SET;apac;Asia Pacific Land Program;Description; ;15
+SET;wotc;WotC Online Store;Description; ;1
+BLOCK;uqc;Celebration Cards;Description;OTHER;
+SET;uqc;Celebration Cards;Description; ;6
+BLOCK;mbp;Media Inserts;Description;OTHER;
+SET;mbp;Media Inserts;Description; ;33
+BLOCK;dcilm;Membership Incentives;Description;OTHER;
+SET;dcilm;Legend Membership;Description; ;2

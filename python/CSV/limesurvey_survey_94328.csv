@@ -1,0 +1,98 @@
+# LimeSurvey Survey Dump
+# DBVersion 138
+# This is a dumped survey from the LimeSurvey Script
+# http://www.limesurvey.org/
+# Do not change this header!
+
+#
+# SURVEYS TABLE
+#
+"sid","owner_id","admin","active","expires","startdate","adminemail","private","faxto","format","template","language","additional_languages","datestamp","usecookie","notification","allowregister","allowsave","autonumber_start","autoredirect","allowprev","printanswers","ipaddr","refurl","datecreated","publicstatistics","publicgraphs","listpublic","htmlemail","tokenanswerspersistence","usecaptcha","bounce_email","assessments","usetokens","attributedescriptions"
+"94328","11","Aline Bessa","N","","","alinebessa@safernet.org.br","Y","","G","default","pt-BR","","N","N","0","N","Y","0","N","Y","N","N","N","2009-09-25","N","N","N","Y","N","D","alinebessa@safernet.org.br","N","N",""
+
+#
+# GROUPS TABLE
+#
+"gid","sid","group_name","group_order","description","language"
+"60","94328","Teste grupo","0","","pt-BR"
+
+#
+# QUESTIONS TABLE
+#
+"qid","sid","gid","type","title","question","preg","help","other","mandatory","lid","lid1","question_order","language"
+"813","94328","60","L","1","Teste de pergunta<br />","","","N","Y","0","0","0","pt-BR"
+"831","94328","60","!","SÃO_JOSÉ_DO_VALE_DO_","Qual &eacute; o nome de sua escola?<br />","","","N","Y","0","0","1","pt-BR"
+"832","94328","60","!","BOM_JESUS_DO_ITABAPO","Qual &eacute; o nome de sua escola?<br />","","","N","Y","0","0","2","pt-BR"
+"1600","94328","60","T","test_cond","condicional<br />","","","N","Y","0","0","3","pt-BR"
+"1944","94328","60","M","4","qtas obrigatorias<br />","","","N","N","0","0","4","pt-BR"
+"1945","94328","60","M","5","multipla<br />","","","N","N","0","0","5","pt-BR"
+"1946","94328","60","Y","6","TV?","","","N","N","0","0","4","pt-BR"
+
+#
+# ANSWERS TABLE
+#
+"qid","code","answer","default_value","sortorder","language","assessment_value"
+"813","1","test_answer","N","1","pt-BR","0"
+"813","2","test_answer2","N","2","pt-BR","0"
+"831","1","C.e. Coronel Joao Limongi","N","1","pt-BR","0"
+"832","1","C.e. Governador Roberto Silveira","N","1","pt-BR","0"
+"832","10","C.e. Maria Da Conceicao Pereira Pinto","N","10","pt-BR","0"
+"832","11","Ciep Brizolao 149 Dona Carmita","N","11","pt-BR","0"
+"832","2","C.e. Padre Mello","N","2","pt-BR","0"
+"832","3","E.e. Alcinda Lopes Pereira Pinto","N","3","pt-BR","0"
+"832","4","C.e. Euclides Feliciano Tardin","N","4","pt-BR","0"
+"832","5","E.e. Jose Bonifacio","N","5","pt-BR","0"
+"832","6","C.e. Roberto Silveira","N","6","pt-BR","0"
+"832","7","C.e. Sebastiao Pimentel Marques","N","7","pt-BR","0"
+"832","8","I.e. Eber Teixeira De Figueiredo","N","8","pt-BR","0"
+"832","9","C.e. Marcilio Dias","N","9","pt-BR","0"
+"1944","1","a1","N","1","pt-BR","0"
+"1944","2","a2","N","2","pt-BR","0"
+"1944","3","a3","N","3","pt-BR","0"
+"1945","1","a1","N","1","pt-BR","0"
+"1945","2","a2","N","2","pt-BR","0"
+
+#
+# CONDITIONS TABLE
+#
+"cid","qid","scenario","cqid","cfieldname","method","value"
+"2247","831","1","813","94328X60X813","==","1"
+"2248","832","1","831","94328X60X831","==","1"
+"573","1600","1","832","94328X60X832","!=","3"
+
+#
+# LABELSETS TABLE
+#
+
+#
+# LABELS TABLE
+#
+
+#
+# QUESTION_ATTRIBUTES TABLE
+#
+"qaid","qid","attribute","value"
+"921","1945","min_answers","10"
+
+#
+# ASSESSMENTS TABLE
+#
+
+#
+# SURVEYS_LANGUAGESETTINGS TABLE
+#
+"surveyls_survey_id","surveyls_language","surveyls_title","surveyls_description","surveyls_welcometext","surveyls_urldescription","surveyls_email_invite_subj","surveyls_email_invite","surveyls_email_remind_subj","surveyls_email_remind","surveyls_email_register_subj","surveyls_email_register","surveyls_email_confirm_subj","surveyls_email_confirm","surveyls_url","surveyls_endtext","surveyls_dateformat"
+"94328","pt-BR","Teste pesquisa","Pesquisa para teste","Texto de boas-vindas","","Convite para participar do questionário","Caro(a)  {FIRSTNAME},\nVocê foi convidado a participar de uma pesquisa de nome :\n""{SURVEYNAME}""\n\n""{SURVEYDESCRIPTION}""\n\nPara participar, por favor, utilize o link abaixo.\n\nAtenciosamente,\n\n{ADMINNAME} ({ADMINEMAIL})\n\n----------------------------------------------\nClique no link para responder o questionário:\n{SURVEYURL}","Lembrete para participar da pesquisa","Caro(a) {FIRSTNAME}\n\nRecentemente, nós lhe convidamos para participar de uma pesquisa. Notamos que ela ainda não foi finalizada e desejamos lembrar-lhe que o questionário ainda está disponível caso deseje completá-lo.\n\nO título da pesquisa é:\n""{SURVEYNAME}""\n\n""{SURVEYDESCRIPTION}""\n\nPara participar, por favor utilize o link abaixo.\n\nAtenciosamente,\n\n{ADMINNAME} ({ADMINEMAIL})\n\n----------------------------------------------\nClique no link para responder o questionário:\n{SURVEYURL}","Confirmação de inscrição na pesquisa","Caro(a) {FIRSTNAME},\n\nVocê ou alguém usando o seu e-mail inscreveu-se para participar da pesquisa on-line de nome {SURVEYNAME}.\nPara responder o questionário, por favor, clique no link abaixo:\n\n{SURVEYURL}\n\nCaso haja alguma dúvida ou não tenha sido você a fazer a inscrição, por favor, entre em contato com {ADMINNAME}, através do e-mail {ADMINEMAIL}.","Confirmação de pesquisa concluída","Caro(a) {FIRSTNAME},\n\nEste e-mail tem como objetivo confirmar que você finalizou a pesquisa {SURVEYNAME} e que suas respostas foram salvas. Agradecemos sua participação.\n\nCaso deseje maiores esclarecimentos, por favor, entre em contato com {ADMINNAME} através do e-mail {ADMINEMAIL}.\n\nAtenciosamente,\n\n{ADMINNAME}","","<br />","1"
+
+#
+# QUOTA TABLE
+#
+
+#
+# QUOTA_MEMBERS TABLE
+#
+
+#
+# QUOTA_LANGUAGESETTINGS TABLE
+#
+

@@ -1,0 +1,6 @@
+"title", "content", "icon", "accesskey", "weight"
+"Taglist", "php: // Linodef tags, enter id, e.g. \'2\'.
+$taglist_id = \'\';
+
+// Do not modify.
+return module_exists(linodef_bueditor) ? linodef_bueditor($taglist_id) : t(\'Module !module not enabled!\', array(\'!module\' => \'Linodef BUEditor\'));", "Taglist", "", "10"

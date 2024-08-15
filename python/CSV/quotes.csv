@@ -1,0 +1,3 @@
+Name,Children,Address
+{% for guest in guests %}"{{ guest.name|addslashes }}","{{ guest.children|addslashes }}","{{ guest.address|addslashes }}"
+{% endfor %}
