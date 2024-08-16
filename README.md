@@ -23,6 +23,8 @@ The expect configuration for each tested CSV is saved in the `Dialect_annotation
 
 ## Results
 
+In this section, the results after running tests with the Beta Python implementation of the _Table Uniformity_ method are presented.
+
 The table below shows the dialect detection accuracy for both `CSVsniffer` and `CleverCSV`.
 
 |Data set                    |CSVsniffer|CleverCSV|
