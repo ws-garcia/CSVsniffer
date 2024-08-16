@@ -27,19 +27,19 @@ In this section, the results after running tests with the Beta Python implementa
 
 The table below shows the dialect detection accuracy for `CSVsniffer`, `CleverCSV` and the built-in Python `csv.Sniffer` class module.
 
-|Data set                    |CSVsniffer|CleverCSV|Python csv|
-|:---------------------------|:---------|:--------|:---------|
-|POLLOCK                     |96.6216%  |94.5946% |96.4029%  |
-|CSV Wrangling               |88.8158%  |79.5775% |82.8358%  |
-|CSV Wrangling filtered CODEC|89.4366%  |79.5775% |82.2581%  |
-|CSV Wrangling MESSY         |78.8732%  |76.9841% |69.3548%  |
-|W3C-CSVW                    |95.4338%  |59.5238% |97.6744%  |
+|Data set                    |CSVsniffer |CleverCSV|Python csv |
+|:---------------------------|:----------|:--------|:----------|
+|POLLOCK                     |_96.6216%_ |94.5946% |96.4029%   |
+|CSV Wrangling               |_88.8158%_ |79.5775% |82.8358%   |
+|CSV Wrangling filtered CODEC|_89.4366%_ |79.5775% |82.2581%   |
+|CSV Wrangling MESSY         |_78.8732%_ |76.9841% |69.3548%   |
+|W3C-CSVW                    |95.4338%   |59.5238% |_97.6744%_ |
 
 The following table shows the average accuracy and failure ration for selected tools. Note that the accuracy is averaged using only those files that do not produce a runtime error when attempting to infer CSV dialects. The higher the number of errors obtained, the lower the reliability for detection.
 
 |Tool          |Accuracy average|Failure ratio average|
 |:-------------|:---------------|:--------------------|
-|`CSVsniffer`  |89.84%          |3.20%                |
+|`CSVsniffer`  |_89.84% _       |_3.20% _             |
 |`CleverCSV`   |78.05%          |5.13%                |
 |`csv.Sniffer` |85.71%          |19.64%               |
 
