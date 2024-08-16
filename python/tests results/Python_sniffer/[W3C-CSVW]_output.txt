@@ -30,10 +30,8 @@ X [methane_molecular_structure_xyz_20140911.csv]: --> No result from Python snif
 +[moon-walkers.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[mth-10-january-2014.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[ni.2449-S3.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
-Error was: Could not determine delimiter
-X [occurrence.txt]: --> No result from Python sniffer
-Error was: Could not determine delimiter
-X [open_data_-_banes_public_toilets_-_15.09.14_-v3-2.csv]: --> No result from Python sniffer
++[occurrence.txt]: --> Python sniffer detected: delimiter = '\t', quotechar = '"'
++[open_data_-_banes_public_toilets_-_15.09.14_-v3-2.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[organizations.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[Palo_Alto_Trees.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[people.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
@@ -311,6 +309,6 @@ X [tree-ops-ext.csv]: --> No result from Python sniffer
 +[tree-ops.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[tweets.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[unicode-nfc.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
-[Passed test ratio]--: 97.6744%
-[Failure ratio]--: 41.629%
-[Elapsed time]--: 0.29 seconds
+[Passed test ratio]--: 97.7099%
+[Failure ratio]--: 40.724%
+[Elapsed time]--: 0.32 seconds

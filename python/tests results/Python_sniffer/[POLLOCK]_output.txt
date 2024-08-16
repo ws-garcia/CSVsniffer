@@ -58,13 +58,13 @@ X[FEC data - [clevercsv issue #15].csv]: --> Python snifferdetected: delimiter =
 +[fr_hypo1.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[fr_RG65_pageid.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[GPC_DCLG_December_2015_for_Publication.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
-Error was: Could not determine delimiter
-X [hist_2000_15O.csv]: --> No result from Python sniffer
++[hist_2000_15O.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[HMRC_spending_over_25000_for_September_2018.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[hypo5.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 X[Json data type - [clevercsv issue #37].csv]: --> Python snifferdetected: delimiter = ':', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
 +[june_2015(1).csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
-+[Kokad pollen.csv]: --> Python sniffer detected: delimiter = ';', quotechar = '"'
+Error was: Could not determine delimiter
+X [Kokad pollen.csv]: --> No result from Python sniffer
 X[Line feed character is more frequent than the car return-line feed combination.csv]: --> Python snifferdetected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'semicolon', quotechar = 'doublequote'}
 +[LOS_1050CFit.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[ministers-overseas-travel-jan-mar-2013.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
@@ -133,8 +133,7 @@ X [S30out.csv]: --> No result from Python sniffer
 +[Short pipe separated table embedded.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 Error was: Could not determine delimiter
 X [SouthTrent_Demand_zone-based.csv]: --> No result from Python sniffer
-Error was: Could not determine delimiter
-X [spending_2020_01.csv]: --> No result from Python sniffer
++[spending_2020_01.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[student_loans_company_limited-2011-09-30-organogram-senior.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[Sun2014-Rs.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[Sustainability_-_Water_consumption_P_56.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
@@ -155,6 +154,6 @@ X [W44out.csv]: --> No result from Python sniffer
 +[Wakefield Council Procurement Card Transactions 2018-19 Q2.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[Wine_Cellar_Consumption_dataset_14-15.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[workforce-management-information-dft_201706.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
-[Passed test ratio]--: 96.4029%
-[Failure ratio]--: 6.0811%
-[Elapsed time]--: 0.36 seconds
+[Passed test ratio]--: 96.4286%
+[Failure ratio]--: 5.4054%
+[Elapsed time]--: 0.77 seconds

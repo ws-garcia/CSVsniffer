@@ -25,29 +25,49 @@ The expect configuration for each tested CSV is saved in the `Dialect_annotation
 
 In this section, the results after running tests with the Beta Python implementation of the _Table Uniformity_ method are presented.
 
-The table below shows the dialect detection accuracy for `CSVsniffer`, `CleverCSV` and the built-in Python `csv.Sniffer` class module.
+The table below shows the dialect detection accuracy for `CSVsniffer`, `CleverCSV` and the built-in Python `csv.Sniffer` class module. Note that the accuracy has been measured using only those files that do not produce a failure when attempting to infer CSV dialects
 
-|Data set                    |CSVsniffer |CleverCSV|Python csv |
-|:---------------------------|:----------|:--------|:----------|
-|POLLOCK                     |_96.6216%_ |94.5946% |96.4029%   |
-|CSV Wrangling               |_88.8158%_ |79.5775% |82.8358%   |
-|CSV Wrangling filtered CODEC|_89.4366%_ |79.5775% |82.2581%   |
-|CSV Wrangling MESSY         |_78.8732%_ |76.9841% |69.3548%   |
-|W3C-CSVW                    |95.4338%   |59.5238% |_97.6744%_ |
+|Data set                    |`CSVsniffer` |`CleverCSV`|`csv.Sniffer`|
+|:---------------------------|:------------|:----------|:------------|
+|POLLOCK                     |96.6216%     |94.5946%   |96.4286%     |
+|CSV Wrangling               |88.8158%     |79.5775%   |80.4348%     |
+|CSV Wrangling filtered CODEC|89.4366%     |79.5775%   |80.1587%     |
+|CSV Wrangling MESSY         |78.8732%     |76.9841%   |67.4603%     |
+|W3C-CSVW                    |95.4338%     |59.5238%   |97.7099%     |
 
-The following table shows the average accuracy and failure ration for selected tools. Note that the accuracy is averaged using only those files that do not produce a runtime error when attempting to infer CSV dialects. The higher the number of errors obtained, the lower the reliability for detection.
+The table below shows the failure ratio for each tool.
 
-|Tool          |Accuracy average|Failure ratio average|
-|:-------------|:---------------|:--------------------|
-|`CSVsniffer`  |89.84%          |3.20%                |
-|`CleverCSV`   |78.05%          |5.13%                |
-|`csv.Sniffer` |85.71%          |19.64%               |
+|Data set                    |`CSVsniffer` |`CleverCSV`|`csv.Sniffer`|
+|:---------------------------|:------------|:----------|:------------|
+|POLLOCK                     |0.0000%      |0.0000%    |5.4054%      |
+|CSV Wrangling               |15.0838%     |20.6704%   |22.905%      |
+|CSV Wrangling filtered CODEC|0.0000%      |0.0000%    |11.2676%     |
+|CSV Wrangling MESSY         |0.0000%      |0.0000%    |11.2676%     |
+|W3C-CSVW                    |0.905%       |4.9774%    |40.724%      |
 
-The last table shows the execution times obtained. In this one we can see that the Python module, reading 2048 characters from the CSV files, is incredibly efficient, easily outperforming the other tools.
+
+The following table shows the average accuracy and failure ratio for selected tools. The higher the number of errors obtained, the lower the reliability for detection.
+
+|Tool          |Accuracy average (A)|Failure ratio average (FR)|
+|:-------------|:-------------------|:-------------------------|
+|`CSVsniffer`  |89.84%              |3.20%                     |
+|`CleverCSV`   |78.05%              |5.13%                     |
+|`csv.Sniffer` |85.71%              |18.31%                    |
+
+As a complementary metric, the table below shows the average reliability factor for CSV dialect detection. This value is computed as 
+$$R=A*(1-FR)$$
+
+|Tool          |Reliability factor (R)|
+|:-------------|:---------------------|
+|`CSVsniffer`  |87.06%                |
+|`CleverCSV`   |74.05%                |
+|`csv.Sniffer` |70.02%                |
+
+The last table shows the execution times obtained. In this one we can see that the Python module, reading 6144 characters from the CSV files, is incredibly efficient, easily outperforming the other tools.
 
 |Tool         |Run-time    |
 |:------------|:-----------|
-|`csv.Sniffer`|2.26 sec.   |
+|`csv.Sniffer`|2.89 sec.   |
 |`CSVsniffer` |95.41 sec.  |
 |`CleverCSV`  |1067.47 sec.|
 
