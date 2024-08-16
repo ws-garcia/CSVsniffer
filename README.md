@@ -39,7 +39,7 @@ The following table shows the average accuracy and failure ration for selected t
 
 |Tool          |Accuracy average|Failure ratio average|
 |:-------------|:---------------|:--------------------|
-|`CSVsniffer`  |_89.84% _       |_3.20% _             |
+|`CSVsniffer`  |89.84%          |3.20%                |
 |`CleverCSV`   |78.05%          |5.13%                |
 |`csv.Sniffer` |85.71%          |19.64%               |
 
