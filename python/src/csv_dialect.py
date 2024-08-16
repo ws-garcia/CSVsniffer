@@ -94,7 +94,7 @@ class Dialect:
         #The default value is COMMA, as per RFC-4180
         delimiter = "," if d.delimiter is None else d.delimiter 
         #The default value is CRLF, as per RFC-4180
-        records_delimiter = "\r\n" if d.records_delimiter is None else d.records_delimiter 
+        records_delimiter = "\r\n" if d.lineterminator is None else d.lineterminator 
         #The default value is DOUBLE_QUOTE, as per RFC-4180
         quotechar = '"' if d.quoting == csv.QUOTE_NONE else d.quotechar 
         #The default value is DOUBLE_QUOTE, as per RFC-4180

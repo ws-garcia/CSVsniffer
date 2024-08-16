@@ -59,6 +59,7 @@ class runner:
         expected_results: Optional[dict],
         threshold: int = 10,
         encoding: str = 'utf_8',
+        sniffer: str = 'CSVsniffer',
     ):
         self.ground_truth_csv = ground_truth_csv
         self.output_path = output_path
@@ -67,6 +68,7 @@ class runner:
         self.expected_results = expected_results
         self.threshold = threshold
         self.encoding = encoding
+        self.sniffer = sniffer
 
     def set_delimiters(self, d_list: List[str]):
         self.delimiter_list = d_list if d_list is not None else [',', ';', '\t','|', ':', '=', ' ', '#', '*']
@@ -74,14 +76,19 @@ class runner:
     def set_quotes(self, q_list: List[str]):
         self.quotechar_list = q_list if q_list is not None else ['"', "'", '~']              
         
-    def detect_csv_dialect(self, file_name: str, path: str)->Union[Dialect,None]:
+    def detect_csv_dialect(self, file_name: str, path: str)->Union[Dialect, None]:
         try:
-            dialect = sniffer.sniff(sniffer(file_path=path,
-                                     threshold=self.threshold,
-                                     delimiter_list=self.delimiter_list,
-                                     quotechar_list=self.quotechar_list, 
-                                     encoding='utf_8')#encoding=self.get_encoding(self.expected_results[file_name]['encoding']))
-                                     )
+            if self.sniffer == 'CSVsniffer':
+                dialect = sniffer.sniff(sniffer(file_path=path,
+                                        threshold=self.threshold,
+                                        delimiter_list=self.delimiter_list,
+                                        quotechar_list=self.quotechar_list, 
+                                        encoding='utf_8')#encoding=self.get_encoding(self.expected_results[file_name]['encoding']))
+                                        )
+            elif self.sniffer == 'Python sniffer':
+                with open(path, newline='') as csvfile:
+                    dialect = Dialect.from_csv_dialect(csv.Sniffer().sniff(csvfile.read(2048), self.delimiter_list))
+                    csvfile.close
             return dialect
         except OSError as err:
             print("Error was: %s" % err)
@@ -220,16 +227,16 @@ class runner:
                                     tflag ='X'
 
                                 if tflag =='+':
-                                    print(tflag + '[' + filename + ']: --> CSVsniffer detected: delimiter = %r, quotechar = %r' 
+                                    print(tflag + '[' + filename + ']: --> ' + self.sniffer + ' detected: delimiter = %r, quotechar = %r' 
                                             % (dialect.delimiter, dialect.quotechar))
                                 else:
-                                    print(tflag + '[' + filename + ']: --> CSVsniffer detected: delimiter = %r, quotechar = %r' 
+                                    print(tflag + '[' + filename + ']: --> ' + self.sniffer + 'detected: delimiter = %r, quotechar = %r' 
                                             % (dialect.delimiter, dialect.quotechar) + \
                                             '| EXPECTED:{delimiter = %r, quotechar = %r}' \
                                             % (self.expected_results[filename]['fields_delimiter'], \
                                             self.expected_results[filename]['quotechar']))
                             else:
-                                print("X [" + filename + "]: --> No result from CSVsniffer")
+                                print("X [" + filename + "]: --> No result from " + self.sniffer)
                                 failures += 1
             n+=1
             print('[Passed test ratio]--: %r' %(round(100*passed/(len(self.expected_results)-failures),4)) +'%')
