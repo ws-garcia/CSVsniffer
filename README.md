@@ -154,7 +154,7 @@ Thus, the True Positive (TP) weighted F1 score for each tool is computed as
 $$F1_{Weighted} Score = \frac{\sum_{i=1}^{n} TP_i \times F1_{Score}i}{\sum_{i=1}^{n} TP_i}$$ 
 
 where
-- $\text{TP}_i$: The number of True Positive instances of class $i$.
+- $\text{TP}_i$: The number of True Positive instances of dataset $i$.
 - $F1_{Score}i$: The F1 score for dataset $i$.
 
 The computations are given in the below table.
