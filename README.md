@@ -53,8 +53,8 @@ The following table shows the average accuracy and failure ratio for selected to
 |`CleverCSV`   |78.05%              |5.13%                     |
 |`csv.Sniffer` |85.71%              |18.31%                    |
 
-As a complementary metric, the table below shows the average reliability factor for CSV dialect detection. This value is computed as 
-$$RF=A*(1-FR)$$
+As a complementary metric, the table below shows the average reliability factor for CSV dialect detection. This value is computed as: 
+$$R=A*(1-FR)$$.
 
 |Tool          |Reliability factor (RF)|
 |:-------------|:---------------------|
