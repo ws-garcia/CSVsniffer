@@ -25,29 +25,31 @@ The expect configuration for each tested CSV is saved in the `Dialect_annotation
 
 In this section, the results after running tests with the Beta Python implementation of the _Table Uniformity_ method are presented.
 
-The table below shows the dialect detection accuracy for both `CSVsniffer` and `CleverCSV`.
+The table below shows the dialect detection accuracy for `CSVsniffer`, `CleverCSV` and the built-in Python `csv.Sniffer` class module.
 
-|Data set                    |CSVsniffer|CleverCSV|
-|:---------------------------|:---------|:--------|
-|POLLOCK                     |96.6216%  |94.5946% |
-|CSV Wrangling               |88.8158%  |79.5775% |
-|CSV Wrangling filtered CODEC|89.4366%  |79.5775% |
-|CSV Wrangling MESSY         |78.8732%  |76.9841% |
-|W3C-CSVW                    |95.4338%  |59.5238% |
+|Data set                    |CSVsniffer|CleverCSV|Python csv|
+|:---------------------------|:---------|:--------|:---------|
+|POLLOCK                     |96.6216%  |94.5946% |96.4029%  |
+|CSV Wrangling               |88.8158%  |79.5775% |82.8358%  |
+|CSV Wrangling filtered CODEC|89.4366%  |79.5775% |82.2581%  |
+|CSV Wrangling MESSY         |78.8732%  |76.9841% |69.3548%  |
+|W3C-CSVW                    |95.4338%  |59.5238% |97.6744%  |
 
-The following table shows the average accuracy for both tools.
+The following table shows the average accuracy and failure ration for selected tools. Note that the accuracy is averaged using only those files that do not produce a runtime error when attempting to infer CSV dialects. The higher the number of errors obtained, the lower the reliability for detection.
 
-|Tool        |Accuracy average|
-|:-----------|:---------------|
-|`CSVsniffer`|89.84%          |
-|`CleverCSV` |78.05%          |
+|Tool          |Accuracy average|Failure ratio average|
+|:-------------|:---------------|:--------------------|
+|`CSVsniffer`  |89.84%          |3.20%                |
+|`CleverCSV`   |78.05%          |5.13%                |
+|`csv.Sniffer` |85.71%          |19.64%               |
 
-The last table shows the execution times obtained.
+The last table shows the execution times obtained. In this one we can see that the Python module, reading 2048 characters from the CSV files, is incredibly efficient, easily outperforming the other tools.
 
-|Tool        |Run-time    |
-|:-----------|:-----------|
-|`CSVsniffer`|95.41 sec.  |
-|`CleverCSV` |1067.47 sec.|
+|Tool         |Run-time    |
+|:------------|:-----------|
+|`csv.Sniffer`|2.26 sec.   |
+|`CSVsniffer` |95.41 sec.  |
+|`CleverCSV`  |1067.47 sec.|
 
 The results show that `CSVsniffer`, based on the _Table Uniformity_ method, is a solid candidate to be considered as a utility for reliable dialect detection for CSV files.
 
