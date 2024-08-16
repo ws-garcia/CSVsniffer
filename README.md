@@ -149,13 +149,21 @@ $$F1=2*\frac{P*R}{P+R}$$
 |CSV Wrangling MESSY          |0.7857       |0.7698     |0.6302       |
 |W3C-CSVW                     |0.9500       |0.5800     |0.7273       |
 
-In average, this is the F1 score for each tool
+Thus, the True Positive (TP) weighted F1 score for each tool is computed as
+
+$$F1_{Weighted} Score = \frac{\sum_{i=1}^{n} TP_i \times F1 Score_i}{\sum{i=1}^{n} TP_i}$$ 
+
+where
+- $\text{TP}_i$: The number of True Positive instances of class $i$.
+- $\text{F1 Score}_i )$: The F1 score for class $i$.
+
+The computations are given in the below table.
 
 |Tool          |F1 score|
 |:-------------|:-------|
-|`CSVsniffer`  |0.8824  |
-|`CleverCSV`   |0.7591  |
-|`csv.Sniffer` |0.7498  |
+|`CSVsniffer`  |0.8951  |
+|`csv.Sniffer` |0.7651  |
+|`CleverCSV`   |0.7638  |
 
 The results show that `CSVsniffer`, based on the _Table Uniformity_ method, is a solid candidate to be considered as a utility for reliable dialect detection for CSV files.
 
