@@ -139,7 +139,7 @@ $$R=\frac{TP}{TP+FN}$$
 
 The below table shows the F1 score, which is the most polished measure of dialect detection accuracy. The metric is calculated as follows
 
-$$F1=2*\frac{P*R}{P+R}$$
+$$F1=2 \times \frac{P \times R}{P+R}$$
 
 |Data set                     |`CSVsniffer` |`CleverCSV`|`csv.Sniffer`|
 |:----------------------------|:------------|:----------|:------------|
@@ -151,11 +151,11 @@ $$F1=2*\frac{P*R}{P+R}$$
 
 Thus, the True Positive (TP) weighted F1 score for each tool is computed as
 
-$$F1_{Weighted} Score = \frac{\sum_{i=1}^{n} TP_i \times F1 Score_i}{\sum{i=1}^{n} TP_i}$$ 
+$$F1_{Weighted} Score = \frac{\sum_{i=1}^{n} TP_i \times F1_{Score}i}{\sum_{i=1}^{n} TP_i}$$ 
 
 where
 - $\text{TP}_i$: The number of True Positive instances of class $i$.
-- $\text{F1 Score}_i )$: The F1 score for class $i$.
+- $F1_{Score}i$: The F1 score for dataset $i$.
 
 The computations are given in the below table.
 
