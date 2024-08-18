@@ -27,7 +27,7 @@ class t_uniformity:
     """
     def __init__(
         self,
-        table: list[list[str]],
+        table: list, #list[list[str]]
     ) -> None:
         self.table = table
     
