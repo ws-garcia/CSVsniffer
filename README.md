@@ -64,11 +64,11 @@ $$R=SR*(1-FR)$$.
 
 The below table shows the execution times obtained. In this one we can see that the Python module, reading 6144 characters from the CSV files, is incredibly efficient, easily outperforming the other tools.
 
-|Tool         |Run-time    |
-|:------------|:-----------|
-|`csv.Sniffer`|2.89 sec.   |
-|`CleverCSV`  |8.90 sec.   |
-|`CSVsniffer` |30.99 sec.  |
+|Tool         |Run-time      |
+|:------------|:-------------|
+|`csv.Sniffer`|2.89 sec.     |
+|`CSVsniffer` |30.99 sec.    |
+|`CleverCSV`  |958.35 sec.   |
 
 ### Accuracy analysis
 
