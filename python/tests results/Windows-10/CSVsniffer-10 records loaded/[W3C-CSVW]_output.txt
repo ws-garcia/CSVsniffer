@@ -219,6 +219,16 @@ X[test304.csv]: --> CSVsniffer detected: delimiter = '#', quotechar = "'"| EXPEC
 +[tree-ops.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
 +[tweets.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
 +[unicode-nfc.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
-[Passed test ratio]--: 94.5701%
+[Passed test ratio]--: 95.4338%
+[Delimiter ratio]--: 96.8037%
 [Failure ratio]--: 0.905%
-[Elapsed time]--: 6.95 seconds
+[Elapsed time]--: 4.47 seconds
+<---------------------------------------------------------------------------------------->
+True Positive (TP): 209
+False Positive (FP): 10
+False Negative (FN): 12
+#
+Precision (P): 0.9543
+Recall (R): 0.9457
+F1 score: 0.95
+Weighted F1 score for 221 files: 198.54999999999998

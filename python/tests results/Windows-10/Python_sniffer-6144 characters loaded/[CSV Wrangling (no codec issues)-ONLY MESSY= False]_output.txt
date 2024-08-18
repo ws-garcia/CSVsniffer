@@ -1,7 +1,8 @@
 +[1.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 Error was: Could not determine delimiter
 X [1.fail.csv]: --> No result from Python sniffer
-+[100-external-simple.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
+Error was: Could not determine delimiter
+X [100-external-simple.csv]: --> No result from Python sniffer
 +[2_18-05-2011-17-21-59_0.csv]: --> Python sniffer detected: delimiter = ';', quotechar = '"'
 Error was: Could not determine delimiter
 X [2_ip_test.csv]: --> No result from Python sniffer
@@ -69,10 +70,11 @@ X[fuw1.csv]: --> Python sniffer detected: delimiter = ' ', quotechar = '"'| EXPE
 Error was: Could not determine delimiter
 X [general.csv]: --> No result from Python sniffer
 +[GPU_rod_1_metrica.csv]: --> Python sniffer detected: delimiter = ';', quotechar = '"'
-X[iconbar-hermes.csv]: --> Python sniffer detected: delimiter = ' ', quotechar = "'"| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[iconbar-hermes.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 Error was: Could not determine delimiter
 X [iometeroutput.csv]: --> No result from Python sniffer
-+[ip-log.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
+Error was: Could not determine delimiter
+X [ip-log.csv]: --> No result from Python sniffer
 X[isco.csv]: --> Python sniffer detected: delimiter = ';', quotechar = '"'| EXPECTED:{delimiter = 'semicolon', quotechar = 'singlequote'}
 +[items.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 X[JeannieProperties.csv]: --> Python sniffer detected: delimiter = ' ', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
@@ -156,16 +158,16 @@ X[weapondef.csv]: --> Python sniffer detected: delimiter = ' ', quotechar = "'"|
 +[xlsws_category_amazon.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[zips.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[Zipssortedbycitystate.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
-[Passed test ratio]--: 80.1587%
-[Delimiter ratio]--: 83.3333%
-[Failure ratio]--: 11.2676%
-[Elapsed time]--: 0.29 seconds
+[Passed test ratio]--: 80.6452%
+[Delimiter ratio]--: 83.871%
+[Failure ratio]--: 12.6761%
+[Elapsed time]--: 0.34 seconds
 <---------------------------------------------------------------------------------------->
-True Positive (TP): 101
-False Positive (FP): 25
-False Negative (FN): 41
+True Positive (TP): 100
+False Positive (FP): 24
+False Negative (FN): 42
 #
-Precision (P): 0.8016
-Recall (R): 0.7113
-F1 score: 0.7538
-Weighted F1 score for 142 files: 76.13380000000001
+Precision (P): 0.8065
+Recall (R): 0.7042
+F1 score: 0.7519
+Weighted F1 score for 142 files: 75.19

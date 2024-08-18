@@ -4,7 +4,7 @@
 +[2_18-05-2011-17-21-59_0.csv]: --> CleverCSV detected: delimiter = ';', quotechar = '"'
 X[2_ip_test.csv]: --> CleverCSV detected: delimiter = '', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
 +[ABCAUS2011.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
-+[ACS_12_5YR_S1903_metadata.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
+X[ACS_12_5YR_S1903_metadata.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
 +[act.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 X[admins.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
 +[af.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
@@ -57,8 +57,8 @@ X[general.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED
 +[iconbar-hermes.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[iometeroutput.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 X[ip-log.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '~'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
-+[isco.csv]: --> CleverCSV detected: delimiter = ';', quotechar = "'"
-+[items.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
+X[isco.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''| EXPECTED:{delimiter = 'semicolon', quotechar = 'singlequote'}
++[items.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[JeannieProperties.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[JV_newsite_IBC_current_20110517.csv]: --> CleverCSV detected: delimiter = ',', quotechar = "'"
 +[keyword-count.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''
@@ -122,7 +122,7 @@ X[task4_pad.csv]: --> CleverCSV detected: delimiter = ':', quotechar = ''| EXPEC
 +[timing.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[top-10k-2009-03-06.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[unemploy.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
-X[uniq_nl_data.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'nsign', quotechar = 'singlequote'}
+X[uniq_nl_data.csv]: --> CleverCSV detected: delimiter = ' ', quotechar = "'"| EXPECTED:{delimiter = 'nsign', quotechar = 'singlequote'}
 +[upload0.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[uris.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''
 X[user_design_template.csv]: --> CleverCSV detected: delimiter = '#', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
@@ -130,16 +130,16 @@ X[user_design_template.csv]: --> CleverCSV detected: delimiter = '#', quotechar 
 X[weapondef.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'vslash', quotechar = 'doublequote'}
 +[xlsws_category_amazon.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[zips.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
-[Passed test ratio]--: 74.2647%
-[Delimiter ratio]--: 76.4706%
+[Passed test ratio]--: 72.7941%
+[Delimiter ratio]--: 75.0%
 [Failure ratio]--: 4.2254%
-[Elapsed time]--: 188.38 seconds
+[Elapsed time]--: 1.78 seconds
 <---------------------------------------------------------------------------------------->
-True Positive (TP): 101
-False Positive (FP): 35
-False Negative (FN): 41
+True Positive (TP): 99
+False Positive (FP): 37
+False Negative (FN): 43
 #
-Precision (P): 0.7426
-Recall (R): 0.7113
-F1 score: 0.7266
-Weighted F1 score for 142 files: 73.3866
+Precision (P): 0.7279
+Recall (R): 0.6972
+F1 score: 0.7122
+Weighted F1 score for 142 files: 70.5078

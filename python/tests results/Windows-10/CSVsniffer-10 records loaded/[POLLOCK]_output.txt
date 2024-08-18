@@ -149,7 +149,7 @@ X[Undefined field delimiter.csv]: --> CSVsniffer detected: delimiter = '\t', quo
 [Passed test ratio]--: 96.6216%
 [Delimiter ratio]--: 96.6216%
 [Failure ratio]--: 0.0%
-[Elapsed time]--: 8.81 seconds
+[Elapsed time]--: 9.41 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 143
 False Positive (FP): 5

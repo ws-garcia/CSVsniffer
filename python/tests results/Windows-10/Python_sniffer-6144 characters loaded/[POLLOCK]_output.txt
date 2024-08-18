@@ -72,7 +72,8 @@ X[Line feed character is more frequent than the car return-line feed combination
 +[Mixed comma and colon - [clevercsv issue #35].csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[Mixed comma and semicolon-B.csv]: --> Python sniffer detected: delimiter = ';', quotechar = '"'
 +[Mixed comma and semicolon.csv]: --> Python sniffer detected: delimiter = ';', quotechar = "'"
-+[moj-aramis-data-march-11.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
+Error was: Could not determine delimiter
+X [moj-aramis-data-march-11.csv]: --> No result from Python sniffer
 +[mordenite-dh-2.csv]: --> Python sniffer detected: delimiter = ';', quotechar = '"'
 +[mos-oct-dec-2014.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 X[movies-condensed.csv]: --> Python sniffer detected: delimiter = ' ', quotechar = "'"| EXPECTED:{delimiter = 'tab', quotechar = 'doublequote'}
@@ -138,7 +139,8 @@ X [SouthTrent_Demand_zone-based.csv]: --> No result from Python sniffer
 +[Sun2014-Rs.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[Sustainability_-_Water_consumption_P_56.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[Table embedded in the last record.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
-+[Table embedded in the second record.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
+Error was: Could not determine delimiter
+X [Table embedded in the second record.csv]: --> No result from Python sniffer
 +[Takakai2008-ch4.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[testGeometries.txt]: --> Python sniffer detected: delimiter = ';', quotechar = '"'
 +[tetranatrolite.csv]: --> Python sniffer detected: delimiter = ';', quotechar = '"'
@@ -154,16 +156,16 @@ X [W44out.csv]: --> No result from Python sniffer
 +[Wakefield Council Procurement Card Transactions 2018-19 Q2.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[Wine_Cellar_Consumption_dataset_14-15.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[workforce-management-information-dft_201706.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
-[Passed test ratio]--: 96.4286%
-[Delimiter ratio]--: 96.4286%
-[Failure ratio]--: 5.4054%
-[Elapsed time]--: 0.24 seconds
+[Passed test ratio]--: 96.3768%
+[Delimiter ratio]--: 96.3768%
+[Failure ratio]--: 6.7568%
+[Elapsed time]--: 0.28 seconds
 <---------------------------------------------------------------------------------------->
-True Positive (TP): 135
+True Positive (TP): 133
 False Positive (FP): 5
-False Negative (FN): 13
+False Negative (FN): 15
 #
-Precision (P): 0.9643
-Recall (R): 0.9122
-F1 score: 0.9375
-Weighted F1 score for 148 files: 126.5625
+Precision (P): 0.9638
+Recall (R): 0.8986
+F1 score: 0.9301
+Weighted F1 score for 148 files: 123.7033

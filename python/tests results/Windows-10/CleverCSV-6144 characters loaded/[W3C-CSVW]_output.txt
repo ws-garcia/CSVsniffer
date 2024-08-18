@@ -1,6 +1,6 @@
 +[2010_Occupations.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[addresses.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x81 in position 4112: character maps to <undefined>
+Error was: 'charmap' codec can't decode byte 0x81 in position 4254: character maps to <undefined>
 X [Album.csv]: --> No result from CleverCSV
 +[Artist.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[cambornedata-snippet.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
@@ -29,8 +29,7 @@ X [EG.csv]: --> No result from CleverCSV
 +[moon-walkers.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[mth-10-january-2014.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[ni.2449-S3.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
-Error was: 'charmap' codec can't decode byte 0x8d in position 42956: character maps to <undefined>
-X [occurrence.txt]: --> No result from CleverCSV
++[occurrence.txt]: --> CleverCSV detected: delimiter = '\t', quotechar = ''
 +[open_data_-_banes_public_toilets_-_15.09.14_-v3-2.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[organizations.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[Palo_Alto_Trees.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
@@ -218,22 +217,21 @@ X[test304.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTE
 X[test305.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
 X[test306.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
 X[test307.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
-Error was: 'charmap' codec can't decode byte 0x81 in position 26010: character maps to <undefined>
-X [Track.csv]: --> No result from CleverCSV
++[Track.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[tree-ops-ext.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[tree-ops.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[tweets.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[unicode-nfc.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
-[Passed test ratio]--: 61.1111%
-[Delimiter ratio]--: 61.1111%
-[Failure ratio]--: 2.2624%
-[Elapsed time]--: 117.44 seconds
+[Passed test ratio]--: 61.4679%
+[Delimiter ratio]--: 61.4679%
+[Failure ratio]--: 1.3575%
+[Elapsed time]--: 0.57 seconds
 <---------------------------------------------------------------------------------------->
-True Positive (TP): 132
+True Positive (TP): 134
 False Positive (FP): 84
-False Negative (FN): 89
+False Negative (FN): 87
 #
-Precision (P): 0.6111
-Recall (R): 0.5973
-F1 score: 0.6041
-Weighted F1 score for 221 files: 79.74119999999999
+Precision (P): 0.6147
+Recall (R): 0.6063
+F1 score: 0.6105
+Weighted F1 score for 221 files: 81.807

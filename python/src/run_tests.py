@@ -1,12 +1,16 @@
 import os
+import platform
+
 from test_runner import runner
 
-def main():
+def main(threshold: int, data_threshold: int):
      basePath = os.path.dirname(os.path.dirname(__file__))
      out_path = []
-     out_path.append(os.path.join(basePath, 'tests results', 'Python_sniffer'))
-     out_path.append(os.path.join(basePath, 'tests results', 'CSVsniffer'))
-     out_path.append(os.path.join(basePath, 'tests results', 'CleverCSV'))
+     sys_name = platform.platform(aliased=True,terse=True)
+     data_loaded = 'All' if data_threshold == -1 else data_threshold  
+     out_path.append(os.path.join(basePath, 'tests results', sys_name, 'Python_sniffer' + '-%r characters loaded' %6144))
+     out_path.append(os.path.join(basePath, 'tests results', sys_name, 'CSVsniffer' + '-%r records loaded' %threshold))
+     out_path.append(os.path.join(basePath, 'tests results', sys_name, 'CleverCSV' + '-%r characters loaded' %data_loaded))
      for opath in out_path:
           if not os.path.exists(opath):
                os.makedirs(opath)
@@ -16,7 +20,7 @@ def main():
                       delimiter_list=[',', ';', '\t','|', ':', '=', ' ', '#', '*'],
                       quotechar_list=['"', "'", '~'], 
                       expected_results=None,
-                      threshold=10,
+                      threshold=threshold,
                       sniffer='Python sniffer',
                       data_threshold=6144))
      _runner.append(runner(ground_truth_csv=None,
@@ -24,15 +28,15 @@ def main():
                       delimiter_list=[',', ';', '\t','|', ':', '=', ' ', '#', '*'],
                       quotechar_list=['"', "'", '~'], 
                       expected_results=None,
-                      threshold=10))
+                      threshold=threshold))
      _runner.append(runner(ground_truth_csv=None,
                       output_path=out_path[2],
                       delimiter_list=[',', ';', '\t','|', ':', '=', ' ', '#', '*'],
                       quotechar_list=['"', "'", '~'], 
                       expected_results=None,
-                      threshold=10,
+                      threshold=threshold,
                       sniffer='CleverCSV',
-                      data_threshold=-1))
+                      data_threshold=data_threshold))
      for obj in _runner:
           obj.run(base_path=basePath,
                     output_file_names=['[POLLOCK]_output.txt',
@@ -79,5 +83,5 @@ def runsingleTest():
                     test_sets=['CSV', 'W3C-CSVW', 'CSV_Wrangling', 'CSV_Wrangling', 'CSV_Wrangling']
                     )
 if __name__ == "__main__":
-     main()
+     main(10,-1)
      #runsingleTest()
