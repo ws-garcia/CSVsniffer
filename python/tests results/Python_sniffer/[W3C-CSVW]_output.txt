@@ -237,7 +237,7 @@ Error was: Could not determine delimiter
 X [test244.csv]: --> No result from Python sniffer
 +[test245.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[test246.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
-X[test247.csv]: --> Python snifferdetected: delimiter = ':', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test247.csv]: --> Python sniffer detected: delimiter = ':', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
 +[test248.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 Error was: Could not determine delimiter
 X [test249.csv]: --> No result from Python sniffer
@@ -298,8 +298,8 @@ Error was: Could not determine delimiter
 X [test301.csv]: --> No result from Python sniffer
 Error was: Could not determine delimiter
 X [test302.csv]: --> No result from Python sniffer
-X[test303.csv]: --> Python snifferdetected: delimiter = '#', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
-X[test304.csv]: --> Python snifferdetected: delimiter = '#', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test303.csv]: --> Python sniffer detected: delimiter = '#', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test304.csv]: --> Python sniffer detected: delimiter = '#', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
 +[test305.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[test306.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[test307.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
@@ -310,5 +310,15 @@ X [tree-ops-ext.csv]: --> No result from Python sniffer
 +[tweets.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 +[unicode-nfc.csv]: --> Python sniffer detected: delimiter = ',', quotechar = '"'
 [Passed test ratio]--: 97.7099%
+[Delimiter ratio]--: 97.7099%
 [Failure ratio]--: 40.724%
-[Elapsed time]--: 0.32 seconds
+[Elapsed time]--: 0.15 seconds
+<---------------------------------------------------------------------------------------->
+True Positive (TP): 128
+False Positive (FP): 3
+False Negative (FN): 93
+#
+Precision (P): 0.9771
+Recall (R): 0.5792
+F1 score: 0.7273
+Weighted F1 score for 221 files: 93.0944

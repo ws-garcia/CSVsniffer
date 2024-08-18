@@ -1,0 +1,239 @@
++[2010_Occupations.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[addresses.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+Error was: 'charmap' codec can't decode byte 0x81 in position 4112: character maps to <undefined>
+X [Album.csv]: --> No result from CleverCSV
++[Artist.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[cambornedata-snippet.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[cambornedata.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[countries.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[country_slice.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[csvw-requirements-notes.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[CSV_QS601EW2011WARDH_151277.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[Customer.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[department.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+Error was: 'charmap' codec can't decode byte 0x81 in position 11: character maps to <undefined>
+X [EG.csv]: --> No result from CleverCSV
++[Employee.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[ESCC-payment-data-Q2281011.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[events-listing.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[events-listing2.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[Genre.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[HEFCE_organogram_junior_data_31032011.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[HEFCE_organogram_senior_data_31032011.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[HXL_3W_samples_draft_Multilingual.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[Invoice.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[InvoiceLine.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[junior-roles.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[MediaType.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[methane_molecular_structure_xyz_20140911.csv]: --> CleverCSV detected: delimiter = ' ', quotechar = ''
++[moon-walkers.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[mth-10-january-2014.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[ni.2449-S3.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+Error was: 'charmap' codec can't decode byte 0x8d in position 42956: character maps to <undefined>
+X [occurrence.txt]: --> No result from CleverCSV
++[open_data_-_banes_public_toilets_-_15.09.14_-v3-2.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[organizations.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[Palo_Alto_Trees.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[people.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[Playlist.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[PlaylistTrack.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[PLOSone-search-results.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[pp-monthly-update-new-version.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
+X[professions.csv]: --> CleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[projects.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[rembrandt-paintings.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[senior-roles.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[soc_structure_2010.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[task_assignments.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test001.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test002.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test003.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test005.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test006.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test007.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test008.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test009.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test010.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test019.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test020.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test021.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test022.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test038.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test039.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test040.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test041.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test042.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test043.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test044.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test045.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test046.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test047.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test048.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test049.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test051.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test052.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test055.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test056.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test057.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test058.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test091.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test116.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test117.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test120.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test121-ref.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test121.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test122.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test125.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test126.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test127.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test152.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
+X[test153.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test154.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test155.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test156.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test157.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test158.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
+X[test159.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test160.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test161.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test162.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test163.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test164.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test165.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test166.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test167.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test168.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test169.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test170.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test171.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test172.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test173.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test174.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test175.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test176.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test177.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test178.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test179.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test180.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test181.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test182.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test183.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test184.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test185.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test186.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test187.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test188.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test189.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test190.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test191.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test192.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test193.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test194.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test195.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test196.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test197.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test198.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test199.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test200.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test201.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test202.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test203.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test204.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test205.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test206.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test207.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test208.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test209.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test210.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test211.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test212.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test213.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test214.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test215.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test216.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test217.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test218.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test219.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test220.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test221.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test222.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test223.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test224.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test225.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test226.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test227.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test228.csv]: --> CleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test229.csv]: --> CleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test230.csv]: --> CleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test231.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test232.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test233.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test234.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test238.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test242.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test243.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test244.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test245.csv]: --> CleverCSV detected: delimiter = ':', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test246.csv]: --> CleverCSV detected: delimiter = ':', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test247.csv]: --> CleverCSV detected: delimiter = ':', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test248.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test249.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test254.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test255.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test256.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test257.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test258.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test261.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test262.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test269.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test271.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test272.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test279.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test280.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test281.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test282.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test283.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test284.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[test285.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
+X[test286.csv]: --> CleverCSV detected: delimiter = '#', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test287.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test288.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test289.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+Error was: local variable 'dialect' referenced before assignment
+X [test290.csv]: --> No result from CleverCSV
++[test291.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test292.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test293.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test294.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test295.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+X[test296.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test297.csv]: --> CleverCSV detected: delimiter = '#', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test298.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test299.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test300.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test301.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test302.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test303.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test304.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test305.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test306.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[test307.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Error was: 'charmap' codec can't decode byte 0x81 in position 26010: character maps to <undefined>
+X [Track.csv]: --> No result from CleverCSV
++[tree-ops-ext.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[tree-ops.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[tweets.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[unicode-nfc.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
+[Passed test ratio]--: 61.1111%
+[Delimiter ratio]--: 61.1111%
+[Failure ratio]--: 2.2624%
+[Elapsed time]--: 117.44 seconds
+<---------------------------------------------------------------------------------------->
+True Positive (TP): 132
+False Positive (FP): 84
+False Negative (FN): 89
+#
+Precision (P): 0.6111
+Recall (R): 0.5973
+F1 score: 0.6041
+Weighted F1 score for 221 files: 79.74119999999999

@@ -11,6 +11,7 @@ Helper class module to run dialect detection test against a ground truth.
 """
 import collections
 import csv
+import clevercsv as ccsv
 import time
 import os
 import sys
@@ -60,6 +61,7 @@ class runner:
         threshold: int = 10,
         encoding: str = 'utf_8',
         sniffer: str = 'CSVsniffer',
+        data_threshold: int = 6144,
     ):
         self.ground_truth_csv = ground_truth_csv
         self.output_path = output_path
@@ -69,6 +71,7 @@ class runner:
         self.threshold = threshold
         self.encoding = encoding
         self.sniffer = sniffer
+        self.data_threshold = data_threshold
 
     def set_delimiters(self, d_list: List[str]):
         self.delimiter_list = d_list if d_list is not None else [',', ';', '\t','|', ':', '=', ' ', '#', '*']
@@ -87,8 +90,21 @@ class runner:
                                         )
             elif self.sniffer == 'Python sniffer':
                 with open(path, newline='') as csvfile:
-                    dialect = Dialect.from_csv_dialect(csv.Sniffer().sniff(csvfile.read(2048), self.delimiter_list))
+                    if self.data_threshold > 0:
+                        dialect = Dialect.from_csv_dialect(csv.Sniffer().sniff(\
+                                csvfile.read(self.data_threshold), self.delimiter_list))
+                    else:
+                        dialect = Dialect.from_csv_dialect(csv.Sniffer().sniff(\
+                                csvfile.read(), self.delimiter_list))
                     csvfile.close
+            elif self.sniffer == 'CleverCSV':
+                with open(path, newline='') as csvfile:
+                    if self.data_threshold > 0:
+                        _dialect = ccsv.Sniffer().sniff(csvfile.read(self.data_threshold), self.delimiter_list)
+                    else:
+                        _dialect = ccsv.Sniffer().sniff(csvfile.read(), self.delimiter_list)
+                if not _dialect is None:
+                    dialect = Dialect(_dialect.delimiter,None,_dialect.quotechar,_dialect.escapechar)
             return dialect
         except OSError as err:
             print("Error was: %s" % err)
@@ -200,6 +216,7 @@ class runner:
             #Get ground truth base path
             current_csv_set = os.path.join(base_path, test_sets[n])
             passed=0
+            d_passed = 0
             failures=0
             t=time.time()
             #Run test over all CSV files
@@ -223,14 +240,16 @@ class runner:
                                 self.get_quote_name(dialect.quotechar)==self.expected_results[filename]['quotechar']:
                                     tflag ='+'
                                     passed += 1
+                                    d_passed += 1
                                 else:
                                     tflag ='X'
-
+                                    if self.get_delimiter_name(dialect.delimiter)==self.expected_results[filename]['fields_delimiter']:
+                                        d_passed += 1
                                 if tflag =='+':
                                     print(tflag + '[' + filename + ']: --> ' + self.sniffer + ' detected: delimiter = %r, quotechar = %r' 
                                             % (dialect.delimiter, dialect.quotechar))
                                 else:
-                                    print(tflag + '[' + filename + ']: --> ' + self.sniffer + 'detected: delimiter = %r, quotechar = %r' 
+                                    print(tflag + '[' + filename + ']: --> ' + self.sniffer + ' detected: delimiter = %r, quotechar = %r' 
                                             % (dialect.delimiter, dialect.quotechar) + \
                                             '| EXPECTED:{delimiter = %r, quotechar = %r}' \
                                             % (self.expected_results[filename]['fields_delimiter'], \
@@ -240,6 +259,22 @@ class runner:
                                 failures += 1
             n+=1
             print('[Passed test ratio]--: %r' %(round(100*passed/(len(self.expected_results)-failures),4)) +'%')
+            print('[Delimiter ratio]--: %r' %(round(100*d_passed/(len(self.expected_results)-failures),4)) +'%')
             print('[Failure ratio]--: %r' %(round(100*failures/len(self.expected_results),4)) +'%')
             print('[Elapsed time]--: %r seconds' %(round(time.time()-t,2)))
+            print('<---------------------------------------------------------------------------------------->')
+            tp = passed
+            fp = len(self.expected_results)-(passed + failures)
+            fn = fp + failures
+            p = round(tp / (tp + fp),4)
+            r = round(tp / (tp + fn),4)
+            f1 = round(2 * (p * r) / (p + r),4)
+            print('True Positive (TP): %r' %tp)
+            print('False Positive (FP): %r' %fp)
+            print('False Negative (FN): %r' %fn)
+            print('#')
+            print('Precision (P): %r' %p)
+            print('Recall (R): %r' %r)
+            print('F1 score: %r' %f1)
+            print('Weighted F1 score for %r files: %r' %(len(self.expected_results), f1 * tp))
             sys.stdout.close()
