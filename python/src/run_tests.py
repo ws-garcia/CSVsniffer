@@ -52,10 +52,14 @@ def main(threshold: int, data_threshold: int):
                     test_sets=['CSV', 'W3C-CSVW', 'CSV_Wrangling', 'CSV_Wrangling', 'CSV_Wrangling']
                     )
 
-def runsingleTest():
+def runsingleTest(threshold: int, \
+                  data_threshold: int, \
+                    detector: str):
      basePath = os.path.dirname(os.path.dirname(__file__))
      out_path = []
-     out_path.append(os.path.join(basePath, 'tests results', 'CleverCSV'))
+     sys_name = platform.platform(aliased=True,terse=True)
+     limit = threshold if detector == 'CSVsniffer' else data_threshold
+     out_path.append(os.path.join(basePath, 'tests results', sys_name, detector + '-%r records loaded' %limit))
      for opath in out_path:
           if not os.path.exists(opath):
                os.makedirs(opath)
@@ -66,7 +70,7 @@ def runsingleTest():
                       quotechar_list=['"', "'", '~'], 
                       expected_results=None,
                       threshold=10,
-                      sniffer='CleverCSV',
+                      sniffer=detector,
                       data_threshold=-1))
      for obj in _runner:
           obj.run(base_path=basePath,
@@ -84,4 +88,4 @@ def runsingleTest():
                     )
 if __name__ == "__main__":
      main(10,-1)
-     # runsingleTest()
+     #runsingleTest(10,-1,'CSVsniffer')
