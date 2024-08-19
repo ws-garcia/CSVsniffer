@@ -227,13 +227,13 @@ X [Track.csv]: --> No result from CleverCSV
 [Passed test ratio]--: 61.1111%
 [Delimiter ratio]--: 61.1111%
 [Failure ratio]--: 2.2624%
-[Elapsed time]--: 104.62 seconds
+[Elapsed time]--: 95.44 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 132
 False Positive (FP): 84
-False Negative (FN): 89
+False Negative (FN): 5
 #
 Precision (P): 0.6111
-Recall (R): 0.5973
-F1 score: 0.6041
-Weighted F1 score for 221 files: 79.74119999999999
+Recall (R): 0.9635
+F1 score: 0.7479
+Weighted F1 score for 221 files: 98.7228

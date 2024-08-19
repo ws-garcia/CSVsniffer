@@ -143,13 +143,13 @@ X[task4_pad.csv]: --> CSVsniffer detected: delimiter = ':', quotechar = '"'| EXP
 [Passed test ratio]--: 90.8451%
 [Delimiter ratio]--: 92.2535%
 [Failure ratio]--: 0.0%
-[Elapsed time]--: 5.55 seconds
+[Elapsed time]--: 5.6 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 129
 False Positive (FP): 13
-False Negative (FN): 13
+False Negative (FN): 0
 #
 Precision (P): 0.9085
-Recall (R): 0.9085
-F1 score: 0.9085
-Weighted F1 score for 142 files: 117.1965
+Recall (R): 1.0
+F1 score: 0.9521
+Weighted F1 score for 142 files: 122.8209

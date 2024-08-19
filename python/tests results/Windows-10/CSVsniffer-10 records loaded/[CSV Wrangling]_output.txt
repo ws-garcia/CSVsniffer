@@ -180,13 +180,13 @@ X [tweets.csv]: --> No result from CSVsniffer
 [Passed test ratio]--: 90.3226%
 [Delimiter ratio]--: 92.2581%
 [Failure ratio]--: 13.4078%
-[Elapsed time]--: 9.6 seconds
+[Elapsed time]--: 6.16 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 140
 False Positive (FP): 15
-False Negative (FN): 39
+False Negative (FN): 24
 #
 Precision (P): 0.9032
-Recall (R): 0.7821
-F1 score: 0.8383
-Weighted F1 score for 179 files: 117.36200000000001
+Recall (R): 0.8537
+F1 score: 0.8778
+Weighted F1 score for 179 files: 122.89200000000001

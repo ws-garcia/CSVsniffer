@@ -149,13 +149,13 @@ X[Undefined field delimiter.csv]: --> CSVsniffer detected: delimiter = '\t', quo
 [Passed test ratio]--: 96.6216%
 [Delimiter ratio]--: 96.6216%
 [Failure ratio]--: 0.0%
-[Elapsed time]--: 9.41 seconds
+[Elapsed time]--: 8.4 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 143
 False Positive (FP): 5
-False Negative (FN): 5
+False Negative (FN): 0
 #
 Precision (P): 0.9662
-Recall (R): 0.9662
-F1 score: 0.9662
-Weighted F1 score for 148 files: 138.1666
+Recall (R): 1.0
+F1 score: 0.9828
+Weighted F1 score for 148 files: 140.5404

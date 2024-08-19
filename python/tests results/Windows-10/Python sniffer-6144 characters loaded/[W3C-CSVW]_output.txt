@@ -317,13 +317,13 @@ X [tree-ops-ext.csv]: --> No result from Python sniffer
 [Passed test ratio]--: 99.2063%
 [Delimiter ratio]--: 99.2063%
 [Failure ratio]--: 42.9864%
-[Elapsed time]--: 0.18 seconds
+[Elapsed time]--: 0.15 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 125
 False Positive (FP): 1
-False Negative (FN): 96
+False Negative (FN): 95
 #
 Precision (P): 0.9921
-Recall (R): 0.5656
-F1 score: 0.7205
-Weighted F1 score for 221 files: 90.0625
+Recall (R): 0.5682
+F1 score: 0.7226
+Weighted F1 score for 221 files: 90.325

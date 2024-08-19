@@ -159,13 +159,13 @@ X [W44out.csv]: --> No result from Python sniffer
 [Passed test ratio]--: 96.3768%
 [Delimiter ratio]--: 96.3768%
 [Failure ratio]--: 6.7568%
-[Elapsed time]--: 0.28 seconds
+[Elapsed time]--: 0.24 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 133
 False Positive (FP): 5
-False Negative (FN): 15
+False Negative (FN): 10
 #
 Precision (P): 0.9638
-Recall (R): 0.8986
-F1 score: 0.9301
-Weighted F1 score for 148 files: 123.7033
+Recall (R): 0.9301
+F1 score: 0.9467
+Weighted F1 score for 148 files: 125.9111

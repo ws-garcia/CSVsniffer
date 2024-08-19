@@ -14,7 +14,10 @@ X[admins.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED
 +[all-classes.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[AllUseCasesOrdered.csv]: --> CleverCSV detected: delimiter = '|', quotechar = ''
 +[answer.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[Apr-2014_Apr-2014_Platform.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[association.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''
++[awaymanagers-data.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[bandwidth-2011-08-21-1MHz-175MHz.csv]: --> CleverCSV detected: delimiter = '\t', quotechar = ''
 +[baselog.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[benchmark.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 X[BIO.csv]: --> CleverCSV detected: delimiter = '#', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
@@ -33,11 +36,14 @@ X[bugs.csv]: --> CleverCSV detected: delimiter = ':', quotechar = ''| EXPECTED:{
 +[countrynames.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[coupons.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[CsvBulkLoaderTest_Players.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[csv_data.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[csv_ingestion.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[cuentas.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''
 +[currencies.csv]: --> CleverCSV detected: delimiter = ',', quotechar = "'"
++[data.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[db_general.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[devices_data.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[de_DE.csv]: --> CleverCSV detected: delimiter = ';', quotechar = '"'
 +[diamonds.csv]: --> CleverCSV detected: delimiter = ' ', quotechar = ''
 +[dodgers_2010_schedule.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[durden_saucer.csv]: --> CleverCSV detected: delimiter = ';', quotechar = '"'
@@ -46,9 +52,11 @@ X[Empty.csv]: --> CleverCSV detected: delimiter = '#', quotechar = '"'| EXPECTED
 X[engine_reqs_2.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
 +[Error331_DynCatsMenu.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 X[events.csv]: --> CleverCSV detected: delimiter = '', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[example.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''
 +[exit.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[export.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[feats.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
++[feedback.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[flat_file_database.csv]: --> CleverCSV detected: delimiter = '#', quotechar = '"'
 +[Formats.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[fuw1.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''
@@ -85,10 +93,12 @@ X [NA_letters.csv]: --> No result from CleverCSV
 +[next_q.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[one-line-with-accents.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[orders.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[orig_data.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[out.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[paperpile.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[Parsed.csv]: --> CleverCSV detected: delimiter = ';', quotechar = '"'
 +[poblacion.csv]: --> CleverCSV detected: delimiter = ';', quotechar = '"'
++[products.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 X[product_feed.csv]: --> CleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
 +[prt_statuses.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[publish.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''
@@ -108,21 +118,26 @@ Error was: local variable 'dialect' referenced before assignment
 X [sample_map.csv]: --> No result from CleverCSV
 +[set001.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[shops.csv]: --> CleverCSV detected: delimiter = ';', quotechar = '"'
++[simulation.csv]: --> CleverCSV detected: delimiter = '\t', quotechar = ''
 +[solar-system.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 Error was: local variable 'dialect' referenced before assignment
 X [source-en.csv]: --> No result from CleverCSV
 +[spirate.csv]: --> CleverCSV detected: delimiter = ';', quotechar = '"'
 X[stringtable.csv]: --> CleverCSV detected: delimiter = ' ', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[table1.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[TableA.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[talks.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 X[task4_pad.csv]: --> CleverCSV detected: delimiter = ':', quotechar = ''| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
 +[tentative_accounts.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[test-spreadsheet-for-csv-blank-row.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[test.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
++[test_data.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[test_neighbours.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[timing.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[top-10k-2009-03-06.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[unemploy.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 X[uniq_nl_data.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'nsign', quotechar = 'singlequote'}
++[upload.csv]: --> CleverCSV detected: delimiter = ',', quotechar = ''
 +[upload0.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[uris.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''
 X[user_design_template.csv]: --> CleverCSV detected: delimiter = '#', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
@@ -130,16 +145,17 @@ X[user_design_template.csv]: --> CleverCSV detected: delimiter = '#', quotechar 
 X[weapondef.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPECTED:{delimiter = 'vslash', quotechar = 'doublequote'}
 +[xlsws_category_amazon.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
 +[zips.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
-[Passed test ratio]--: 74.2647%
-[Delimiter ratio]--: 76.4706%
++[Zipssortedbycitystate.csv]: --> CleverCSV detected: delimiter = ',', quotechar = '"'
+[Passed test ratio]--: 86.0294%
+[Delimiter ratio]--: 88.2353%
 [Failure ratio]--: 4.2254%
-[Elapsed time]--: 167.28 seconds
+[Elapsed time]--: 156.52 seconds
 <---------------------------------------------------------------------------------------->
-True Positive (TP): 101
-False Positive (FP): 35
-False Negative (FN): 41
+True Positive (TP): 117
+False Positive (FP): 19
+False Negative (FN): 6
 #
-Precision (P): 0.7426
-Recall (R): 0.7113
-F1 score: 0.7266
-Weighted F1 score for 142 files: 73.3866
+Precision (P): 0.8603
+Recall (R): 0.9512
+F1 score: 0.9035
+Weighted F1 score for 142 files: 105.70949999999999
