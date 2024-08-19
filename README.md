@@ -72,7 +72,7 @@ The below table shows the execution times obtained. In this one we can see that 
 
 ### Accuracy analysis
 
-For dialect detection, we have defined _True Positive_ (TP) as the number of CSV files where the dialect was correctly detected. By its way, _False Positive_ (FP) is defined as the number of CSV files where the dialect was incorrectly identified as a specific dialect when it was actually a different dialect. _False Negatives_ (FN) is defined as the number of CSV files where the specific dialect was present but not detected (or was detected as a different, incorrect dialect).
+For dialect detection, we have defined _True Positive_ (TP) as the number of CSV files where the dialect was correctly detected. By its way, _False Positive_ (FP) is defined as the number of CSV files where the dialect was incorrectly identified as a specific dialect when it was actually a different dialect. _False Negatives_ (FN) is defined as the number of CSV files where the specific dialect was present but not detected.
 
 The next table shows the precision (P), which measures the accuracy of dialect detection when predicting a specific dialect. The metric is calculated as follows
 
