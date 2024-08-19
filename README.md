@@ -92,11 +92,11 @@ $$R=\frac{TP}{TP+FN}$$
 
 |Data set                     |`CSVsniffer` |`CleverCSV`|`csv.Sniffer`|
 |:----------------------------|:------------|:----------|:------------|
-|POLLOCK                      |0.9459       |0.9324     |0.8919       |
-|CSV Wrangling                |0.8045       |0.7207     |0.6480       |
-|CSV Wrangling filtered CODEC |0.8380       |0.7535     |0.6761       |
-|CSV Wrangling MESSY          |0.7324       |0.6408     |0.5634       |
-|W3C-CSVW                     |0.9367       |0.5973     |0.5747       |
+|POLLOCK                      |0.9790       |0.9787     |0.9231       |
+|CSV Wrangling                |0.8780       |0.8323     |0.7682       |
+|CSV Wrangling filtered CODEC |0.9297       |0.8770     |0.8136       |
+|CSV Wrangling MESSY          |0.9204       |0.8585     |0.7843       |
+|W3C-CSVW                     |0.9810       |0.9635     |0.5826       |
 
 The below table shows the F1 score, which is the most polished measure of dialect detection accuracy. The metric is calculated as follows
 
@@ -104,11 +104,11 @@ $$F1=2 \times \frac{P \times R}{P+R}$$
 
 |Data set                     |`CSVsniffer` |`CleverCSV`|`csv.Sniffer`|
 |:----------------------------|:------------|:----------|:------------|
-|POLLOCK                      |0.9556       |0.9420     |0.9263       |
-|CSV Wrangling                |0.8521       |0.7771     |0.7183       |
-|CSV Wrangling filtered CODEC |0.8654       |0.7955     |0.7329       |
-|CSV Wrangling MESSY          |0.7564       |0.6765     |0.6107       |
-|W3C-CSVW                     |0.9452       |0.6041     |0.7237       |
+|POLLOCK                      |0.9722       |0.9650     |0.9429       |
+|CSV Wrangling                |0.8916       |0.8377     |0.7865       |
+|CSV Wrangling filtered CODEC |0.9119       |0.8594     |0.8067       |
+|CSV Wrangling MESSY          |0.8456       |0.7811     |0.7207       |
+|W3C-CSVW                     |0.9673       |0.7479     |0.7299       |
 
 Thus, the True Positive (TP) weighted F1 score for each tool is computed as
 
