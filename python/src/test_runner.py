@@ -265,7 +265,7 @@ class runner:
             print('<---------------------------------------------------------------------------------------->')
             tp = passed
             fp = len(self.expected_results)-(passed + failures)
-            fn = fp + failures
+            fn = failures
             p = round(tp / (tp + fp),4)
             r = round(tp / (tp + fn),4)
             f1 = round(2 * (p * r) / (p + r),4)
