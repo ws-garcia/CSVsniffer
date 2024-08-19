@@ -54,7 +54,7 @@ The following table shows the average success and failure ratio for selected too
 |`csv.Sniffer` |84.25%            |19.83%             |
 
 As a complementary metric, the table below shows the average reliability factor for CSV dialect detection. This value is computed as: 
-$$R=SR*(1-FR)$$.
+$$RF=SR\times (1-FR)$$.
 
 |Tool          |Reliability factor (RF)|
 |:-------------|:----------------------|
