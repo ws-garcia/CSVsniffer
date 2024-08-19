@@ -7,7 +7,7 @@ def main(threshold: int, data_threshold: int):
      basePath = os.path.dirname(os.path.dirname(__file__))
      out_path = []
      sys_name = platform.platform(aliased=True,terse=True)
-     data_loaded = 'All' if data_threshold == -1 else data_threshold  
+     data_loaded = 'All'.strip('"\'') if data_threshold == -1 else data_threshold  
      out_path.append(os.path.join(basePath, 'tests results', sys_name, 'Python_sniffer' + '-%r characters loaded' %6144))
      out_path.append(os.path.join(basePath, 'tests results', sys_name, 'CSVsniffer' + '-%r records loaded' %threshold))
      out_path.append(os.path.join(basePath, 'tests results', sys_name, 'CleverCSV' + '-%r characters loaded' %data_loaded))
@@ -60,7 +60,7 @@ def runsingleTest(threshold: int, \
      sys_name = platform.platform(aliased=True,terse=True)
      limit = threshold if detector == 'CSVsniffer' else data_threshold
      pw = 'records' if detector == 'CSVsniffer' else 'characters'
-     out_path.append(os.path.join(basePath, 'tests results', sys_name, '%r-%r %r loaded' %(detector, limit, pw)))
+     out_path.append(os.path.join(basePath, 'tests results', sys_name, '%r-%r %r loaded' %(detector.strip('"\''), limit, pw.strip('"\''))))
      for opath in out_path:
           if not os.path.exists(opath):
                os.makedirs(opath)
