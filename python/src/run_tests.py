@@ -10,7 +10,7 @@ def runsingleTest(threshold: int, \
      out_path = []
      sys_name = platform.platform(aliased=True,terse=True)
      limit = threshold  if detector == 'CSVsniffer' else data_threshold
-     fw = 'All' if limit == -1 else fw = limit
+     fw = 'All' if limit == -1 else limit
      pw = "records" if detector == 'CSVsniffer' else "characters"
      formated_sufix = '%r-%r %r loaded' %(detector, fw, pw)
      formated_sufix = formated_sufix.replace("'",'')
