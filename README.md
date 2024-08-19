@@ -122,25 +122,15 @@ The computations are given in the below table.
 
 |Tool          |F1 score|
 |:-------------|:-------|
-|`CSVsniffer`  |0.8877  |
-|`CleverCSV`   |0.7649  |
-|`csv.Sniffer` |0.7563  |
+|`CSVsniffer`  |0.9260  |
+|`CleverCSV`   |0.8425  |
+|`csv.Sniffer` |0.8049  |
 
 ### Conclusions
 
-By studying the last table it is concluded that the _Table Uniformity_ method is able to predict and determine the dialects of CSV files with an accuracy of 88.77% using a sample of 10 records, while `CleverCSV` can reach 76.49% accuracy by loading 6144 characters.
+By studying the last table it is concluded that the _Table Uniformity_ method is able to predict and determine the dialects of CSV files with an accuracy of 92.60% using a sample of 10 records, while `CleverCSV` can reach 84.25% accuracy by loading 6144 characters.
 
-Given the deficiency of the other alternatives when working with the W3C-CSVW dataset, the following table presents the F1 score when excluding it from the tests. 
-
-|Tool          |F1 score|
-|:-------------|:-------|
-|`CSVsniffer`  |0.8642  |
-|`CleverCSV`   |0.8106  |
-|`csv.Sniffer` |0.7661  |
-
-It can be seen that the proposed methodology shows an accuracy of 86.42%, which means an improvement of 5.36% over `CleverCSV` using the same source code for data type detection. A substantial improvement could derive from a stricter data detection, reducing the number of false positives detected in cells.
-
-On the other hand, `CleverCSV` shows an accuracy of 81.06%, if W3C-CSVW dataset is excluded, reading only 6144 characters from the analyzed files, no significant improvements were found when reading all the data from the CSV files. This unexpected result helps to reaffirm that dialect detection does not always require reading all the information from the CSV files. 
+The proposed methodology shows an improvement of 8.35% over `CleverCSV` using the same source code for data type detection. A substantial improvement could derive from a stricter data detection, reducing the number of false positives detected in cells. On the other hand, `CleverCSV` doesn't shows significant accuracy improvements when reading all the data from the CSV files. This unexpected result helps to reaffirm that dialect detection does not always require reading all the information from the CSV files. 
 
 So we can conclude that the _Table Uniformity_ method is the ideal candidate to be implemented as the default dialect detection method of the Python `csv` module, despite the fact that the increased accuracy leads to an increase in execution time, as shown in a previous table. An alternative would be to use `Pandas` to avoid the overhead of using the file iterator to pre-filter the lines to be used in the creation of the tables to be evaluated. 
 

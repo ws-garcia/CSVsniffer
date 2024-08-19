@@ -1,0 +1,155 @@
++[CsvBulkLoaderTest_Players.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X [alfa_example.csv]: --> No result from CSVsniffer
+X[register_data.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'| EXPECTED:{delimiter = 'semicolon', quotechar = 'doublequote'}
++[user_design_template.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[engine_reqs_2.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[Empty.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[zips.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[mxoClothing.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[solar-system.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X[simulation.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'| EXPECTED:{delimiter = 'tab', quotechar = 'doublequote'}
++[1.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[Error331_DynCatsMenu.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X[bugs.csv]: --> CSVsniffer detected: delimiter = ':', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[upload0.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[100-external-simple.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[en.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[keyword-count.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
+X [ABCAUS2011.csv]: --> No result from CSVsniffer
++[Mage_Catalog.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[ckan-endpoints.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[xlsws_category_amazon.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[afghanngos.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X[baselog.csv]: --> CSVsniffer detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[report.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[feedback.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[ACS_12_5YR_S1903_metadata.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[Mage_Lucene.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[weapondef.csv]: --> CSVsniffer detected: delimiter = '|', quotechar = '"'
++[set001.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[airports.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[data.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[rail-points.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[maatkit-issues.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[limesurvey_survey_94328.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[test.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[benchmark.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[devices_data.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[mammalia-10.csv]: --> CSVsniffer detected: delimiter = '\t', quotechar = '"'
++[Zipssortedbycitystate.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[utf8.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[out.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X [2_18-05-2011-17-21-59_0.csv]: --> No result from CSVsniffer
++[unemploy.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[paperpile.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[exit.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[af.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[results.csv]: --> CSVsniffer detected: delimiter = '\t', quotechar = '"'
++[example.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[responses.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X[diamonds.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'| EXPECTED:{delimiter = 'space', quotechar = 'doublequote'}
++[questions.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[NA_letters.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[BIO.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X[replace.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[cuentas.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[product_feed.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[feats.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[coupons.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[Mage_Adminhtml.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X [shops.csv]: --> No result from CSVsniffer
++[my_Jess_Robinson.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[raw-data-russian-parlimentary-elections-2011-english-headers-only-no-links.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[flat_file_database.csv]: --> CSVsniffer detected: delimiter = '#', quotechar = '"'
++[coord.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[cityList.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[copyright.csv]: --> CSVsniffer detected: delimiter = '\t', quotechar = '"'
++[tentative_accounts.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[cassette_features.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X[iometeroutput.csv]: --> CSVsniffer detected: delimiter = ':', quotechar = "'"| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[general.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[GPU_rod_1_metrica.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[products.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[blocks.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
+X[items.csv]: --> CSVsniffer detected: delimiter = '=', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[top-10k-2009-03-06.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[prt_statuses.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[mgrs_index.csv]: --> CSVsniffer detected: delimiter = '\t', quotechar = '"'
++[Formats.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[test_neighbours.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[memberList.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[AllUseCasesOrdered.csv]: --> CSVsniffer detected: delimiter = '|', quotechar = '"'
++[currencies.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = "'"
+X[resources.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'| EXPECTED:{delimiter = 'semicolon', quotechar = 'doublequote'}
+X [stringtable.csv]: --> No result from CSVsniffer
+X[task4_pad.csv]: --> CSVsniffer detected: delimiter = ':', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[Apr-2014_Apr-2014_Platform.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[iconbar-hermes.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[orders.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[db_general.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[model.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[source-en.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[quotes.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[csv_data.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[publish.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[CalculusComponents.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[JeannieProperties.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[cnx22-XE133-XE131M-XE133M.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[spirate.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[sample.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[MyList.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[association.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
+X[act.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[bandwidth-2011-08-21-1MHz-175MHz.csv]: --> CSVsniffer detected: delimiter = '\t', quotechar = '"'
++[poblacion.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
+X [Parsed.csv]: --> No result from CSVsniffer
++[talks.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[durden_saucer.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[conversion_17_to_18.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[dodgers_2010_schedule.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[TableA.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[csv_ingestion.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[ip-log.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[export.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[all-classes.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X [cliente.csv]: --> No result from CSVsniffer
++[test-spreadsheet-for-csv-blank-row.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[de_DE.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
+X[isco.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'| EXPECTED:{delimiter = 'semicolon', quotechar = 'singlequote'}
++[orig_data.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[timing.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X[JV_newsite_IBC_current_20110517.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'singlequote'}
++[events.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[linodef_bueditor_button.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[answer.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[kodepos-2008-10-20.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[test_data.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[sample_map.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[1.fail.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[uris.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[fuw1.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
++[countrynames.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[next_q.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[bookings.csv]: --> CSVsniffer detected: delimiter = ';', quotechar = '"'
+X [load_fund_structure_data.csv]: --> No result from CSVsniffer
++[upload.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[2_ip_test.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[uniq_nl_data.csv]: --> CSVsniffer detected: delimiter = '#', quotechar = "'"
++[awaymanagers-data.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+X[admins.csv]: --> CSVsniffer detected: delimiter = '#', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X [one-line-with-accents.csv]: --> No result from CSVsniffer
++[table1.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
++[metricData.csv]: --> CSVsniffer detected: delimiter = ',', quotechar = '"'
+[Passed test ratio]--: 89.4737%
+[Delimiter ratio]--: 90.9774%
+[Failure ratio]--: 6.338%
+[Elapsed time]--: 3.32 seconds
+<---------------------------------------------------------------------------------------->
+True Positive (TP): 119
+False Positive (FP): 14
+False Negative (FN): 9
+#
+Precision (P): 0.8947
+Recall (R): 0.9297
+F1 score: 0.9119
+Weighted F1 score for 142 files: 108.51610000000001
