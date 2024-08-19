@@ -60,7 +60,7 @@ def runsingleTest(threshold: int, \
      sys_name = platform.platform(aliased=True,terse=True)
      limit = threshold if detector == 'CSVsniffer' else data_threshold
      pw = 'records' if detector == 'CSVsniffer' else 'characters'
-     out_path.append(os.path.join(basePath, 'tests results', sys_name, detector + '-%r ' + pw + 'loaded' %limit))
+     out_path.append(os.path.join(basePath, 'tests results', sys_name, '%r-%r %r loaded' %(detector, limit, pw)))
      for opath in out_path:
           if not os.path.exists(opath):
                os.makedirs(opath)
@@ -70,9 +70,9 @@ def runsingleTest(threshold: int, \
                       delimiter_list=[',', ';', '\t','|', ':', '=', ' ', '#', '*'],
                       quotechar_list=['"', "'", '~'], 
                       expected_results=None,
-                      threshold=10,
+                      threshold=limit,
                       sniffer=detector,
-                      data_threshold=-1))
+                      data_threshold=limit))
      for obj in _runner:
           obj.run(base_path=basePath,
                     output_file_names=['[POLLOCK]_output.txt',
