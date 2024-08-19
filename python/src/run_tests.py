@@ -87,5 +87,5 @@ def runsingleTest(threshold: int, \
                     test_sets=['CSV', 'W3C-CSVW', 'CSV_Wrangling', 'CSV_Wrangling', 'CSV_Wrangling']
                     )
 if __name__ == "__main__":
-     main(10,-1)
-     #runsingleTest(10,-1,'CSVsniffer')
+     #main(10,-1)
+     runsingleTest(10,6144,'CleverCSV')
