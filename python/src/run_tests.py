@@ -59,7 +59,8 @@ def runsingleTest(threshold: int, \
      out_path = []
      sys_name = platform.platform(aliased=True,terse=True)
      limit = threshold if detector == 'CSVsniffer' else data_threshold
-     out_path.append(os.path.join(basePath, 'tests results', sys_name, detector + '-%r records loaded' %limit))
+     pw = 'records' if detector == 'CSVsniffer' else 'characters'
+     out_path.append(os.path.join(basePath, 'tests results', sys_name, detector + '-%r ' + pw + 'loaded' %limit))
      for opath in out_path:
           if not os.path.exists(opath):
                os.makedirs(opath)
