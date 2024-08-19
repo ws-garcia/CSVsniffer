@@ -9,15 +9,10 @@ def runsingleTest(threshold: int, \
      basePath = os.path.dirname(os.path.dirname(__file__))
      out_path = []
      sys_name = platform.platform(aliased=True,terse=True)
-     if detector == 'CSVsniffer':
-          limit = threshold  
-     else:
-          if data_threshold > 0:
-               limit = data_threshold
-          else:
-               limit = 'All'
+     limit = threshold  if detector == 'CSVsniffer' else data_threshold
+     fw = 'All' if limit == -1 else fw = limit
      pw = "records" if detector == 'CSVsniffer' else "characters"
-     formated_sufix = '%r-%r %r loaded' %(detector, limit, pw)
+     formated_sufix = '%r-%r %r loaded' %(detector, fw, pw)
      formated_sufix = formated_sufix.replace("'",'')
      out_path.append(os.path.join(basePath, 'tests results', sys_name, formated_sufix))
      for opath in out_path:
@@ -47,6 +42,7 @@ def runsingleTest(threshold: int, \
                     test_sets=['CSV', 'W3C-CSVW', 'CSV_Wrangling', 'CSV_Wrangling', 'CSV_Wrangling']
                     )
 if __name__ == "__main__":
+     """
      runsingleTest(threshold=10, # Load 10 records
                    data_threshold=-1, 
                    detector='CSVsniffer') 
@@ -55,7 +51,8 @@ if __name__ == "__main__":
                     detector='CleverCSV')
      runsingleTest(threshold=-1,
                    data_threshold=6144, # Load 6144 characters
-                   detector='Python sniffer') 
+                   detector='Python sniffer')
+     """ 
      runsingleTest(threshold=-1, 
                    data_threshold=-1, # Load all file
                    detector='CleverCSV') 
