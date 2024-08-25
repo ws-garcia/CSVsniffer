@@ -317,7 +317,7 @@ X [tree-ops-ext.csv]: --> No result from Python sniffer
 [Passed test ratio]--: 99.2063%
 [Delimiter ratio]--: 99.2063%
 [Failure ratio]--: 42.9864%
-[Elapsed time]--: 0.15 seconds
+[Elapsed time]--: 0.16 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 125
 False Positive (FP): 1

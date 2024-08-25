@@ -143,7 +143,7 @@ X[task4_pad.csv]: --> CSVsniffer detected: delimiter = ':', quotechar = '"'| EXP
 [Passed test ratio]--: 90.8451%
 [Delimiter ratio]--: 92.2535%
 [Failure ratio]--: 0.0%
-[Elapsed time]--: 5.6 seconds
+[Elapsed time]--: 18.9 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 129
 False Positive (FP): 13

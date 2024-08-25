@@ -225,7 +225,7 @@ X[test307.csv]: --> CleverCSV detected: delimiter = ';', quotechar = ''| EXPECTE
 [Passed test ratio]--: 61.4679%
 [Delimiter ratio]--: 61.4679%
 [Failure ratio]--: 1.3575%
-[Elapsed time]--: 0.59 seconds
+[Elapsed time]--: 0.64 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 134
 False Positive (FP): 84

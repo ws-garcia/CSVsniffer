@@ -222,7 +222,7 @@ X[weapondef.csv]: --> Python sniffer detected: delimiter = ' ', quotechar = "'"|
 [Passed test ratio]--: 81.0219%
 [Delimiter ratio]--: 83.9416%
 [Failure ratio]--: 23.4637%
-[Elapsed time]--: 0.29 seconds
+[Elapsed time]--: 0.33 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 111
 False Positive (FP): 26

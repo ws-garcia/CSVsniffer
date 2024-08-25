@@ -133,7 +133,7 @@ X[weapondef.csv]: --> CleverCSV detected: delimiter = '#', quotechar = ''| EXPEC
 [Passed test ratio]--: 74.2647%
 [Delimiter ratio]--: 76.4706%
 [Failure ratio]--: 4.2254%
-[Elapsed time]--: 153.92 seconds
+[Elapsed time]--: 197.27 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 101
 False Positive (FP): 35

@@ -222,7 +222,7 @@ X[test304.csv]: --> CSVsniffer detected: delimiter = '#', quotechar = "'"| EXPEC
 [Passed test ratio]--: 95.4338%
 [Delimiter ratio]--: 96.8037%
 [Failure ratio]--: 0.905%
-[Elapsed time]--: 3.65 seconds
+[Elapsed time]--: 9.79 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 209
 False Positive (FP): 10

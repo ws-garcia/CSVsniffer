@@ -149,7 +149,7 @@ X[Undefined field delimiter.csv]: --> CleverCSV detected: delimiter = ' ', quote
 [Passed test ratio]--: 95.9459%
 [Delimiter ratio]--: 96.6216%
 [Failure ratio]--: 0.0%
-[Elapsed time]--: 249.68 seconds
+[Elapsed time]--: 270.96 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 142
 False Positive (FP): 6

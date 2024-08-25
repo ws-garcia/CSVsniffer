@@ -159,7 +159,7 @@ X [W44out.csv]: --> No result from Python sniffer
 [Passed test ratio]--: 96.3768%
 [Delimiter ratio]--: 96.3768%
 [Failure ratio]--: 6.7568%
-[Elapsed time]--: 0.24 seconds
+[Elapsed time]--: 0.27 seconds
 <---------------------------------------------------------------------------------------->
 True Positive (TP): 133
 False Positive (FP): 5
