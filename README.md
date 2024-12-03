@@ -3,8 +3,8 @@
 
 Companion repository for the paper:
 
-[**Detecting CSV File Dialects by Table Uniformity Measurement and Data Type Inference**](https://web.archive.org/web/20240901113824/https://content.iospress.com/articles/data-science/ds240062) 
-[(PDF)](https://web.archive.org/web/20240901113824/https://content.iospress.com:443/download/data-science/ds240062?id=data-science%2Fds240062)
+[**Detecting CSV File Dialects by Table Uniformity Measurement and Data Type Inference**](https://content.iospress.com/articles/data-science/ds240062) 
+[(PDF)](https://content.iospress.com/download/data-science/ds240062?id=data-science%2Fds240062)
 
 by [W. García](https://sciprofiles.com/profile/3400377).
 
