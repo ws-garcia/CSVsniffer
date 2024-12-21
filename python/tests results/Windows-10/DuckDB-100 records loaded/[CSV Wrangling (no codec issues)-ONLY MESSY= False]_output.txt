@@ -1,0 +1,394 @@
+X[1.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[1.fail.csv]: --> DuckDB detected: delimiter = ',', quotechar = "'"| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[100-external-simple.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 1
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = d:\\WG Software\\CSV file handler\\GitHub\\CSVsniffer\\python\\CSV_Wrangling\\2_18-05-2011-17-21-59_0.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [2_18-05-2011-17-21-59_0.csv]: --> No result from DuckDB
++[2_ip_test.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 2
+Original Line: ,Date,Account,Debit,Credit,Amount,Balance
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = d:\\WG Software\\CSV file handler\\GitHub\\CSVsniffer\\python\\CSV_Wrangling\\ABCAUS2011.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [ABCAUS2011.csv]: --> No result from DuckDB
++[ACS_12_5YR_S1903_metadata.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[act.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[admins.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[af.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[afghanngos.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[airports.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 1
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = d:\\WG Software\\CSV file handler\\GitHub\\CSVsniffer\\python\\CSV_Wrangling\\alfa_example.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [alfa_example.csv]: --> No result from DuckDB
++[all-classes.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[AllUseCasesOrdered.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'
++[answer.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Apr-2014_Apr-2014_Platform.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[association.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[awaymanagers-data.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[bandwidth-2011-08-21-1MHz-175MHz.csv]: --> DuckDB detected: delimiter = '\t', quotechar = '"'
+X[baselog.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[benchmark.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[BIO.csv]: --> DuckDB detected: delimiter = '|', quotechar = "'"| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[blocks.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[bookings.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[bugs.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[CalculusComponents.csv]: --> DuckDB detected: delimiter = '\t', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[cassette_features.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[cityList.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[ckan-endpoints.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 3
+Original Line: 
+1001;ARQUEZ, HECTOR MANUEL;MARTIN RODRIGUEZ 421;01/06/2000
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = d:\\WG Software\\CSV file handler\\GitHub\\CSVsniffer\\python\\CSV_Wrangling\\cliente.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [cliente.csv]: --> No result from DuckDB
++[cnx22-XE133-XE131M-XE133M.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[conversion_17_to_18.csv]: --> DuckDB detected: delimiter = '|', quotechar = "'"| EXPECTED:{delimiter = 'semicolon', quotechar = 'doublequote'}
+X[coord.csv]: --> DuckDB detected: delimiter = ';', quotechar = "'"| EXPECTED:{delimiter = 'semicolon', quotechar = 'doublequote'}
+X[copyright.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'tab', quotechar = 'doublequote'}
++[countrynames.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[coupons.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[CsvBulkLoaderTest_Players.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[csv_data.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[csv_ingestion.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[cuentas.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
+X[currencies.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'singlequote'}
++[data.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[db_general.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[devices_data.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[de_DE.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
+X[diamonds.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'| EXPECTED:{delimiter = 'space', quotechar = 'doublequote'}
++[dodgers_2010_schedule.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[durden_saucer.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[Empty.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[en.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[engine_reqs_2.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Error331_DynCatsMenu.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[events.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[example.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[exit.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[export.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[feats.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[feedback.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[flat_file_database.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'| EXPECTED:{delimiter = 'nsign', quotechar = 'doublequote'}
++[Formats.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[fuw1.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[general.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[GPU_rod_1_metrica.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[iconbar-hermes.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[iometeroutput.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[ip-log.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[isco.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'| EXPECTED:{delimiter = 'semicolon', quotechar = 'singlequote'}
++[items.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[JeannieProperties.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+X[JV_newsite_IBC_current_20110517.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'singlequote'}
++[keyword-count.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[kodepos-2008-10-20.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[limesurvey_survey_94328.csv]: --> DuckDB detected: delimiter = '|', quotechar = "'"| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[linodef_bueditor_button.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 1
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = d:\\WG Software\\CSV file handler\\GitHub\\CSVsniffer\\python\\CSV_Wrangling\\load_fund_structure_data.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [load_fund_structure_data.csv]: --> No result from DuckDB
++[maatkit-issues.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Mage_Adminhtml.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[Mage_Catalog.csv]: --> DuckDB detected: delimiter = '|', quotechar = "'"| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[Mage_Lucene.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[mammalia-10.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'tab', quotechar = 'doublequote'}
+X[memberList.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[metricData.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[mgrs_index.csv]: --> DuckDB detected: delimiter = '\t', quotechar = '"'
++[model.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[mxoClothing.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[MyList.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[my_Jess_Robinson.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[NA_letters.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[next_q.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Error was: Invalid Input Error: CSV Error on Line: 1
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = d:\\WG Software\\CSV file handler\\GitHub\\CSVsniffer\\python\\CSV_Wrangling\\one-line-with-accents.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [one-line-with-accents.csv]: --> No result from DuckDB
++[orders.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[orig_data.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[out.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[paperpile.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 1
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = d:\\WG Software\\CSV file handler\\GitHub\\CSVsniffer\\python\\CSV_Wrangling\\Parsed.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [Parsed.csv]: --> No result from DuckDB
++[poblacion.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[products.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[product_feed.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[prt_statuses.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[publish.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[questions.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[quotes.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[rail-points.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[raw-data-russian-parlimentary-elections-2011-english-headers-only-no-links.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[register_data.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[replace.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[report.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[resources.csv]: --> DuckDB detected: delimiter = ',', quotechar = "'"| EXPECTED:{delimiter = 'semicolon', quotechar = 'doublequote'}
++[responses.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[results.csv]: --> DuckDB detected: delimiter = '\t', quotechar = "'"| EXPECTED:{delimiter = 'tab', quotechar = 'doublequote'}
++[sample.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[sample_map.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[set001.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
+Error was: Invalid Input Error: CSV Error on Line: 1
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = d:\\WG Software\\CSV file handler\\GitHub\\CSVsniffer\\python\\CSV_Wrangling\\shops.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [shops.csv]: --> No result from DuckDB
++[simulation.csv]: --> DuckDB detected: delimiter = '\t', quotechar = '"'
++[solar-system.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[source-en.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[spirate.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 2
+Original Line: // Empty, backward compatibility
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = d:\\WG Software\\CSV file handler\\GitHub\\CSVsniffer\\python\\CSV_Wrangling\\stringtable.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [stringtable.csv]: --> No result from DuckDB
++[table1.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[TableA.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[talks.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 6
+Original Line: such as Microsoft Excel for viewing, printing and sorting. The comma ','
+character is used as the data field separator.
+This file is also designed to support parsing.
+
+Input file:  task4.ngd
+output file: task4_pad.csv
+Part type:   xa95144xl
+Speed grade: -15
+Package:     cs144
+
+Pinout by Pin Number:
+
+-----,-----,-----,-----,-----,-----,-----,-----,-----,-----,
+Pin Number,Signal Name,Pin Usage,Pin Name,Direction,IO Standard,IO Bank Number,{blank},Slew Rate,Termination,{blank},Voltage,Constraint,
+
+
+To preserve the pinout above for future design iterations in
+Project Navigator simply execute the (Lock Pins) process
+located under the (Implement Design) process in a toolbox named
+(Optional Implementation Tools) or invoke PIN2UCF from the
+command line. The location constraints will be written into your
+specified UCF file
+
+
+
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = d:\\WG Software\\CSV file handler\\GitHub\\CSVsniffer\\python\\CSV_Wrangling\\task4_pad.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [task4_pad.csv]: --> No result from DuckDB
++[tentative_accounts.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test-spreadsheet-for-csv-blank-row.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test_data.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test_neighbours.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[timing.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[top-10k-2009-03-06.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[unemploy.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[uniq_nl_data.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'nsign', quotechar = 'singlequote'}
++[upload.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[upload0.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[uris.csv]: --> DuckDB detected: delimiter = ';', quotechar = '"'
++[user_design_template.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[utf8.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[weapondef.csv]: --> DuckDB detected: delimiter = '\t', quotechar = '"'| EXPECTED:{delimiter = 'vslash', quotechar = 'doublequote'}
++[xlsws_category_amazon.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[zips.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Zipssortedbycitystate.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+[Passed test ratio]--: 78.0303%
+[Delimiter ratio]--: 81.8182%
+[Failure ratio]--: 7.0423%
+[Elapsed time]--: 1.0 seconds
+<---------------------------------------------------------------------------------------->
+True Positive (TP): 103
+False Positive (FP): 29
+False Negative (FN): 10
+#
+Precision (P): 0.7803
+Recall (R): 0.9115
+F1 score: 0.8408
+Weighted F1 score for 142 files: 86.6024
