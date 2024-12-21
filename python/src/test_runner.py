@@ -10,6 +10,8 @@ Helper class module to run dialect detection test against a ground truth.
 
 """
 import collections
+import duckdb as DDB
+import pandas as pd
 import csv
 import clevercsv as ccsv
 import time
@@ -105,6 +107,10 @@ class runner:
                         _dialect = ccsv.Sniffer().sniff(csvfile.read(), self.delimiter_list)
                 if not _dialect is None:
                     dialect = Dialect(_dialect.delimiter,None,_dialect.quotechar,_dialect.escapechar)
+            elif self.sniffer == 'DuckDB':
+                pd = DDB.sql("FROM sniff_csv(%r, sample_size = %r)" %(path,self.threshold)).to_df()
+                if not pd is None:
+                    dialect = Dialect(pd.loc[0].at["Delimiter"],None,pd.loc[0].at["Quote"],pd.loc[0].at["Escape"])
             return dialect
         except OSError as err:
             print("Error was: %s" % err)
