@@ -1,0 +1,319 @@
++[rembrandt-paintings.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test178.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test271.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[occurrence.txt]: --> DuckDB detected: delimiter = '\t', quotechar = '"'
++[test049.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test126.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test280.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test258.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test006.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test009.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test021.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test205.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[professions.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test200.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test185.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test164.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test044.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test193.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test055.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test230.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test157.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 1
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = CSVsniffer/python/W3C-CSVW/HEFCE_organogram_junior_data_31032011.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [HEFCE_organogram_junior_data_31032011.csv]: --> No result from DuckDB
++[test176.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test286.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test262.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test040.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test195.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test154.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test222.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[events-listing2.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test043.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test155.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[cambornedata.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test209.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[MediaType.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[projects.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[tree-ops.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test290.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test303.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test166.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test213.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test010.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test039.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 1
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = CSVsniffer/python/W3C-CSVW/HEFCE_organogram_senior_data_31032011.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [HEFCE_organogram_senior_data_31032011.csv]: --> No result from DuckDB
++[ni.2449-S3.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test057.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test256.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test225.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test216.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test019.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[countries.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test234.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test269.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test196.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test125.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test244.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test058.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test121.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test194.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test219.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test295.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test204.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test160.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test188.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test052.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test202.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test203.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test232.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test165.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test051.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test175.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[InvoiceLine.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test121-ref.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test215.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test221.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test120.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Employee.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 3
+Original Line: Name,Payment category,Amount,Department,Document no.,Post code
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = CSVsniffer/python/W3C-CSVW/ESCC-payment-data-Q2281011.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [ESCC-payment-data-Q2281011.csv]: --> No result from DuckDB
++[unicode-nfc.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test162.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test191.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test307.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test184.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test282.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Album.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test005.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test020.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test179.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test300.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test238.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test279.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test261.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[addresses.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test199.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test153.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test206.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test289.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test177.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test291.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test156.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[soc_structure_2010.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test181.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test212.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test056.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Invoice.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test171.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[EG.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test218.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test294.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test152.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test022.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[pp-monthly-update-new-version.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test242.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test243.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test301.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test207.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test284.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test297.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test161.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test182.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[events-listing.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Artist.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test046.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test003.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Track.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test223.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test254.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[senior-roles.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test127.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test281.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test210.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test186.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test288.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test163.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test214.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test272.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test168.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test008.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test117.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[PlaylistTrack.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test116.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test038.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[test091.csv]: --> DuckDB detected: delimiter = '|', quotechar = '"'| EXPECTED:{delimiter = 'comma', quotechar = 'doublequote'}
++[test001.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test169.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[csvw-requirements-notes.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[2010_Occupations.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test246.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test245.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test183.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[organizations.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test217.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test208.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[moon-walkers.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test201.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test158.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test255.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test227.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Genre.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test226.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test229.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test007.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test198.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[department.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[CSV_QS601EW2011WARDH_151277.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test045.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test306.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test190.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test283.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test172.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test047.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[tree-ops-ext.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Customer.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test002.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test211.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test042.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test247.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+X[methane_molecular_structure_xyz_20140911.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'| EXPECTED:{delimiter = 'space', quotechar = 'doublequote'}
++[test249.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test304.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test257.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[open_data_-_banes_public_toilets_-_15.09.14_-v3-2.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test224.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test187.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Palo_Alto_Trees.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test293.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test299.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test192.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test180.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test287.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test197.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test233.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test173.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test305.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[task_assignments.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test285.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[country_slice.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test041.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+Error was: Invalid Input Error: CSV Error on Line: 1
+Invalid unicode (byte sequence mismatch) detected.
+
+Possible Solution: Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = CSVsniffer/python/W3C-CSVW/mth-10-january-2014.csv
+  delimiter = , (Auto-Detected)
+  quote = " (Auto-Detected)
+  escape = \0 (Auto-Detected)
+  new_line = Single-Line File (Auto-Detected)
+  header = false (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = \0 (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 2048
+  ignore_errors = false
+  all_varchar = 0
+
+
+X [mth-10-january-2014.csv]: --> No result from DuckDB
++[cambornedata-snippet.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test296.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[tweets.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[HXL_3W_samples_draft_Multilingual.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test174.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test170.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test298.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test292.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test122.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test302.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test248.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test231.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test189.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[Playlist.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[junior-roles.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test167.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[PLOSone-search-results.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test220.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[people.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test048.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test228.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
++[test159.csv]: --> DuckDB detected: delimiter = ',', quotechar = '"'
+[Passed test ratio]--: 99.0783%
+[Delimiter ratio]--: 99.0783%
+[Failure ratio]--: 1.81%
+[Elapsed time]--: 0.76 seconds
+<---------------------------------------------------------------------------------------->
+True Positive (TP): 215
+False Positive (FP): 2
+False Negative (FN): 4
+#
+Precision (P): 0.9908
+Recall (R): 0.9817
+F1 score: 0.9862
+Weighted F1 score for 221 files: 212.033
