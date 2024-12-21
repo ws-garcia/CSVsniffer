@@ -9,7 +9,7 @@ def runsingleTest(threshold: int, \
      basePath = os.path.dirname(os.path.dirname(__file__))
      out_path = []
      sys_name = platform.platform(aliased=True,terse=True)
-     limit = threshold  if detector == 'CSVsniffer' else data_threshold
+     limit = threshold  if (detector == 'CSVsniffer' or detector == 'DuckDB') else data_threshold
      fw = 'All' if limit == -1 else limit
      pw = "records" if (detector == 'CSVsniffer' or detector == 'DuckDB') else "characters"
      formated_sufix = '%r-%r %r loaded' %(detector, fw, pw)
@@ -59,6 +59,9 @@ if __name__ == "__main__":
                    data_threshold=-1, 
                    detector='CSVsniffer') 
     """ 
-     runsingleTest(threshold=10, # Load 100 records
-                   data_threshold=100, 
+     runsingleTest(threshold=10, # Load 10 records
+                   data_threshold=-1, 
+                   detector='DuckDB')
+     runsingleTest(threshold=100, # Load 100 records
+                   data_threshold=-1, 
                    detector='DuckDB') 
