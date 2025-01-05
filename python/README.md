@@ -57,7 +57,7 @@ Welcome to **CSVsniffer**, a Python implementation of the **Table Uniformity Met
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](https://github.com/ws-garcia/CSVsniffer/blob/main/LICENSE).
 
 ## Acknowledgements
 
