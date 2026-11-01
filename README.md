@@ -1,5 +1,6 @@
 # CSVsniffer
 [![DOI](https://zenodo.org/badge/DOI/10.3233/DS-240062.svg)](https://doi.org/10.3233/DS-240062)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fws-garcia%2FCSVsniffer.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fws-garcia%2FCSVsniffer?ref=badge_shield)
 
 Companion repository for the paper:
 
@@ -403,3 +404,7 @@ Many of the CSV files used in this research were recovered from different reposi
 - [x] r0ck3y3/AAI/
 - [x] glenbot/beerapp/
 - [x] StephanHoyer/magento-lucene/
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fws-garcia%2FCSVsniffer.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fws-garcia%2FCSVsniffer?ref=badge_large)
